@@ -15,7 +15,9 @@ const W = E.W, H = E.H;
 const TOMI = CAST.tomiBr || X.TOMI;
 
 // ---------- 2D overlay helpers (16:9) ----------
-function bigT(g, t, str, at, x, y, o = {}) { const k = pop(t, at, 0.3); if (k <= 0) return; g.save(); g.translate(x, y); g.scale(k, k); g.rotate(o.rot || 0); text(g, str, 0, 0, { size: o.size || 110, color: o.color || '#ffd84a', font: FONTS.title, weight: 700, stroke: (o.size || 110) * 0.16, strokeColor: OL }); g.restore(); }
+// calm mode (Shorts, ?calm=1): big captions smaller and gone after 1.5 s so the scene breathes
+const CALM = typeof location !== 'undefined' && /[?&]calm=1/.test(location.search);
+function bigT(g, t, str, at, x, y, o = {}) { const k = pop(t, at, 0.3); if (k <= 0) return; const fa = CALM ? clamp(1 - (t - at - 1.5) / 0.4) : 1; if (fa <= 0) return; g.save(); g.globalAlpha *= fa; g.translate(x, y); g.scale(k * (CALM ? 0.6 : 1), k * (CALM ? 0.6 : 1)); g.rotate(o.rot || 0); text(g, str, 0, 0, { size: o.size || 110, color: o.color || '#ffd84a', font: FONTS.title, weight: 700, stroke: (o.size || 110) * 0.16, strokeColor: OL }); g.restore(); }
 function chip(g, t, str, at, x, y, o = {}) { const k = pop(t, at, 0.35); if (k <= 0) return; g.save(); g.translate(x, y); g.scale(k, k); g.rotate(o.rot ?? -0.02); g.font = `700 ${o.size || 46}px "${FONTS.title}"`; const w = g.measureText(str).width + 60, h = (o.size || 46) * 1.8; g.fillStyle = o.bg || '#f6efe1'; g.strokeStyle = OL; g.lineWidth = 6; g.beginPath(); g.roundRect(-w / 2, -h / 2, w, h, 18); g.fill(); g.stroke(); text(g, str, 0, 3, { size: o.size || 46, color: o.color || OL, font: FONTS.title, weight: 700 }); g.restore(); }
 function vignette(g, a = 0.45) { const v = g.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, W * 0.62); v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, `rgba(0,0,0,${a})`); g.fillStyle = v; g.fillRect(0, 0, W, H); }
 const PH = await loadPhotos(Object.fromEntries([...new Set(E.shots.map(s => s.params?.rphoto?.key).filter(Boolean))].map(k => [k, `/project/assets/photos/${k}.jpg`])));

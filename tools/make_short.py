@@ -21,6 +21,21 @@ BR = BRANDS['ytt']
 def run(cmd): subprocess.run(cmd, check=True)
 
 
+def lufs(path, ss=None, to=None):
+    """Integrated loudness (LUFS) of a file or of a time range of it."""
+    import re
+    cmd = ['ffmpeg', '-hide_banner', *(['-ss', str(ss)] if ss is not None else []), *(['-to', str(to)] if to is not None else []), '-i', path, '-vn', '-af', 'loudnorm=print_format=summary', '-f', 'null', '-']
+    m = re.search(r'Input Integrated:\s+(-?[\d.]+)', subprocess.run(cmd, capture_output=True, text=True).stderr)
+    return float(m.group(1)) if m else None
+
+
+def match_gain(ref_lufs, path):
+    """ffmpeg filter that brings `path` to the loudness of the Short's body (nov 2026: closings sounded ~11 dB quieter)."""
+    l = lufs(path)
+    if ref_lufs is None or l is None or l < -60: return 'anull'
+    return f'volume={ref_lufs - l:.2f}dB,alimiter=limit=0.95:level=disabled'
+
+
 def box_text(d, lines, cx, y, size, fill, box=None, pad=34, gap=12, font=FB):
     f = ImageFont.truetype(font, size); hs = []
     ws = [d.textbbox((0, 0), l, font=f)[2] for l in lines]
@@ -124,8 +139,9 @@ def main():
     # 3) closing card: logo + call to action, with the narrator's sign-off line
     es, ee = map(float, a.endvoice.split(':')); ed = ee - es + 0.8
     if a.endaudio: ed = float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',a.endaudio]).decode()) + 0.7
+    eg = match_gain(lufs(f'{tmp}/body916.mp4'), a.endaudio) if a.endaudio else 'anull'
     run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-t', str(ed), '-i', f'{tmp}/end.png', *(['-t', str(ed), '-i', a.endaudio] if a.endaudio else ['-ss', str(es), '-t', str(ed), '-i', video]),
-         '-filter_complex', f"[0:v]scale=1080:1920,zoompan=z='min(zoom+0.0012,1.08)':d=1:s=1080x1920:fps=30,fade=t=in:d=0.25[v];[1:a]afade=t=out:st={ed - 0.4}:d=0.4[a]",
+         '-filter_complex', f"[0:v]scale=1080:1920,zoompan=z='min(zoom+0.0012,1.08)':d=1:s=1080x1920:fps=30,fade=t=in:d=0.25[v];[1:a]{eg},afade=t=out:st={ed - 0.4}:d=0.4[a]",
          '-map', '[v]', '-map', '[a]', '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-shortest', f'{tmp}/end.mp4'])
     open(f'{tmp}/list2.txt', 'w').write("file 'body916.mp4'\nfile 'end.mp4'\n")
     out = os.path.join(P, 'out', 'shorts', f'short_{a.name}.mp4')

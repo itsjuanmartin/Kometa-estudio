@@ -76,6 +76,8 @@ El espectador tiene que poder quedarse mirando el vídeo de fondo; menos letras 
 - **Nombre del canal:** pequeño y semitransparente justo debajo del título de arriba (`tools/make_short.py` ya lo hace). Nunca cerca de los subtítulos.
 - **Subtítulos:** 64 px (antes 96), contorno fino, máx. 3 palabras a la vez, en la misma altura de siempre (y=1390 vertical / 1200 recortado).
 - **Rótulos grandes dentro de la escena** (`big()`, `bigT()`: «SEMANAS ANTES…»…): solo en cambios de bloque, máx. 1 cada ~15 s, tamaño ≤ 80 px, ≤ 1,5 s en pantalla, y nunca repitiendo lo que ya dicen los subtítulos a la vez.
+- Rótulos grandes en Shorts cortados del largo: renderizar con `node render.mjs … --calm` (en EP03 `bigT()` sale al 60 % y desaparece a los 1,5 s; el vídeo largo no cambia). Añadir el mismo `CALM` a las escenas de los próximos episodios.
+- **Volumen del cierre:** `make_short.py` y `reend_short.py` igualan el audio del cierre al volumen del cuerpo del Short (antes «Sígueme para no perderte la parte 2» sonaba ~11 dB más bajo: `cierre_siguiente_parte.mp3` está grabado a −25 LUFS y el cuerpo va a −14).
 - Ya subidos (EP03 Short 1, etc.) se quedan como están; la regla vale para los siguientes.
 
 ## Shorts 3D (desde 15 nov 2026)

@@ -100,8 +100,9 @@ def main():
             '-filter_complex', '[0:v][1:v]overlay=0:0[v];[0:a]afade=t=out:st=%f:d=0.12[a]' % max(0, cut - 0.12), '-map', '[v]', '-map', '[a]',
             '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', f'{tmp}/body.mp4'])
     ed = dur(a.audio) + 0.9
+    eg = MS.match_gain(MS.lufs(a.inp, 0, cut), a.audio)   # same loudness as the body
     MS.run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-t', str(ed), '-i', f'{tmp}/end.png', '-t', str(ed), '-i', a.audio,
-            '-filter_complex', f"[0:v]scale=1080:1920,zoompan=z='min(zoom+0.0010,1.06)':d=1:s=1080x1920:fps=30,fade=t=in:d=0.2[v];[1:a]apad,afade=t=out:st={ed - 0.3}:d=0.3[a]",
+            '-filter_complex', f"[0:v]scale=1080:1920,zoompan=z='min(zoom+0.0010,1.06)':d=1:s=1080x1920:fps=30,fade=t=in:d=0.2[v];[1:a]{eg},apad,afade=t=out:st={ed - 0.3}:d=0.3[a]",
             '-map', '[v]', '-map', '[a]', '-t', str(ed), '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', f'{tmp}/end.mp4'])
     open(f'{tmp}/list.txt', 'w').write("file 'body.mp4'\nfile 'end.mp4'\n")
     MS.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list.txt', '-c:v', 'libx264', '-crf', '20', '-pix_fmt', 'yuv420p',
