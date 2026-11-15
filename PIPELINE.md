@@ -83,3 +83,6 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - Al producir un proyecto con «montaje pedido», actualiza `drafts/<id>.prod` en cada hito (cada 15–20 min, no más): `{pct, eta:"HH:MM", updated: ISO, frameLabel, frame: url de un fotograma subido como asset, log:[{t:"HH:MM", m:"…"}]}`. Al terminar: pct 100, stage 4, y en cada pieza de `posts[]` poner `dl`, `img`, `file`, `madeAt` y `st` = listo.
 - Usa la voz subida en `drafts/<id>.audio[]` (asset; mp3 aunque se sirva como mp4).
 - Abrir una sesión nueva por vídeo para gastar menos contexto.
+
+## Código del Home
+`home/centro-de-canales.html` es la fuente del Home publicado en https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx. Para cambiarlo: editar este archivo y publicarlo con la herramienta Artifact pasando ese `url` (leer antes el artefacto). Las imágenes `img/…` ya están publicadas en el artefacto.
