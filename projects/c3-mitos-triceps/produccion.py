@@ -240,6 +240,34 @@ sc = bpy.context.scene
 sc.render.use_motion_blur = False
 out = os.path.join(HERE, arg("--out", "frames"), "f_")
 os.makedirs(os.path.dirname(out), exist_ok=True)
+if "--datos" in ARGS:
+    # posiciones en pantalla (0..1, y desde arriba) del tríceps y los codos, para las anotaciones 2D
+    from bpy_extras.object_utils import world_to_camera_view
+    import numpy as np
+    dg = bpy.context.evaluated_depsgraph_get(); datos = {}
+    paso = int(arg("--paso", "1"))
+    for f in range(1, NF + 1, paso):
+        sc.frame_set(f); dg = bpy.context.evaluated_depsgraph_get()
+        ev = body.evaluated_get(dg); me = ev.to_mesh()
+        mus = np.zeros(len(me.vertices)); me.attributes["musculo"].data.foreach_get("value", mus)
+        co = np.zeros(len(me.vertices) * 3); me.vertices.foreach_get("co", co); co = co.reshape(-1, 3)
+        mw = np.array(ev.matrix_world)
+        d = {}
+        for s, sel in (("L", co[:, 0] > 0), ("R", co[:, 0] < 0)):
+            idx = np.where((mus > 0.45) & sel)[0]
+            if len(idx) < 5: continue
+            pts = co[idx] @ mw[:3, :3].T + mw[:3, 3]
+            p2 = np.array([[q.x, 1 - q.y, q.z] for q in (world_to_camera_view(sc, cam, Vector(p)) for p in pts[::3])])
+            c = p2[:, :2].mean(0); cov = np.cov((p2[:, :2] - c).T)
+            w, vv = np.linalg.eigh(cov); ang = math.degrees(math.atan2(vv[1, 1], vv[0, 1]))
+            d["tri" + s] = [round(float(c[0]), 4), round(float(c[1]), 4), round(float(2.3 * math.sqrt(w[1])), 4), round(float(2.3 * math.sqrt(w[0])), 4), round(ang, 1)]
+        ev.to_mesh_clear()
+        for s in ("L", "R"):
+            q = world_to_camera_view(sc, cam, rig.matrix_world @ rig.pose.bones[f"lowerarm01.{s}"].head)
+            d["codo" + s] = [round(q.x, 4), round(1 - q.y, 4)]
+        datos[f] = d
+    json.dump(datos, open(os.path.join(HERE, "timeline/proy.json"), "w"))
+    print("DATOS OK", len(datos)); sys.exit()
 if frames_sel:
     for f in frames_sel:
         sc.frame_set(f); sc.render.filepath = os.path.join(HERE, "fotos", f"prod_{f:04d}.png")

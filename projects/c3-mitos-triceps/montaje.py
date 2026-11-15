@@ -147,6 +147,78 @@ def dibuja_sub(frame, t):
             return
 
 
+
+# ---------------- anotaciones anatómicas (contorno verde discontinuo, flecha roja, círculos rojos) ----------------
+PROY = {int(k): v for k, v in json.load(open(os.path.join(HERE, "timeline/proy.json"))).items()}
+F_ETI = os.path.join(HERE, "../../assets/fonts/Fredoka-Bold.ttf")
+VERDE_A, ROJO_A = (64, 196, 72), (226, 38, 30)
+ANOT = [  # (inicio, fin, lado, etiqueta, color etiqueta, círculos en codos)
+    (6.4, 9.95, "L", "CABEZA LARGA", VERDE_A, False),
+    (10.5, 13.55, "L", "POCO ESTIRAMIENTO", ROJO_A, True),
+    (14.2, 17.5, "L", "ESTIRAMIENTO", VERDE_A, True),
+]
+
+
+def contorno(d, cx, cy, a, b, ang, fill_a):
+    pts = []
+    for i in range(72):
+        th = 2 * math.pi * i / 72
+        x, y = a * math.cos(th), b * math.sin(th); r = math.radians(ang)
+        pts.append((cx + x * math.cos(r) - y * math.sin(r), cy + x * math.sin(r) + y * math.cos(r)))
+    d.polygon(pts, fill=(*VERDE_A, int(70 * fill_a)))
+    for i in range(0, 72, 2):
+        d.line((pts[i], pts[(i + 1) % 72]), fill=(*VERDE_A, int(255 * fill_a)), width=7)
+
+
+def flecha(d, x0, y0, x1, y1, k):
+    """Flecha curva roja de (x0,y0) a (x1,y1); k = 0..1 cuánto se ha dibujado."""
+    mx, my = (x0 + x1) / 2 - (y1 - y0) * 0.35, (y0 + y1) / 2 + (x1 - x0) * 0.35
+    n = max(2, int(30 * k)); pts = []
+    for i in range(n + 1):
+        t = i / 30
+        pts.append(((1 - t) ** 2 * x0 + 2 * (1 - t) * t * mx + t * t * x1, (1 - t) ** 2 * y0 + 2 * (1 - t) * t * my + t * t * y1))
+    for i in range(len(pts) - 1):
+        w = int(10 + 16 * (i / 30)); d.line((pts[i], pts[i + 1]), fill=(*ROJO_A, 255), width=w)
+    if k > 0.97:
+        ex, ey = pts[-1]; px, py = pts[-3]; ang = math.atan2(ey - py, ex - px)
+        L = 62
+        d.polygon([(ex + math.cos(ang) * 18, ey + math.sin(ang) * 18),
+                   (ex + math.cos(ang + 2.5) * L, ey + math.sin(ang + 2.5) * L),
+                   (ex + math.cos(ang - 2.5) * L, ey + math.sin(ang - 2.5) * L)], fill=(*ROJO_A, 255))
+
+
+def etiqueta(frame, txt, col, x, y, alpha):
+    f = font(F_ETI, 80); bb = f.getbbox(txt)
+    im = Image.new("RGBA", (bb[2] - bb[0] + 40, bb[3] - bb[1] + 40), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.text((20 - bb[0], 20 - bb[1]), txt, font=f, fill=(*col, 255), stroke_width=6, stroke_fill=(255, 255, 255, 230))
+    if alpha < 1: im.putalpha(im.getchannel("A").point(lambda q: int(q * alpha)))
+    x = int(max(20, min(W - im.width - 20, x - im.width / 2)))
+    frame.alpha_composite(im, (x, int(max(600, y))))
+
+
+def dibuja_anot(frame, f, t, solo=None):
+    p = PROY.get(f)
+    if not p: return
+    for a, b, s, txt, col, codos in ([solo] if solo else ANOT):
+        if not (a <= t < b): continue
+        k = ease((t - a) / 0.35) * (1 - ease((t - (b - 0.2)) / 0.2))
+        lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+        tri = p.get("tri" + s)
+        if tri:
+            cx, cy = tri[0] * W, tri[1] * H; ax_, bx_ = max(tri[2] * W, 60), max(tri[3] * W, 38)
+            contorno(d, cx, cy, ax_ * 1.15, bx_ * 1.25, tri[4], k)
+            side = -1 if cx > W / 2 else 1  # flecha desde el lado con más espacio
+            x0, y0 = cx + side * 330, cy + 380
+            flecha(d, x0, y0, cx + side * (ax_ * 0.7 + 40), cy + bx_ + 30, ease((t - a - 0.15) / 0.45))
+            frame.alpha_composite(lay)
+            etiqueta(frame, txt, col, cx + side * 250, cy - bx_ - 170, k)
+        if codos:
+            lay2 = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d2 = ImageDraw.Draw(lay2); r = 72
+            for s2 in ("L", "R"):
+                ex, ey = p["codo" + s2][0] * W, p["codo" + s2][1] * H
+                d2.ellipse((ex - r, ey - r, ex + r, ey + r), outline=(*ROJO_A, int(255 * k)), width=7)
+            frame.alpha_composite(lay2)
+
 # ---------------- tarjeta de YouTube (cierre) ----------------
 def tarjeta():
     cw, ch = 980, 760
@@ -165,23 +237,23 @@ def tarjeta():
     d.polygon([(lx + 58, ly + 28), (lx + 58, ly + 76), (lx + 102, ly + 52)], fill="white")
     d.text((lx + 172, ly + 2), "YouTube", font=font(F_UIB, 92), fill="white")
     # miniatura del vídeo largo
-    tx, ty, tw, th = 30, 300, cw - 60, ch - 330
-    src = os.path.join(HERE, "frames", "f_0560.png")
-    if os.path.exists(src) and os.path.getsize(src) > 0:
-        th_img = Image.open(src).convert("RGB")
-        r = max(tw / th_img.width, th / th_img.height)
-        th_img = th_img.resize((int(th_img.width * r), int(th_img.height * r)), Image.LANCZOS)
-        oy = int(th_img.height * 0.08)
-        th_img = th_img.crop(((th_img.width - tw) // 2, oy, (th_img.width - tw) // 2 + tw, oy + th))
-    else:
-        th_img = Image.new("RGB", (tw, th), (200, 200, 205))
-    mk = Image.new("L", (tw, th), 0); ImageDraw.Draw(mk).rounded_rectangle((0, 0, tw - 1, th - 1), radius=26, fill=255)
-    c.paste(th_img, (tx, ty), mk)
-    t1 = bloque_titulo([("TRÍCEPS", ROJO, 96), ("LA GUÍA", NEGRO, 70), ("COMPLETA", NEGRO, 70)], None)
-    c.alpha_composite(t1, (tx + 16, ty + 20))
-    d.rectangle((tx + 10, ty + th - 14, tx + tw - 10, ty + th - 8), fill=(90, 90, 95))
-    d.rectangle((tx + 10, ty + th - 14, tx + int(tw * 0.32), ty + th - 8), fill=(255, 0, 0))
     return c
+
+
+TH_BOX = (30, 300, 920, 430)  # zona del vídeo dentro de la tarjeta
+
+
+def avance(f_cta):
+    """Fotograma del «vídeo completo» que se reproduce dentro de la tarjeta (tríceps con anotaciones)."""
+    tx, ty, tw, th = TH_BOX
+    g = 200 + (f_cta % 95)
+    src = os.path.join(HERE, "frames", f"f_{g:04d}.png")
+    if not (os.path.exists(src) and os.path.getsize(src) > 0):
+        return Image.new("RGBA", (tw, th), (200, 200, 205, 255))
+    base = Image.open(src).convert("RGBA").resize((W, H), Image.LANCZOS)
+    dibuja_anot(base, g, 7.0, solo=(0, 99, "L", "CABEZA LARGA", VERDE_A, False))
+    y0 = int(H * 0.17); hh = int(W * th / tw)
+    return base.crop((0, y0, W, y0 + hh)).resize((tw, th), Image.LANCZOS)
 
 
 CARD = None
@@ -194,9 +266,16 @@ def dibuja_cta(frame, t):
     if CARD is None: CARD = tarjeta()
     k = ease((t - t0) / 0.45)
     y = int(-CARD.height + (90 + CARD.height) * k)
-    frame.alpha_composite(CARD, ((W - CARD.width) // 2, y))
+    card = CARD.copy(); tx, ty, tw, th = TH_BOX
+    vid = avance(int((t - t0) * FPS))
+    mk = Image.new("L", (tw, th), 0); ImageDraw.Draw(mk).rounded_rectangle((0, 0, tw - 1, th - 1), radius=26, fill=255)
+    card.paste(vid, (tx, ty), mk)
+    dd = ImageDraw.Draw(card); prog = 0.18 + 0.3 * min(1, (t - t0) / 5)
+    dd.rectangle((tx + 10, ty + th - 14, tx + tw - 10, ty + th - 8), fill=(90, 90, 95))
+    dd.rectangle((tx + 10, ty + th - 14, tx + int(tw * prog), ty + th - 8), fill=(255, 0, 0))
+    frame.alpha_composite(card, ((W - card.width) // 2, y))
     if t > t0 + 0.35:
-        blk = TCACHE.setdefault("cta", bloque_titulo([("VÍDEO COMPLETO", NEGRO, 104), ("EN YOUTUBE", ROJO, 112)], None))
+        blk = TCACHE.setdefault("cta", bloque_titulo([("EXPLICACIÓN COMPLETA", NEGRO, 84), ("EN YOUTUBE", ROJO, 112)], None))
         k2 = ease((t - t0 - 0.35) / 0.3)
         im = blk.resize((int(blk.width * (0.85 + 0.15 * k2)), int(blk.height * (0.85 + 0.15 * k2))), Image.LANCZOS)
         im.putalpha(im.getchannel("A").point(lambda q: int(q * k2)))
@@ -207,7 +286,7 @@ def compone(f):
     t = (f - 1) / FPS
     src = os.path.join(HERE, "frames", f"f_{f:04d}.png")
     base = Image.open(src).convert("RGBA").resize((W, H), Image.LANCZOS)
-    dibuja_titulos(base, t); dibuja_sub(base, t); dibuja_cta(base, t)
+    dibuja_anot(base, f, t); dibuja_titulos(base, t); dibuja_sub(base, t); dibuja_cta(base, t)
     # fundido corto al empezar
     if t < 0.25:
         base = Image.blend(Image.new("RGBA", (W, H), (240, 240, 242, 255)), base, t / 0.25)
