@@ -571,6 +571,8 @@ details[open]>.clist,details[open]>.sec,details.cmore[open]>input{animation:.32s
 .lframe{position:relative;border-radius:14px;overflow:hidden;background:#000} .lframe img{width:100%;display:block;max-height:360px;object-fit:contain} .lframe span{position:absolute;left:8px;bottom:8px;font-size:11.5px;font-weight:700;color:#fff;background:rgb(0 0 0 / .6);padding:3px 8px;border-radius:999px}
 .lprog{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;align-items:center} .lprog>b{font-family:var(--f-mono);font-size:18px} .lprog i{height:10px;border-radius:5px;background:var(--sunk);overflow:hidden} .lprog i b{display:block;height:100%;background:linear-gradient(90deg,var(--acc-2),var(--acc));transition:width .6s var(--ease-out)} .lprog small{grid-column:1/-1;color:var(--muted);font-size:12.5px}
 .llog{list-style:none;margin:0;padding:0;display:grid;gap:4px;font-size:13px} .llog li{display:grid;grid-template-columns:48px minmax(0,1fr);gap:8px;color:var(--muted)} .llog li span{font-family:var(--f-mono);font-size:12px} .llog li.cur{color:var(--ink);font-weight:600}
+.cpl{display:grid;gap:10px;border-left:4px solid var(--c);padding-left:12px} .cpl.yt{--c:var(--yt);--pc:var(--yt)} .cpl.tt{--c:var(--tt);--pc:var(--ink)} .cpl.ig{--c:var(--ig);--pc:var(--ig)}
+.cplh{display:flex;align-items:center;gap:8px;margin:0;font-size:15px} .cpls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 </style>
 
 <header class="top pad">
@@ -651,11 +653,11 @@ function taskCard(g){
   const plBtns=g.pls.map(e=>e.st==='subido'
     ? `<button class="btn sm ok" data-st="${p.id}" data-pl="${e.pl}" data-v="listo" aria-label="Desmarcar ${PL[e.pl]}">✓ ${PL[e.pl]}</button>`
     : `<button class="btn sm" data-st="${p.id}" data-pl="${e.pl}" data-v="subido" aria-label="Marcar subido en ${PL[e.pl]}" ${e.st==='produccion'?'disabled':''}><span class="pf ${e.pl}"><b></b></span>${PL[e.pl]}</button>`).join('');
-  return `<div class="task ${p.ch} ${allDone?'done':''}" data-card="${p.id}">
+  return `<div class="task ${p.ch} ${allDone?'done':''}" data-card="${p.id}" data-pls="${g.pls.map(e=>e.pl).join(',')}">
     <img class="${p.kind==='largo'?'h':''}" src="${esc(p.img)}" alt="">
     <div style="min-width:0"><div class="t">${esc(ptitle(p))}</div>
       <div class="meta"><span class="chip ${p.ch}">${esc(chName(p.ch))}</span>${p.kind==='short'?`<span>Short ${p.n}/5 · ${esc(p.ep)}</span>`:''}${prod?'<span>En producción</span>':''}</div>
-      <div class="acts">${p.dl?`<button class="btn sm pri" data-dl="${p.id}">⬇ Vídeo</button>`:''}<button class="btn sm" data-open="${p.id}">Copys</button></div>
+      <div class="acts">${p.dl?`<button class="btn sm pri" data-dl="${p.id}">⬇ Vídeo</button>`:''}<button class="btn sm" data-open="${p.id}" data-pls="${g.pls.map(e=>e.pl).join(',')}">Copys</button></div>
       <div class="lab" style="margin-top:10px">Toca al subir</div><div class="acts" style="margin-top:5px">${plBtns}</div></div></div>`;
 }
 function dayBlock(d,split){
@@ -825,7 +827,7 @@ const MONL=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','S
 const gTitle=g=>g.p.kind==='largo'?g.p.epTitle:g.p.name;
 const gDone=g=>g.pls.every(e=>e.st==='subido');
 function agItem(g){
-  return `<button class="ag ${g.p.ch} ${g.p.kind==='largo'?'long':''} ${gDone(g)?'done':''}" data-open="${g.p.id}">
+  return `<button class="ag ${g.p.ch} ${g.p.kind==='largo'?'long':''} ${gDone(g)?'done':''}" data-open="${g.p.id}" data-pls="${g.pls.map(e=>e.pl).join(',')}">
     <span class="tm">${g.t}</span><span class="th"><img src="${esc(g.p.img)}" alt="" loading="lazy">${g.p.kind==='largo'?'<i>▶</i>':''}</span>
     <span class="ab"><span class="ak">${logo(g.p.ch,'clogo xs')}<span>${g.p.kind==='largo'?'Vídeo largo':'Reel'} · ${esc(chName(g.p.ch))}</span></span>
     <b>${newBadge(g.p)}${perfChip(bestPerf(g.p),true)} ${esc(gTitle(g))}</b>
@@ -1282,8 +1284,15 @@ function ytTags(p){const c=p.copy||{};if(c.tags&&c.tags.trim())return c.tags.tri
   const lp=S.posts.find(x=>x.ch===p.ch&&x.ep===p.ep&&x.kind==='largo'&&x.copy?.tags);(lp?String(lp.copy.tags).split(','):[]).slice(0,8).forEach(add);
   add(chName(p.ch));if(p.kind==='short')add('shorts');return out.length>2?out.join(', '):''}
 function field(l,t){return t?`<div class="field"><div class="fl"><span class="lab">${l}</span><button class="btn sm" data-copy>Copiar</button></div><pre>${esc(t)}</pre></div>`:''}
-function openPost(id,keep){
+let postPls=null;
+function openPost(id,keep,only){
   const p=S.posts.find(x=>x.id===id); if(!p) return; const c=p.copy||{};
+  if(!keep) postPls=only?String(only).split(',').filter(x=>pfs(p).includes(x)):null; if(postPls&&!postPls.length) postPls=null;
+  const showPls=postPls||pfs(p), ICN={yt:'▶',tt:'♪',ig:'◎'};
+  const cblock=(pl,body)=>body.trim()?`<section class="cpl ${pl}"><h3 class="cplh"><span class="plico ${pl}" aria-hidden="true">${ICN[pl]}</span>Copy para ${PL[pl]}</h3>${body}</section>`:'';
+  const copyBy={yt:()=>field(p.kind==='largo'?'Título':'Título',c.title)+field('Descripción',c.desc)+field('🏷️ Etiquetas'+(c.tags?'':' (sugeridas)'),ytTags(p))+field('Títulos alternativos (prueba A/B)',(c.alts||[]).join('\n')),
+    tt:()=>field('Título / texto',c.tt||c.title),ig:()=>field('📸 Copy de Instagram',c.ig)};
+  const copys=showPls.map(pl=>cblock(pl,copyBy[pl]())).join('');
   const scroll=keep?$('#dlg').scrollTop:0;
   const imgs=(p.thumbs?.length?p.thumbs.map((t,i)=>({src:t,cap:`Miniatura ${'ABC'[i]}${i===0?' · principal':''}`})):[]).concat(p.cover?[{src:p.cover,cap:'Portada TikTok'}]:[]);
   const ICON={yt:'▶',tt:'♪',ig:'◎'}, STE={listo:'⏳',subido:'✅',produccion:'🛠️',revisar:'❔'};
@@ -1306,13 +1315,9 @@ function openPost(id,keep){
     </div>
     ${p.dl?`<button class="btn pri big" data-dl="${p.id}">⬇ Descargar vídeo${p.dl.parts?` (${p.dl.mb||''} MB)`:''}</button><span class="pfile">${esc(p.file||'')}${c.cierre?' · cierre: '+esc(c.cierre):''}</span>`:`<span class="empty">${p.st?.yt==='produccion'?'Aún en producción.':'Ya publicado: el vídeo no está guardado aquí.'}</span>`}
     <div class="sec" style="gap:8px"><h3 class="shsec">Dónde y cuándo se publica</h3><div class="pcards">${rows}</div></div>
-    ${field(p.kind==='largo'?'Título':'Título (YouTube y TikTok)',c.title)}
-    ${field('Descripción (YouTube)',c.desc)}
-    ${pfs(p).includes('yt')?field('🏷️ Etiquetas de YouTube'+(c.tags?'':' (sugeridas)'),ytTags(p)):''}
-    ${field('Texto de TikTok',c.tt)}
-    ${field('📸 Copy de Instagram',c.ig)}
+    ${postPls&&postPls.length<pfs(p).length?`<div class="cpls">Ahora toca: <b>${postPls.map(x=>PL[x]).join(' + ')}</b><button class="btn sm" data-allcopys="${p.id}">Ver copys de todas las redes</button></div>`:''}
+    ${copys}
     ${field('Comentario fijado',c.pin)}
-    ${field('Títulos alternativos (prueba A/B)',(c.alts||[]).join('\n'))}
     ${imgs.length?`<div class="sec"><span class="lab">${p.kind==='largo'?'Miniaturas de YouTube':'Portada'}</span><div class="thumbs">${imgs.map(m=>`<figure><img src="${esc(m.src)}" alt="${esc(m.cap)}"><figcaption>${esc(m.cap)}<button class="btn sm" data-img="${esc(m.src)}">⬇</button></figcaption></figure>`).join('')}</div></div>`:''}
     ${!c.desc&&!c.ig&&!c.pin&&!c.tt?'<p class="empty">Esta pieza ya está publicada y no guardé su copy.</p>':''}
    </div>`;
@@ -1471,8 +1476,9 @@ addEventListener('hashchange',()=>{const r=route();const dir=ORDER.indexOf(r)>=O
 
 document.addEventListener('click',async e=>{
   const t=e.target;
-  const card=t.closest('[data-card]'); if(card&&!t.closest('button,a,input,select,label,audio,textarea')){openPost(card.dataset.card);return}
-  const o=t.closest('[data-open]'); if(o){openPost(o.dataset.open);return}
+  const card=t.closest('[data-card]'); if(card&&!t.closest('button,a,input,select,label,audio,textarea')){openPost(card.dataset.card,false,card.dataset.pls);return}
+  const ac=t.closest('[data-allcopys]'); if(ac){postPls=null;openPost(ac.dataset.allcopys,true);return}
+  const o=t.closest('[data-open]'); if(o){openPost(o.dataset.open,false,o.dataset.pls);return}
   const d=t.closest('[data-dl]'); if(d){download(d.dataset.dl,d);return}
   const s=t.closest('[data-st]'); if(s&&!s.disabled){setSt(s.dataset.st,s.dataset.pl,s.dataset.v);return}
   if(t.closest('[data-close]')){$('#dlg').close();return}

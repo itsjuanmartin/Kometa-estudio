@@ -36,14 +36,15 @@ def overlay_png(path, title, logo, vertical=False):
     im = Image.new('RGBA', (1080, 1920), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     sz = 56   # compact title: informative without covering the frame
     while sz > 40 and max(d.textbbox((0, 0), l, font=ImageFont.truetype(FB, sz))[2] for l in title.split('|')) > 760: sz -= 2
-    box_text(d, title.split('|'), 540, 270 if vertical else 330, sz, OL, box=BR['title_box'], pad=22, gap=8)   # TikTok/Reels safe zone: top ~230 px is covered by the search bar
+    tb = box_text(d, title.split('|'), 540, 270 if vertical else 330, sz, OL, box=BR['title_box'], pad=22, gap=8)   # TikTok/Reels safe zone: top ~230 px is covered by the search bar
     if not vertical: d.rounded_rectangle((34, 544, 1046, 1306), radius=18, outline=OL, width=10)
+    # channel name: small and see-through, just under the title, far from the captions (nov 2026: it used to sit under the subtitles)
+    tag = Image.new('RGBA', im.size, (0, 0, 0, 0)); td = ImageDraw.Draw(tag); f = ImageFont.truetype(FB, 24)
+    tw = td.textbbox((0, 0), BR['name'], font=f)[2]; ls = 30 if logo else 0; x0 = 540 - (tw + ls + (8 if logo else 0)) / 2; ty = tb + 14
     if logo:
-        lg = Image.open(logo).convert('RGBA').resize((52, 52)); m = Image.new('L', (52, 52), 0); ImageDraw.Draw(m).ellipse((0, 0, 51, 51), fill=150)
-        im.paste(lg, (404, 1326), m)
-    # subtle brand tag just under the video (the bottom ~470 px are covered by TikTok's description UI)
-    tag = Image.new('RGBA', im.size, (0, 0, 0, 0)); td = ImageDraw.Draw(tag); f = ImageFont.truetype(FB, 30)
-    td.text((466, 1336), BR['name'], font=f, fill=(255, 248, 232, 150), stroke_width=3, stroke_fill=(43, 33, 28, 110)); im = Image.alpha_composite(im, tag)
+        lg = Image.open(logo).convert('RGBA').resize((ls, ls)); m = Image.new('L', (ls, ls), 0); ImageDraw.Draw(m).ellipse((0, 0, ls - 1, ls - 1), fill=130)
+        tag.paste(lg, (int(x0), ty), m)
+    td.text((x0 + ls + (8 if logo else 0), ty + 1), BR['name'], font=f, fill=(255, 248, 232, 140), stroke_width=2, stroke_fill=(43, 33, 28, 90)); im = Image.alpha_composite(im, tag)
     im.save(path)
 
 
@@ -76,7 +77,7 @@ def ass_captions(path, words, ranges, y=1200):
     def ts(t): h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60; return f"{h}:{m:02d}:{s:05.2f}"
     head = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
             "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
-            "Style: C,Fredoka Light,96,&H00E8F8FF,&H00FFFFFF,&H001C212B,&H00000000,0,0,0,0,100,100,2,0,1,7,0,5,80,170,0,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
+            "Style: C,Fredoka Light,64,&H00E8F8FF,&H00FFFFFF,&H001C212B,&H00000000,0,0,0,0,100,100,1,0,1,4.5,0,5,80,170,0,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
     ev, off = [], 0.0
     for a, b in ranges:
         ws = [w for w in words if w['start'] >= a - 0.02 and w['start'] < b - 0.05]
@@ -90,7 +91,7 @@ def ass_captions(path, words, ranges, y=1200):
             for i, w in enumerate(ch):
                 st = w['start'] - a + off; en = (ch[i + 1]['start'] if i + 1 < len(ch) else min(ch[-1]['end'] + 0.25, nxt)) - a + off
                 txt = ' '.join(('{\\c' + BR['hi'] + '}' + x['word'].upper() + '{\\c&H00E8F8FF&}') if j == i else x['word'].upper() for j, x in enumerate(ch))
-                ev.append(f"Dialogue: 0,{ts(st)},{ts(max(st + 0.05, en))},C,,0,0,0,,{{\\pos(510,{y})}}{txt}")
+                ev.append(f"Dialogue: 0,{ts(st)},{ts(max(st + 0.05, en))},C,,0,0,0,,{{\\pos(540,{y})}}{txt}")
         off += b - a
     open(path, 'w', encoding='utf-8').write(head + '\n'.join(ev) + '\n')
     return off

@@ -71,6 +71,13 @@ Público: 18–45 años. La retención es el mantra: cada vídeo publicado tiene
 7. **Título ganador**, inspirado en los títulos que funcionan a otros creadores grandes del nicho; lo que promete el título se reafirma en los primeros segundos del vídeo.
 8. **El inicio impacta:** primer segundo con acción, imagen fuerte o dato absurdo; nunca una presentación.
 
+## Shorts: pantalla tranquila (desde 16 nov 2026, petición del creador)
+El espectador tiene que poder quedarse mirando el vídeo de fondo; menos letras grandes.
+- **Nombre del canal:** pequeño y semitransparente justo debajo del título de arriba (`tools/make_short.py` ya lo hace). Nunca cerca de los subtítulos.
+- **Subtítulos:** 64 px (antes 96), contorno fino, máx. 3 palabras a la vez, en la misma altura de siempre (y=1390 vertical / 1200 recortado).
+- **Rótulos grandes dentro de la escena** (`big()`, `bigT()`: «SEMANAS ANTES…»…): solo en cambios de bloque, máx. 1 cada ~15 s, tamaño ≤ 80 px, ≤ 1,5 s en pantalla, y nunca repitiendo lo que ya dicen los subtítulos a la vez.
+- Ya subidos (EP03 Short 1, etc.) se quedan como están; la regla vale para los siguientes.
+
 ## Shorts 3D (desde 15 nov 2026)
 Proyecto de referencia: `projects/ep03-3d` (mundo 3D low-poly de `engine/three-kit.js` + personajes 2D anclados a un punto 3D).
 - `config.json` con `"aspect": "9:16"`, 30 fps. Render ~11 min por Short de 30 s.
@@ -92,6 +99,7 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - Distinto al de YouTube y TikTok. Empieza siempre por una de estas tres aperturas, rotando entre Shorts (nunca dos seguidas iguales): «HISTORIA COMPLETA EN EL LINK |», «LINK EN BIO |», «HISTORIA COMPLETA EN MI PERFIL |».
 - Después: 2–3 frases que enganchen + «🔖 Síguenos y guarda este vídeo para que te salgan más historias como esta.» + 5 hashtags.
 - **Hashtags (Instagram y TikTok), 5 siempre:** 2 del tema concreto (personaje, caso o hecho más buscado) + **#historiareal** siempre + 1 amplio de descubrimiento que encaje (#curiosidades, #sabiasque, #casosreales, #misterio, #segundaguerramundial) + el del canal (#ysitetocara / #archivooscuro). Nada de #fyp ni hashtags genéricos vacíos.
+- En la ficha del Home los copys van separados por red (YouTube / TikTok / Instagram). Si abres la pieza desde una tarea o el calendario, solo salen los de las redes que tocan en ese momento (con un botón para ver todas).
 - En el Home sale como «📸 Copy de Instagram» con botón Copiar; al pasar un proyecto al calendario, el Home pone la apertura que toca.
 
 ## Código del Home
