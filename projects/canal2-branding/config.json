@@ -1,0 +1,3 @@
+{ "title": "Canal 2 — branding", "aspect": "16:9", "resolution": "1440p", "fps": 24, "style": "toon",
+  "voiceover": null, "script": null, "duration": 12, "captions": false, "bars": "none", "fadeIn": 0, "fadeOut": 0,
+  "music": {"enabled": false}, "sfx": {"enabled": false}, "loudness": -14 }

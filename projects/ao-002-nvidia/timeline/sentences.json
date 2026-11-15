@@ -1,0 +1,1382 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 4.361,
+  "text": "Seguro que te han contado que el jefe de Nvidia cayó por culpa de una espía china, ¿verdad?"
+ },
+ {
+  "i": 1,
+  "start": 4.897,
+  "end": 6.069,
+  "text": "Pues la verdad es que no."
+ },
+ {
+  "i": 2,
+  "start": 6.378,
+  "end": 8.796,
+  "text": "O al menos, nadie ha podido demostrarlo todavía."
+ },
+ {
+  "i": 3,
+  "start": 9.481,
+  "end": 11.858,
+  "text": "Y lo que de verdad pasó es mucho más extraño."
+ },
+ {
+  "i": 4,
+  "start": 12.342,
+  "end": 14.791,
+  "text": "Jueves, doce de noviembre de dos mil veintiséis."
+ },
+ {
+  "i": 5,
+  "start": 14.985,
+  "end": 18.375,
+  "text": "Son las nueve y media de la mañana en Nueva York y la bolsa acaba de abrir."
+ },
+ {
+  "i": 6,
+  "start": 18.716,
+  "end": 23.145,
+  "text": "En cuestión de minutos, las acciones de la empresa más importante de la inteligencia artificial caen un trece por ciento."
+ },
+ {
+  "i": 7,
+  "start": 23.494,
+  "end": 29.529,
+  "text": "Miles de millones de dólares desaparecen antes de que mucha gente se haya terminado el café."
+ },
+ {
+  "i": 8,
+  "start": 29.745,
+  "end": 30.598,
+  "text": "Unas horas después, la empresa publica un comunicado de apenas unas líneas."
+ },
+ {
+  "i": 9,
+  "start": 30.805,
+  "end": 37.82,
+  "text": "Su fundador, el hombre que la había dirigido durante treinta y tres años, se va."
+ },
+ {
+  "i": 10,
+  "start": 38.171,
+  "end": 39.284,
+  "text": "Con efecto inmediato."
+ },
+ {
+  "i": 11,
+  "start": 40.026,
+  "end": 41.57,
+  "text": "No hubo un producto defectuoso."
+ },
+ {
+  "i": 12,
+  "start": 42.067,
+  "end": 43.592,
+  "text": "No hubo una crisis económica."
+ },
+ {
+  "i": 13,
+  "start": 44.004,
+  "end": 48.301,
+  "text": "Hubo una pregunta que llevaba meses circulando en voz baja por los despachos de Washington: ¿quién era la mujer que viajaba en su coche?"
+ },
+ {
+  "i": 14,
+  "start": 48.704,
+  "end": 53.146,
+  "text": "Ponte cómodo, apaga la luz si te atreves… porque hoy abrimos un expediente que de verdad vale la pena."
+ },
+ {
+  "i": 15,
+  "start": 53.945,
+  "end": 56.814,
+  "text": "Soy Javi, y esto es Archivo Oscuro."
+ },
+ {
+  "i": 16,
+  "start": 57.167,
+  "end": 58.994,
+  "text": "Y antes de empezar, lo de siempre."
+ },
+ {
+  "i": 17,
+  "start": 59.365,
+  "end": 62.899,
+  "text": "Aquí contamos lo que de verdad pasó."
+ },
+ {
+  "i": 18,
+  "start": 63.203,
+  "end": 64.533,
+  "text": "Lo confirmado, te lo marco."
+ },
+ {
+  "i": 19,
+  "start": 64.904,
+  "end": 66.507,
+  "text": "Lo que es sospecha, te lo digo."
+ },
+ {
+  "i": 20,
+  "start": 66.954,
+  "end": 73.006,
+  "text": "Y en este caso eso es más importante que nunca, porque al final de este vídeo vas a descubrir algo que cambia toda la historia."
+ },
+ {
+  "i": 21,
+  "start": 73.365,
+  "end": 77.137,
+  "text": "Si te gustan las historias reales bien contadas, suscríbete ahora."
+ },
+ {
+  "i": 22,
+  "start": 77.489,
+  "end": 78.62,
+  "text": "Vamos con el expediente."
+ },
+ {
+  "i": 23,
+  "start": 79.605,
+  "end": 80.385,
+  "text": "Capítulo uno."
+ },
+ {
+  "i": 24,
+  "start": 80.848,
+  "end": 82.21,
+  "text": "El chico que lavaba platos."
+ },
+ {
+  "i": 25,
+  "start": 82.92,
+  "end": 85.317,
+  "text": "Taiwán, mil novecientos sesenta y tres."
+ },
+ {
+  "i": 26,
+  "start": 85.553,
+  "end": 87.588,
+  "text": "Nace un niño que se llama Jensen Huang."
+ },
+ {
+  "i": 27,
+  "start": 87.884,
+  "end": 93.933,
+  "text": "Con nueve años, sus padres lo mandan a Estados Unidos con su hermano mayor, a un internado en un pueblo pequeño de Kentucky."
+ },
+ {
+  "i": 28,
+  "start": 94.209,
+  "end": 98.027,
+  "text": "Un niño que casi no habla inglés, a miles de kilómetros de su familia."
+ },
+ {
+  "i": 29,
+  "start": 98.391,
+  "end": 103.484,
+  "text": "De adolescente trabaja lavando platos y sirviendo mesas en una cadena de restaurantes de carretera."
+ },
+ {
+  "i": 30,
+  "start": 103.882,
+  "end": 105.463,
+  "text": "Estudia ingeniería eléctrica."
+ },
+ {
+  "i": 31,
+  "start": 105.775,
+  "end": 107.52,
+  "text": "Diseña chips para otras empresas."
+ },
+ {
+  "i": 32,
+  "start": 108.251,
+  "end": 118.239,
+  "text": "Y en mil novecientos noventa y tres, con treinta años, se sienta con dos amigos ingenieros en una de esas mismas cafeterías de carretera, en California… y deciden fundar una empresa."
+ },
+ {
+  "i": 33,
+  "start": 118.509,
+  "end": 119.602,
+  "text": "La llaman Nvidia."
+ },
+ {
+  "i": 34,
+  "start": 119.935,
+  "end": 122.548,
+  "text": "Durante años estuvo a punto de quebrar varias veces."
+ },
+ {
+  "i": 35,
+  "start": 122.874,
+  "end": 123.46,
+  "text": "Pero aguantó."
+ },
+ {
+  "i": 36,
+  "start": 123.82,
+  "end": 130.312,
+  "text": "Y treinta años después, aquel chico que lavaba platos se había convertido en una de las personas más ricas e influyentes del planeta."
+ },
+ {
+  "i": 37,
+  "start": 130.95,
+  "end": 132.65,
+  "text": "El hombre de la chaqueta de cuero negra."
+ },
+ {
+  "i": 38,
+  "start": 133.042,
+  "end": 135.86,
+  "text": "Presidentes y primeros ministros pedían reunirse con él."
+ },
+ {
+  "i": 39,
+  "start": 136.164,
+  "end": 143.087,
+  "text": "Pero para entender por qué su caída ha hecho temblar al mundo entero, primero tienes que entender qué tiene Nvidia que no tiene nadie más."
+ },
+ {
+  "i": 40,
+  "start": 143.949,
+  "end": 146.786,
+  "text": "Capítulo dos."
+ },
+ {
+  "i": 41,
+  "start": 147.129,
+  "end": 150.833,
+  "text": "La empresa que vale más que países."
+ },
+ {
+  "i": 42,
+  "start": 151.111,
+  "end": 152.72,
+  "text": "Al principio, Nvidia fabricaba chips para que los videojuegos se vieran mejor."
+ },
+ {
+  "i": 43,
+  "start": 153.011,
+  "end": 157.671,
+  "text": "Esos chips tenían algo especial: no eran buenos haciendo una cosa muy rápido, sino haciendo miles de cosas pequeñas a la vez."
+ },
+ {
+  "i": 44,
+  "start": 157.998,
+  "end": 163.54,
+  "text": "Y un día alguien descubrió que eso era exactamente lo que necesitaba la inteligencia artificial para aprender."
+ },
+ {
+  "i": 45,
+  "start": 163.986,
+  "end": 170.108,
+  "text": "Piénsalo así: enseñar a una inteligencia artificial es como obligarla a leer una biblioteca entera millones de veces."
+ },
+ {
+  "i": 46,
+  "start": 170.558,
+  "end": 173.43,
+  "text": "Un procesador normal es una persona leyendo libro por libro."
+ },
+ {
+  "i": 47,
+  "start": 173.709,
+  "end": 177.189,
+  "text": "Un chip de Nvidia es un ejército de miles de lectores leyendo a la vez."
+ },
+ {
+  "i": 48,
+  "start": 178.029,
+  "end": 185.334,
+  "text": "Cuando llegó la fiebre de la inteligencia artificial, todas las grandes tecnológicas del mundo necesitaron lo mismo: montañas de chips de Nvidia."
+ },
+ {
+  "i": 49,
+  "start": 185.633,
+  "end": 189.308,
+  "text": "Y la empresa de los videojuegos se convirtió en la más valiosa del planeta."
+ },
+ {
+  "i": 50,
+  "start": 189.691,
+  "end": 195.967,
+  "text": "El seis de octubre de dos mil veintiséis llegó a su récord: casi cinco billones ochocientos mil millones de dólares."
+ },
+ {
+  "i": 51,
+  "start": 196.319,
+  "end": 198.512,
+  "text": "Más que la economía de casi cualquier país."
+ },
+ {
+  "i": 52,
+  "start": 198.884,
+  "end": 200.617,
+  "text": "¿Y por qué te debería importar a ti?"
+ },
+ {
+  "i": 53,
+  "start": 200.942,
+  "end": 202.434,
+  "text": "Por una razón muy sencilla."
+ },
+ {
+  "i": 54,
+  "start": 202.822,
+  "end": 209.2,
+  "text": "Hay un índice que se llama S&P 500: una especie de cesta con las quinientas empresas más grandes de Estados Unidos."
+ },
+ {
+  "i": 55,
+  "start": 209.447,
+  "end": 213.58,
+  "text": "Es donde están invertidos millones de planes de pensiones y fondos de todo el mundo."
+ },
+ {
+  "i": 56,
+  "start": 213.905,
+  "end": 218.244,
+  "text": "Y en octubre, Nvidia sola llegó a pesar alrededor del ocho por ciento de esa cesta."
+ },
+ {
+  "i": 57,
+  "start": 218.545,
+  "end": 226.914,
+  "text": "Si tienes un plan de pensiones o un fondo de inversión, aunque sea a través de tu banco, es muy probable que una parte de tu dinero esté en Nvidia sin que lo sepas."
+ },
+ {
+  "i": 58,
+  "start": 227.23,
+  "end": 229.201,
+  "text": "Pero hay algo todavía más delicado."
+ },
+ {
+  "i": 59,
+  "start": 229.545,
+  "end": 232.147,
+  "text": "Estos chips se han convertido en un arma estratégica."
+ },
+ {
+  "i": 60,
+  "start": 232.476,
+  "end": 237.047,
+  "text": "Estados Unidos y China están en una carrera por dominar la inteligencia artificial."
+ },
+ {
+  "i": 61,
+  "start": 237.344,
+  "end": 243.371,
+  "text": "Y en octubre de dos mil veintidós, el gobierno estadounidense puso límites muy duros a qué chips se le pueden vender a China."
+ },
+ {
+  "i": 62,
+  "start": 243.749,
+  "end": 244.788,
+  "text": "Quédate con esa fecha."
+ },
+ {
+  "i": 63,
+  "start": 245.115,
+  "end": 249.036,
+  "text": "Porque justo después, una pequeña empresa empezó a crecer muy rápido."
+ },
+ {
+  "i": 64,
+  "start": 249.457,
+  "end": 251.761,
+  "text": "Capítulo tres."
+ },
+ {
+  "i": 65,
+  "start": 252.129,
+  "end": 256.301,
+  "text": "La empresa que cambió de nombre."
+ },
+ {
+  "i": 66,
+  "start": 256.587,
+  "end": 267.437,
+  "text": "En dos mil quince se crea en Singapur una empresa llamada Seven Road Internacional, propiedad de un grupo chino del mundo de los videojuegos."
+ },
+ {
+  "i": 67,
+  "start": 267.603,
+  "end": 269.59,
+  "text": "Durante años, nadie se fija en ella."
+ },
+ {
+  "i": 68,
+  "start": 269.902,
+  "end": 272.92,
+  "text": "Pero cuando llegan las restricciones de chips, empieza a crecer de golpe."
+ },
+ {
+  "i": 69,
+  "start": 273.273,
+  "end": 275.574,
+  "text": "En marzo de dos mil veintitrés cambia de nombre."
+ },
+ {
+  "i": 70,
+  "start": 275.876,
+  "end": 279.998,
+  "text": "A partir de ahora se llamará Megaspeed."
+ },
+ {
+  "i": 71,
+  "start": 280.263,
+  "end": 287.672,
+  "text": "Megaspeed es lo que en el sector llaman una nube de computación: compra chips, en este caso chips de Nvidia, los instala en enormes centros de datos y alquila esa potencia a otras empresas."
+ },
+ {
+  "i": 72,
+  "start": 287.922,
+  "end": 290.922,
+  "text": "Según el New York Times, entre sus clientes había grandes tecnológicas chinas."
+ },
+ {
+  "i": 73,
+  "start": 291.192,
+  "end": 294.747,
+  "text": "Y aquí hay un detalle que a los investigadores les llamó mucho la atención."
+ },
+ {
+  "i": 74,
+  "start": 295.074,
+  "end": 299.615,
+  "text": "En otoño de dos mil veintitrés la empresa cambia de dueño… y cuatro días después se convierte en socio oficial de la nube de Nvidia."
+ },
+ {
+  "i": 75,
+  "start": 299.815,
+  "end": 301.169,
+  "text": "¿Por qué es esto importante?"
+ },
+ {
+  "i": 76,
+  "start": 301.38,
+  "end": 303.229,
+  "text": "Porque en los últimos años muchas empresas con raíces en China se han trasladado a Singapur."
+ },
+ {
+  "i": 77,
+  "start": 303.398,
+  "end": 306.977,
+  "text": "Hay quien lo llama el lavado de Singapur: la empresa sigue siendo la misma, pero desde fuera parece de otro país."
+ },
+ {
+  "i": 78,
+  "start": 307.291,
+  "end": 309.267,
+  "text": "Y si un chip no se puede vender a China…"
+ },
+ {
+  "i": 79,
+  "start": 309.612,
+  "end": 311.925,
+  "text": "¿qué pasa si se alquila su potencia desde Singapur?"
+ },
+ {
+  "i": 80,
+  "start": 312.162,
+  "end": 316.331,
+  "text": "Eso es exactamente lo que empezó a preguntarse el gobierno de Estados Unidos."
+ },
+ {
+  "i": 81,
+  "start": 316.822,
+  "end": 317.793,
+  "text": "Capítulo cuatro."
+ },
+ {
+  "i": 82,
+  "start": 318.159,
+  "end": 319.243,
+  "text": "La mujer del coche."
+ },
+ {
+  "i": 83,
+  "start": 319.639,
+  "end": 327.525,
+  "text": "En septiembre de dos mil veinticuatro, la oficina del Departamento de Comercio que vigila las exportaciones de tecnología abre una investigación sobre Megaspeed."
+ },
+ {
+  "i": 84,
+  "start": 327.895,
+  "end": 329.405,
+  "text": "Y sobre una de sus ejecutivas."
+ },
+ {
+  "i": 85,
+  "start": 329.652,
+  "end": 330.847,
+  "text": "Se llama Alice Huang."
+ },
+ {
+  "i": 86,
+  "start": 331.264,
+  "end": 333.761,
+  "text": "No es familia de Jensen, aunque compartan apellido."
+ },
+ {
+  "i": 87,
+  "start": 334.422,
+  "end": 340.868,
+  "text": "Según el Wall Street Journal, se la presentó a Jensen un empresario chino al que él conocía desde hacía más de una década."
+ },
+ {
+  "i": 88,
+  "start": 341.052,
+  "end": 342.721,
+  "text": "Y no fue un encuentro de un día."
+ },
+ {
+  "i": 89,
+  "start": 343.137,
+  "end": 345.765,
+  "text": "En junio de dos mil veinticuatro los vieron juntos."
+ },
+ {
+  "i": 90,
+  "start": 345.948,
+  "end": 348.315,
+  "text": "En mayo de dos mil veinticinco, otra vez."
+ },
+ {
+  "i": 91,
+  "start": 348.602,
+  "end": 350.106,
+  "text": "Viajando en el mismo coche."
+ },
+ {
+  "i": 92,
+  "start": 350.424,
+  "end": 354.236,
+  "text": "Y entonces pasa algo que, visto ahora, parece sacado de una novela."
+ },
+ {
+  "i": 93,
+  "start": 354.605,
+  "end": 361.984,
+  "text": "En agosto de dos mil veinticinco, el abogado principal de Nvidia contacta con los funcionarios que investigaban a Megaspeed y les pide una reunión."
+ },
+ {
+  "i": 94,
+  "start": 362.148,
+  "end": 363.429,
+  "text": "Los funcionarios se niegan."
+ },
+ {
+  "i": 95,
+  "start": 363.642,
+  "end": 373.527,
+  "text": "Y para evitar que la investigación pudiera verse comprometida, el caso sale del Departamento de Comercio… y pasa al Departamento de Justicia, que abre una investigación penal contra Megaspeed."
+ },
+ {
+  "i": 96,
+  "start": 373.887,
+  "end": 374.414,
+  "text": "Y hay más."
+ },
+ {
+  "i": 97,
+  "start": 374.664,
+  "end": 383.259,
+  "text": "Según el New York Times, en la primavera de dos mil veintiséis el secretario de Estado, Marco Rubio, redactó un informe clasificado advirtiendo sobre esa relación."
+ },
+ {
+  "i": 98,
+  "start": 383.62,
+  "end": 391.124,
+  "text": "Ese documento circuló entre funcionarios con acceso a secretos de alto nivel justo antes de un viaje oficial del presidente Trump a China, en mayo."
+ },
+ {
+  "i": 99,
+  "start": 391.549,
+  "end": 394.626,
+  "text": "Un viaje en el que Jensen Huang formaba parte de la delegación."
+ },
+ {
+  "i": 100,
+  "start": 394.967,
+  "end": 398.919,
+  "text": "Es decir: en las altas esferas de Washington, algunos ya estaban preocupados."
+ },
+ {
+  "i": 101,
+  "start": 399.274,
+  "end": 400.845,
+  "text": "Pero nadie hizo nada en público."
+ },
+ {
+  "i": 102,
+  "start": 401.282,
+  "end": 403.021,
+  "text": "Nvidia era demasiado importante."
+ },
+ {
+  "i": 103,
+  "start": 403.26,
+  "end": 407.689,
+  "text": "Sus ventas estaban tirando de la economía, y nadie quería ser el que la hiciera tropezar."
+ },
+ {
+  "i": 104,
+  "start": 408.053,
+  "end": 410.328,
+  "text": "Hasta aquí, todo esto ocurría en silencio."
+ },
+ {
+  "i": 105,
+  "start": 410.688,
+  "end": 411.94,
+  "text": "Ningún periódico lo sabía."
+ },
+ {
+  "i": 106,
+  "start": 412.34,
+  "end": 417.822,
+  "text": "Jensen seguía subiendo a los escenarios, Nvidia seguía batiendo récords, y la bolsa seguía subiendo."
+ },
+ {
+  "i": 107,
+  "start": 418.143,
+  "end": 420.642,
+  "text": "Hasta el veintinueve de octubre de dos mil veintiséis."
+ },
+ {
+  "i": 108,
+  "start": 420.96,
+  "end": 424.573,
+  "text": "El día en que el New York Times publicó una historia que lo cambiaría todo."
+ },
+ {
+  "i": 109,
+  "start": 425.681,
+  "end": 426.667,
+  "text": "Capítulo cinco."
+ },
+ {
+  "i": 110,
+  "start": 427.134,
+  "end": 427.782,
+  "text": "La noticia."
+ },
+ {
+  "i": 111,
+  "start": 428.45,
+  "end": 433.833,
+  "text": "El veintinueve de octubre, el New York Times publica que Jensen Huang tiene una relación cercana con Alice Huang."
+ },
+ {
+  "i": 112,
+  "start": 434.134,
+  "end": 440.657,
+  "text": "Y que, según fuentes de la inteligencia estadounidense, ella podría estar pasando información sobre él al gobierno chino."
+ },
+ {
+  "i": 113,
+  "start": 440.979,
+  "end": 443.477,
+  "text": "Una semana después, el mismo periódico va más allá."
+ },
+ {
+  "i": 114,
+  "start": 443.793,
+  "end": 450.648,
+  "text": "Asegura que entre los altos cargos de Washington circulaba un informe que la señalaba como espía del Ministerio de Seguridad del Estado chino."
+ },
+ {
+  "i": 115,
+  "start": 451.003,
+  "end": 457.401,
+  "text": "Y al día siguiente, el Financial Times publica que la inteligencia estadounidense cree que ese ministerio la había reclutado."
+ },
+ {
+  "i": 116,
+  "start": 457.701,
+  "end": 463.75,
+  "text": "Para que entiendas lo que eso significa: el Ministerio de Seguridad del Estado es el gran servicio de inteligencia de China."
+ },
+ {
+  "i": 117,
+  "start": 464.086,
+  "end": 468.147,
+  "text": "Algunos expertos lo consideran una de las agencias de espionaje más grandes del mundo."
+ },
+ {
+  "i": 118,
+  "start": 468.364,
+  "end": 473.171,
+  "text": "Y quizá te estés preguntando: ¿para qué querría un país espiar al jefe de una empresa de chips?"
+ },
+ {
+  "i": 119,
+  "start": 473.475,
+  "end": 475.303,
+  "text": "¿No es más fácil robar los planos?"
+ },
+ {
+  "i": 120,
+  "start": 475.512,
+  "end": 479.697,
+  "text": "Según los expertos en inteligencia, muchas veces lo más valioso no es un documento."
+ },
+ {
+  "i": 121,
+  "start": 479.959,
+  "end": 481.445,
+  "text": "Es saber qué piensa alguien."
+ },
+ {
+  "i": 122,
+  "start": 481.747,
+  "end": 482.579,
+  "text": "Qué va a decidir."
+ },
+ {
+  "i": 123,
+  "start": 482.828,
+  "end": 483.947,
+  "text": "A quién va a escuchar."
+ },
+ {
+  "i": 124,
+  "start": 484.298,
+  "end": 488.822,
+  "text": "Y si además consigues que vea las cosas un poco más a tu manera… el premio es enorme."
+ },
+ {
+  "i": 125,
+  "start": 489.129,
+  "end": 493.233,
+  "text": "En el mundo del espionaje esto tiene un nombre informal: la trampa de miel."
+ },
+ {
+  "i": 126,
+  "start": 493.54,
+  "end": 496.495,
+  "text": "Usar una relación personal para acercarse a alguien poderoso."
+ },
+ {
+  "i": 127,
+  "start": 496.819,
+  "end": 499.449,
+  "text": "Es una técnica tan antigua como el propio espionaje."
+ },
+ {
+  "i": 128,
+  "start": 499.744,
+  "end": 502.349,
+  "text": "Pero aquí tengo que parar, porque esto es importante."
+ },
+ {
+  "i": 129,
+  "start": 502.715,
+  "end": 508.589,
+  "text": "Todo lo que te acabo de contar son informaciones de prensa basadas en fuentes anónimas."
+ },
+ {
+  "i": 130,
+  "start": 508.88,
+  "end": 511.131,
+  "text": "Ninguna acusación formal."
+ },
+ {
+  "i": 131,
+  "start": 511.32,
+  "end": 515.972,
+  "text": "Y el gobierno chino lo niega rotundamente: lo ha llamado pura invención."
+ },
+ {
+  "i": 132,
+  "start": 516.292,
+  "end": 519.597,
+  "text": "Así que, de momento, esto lleva un sello bien grande: sin confirmar."
+ },
+ {
+  "i": 133,
+  "start": 519.962,
+  "end": 521.843,
+  "text": "Y antes de seguir, quiero saber qué piensas tú."
+ },
+ {
+  "i": 134,
+  "start": 522.159,
+  "end": 526.283,
+  "text": "Escribe ahora mismo en los comentarios: espía, si crees que esto fue una operación de espionaje."
+ },
+ {
+  "i": 135,
+  "start": 526.541,
+  "end": 529.403,
+  "text": "O escándalo, si crees que es un escándalo personal que se ha hecho enorme."
+ },
+ {
+  "i": 136,
+  "start": 529.801,
+  "end": 530.677,
+  "text": "Solo una palabra."
+ },
+ {
+  "i": 137,
+  "start": 531.004,
+  "end": 534.801,
+  "text": "Porque al final del vídeo te voy a contar algo que quizá te haga cambiar de opinión."
+ },
+ {
+  "i": 138,
+  "start": 535.896,
+  "end": 536.804,
+  "text": "Capítulo seis."
+ },
+ {
+  "i": 139,
+  "start": 537.138,
+  "end": 537.928,
+  "text": "Siete días."
+ },
+ {
+  "i": 140,
+  "start": 538.31,
+  "end": 539.792,
+  "text": "Domingo, ocho de noviembre."
+ },
+ {
+  "i": 141,
+  "start": 540.151,
+  "end": 543.309,
+  "text": "Jensen Huang envía un mensaje a todos los empleados de Nvidia."
+ },
+ {
+  "i": 142,
+  "start": 543.603,
+  "end": 547.512,
+  "text": "Y en él reconoce algo muy personal: que había sido infiel a su esposa."
+ },
+ {
+  "i": 143,
+  "start": 547.903,
+  "end": 558.007,
+  "text": "Ese mismo día, la junta directiva anuncia una investigación independiente, con un bufete de abogados externo, para saber si Jensen fue el objetivo de una operación de inteligencia extranjera."
+ },
+ {
+  "i": 144,
+  "start": 558.38,
+  "end": 565.474,
+  "text": "La junta dice que, por ahora, no tiene motivos para creer que se haya comprometido la seguridad nacional ni ningún secreto de la empresa."
+ },
+ {
+  "i": 145,
+  "start": 565.881,
+  "end": 567.339,
+  "text": "Lunes, nueve de noviembre."
+ },
+ {
+  "i": 146,
+  "start": 567.73,
+  "end": 572.517,
+  "text": "Los directores de la CIA y de la inteligencia nacional informan en secreto a los líderes del Congreso."
+ },
+ {
+  "i": 147,
+  "start": 572.817,
+  "end": 576.655,
+  "text": "El presidente Trump dice públicamente que el FBI está investigando."
+ },
+ {
+  "i": 148,
+  "start": 577.007,
+  "end": 580.78,
+  "text": "Y, según el New York Times, llama a Jensen y le pide que pelee por su puesto."
+ },
+ {
+  "i": 149,
+  "start": 581.134,
+  "end": 582.746,
+  "text": "Miércoles, once de noviembre."
+ },
+ {
+  "i": 150,
+  "start": 583.472,
+  "end": 584.704,
+  "text": "Llega el golpe definitivo."
+ },
+ {
+  "i": 151,
+  "start": 585.074,
+  "end": 591.166,
+  "text": "El New York Times publica que Jensen tuvo otra relación, esta vez con una directiva de la propia Nvidia que dependía de él."
+ },
+ {
+  "i": 152,
+  "start": 591.494,
+  "end": 594.045,
+  "text": "En cualquier gran empresa, eso es una línea roja."
+ },
+ {
+  "i": 153,
+  "start": 594.43,
+  "end": 599.142,
+  "text": "Esa misma noche, el Wall Street Journal informa de que la junta se prepara para apartarlo."
+ },
+ {
+  "i": 154,
+  "start": 599.605,
+  "end": 600.973,
+  "text": "Jueves, doce de noviembre."
+ },
+ {
+  "i": 155,
+  "start": 601.212,
+  "end": 601.961,
+  "text": "El comunicado."
+ },
+ {
+  "i": 156,
+  "start": 602.351,
+  "end": 606.618,
+  "text": "Jensen Huang renuncia como director ejecutivo, como presidente y como consejero."
+ },
+ {
+  "i": 157,
+  "start": 606.994,
+  "end": 608.541,
+  "text": "Después de treinta y tres años."
+ },
+ {
+  "i": 158,
+  "start": 609.238,
+  "end": 613.795,
+  "text": "El hombre que fundó la empresa en una cafetería de carretera… se va por la puerta de atrás."
+ },
+ {
+  "i": 159,
+  "start": 614.483,
+  "end": 618.936,
+  "text": "La directora financiera, Colette Kress, pasa a dirigir la compañía de forma interina."
+ },
+ {
+  "i": 160,
+  "start": 619.325,
+  "end": 627.985,
+  "text": "Ese mismo día, un grupo de inversores presenta una demanda colectiva contra Nvidia y contra Jensen: lo acusan de haber ocultado su relación con una presunta espía."
+ },
+ {
+  "i": 161,
+  "start": 628.45,
+  "end": 629.01,
+  "text": "¿Y la bolsa?"
+ },
+ {
+  "i": 162,
+  "start": 629.398,
+  "end": 632.406,
+  "text": "Las acciones llegan a caer más del trece por ciento al abrir."
+ },
+ {
+  "i": 163,
+  "start": 632.687,
+  "end": 636.844,
+  "text": "Al final del día recuperan parte y cierran con una caída de alrededor del cuatro."
+ },
+ {
+  "i": 164,
+  "start": 637.317,
+  "end": 644.443,
+  "text": "Pero desde su récord de octubre, Nvidia ya ha perdido entre un billón y medio y un billón setecientos mil millones de dólares de valor."
+ },
+ {
+  "i": 165,
+  "start": 645.203,
+  "end": 647.756,
+  "text": "Casi lo que produce un país como España en un año."
+ },
+ {
+  "i": 166,
+  "start": 648.885,
+  "end": 649.733,
+  "text": "Capítulo siete."
+ },
+ {
+  "i": 167,
+  "start": 650.097,
+  "end": 650.708,
+  "text": "Washington."
+ },
+ {
+  "i": 168,
+  "start": 651.071,
+  "end": 652.946,
+  "text": "La historia ya no es solo de una empresa."
+ },
+ {
+  "i": 169,
+  "start": 653.191,
+  "end": 654.433,
+  "text": "Es de seguridad nacional."
+ },
+ {
+  "i": 170,
+  "start": 654.807,
+  "end": 659.227,
+  "text": "Varios presidentes de comisiones del Congreso piden que Jensen comparezca a puerta cerrada."
+ },
+ {
+  "i": 171,
+  "start": 659.517,
+  "end": 663.845,
+  "text": "En el Senado le advierten que, si no acude por voluntad propia, podrían obligarle."
+ },
+ {
+  "i": 172,
+  "start": 664.112,
+  "end": 668.671,
+  "text": "Y se abre un debate enorme sobre si hay que cerrar todavía más la venta de chips a China."
+ },
+ {
+  "i": 173,
+  "start": 668.989,
+  "end": 671.187,
+  "text": "Y las reacciones llegan desde todas partes."
+ },
+ {
+  "i": 174,
+  "start": 671.465,
+  "end": 679.916,
+  "text": "El presidente Trump, que días antes le había pedido que peleara por su puesto, publica que solo hay un hombre capaz de sustituirlo: Tim Cook, el jefe de Apple."
+ },
+ {
+  "i": 175,
+  "start": 680.69,
+  "end": 683.452,
+  "text": "Elon Musk, en cambio, se ofrece a contratar a Jensen."
+ },
+ {
+  "i": 176,
+  "start": 683.845,
+  "end": 688.296,
+  "text": "Y otros empresarios de Silicon Valley dicen públicamente que apartarlo ha sido un error."
+ },
+ {
+  "i": 177,
+  "start": 688.636,
+  "end": 695.828,
+  "text": "En cuestión de horas, el caso se convierte en una batalla entre quienes ven a un genio caído y quienes ven un riesgo para la seguridad del país."
+ },
+ {
+  "i": 178,
+  "start": 696.072,
+  "end": 701.845,
+  "text": "Mientras tanto, desde Pekín, la respuesta es tajante: el gobierno chino dice que todo es una invención."
+ },
+ {
+  "i": 179,
+  "start": 702.185,
+  "end": 708.487,
+  "text": "Y en Singapur, donde tiene su sede Megaspeed, el gobierno anuncia que Alice Huang no podrá volver a entrar en el país."
+ },
+ {
+  "i": 180,
+  "start": 708.797,
+  "end": 713.742,
+  "text": "Meses antes, la policía de Singapur le había retirado el pasaporte mientras investigaba a la empresa."
+ },
+ {
+  "i": 181,
+  "start": 714.032,
+  "end": 716.528,
+  "text": "Finalmente la dejaron marchar por falta de pruebas."
+ },
+ {
+  "i": 182,
+  "start": 716.891,
+  "end": 722.693,
+  "text": "Y ese detalle, falta de pruebas, nos lleva a la parte de esta historia que casi nadie te ha contado."
+ },
+ {
+  "i": 183,
+  "start": 723.512,
+  "end": 724.335,
+  "text": "Capítulo ocho."
+ },
+ {
+  "i": 184,
+  "start": 724.803,
+  "end": 725.262,
+  "text": "El giro."
+ },
+ {
+  "i": 185,
+  "start": 726.205,
+  "end": 731.895,
+  "text": "El mismo día de la renuncia, el fiscal general de Estados Unidos hace una declaración que pasa casi desapercibida."
+ },
+ {
+  "i": 186,
+  "start": 732.306,
+  "end": 737.854,
+  "text": "Dice que el Departamento de Justicia no ha llegado a ninguna conclusión sobre quién es o no es Alice Huang."
+ },
+ {
+  "i": 187,
+  "start": 738.145,
+  "end": 740.239,
+  "text": "Y que él nunca ha dicho que sea una espía."
+ },
+ {
+  "i": 188,
+  "start": 740.848,
+  "end": 743.143,
+  "text": "Al día siguiente, la CNN va más allá."
+ },
+ {
+  "i": 189,
+  "start": 743.473,
+  "end": 748.539,
+  "text": "Según sus fuentes, la inteligencia estadounidense no está segura de que Alice Huang sea una espía."
+ },
+ {
+  "i": 190,
+  "start": 748.974,
+  "end": 753.528,
+  "text": "Lo recopilado hasta ahora, incluidas comunicaciones interceptadas, no lo demuestra."
+ },
+ {
+  "i": 191,
+  "start": 753.884,
+  "end": 756.965,
+  "text": "Y algunos funcionarios creen que esa acusación se ha exagerado."
+ },
+ {
+  "i": 192,
+  "start": 757.378,
+  "end": 758.32,
+  "text": "Piénsalo un momento."
+ },
+ {
+  "i": 193,
+  "start": 758.572,
+  "end": 762.214,
+  "text": "El hombre más poderoso de la inteligencia artificial ha perdido su empresa."
+ },
+ {
+  "i": 194,
+  "start": 762.492,
+  "end": 764.171,
+  "text": "Nvidia ha perdido una fortuna."
+ },
+ {
+  "i": 195,
+  "start": 764.626,
+  "end": 766.56,
+  "text": "Washington ha abierto investigaciones."
+ },
+ {
+  "i": 196,
+  "start": 766.899,
+  "end": 769.112,
+  "text": "Dos superpotencias se acusan mutuamente."
+ },
+ {
+  "i": 197,
+  "start": 769.469,
+  "end": 774.324,
+  "text": "Y a día de hoy… nadie ha podido demostrar que la presunta espía fuera realmente una espía."
+ },
+ {
+  "i": 198,
+  "start": 774.933,
+  "end": 777.453,
+  "text": "Entonces, ¿qué hizo caer de verdad a Jensen Huang?"
+ },
+ {
+  "i": 199,
+  "start": 777.736,
+  "end": 779.089,
+  "text": "¿Una operación de espionaje?"
+ },
+ {
+  "i": 200,
+  "start": 779.393,
+  "end": 785.332,
+  "text": "¿O sus propias decisiones personales, que en el peor momento posible se convirtieron en un asunto de seguridad nacional?"
+ },
+ {
+  "i": 201,
+  "start": 785.572,
+  "end": 787.243,
+  "text": "Vamos con lo que de verdad importa."
+ },
+ {
+  "i": 202,
+  "start": 787.547,
+  "end": 788.423,
+  "text": "Lo que sabemos hoy, y lo que sigue abierto."
+ },
+ {
+  "i": 203,
+  "start": 788.741,
+  "end": 789.892,
+  "text": "Lo que está confirmado."
+ },
+ {
+  "i": 204,
+  "start": 790.122,
+  "end": 791.32,
+  "text": "Jensen Huang reconoció ante sus empleados que había sido infiel."
+ },
+ {
+  "i": 205,
+  "start": 792.268,
+  "end": 795.48,
+  "text": "Renunció el doce de noviembre después de treinta y tres años."
+ },
+ {
+  "i": 206,
+  "start": 795.763,
+  "end": 802.444,
+  "text": "Megaspeed está siendo investigada por las autoridades de Estados Unidos."
+ },
+ {
+  "i": 207,
+  "start": 802.799,
+  "end": 808.354,
+  "text": "Nvidia abrió una investigación interna y perdió alrededor de un treinta por ciento de su valor desde su récord."
+ },
+ {
+  "i": 208,
+  "start": 808.677,
+  "end": 811.068,
+  "text": "Y Singapur ha prohibido la entrada a Alice Huang."
+ },
+ {
+  "i": 209,
+  "start": 811.402,
+  "end": 814.524,
+  "text": "¿Y por qué todo esto te importa aunque nunca vayas a comprar un chip?"
+ },
+ {
+  "i": 210,
+  "start": 814.882,
+  "end": 815.697,
+  "text": "Por tres razones."
+ },
+ {
+  "i": 211,
+  "start": 815.984,
+  "end": 822.133,
+  "text": "Porque una parte de los ahorros de millones de personas está invertida, directa o indirectamente, en esta empresa."
+ },
+ {
+  "i": 212,
+  "start": 822.526,
+  "end": 827.087,
+  "text": "Porque de sus chips depende buena parte de la inteligencia artificial que ya usamos cada día."
+ },
+ {
+  "i": 213,
+  "start": 827.419,
+  "end": 834.851,
+  "text": "Y porque lo que decida Estados Unidos sobre vender estos chips a China puede cambiar la tecnología, los precios y la economía de los próximos años."
+ },
+ {
+  "i": 214,
+  "start": 835.173,
+  "end": 836.199,
+  "text": "Lo que sigue abierto."
+ },
+ {
+  "i": 215,
+  "start": 837.394,
+  "end": 840.503,
+  "text": "Si Alice Huang trabajaba de verdad para la inteligencia china."
+ },
+ {
+  "i": 216,
+  "start": 840.705,
+  "end": 843.041,
+  "text": "Si llegó a obtener alguna información, y cuál."
+ },
+ {
+  "i": 217,
+  "start": 843.842,
+  "end": 846.937,
+  "text": "Si Megaspeed ayudó a saltarse las restricciones de exportación."
+ },
+ {
+  "i": 218,
+  "start": 847.265,
+  "end": 848.814,
+  "text": "Qué dirá Jensen ante el Congreso."
+ },
+ {
+  "i": 219,
+  "start": 849.08,
+  "end": 851.136,
+  "text": "Y quién dirigirá Nvidia a partir de ahora."
+ },
+ {
+  "i": 220,
+  "start": 851.588,
+  "end": 852.648,
+  "text": "Y ahora, dime la verdad."
+ },
+ {
+  "i": 221,
+  "start": 852.968,
+  "end": 855.843,
+  "text": "Al principio del vídeo escribiste espía o escándalo."
+ },
+ {
+  "i": 222,
+  "start": 856.203,
+  "end": 857.318,
+  "text": "¿Sigues pensando lo mismo?"
+ },
+ {
+  "i": 223,
+  "start": 857.658,
+  "end": 860.021,
+  "text": "Cuéntamelo en los comentarios, porque leo todos."
+ },
+ {
+  "i": 224,
+  "start": 860.228,
+  "end": 861.841,
+  "text": "Este expediente sigue abierto."
+ },
+ {
+  "i": 225,
+  "start": 862.198,
+  "end": 866.508,
+  "text": "Cuando Jensen hable ante el Congreso, o cuando la justicia diga algo, te lo cuento aquí."
+ },
+ {
+  "i": 226,
+  "start": 867.075,
+  "end": 870.696,
+  "text": "Suscríbete y guarda este vídeo para que te salgan más historias como esta."
+ },
+ {
+  "i": 227,
+  "start": 871.096,
+  "end": 874.753,
+  "text": "Cada semana abrimos un expediente nuevo de lo que todo el mundo está comentando."
+ },
+ {
+  "i": 228,
+  "start": 875.049,
+  "end": 875.563,
+  "text": "Soy Javi."
+ },
+ {
+  "i": 229,
+  "start": 875.763,
+  "end": 877.134,
+  "text": "Y esto fue Archivo Oscuro."
+ }
+]

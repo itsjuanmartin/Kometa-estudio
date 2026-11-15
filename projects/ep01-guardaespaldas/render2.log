@@ -1,0 +1,123 @@
+== segment 0: 0 -> 110
+Rendering frames 0-2640 (110.0 s) with 4 worker(s)…
+  48/2640 frames  2.84 fps  elapsed 0m17s  eta 15m11s
+  96/2640 frames  3.09 fps  elapsed 0m31s  eta 13m44s
+  144/2640 frames  3.28 fps  elapsed 0m44s  eta 12m42s
+  192/2640 frames  3.32 fps  elapsed 0m58s  eta 12m17s
+  240/2640 frames  3.33 fps  elapsed 1m12s  eta 11m60s
+  288/2640 frames  3.38 fps  elapsed 1m25s  eta 11m36s
+  336/2640 frames  3.41 fps  elapsed 1m39s  eta 11m16s
+  384/2640 frames  3.42 fps  elapsed 1m52s  eta 10m59s
+  432/2640 frames  3.46 fps  elapsed 2m05s  eta 10m37s
+  480/2640 frames  3.43 fps  elapsed 2m20s  eta 10m30s
+  528/2640 frames  3.38 fps  elapsed 2m36s  eta 10m24s
+  576/2640 frames  3.35 fps  elapsed 2m52s  eta 10m16s
+  624/2640 frames  3.28 fps  elapsed 3m10s  eta 10m14s
+  672/2640 frames  3.23 fps  elapsed 3m28s  eta 10m09s
+  720/2640 frames  3.23 fps  elapsed 3m43s  eta 9m55s
+  768/2640 frames  3.23 fps  elapsed 3m58s  eta 9m40s
+  816/2640 frames  3.23 fps  elapsed 4m13s  eta 9m25s
+  864/2640 frames  3.24 fps  elapsed 4m27s  eta 9m08s
+  912/2640 frames  3.25 fps  elapsed 4m41s  eta 8m52s
+  960/2640 frames  3.25 fps  elapsed 4m55s  eta 8m37s
+  1008/2640 frames  3.25 fps  elapsed 5m10s  eta 8m23s
+  1056/2640 frames  3.25 fps  elapsed 5m25s  eta 8m07s
+  1104/2640 frames  3.25 fps  elapsed 5m40s  eta 7m53s
+  1152/2640 frames  3.25 fps  elapsed 5m55s  eta 7m38s
+  1200/2640 frames  3.24 fps  elapsed 6m10s  eta 7m24s
+  1248/2640 frames  3.25 fps  elapsed 6m24s  eta 7m08s
+  1296/2640 frames  3.25 fps  elapsed 6m39s  eta 6m54s
+  1344/2640 frames  3.25 fps  elapsed 6m54s  eta 6m39s
+  1392/2640 frames  3.25 fps  elapsed 7m09s  eta 6m24s
+  1440/2640 frames  3.24 fps  elapsed 7m25s  eta 6m10s
+  1488/2640 frames  3.23 fps  elapsed 7m40s  eta 5m56s
+  1536/2640 frames  3.23 fps  elapsed 7m55s  eta 5m42s
+  1584/2640 frames  3.23 fps  elapsed 8m11s  eta 5m27s
+  1632/2640 frames  3.23 fps  elapsed 8m25s  eta 5m12s
+  1680/2640 frames  3.24 fps  elapsed 8m39s  eta 4m56s
+  1728/2640 frames  3.25 fps  elapsed 8m52s  eta 4m41s
+  1776/2640 frames  3.25 fps  elapsed 9m06s  eta 4m26s
+  1824/2640 frames  3.25 fps  elapsed 9m22s  eta 4m11s
+  1872/2640 frames  3.24 fps  elapsed 9m37s  eta 3m57s
+  1920/2640 frames  3.24 fps  elapsed 9m53s  eta 3m42s
+  1968/2640 frames  3.20 fps  elapsed 10m15s  eta 3m30s
+  2016/2640 frames  2.12 fps  elapsed 15m52s  eta 4m55s
+  2064/2640 frames  1.36 fps  elapsed 25m17s  eta 7m03s
+  2112/2640 frames  1.02 fps  elapsed 34m26s  eta 8m37s
+  2160/2640 frames  0.83 fps  elapsed 43m27s  eta 9m39s
+  2208/2640 frames  0.70 fps  elapsed 52m25s  eta 10m15s
+  2256/2640 frames  0.62 fps  elapsed 61m04s  eta 10m24s
+  2304/2640 frames  0.61 fps  elapsed 63m20s  eta 9m14s
+  2352/2640 frames  0.62 fps  elapsed 63m32s  eta 7m47s
+  2400/2640 frames  0.63 fps  elapsed 63m44s  eta 6m22s
+  2448/2640 frames  0.64 fps  elapsed 63m58s  eta 5m01s
+  2496/2640 frames  0.65 fps  elapsed 64m12s  eta 3m42s
+  2544/2640 frames  0.66 fps  elapsed 64m26s  eta 2m26s
+  2592/2640 frames  0.67 fps  elapsed 64m40s  eta 1m12s
+  2640/2640 frames  0.68 fps  elapsed 64m53s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep01-guardaespaldas/build/segs/seg_00.mp4  (64m55s)
+== segment 4: 440 -> 550
+Rendering frames 10560-13200 (110.0 s) with 4 worker(s)…
+  48/2640 frames  3.99 fps  elapsed 0m12s  eta 10m50s
+  96/2640 frames  4.46 fps  elapsed 0m22s  eta 9m30s
+  144/2640 frames  4.74 fps  elapsed 0m30s  eta 8m47s
+  192/2640 frames  4.81 fps  elapsed 0m40s  eta 8m29s
+  240/2640 frames  4.73 fps  elapsed 0m51s  eta 8m28s
+  288/2640 frames  4.69 fps  elapsed 1m01s  eta 8m22s
+  336/2640 frames  4.69 fps  elapsed 1m12s  eta 8m11s
+  384/2640 frames  4.72 fps  elapsed 1m21s  eta 7m58s
+  432/2640 frames  4.79 fps  elapsed 1m30s  eta 7m41s
+  480/2640 frames  4.86 fps  elapsed 1m39s  eta 7m25s
+  528/2640 frames  4.91 fps  elapsed 1m48s  eta 7m10s
+  576/2640 frames  4.95 fps  elapsed 1m56s  eta 6m57s
+  624/2640 frames  4.98 fps  elapsed 2m05s  eta 6m44s
+  672/2640 frames  5.02 fps  elapsed 2m14s  eta 6m32s
+  720/2640 frames  5.04 fps  elapsed 2m23s  eta 6m21s
+  768/2640 frames  5.06 fps  elapsed 2m32s  eta 6m10s
+  816/2640 frames  5.07 fps  elapsed 2m41s  eta 5m60s
+  864/2640 frames  5.09 fps  elapsed 2m50s  eta 5m49s
+  912/2640 frames  5.11 fps  elapsed 2m59s  eta 5m38s
+  960/2640 frames  5.12 fps  elapsed 3m08s  eta 5m28s
+  1008/2640 frames  5.12 fps  elapsed 3m17s  eta 5m19s
+  1056/2640 frames  5.11 fps  elapsed 3m27s  eta 5m10s
+  1104/2640 frames  5.11 fps  elapsed 3m36s  eta 5m00s
+  1152/2640 frames  5.14 fps  elapsed 3m44s  eta 4m50s
+  1200/2640 frames  5.15 fps  elapsed 3m53s  eta 4m40s
+  1248/2640 frames  5.17 fps  elapsed 4m02s  eta 4m29s
+  1296/2640 frames  5.15 fps  elapsed 4m12s  eta 4m21s
+  1344/2640 frames  5.14 fps  elapsed 4m21s  eta 4m12s
+  1392/2640 frames  5.14 fps  elapsed 4m31s  eta 4m03s
+  1440/2640 frames  5.11 fps  elapsed 4m42s  eta 3m55s
+  1488/2640 frames  5.08 fps  elapsed 4m53s  eta 3m47s
+  1536/2640 frames  5.07 fps  elapsed 5m03s  eta 3m38s
+  1584/2640 frames  5.04 fps  elapsed 5m14s  eta 3m29s
+  1632/2640 frames  5.02 fps  elapsed 5m25s  eta 3m21s
+  1680/2640 frames  4.99 fps  elapsed 5m37s  eta 3m12s
+  1728/2640 frames  4.96 fps  elapsed 5m48s  eta 3m04s
+  1776/2640 frames  4.94 fps  elapsed 5m59s  eta 2m55s
+  1824/2640 frames  4.93 fps  elapsed 6m10s  eta 2m46s
+  1872/2640 frames  4.92 fps  elapsed 6m21s  eta 2m36s
+  1920/2640 frames  4.91 fps  elapsed 6m31s  eta 2m27s
+  1968/2640 frames  4.91 fps  elapsed 6m41s  eta 2m17s
+  2016/2640 frames  4.91 fps  elapsed 6m51s  eta 2m07s
+  2064/2640 frames  4.89 fps  elapsed 7m02s  eta 1m58s
+  2112/2640 frames  4.88 fps  elapsed 7m13s  eta 1m48s
+  2160/2640 frames  4.86 fps  elapsed 7m24s  eta 1m39s
+  2208/2640 frames  4.86 fps  elapsed 7m34s  eta 1m29s
+  2256/2640 frames  4.85 fps  elapsed 7m45s  eta 1m19s
+  2304/2640 frames  4.84 fps  elapsed 7m56s  eta 1m09s
+  2352/2640 frames  4.83 fps  elapsed 8m07s  eta 0m60s
+  2400/2640 frames  4.81 fps  elapsed 8m19s  eta 0m50s
+  2448/2640 frames  4.79 fps  elapsed 8m31s  eta 0m40s
+  2496/2640 frames  4.78 fps  elapsed 8m42s  eta 0m30s
+  2544/2640 frames  4.77 fps  elapsed 8m54s  eta 0m20s
+  2592/2640 frames  4.76 fps  elapsed 9m05s  eta 0m10s
+  2640/2640 frames  4.72 fps  elapsed 9m19s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep01-guardaespaldas/build/segs/seg_04.mp4  (9m21s)
+CONCAT OK
+generating music: 10 section(s) — tension@0.8, mystery@0.4, mystery@0.55, hopeful@0.35, playful@0.45, action@0.6, tension@0.8, mystery@0.6, sad@0.35, hopeful@0.4
+sfx: 166 cue(s), ambience on 111 shot(s)
+wrote projects/ep01-guardaespaldas/build/mix.wav  (768.4s, target -14 LUFS)
+FINAL VIDEO: projects/ep01-guardaespaldas/out/Y_si_te_tocara_ser_el_guardaespaldas_del_presidente_en_la_II_Guerra_Mundial.mp4

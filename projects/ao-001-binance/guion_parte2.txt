@@ -1,0 +1,67 @@
+Y ahora ponte en el lugar de los usuarios.
+
+Esa misma noche, Binance suspende todos los depósitos y todas las retiradas. Millones de personas abren la aplicación y no pueden sacar su dinero. En redes sociales empieza el pánico. Rumores, capturas de pantalla, gente preguntando si lo ha perdido todo. El bitcoin y la moneda de Binance, el BNB, llegan a caer alrededor de un cinco por ciento.
+
+Porque todo el mundo se estaba haciendo la misma pregunta. Si le pueden robar seis mil millones a la empresa más grande… ¿qué está a salvo?
+
+Pero aquí la historia da un giro que muy poca gente esperaba.
+
+Binance empieza a pelear. Junto a otras empresas del sector, como los emisores de monedas estables, empieza a congelar todo lo que todavía se puede congelar. En los primeros días se habla de unos tres mil millones bloqueados. En su informe posterior, la propia Binance ajusta esa cifra a unos dos mil ochocientos cincuenta millones. Es decir: casi la mitad del botín, los ladrones no lo pudieron tocar.
+
+Y luego hace algo todavía más llamativo. La empresa anuncia que va a cubrir el agujero con su propio dinero. Que las pérdidas no van a recaer sobre los usuarios. Y para eso tira de todo lo que tiene: su fondo de seguridad para clientes, su fondo de seguro, sus reservas de bitcoin y la tesorería de la empresa.
+
+El treinta y uno de octubre, dos días después del robo, Binance dice que ya ha repuesto el noventa y ocho por ciento de los activos afectados.
+
+Y el uno de noviembre, reabre las retiradas.
+
+¿Y sabes qué pasó? Que mucha gente, por si acaso, sacó su dinero. Se habla de más de tres mil seiscientos millones de dólares en retiradas en cuanto se reabrió el grifo. Pero la plataforma aguantó. Los analistas, que llevaban días mirando con lupa, concluyeron que Binance podía absorber el golpe. Que no iba a quebrar.
+
+El dinero de los usuarios estaba a salvo. Pero la pregunta seguía en el aire.
+
+¿Quién había hecho esto?
+
+Y lo que se descubrió después… es todavía más inquietante que el propio robo.
+
+La respuesta llegó del FBI.
+
+Según la agencia estadounidense, detrás del ataque está un grupo de hackers al que llaman TraderTraitor. Un grupo que también se conoce con otros nombres, y el más famoso de todos es Lazarus. Y según el FBI, ese grupo trabaja para el gobierno de Corea del Norte.
+
+Si te suena raro que un país entero se dedique a robar criptomonedas, no es la primera vez que se le acusa de algo así. Al grupo Lazarus se le atribuyen algunos de los mayores robos digitales de la última década. Incluido, precisamente, el hackeo a Bybit de dos mil veinticinco. Y hay un detalle que se repite una y otra vez en sus ataques, según los investigadores: las ofertas de trabajo falsas. Reclutadores que no existen. Empresas que no existen. Pruebas técnicas que esconden una trampa.
+
+Exactamente lo que le pasó al Ingeniero B.
+
+De hecho, para entender este caso hay que volver un momento a febrero de dos mil veinticinco. Ese mes, otra casa de cambio de criptomonedas, Bybit, sufrió el que hasta entonces era el mayor robo de la historia del sector: unos mil quinientos millones de dólares en ethereum. ¿Y sabes cómo entraron? Tampoco forzaron ninguna caja fuerte. Comprometieron el ordenador de un desarrollador de una empresa externa que Bybit usaba para gestionar sus billeteras, y desde ahí engañaron al sistema para que los propios responsables firmaran una transferencia que parecía normal. El FBI también señaló entonces al mismo grupo: TraderTraitor.
+
+Mismo método. Mismos sospechosos. Y un año y medio después, el golpe es cuatro veces más grande.
+
+¿Y qué se hace con miles de millones robados en criptomonedas? Porque no puedes ir a un banco y depositarlos así como así. Según lo que los investigadores han visto en casos anteriores atribuidos a este grupo, el patrón suele ser parecido. Primero, cambiar lo antes posible las monedas que se pueden congelar por otras que no, como el ethereum o el bitcoin. Después, dividir el botín en miles de pequeñas cantidades, repartidas en miles de billeteras distintas. Pasarlas de una cadena de bloques a otra, una y otra vez, para que el rastro sea un laberinto. Y con paciencia, durante meses o incluso años, ir convirtiendo poco a poco ese dinero en efectivo a través de intermediarios que no hacen demasiadas preguntas.
+
+Es como cortar un billete gigante en un millón de pedacitos y esconder cada pedacito en una ciudad distinta. Las empresas de rastreo pueden seguir muchos de esos pedacitos. Pero no todos. Y cada día que pasa, el rastro se enfría un poco más.
+
+Informes de Naciones Unidas de años anteriores ya señalaban que este tipo de robos sirven para financiar al régimen norcoreano, incluidos sus programas de armas. Por eso, para muchos expertos, esto no es solo un robo. Es otra cosa.
+
+¿Y qué dice Corea del Norte?
+
+El tres de noviembre, Kim Yo-jong, la hermana del líder norcoreano y una de las personas más poderosas del país, publica un comunicado. Y lo niega todo. Ninguna participación. Ninguna responsabilidad. Para Pyongyang, la acusación es falsa.
+
+Así que, oficialmente, estamos así: el FBI señala a Corea del Norte, Binance se apoya en lo que dice el FBI, y Corea del Norte dice que no ha sido. Esto, de momento, queda marcado en el expediente como lo que es: una atribución del FBI, negada por el país acusado.
+
+Y ahora vamos con lo que de verdad importa. Lo que sabemos hoy, y lo que sigue abierto.
+
+Lo que está confirmado. El robo ocurrió el veintinueve de octubre de dos mil veintiséis. Salieron alrededor de seis mil trescientos millones de dólares, la mayor parte en unos veinte minutos. Todo empezó con una entrevista de trabajo falsa y una prueba técnica con un programa malicioso escondido. Los atacantes pasaron semanas dentro antes de actuar. No robaron las claves privadas: usaron el propio sistema de firmas de Binance. La empresa congeló cerca de dos mil ochocientos cincuenta millones, repuso los fondos con dinero propio y reabrió las retiradas el uno de noviembre. Y el FBI atribuye el ataque a hackers vinculados a Corea del Norte.
+
+Lo que sigue abierto. Cómo usaron exactamente la herramienta de inteligencia artificial de la empresa para saltar de un ordenador a otro. Dónde está ahora la otra mitad del dinero, porque una parte sigue moviéndose de cartera en cartera mientras las empresas de rastreo la persiguen. Quiénes eran de verdad los falsos reclutadores. Y si alguna vez alguien responderá ante un tribunal por esto.
+
+Y hay una última cosa que quiero contarte, porque a lo mejor esta parte te sirve a ti.
+
+Este robo, el más grande de la historia de las criptomonedas, no empezó con un genio tecleando a toda velocidad en una habitación oscura. Empezó con un mensaje amable en una plataforma de empleo. Así que, si algún día te escribe un reclutador con una oferta demasiado buena, fíjate en estas señales. Si la empresa casi no tiene presencia real en internet. Si todo va con muchas prisas. Si te cambian de plataforma para hablar por un chat privado. Y sobre todo, si te piden que descargues y ejecutes un programa en tu ordenador. Nunca, jamás, en el ordenador del trabajo.
+
+Porque esa noche, a nadie le pusieron una pistola en la cabeza. A nadie le robaron una llave. A alguien le ofrecieron un trabajo mejor.
+
+Y ahora te lo pregunto a ti, y quiero leerte en los comentarios. Si te llega una oferta así, con un sueldo mejor y una prueba técnica sencilla… ¿tú la habrías descargado? Sé sincero.
+
+Este expediente sigue abierto. Si hay novedades, si aparece el dinero o alguien da la cara, te lo cuento aquí.
+
+Y si te pareció interesante, suscríbete y activa la campanita, porque cada semana abrimos un expediente nuevo de lo que todo el mundo está comentando. Contado como lo que es: una historia increíble que pasó de verdad.
+
+Soy Javi. Y esto fue Archivo Oscuro.

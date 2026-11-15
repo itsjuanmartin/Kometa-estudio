@@ -1,0 +1,8 @@
+{ "title": "Casting", "duration": 18, "shots": [
+  {"id":"c01","start":0,"end":3,"line":"","scene":"lineup of 4 candidates"},
+  {"id":"c02","start":3,"end":6,"line":"","scene":"LEO close-up"},
+  {"id":"c03","start":6,"end":9,"line":"","scene":"NICO close-up"},
+  {"id":"c04","start":9,"end":12,"line":"","scene":"SAM close-up"},
+  {"id":"c05","start":12,"end":15,"line":"","scene":"ALMA close-up"},
+  {"id":"c06","start":15,"end":18,"line":"","scene":"hero in role: bodyguard"}
+], "music": [], "sfx": [] }

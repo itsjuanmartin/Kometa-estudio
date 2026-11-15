@@ -1,0 +1,257 @@
+[00:00.00 -> 00:01.01] Veinte minutos.
+[00:01.29 -> 00:03.41] Es lo que tardas en darte una ducha larga.
+[00:03.77 -> 00:05.69] En ver un capítulo corto de una serie.
+[00:06.07 -> 00:07.60] En pedir comida a domicilio.
+[00:08.03 -> 00:15.14] El veintinueve de octubre de dos mil veintiséis, en veinte minutos, salieron de una sola empresa seis mil trescientos millones de dólares.
+[00:15.44 -> 00:16.25] Sin pistolas.
+[00:16.41 -> 00:17.10] Sin túneles.
+[00:17.31 -> 00:19.26] Sin que nadie rompiera una sola puerta.
+[00:19.98 -> 00:22.16] Y lo más increíble de todo es cómo empezó.
+[00:22.68 -> 00:23.50] Semanas antes.
+[00:24.37 -> 00:27.66] Con algo tan inocente… como una entrevista de trabajo.
+[00:28.48 -> 00:34.39] Ponte cómodo, apaga la luz si te atreves… porque hoy abrimos un expediente que de verdad vale la pena.
+[00:34.77 -> 00:36.63] Soy Javi, y esto es Archivo Oscuro.
+[00:36.94 -> 00:38.70] Antes de empezar, una cosa rápida.
+[00:38.99 -> 00:40.81] Aquí contamos lo que de verdad pasó.
+[00:41.10 -> 00:42.76] Lo que está confirmado, te lo marco.
+[00:43.08 -> 00:44.60] Lo que es rumor, te lo digo.
+[00:45.22 -> 00:50.92] Y si te gustan las historias reales bien contadas, suscríbete ahora, porque esta se pone muy, muy rara.
+[00:51.78 -> 00:52.90] Vamos con el expediente.
+[00:53.67 -> 00:55.62] Primero, tienes que entender dónde estamos.
+[00:56.01 -> 00:59.59] Binance es la casa de cambio de criptomonedas más grande del mundo.
+[00:59.81 -> 01:06.53] Piensa en un banco gigante, pero en vez de euros o dólares, guarda bitcoins, ethereum y cientos de monedas digitales más.
+[01:06.82 -> 01:09.05] Millones de personas, en todos los países, tienen ahí sus ahorros.
+[01:09.34 -> 01:12.23] Algunos, unos pocos dólares.
+[01:12.51 -> 01:13.89] Otros, fortunas enteras.
+[01:14.17 -> 01:19.70] Y como cualquier banco, Binance guarda el dinero en dos sitios.
+[01:19.90 -> 01:25.92] Una parte está en lo que llaman la billetera fría: una caja fuerte desconectada de internet, casi imposible de tocar.
+[01:26.11 -> 01:29.89] Y otra parte está en la billetera caliente: el dinero que está conectado, listo para que la gente lo saque cuando quiera.
+[01:30.22 -> 01:32.31] Es como la caja registradora de una tienda.
+[01:32.61 -> 01:36.36] Tiene que estar a mano, porque cada segundo hay alguien retirando su dinero.
+[01:36.79 -> 01:39.98] Ahora bien, esa caja registradora no se abre con una llave normal.
+[01:40.30 -> 01:43.72] Binance usa un sistema que se llama computación multipartita.
+[01:44.04 -> 01:50.11] Suena complicado, pero la idea es sencilla: la llave está partida en trozos, repartidos entre varias máquinas.
+[01:50.46 -> 01:52.05] Nadie tiene la llave completa.
+[01:52.35 -> 01:56.80] Para mover dinero, varias partes del sistema tienen que ponerse de acuerdo y firmar juntas.
+[01:57.10 -> 02:01.22] Es como una caja fuerte que necesita a cinco personas girando su llave a la vez.
+[02:01.55 -> 02:03.18] Parece imposible de robar, ¿verdad?
+[02:04.44 -> 02:08.04] Pues guarda esa idea, porque los ladrones no intentaron robar la llave.
+[02:08.30 -> 02:10.20] Hicieron algo mucho más inteligente.
+[02:10.59 -> 02:12.97] Retrocedamos a septiembre de dos mil veintiséis.
+[02:13.30 -> 02:15.83] Hay un ingeniero de software que trabaja en Binance.
+[02:16.20 -> 02:19.37] En el informe oficial que publicó la empresa no aparece su nombre.
+[02:19.62 -> 02:21.53] Lo llaman, simplemente, el Ingeniero B.
+[02:21.82 -> 02:24.04] Así que nosotros también le vamos a llamar así.
+[02:24.35 -> 02:27.74] Un día, el Ingeniero B recibe un mensaje en una plataforma de empleo.
+[02:28.07 -> 02:32.84] Alguien que se presenta como director de proyectos de otra empresa le dice que su perfil les encanta.
+[02:33.01 -> 02:34.26] Que tienen un puesto para él.
+[02:34.62 -> 02:36.72] Mejor sueldo, buen proyecto, lo típico.
+[02:37.04 -> 02:38.75] Y aquí quiero que te pongas en su lugar.
+[02:39.08 -> 02:41.91] Porque esto le pasa a mucha gente que trabaja en tecnología.
+[02:42.24 -> 02:45.00] Te escriben, te halagan, te ofrecen algo mejor.
+[02:45.35 -> 02:48.03] Y piensas: bueno, por escuchar no pierdo nada.
+[02:48.41 -> 02:49.70] Hay una primera conversación.
+[02:50.08 -> 02:50.68] Todo normal.
+[02:51.03 -> 02:57.79] Luego, una segunda entrevista, esta vez por una aplicación de mensajería, con alguien que dice ser el director general de esa empresa.
+[02:58.17 -> 03:03.73] Y al final, le piden lo que piden en casi todos los procesos de selección de programadores: una prueba técnica.
+[03:04.01 -> 03:06.24] Un pequeño proyecto para ver cómo trabaja.
+[03:06.62 -> 03:09.84] Descárgate este código, ponlo en marcha y dinos qué te parece.
+[03:10.02 -> 03:11.38] El Ingeniero B lo descarga.
+[03:11.71 -> 03:12.69] Y lo pone en marcha.
+[03:12.90 -> 03:16.49] Y antes de que pienses que fue un descuido tonto, piénsalo dos veces.
+[03:16.78 -> 03:19.66] Esto no fue un correo mal escrito pidiendo tu contraseña.
+[03:19.93 -> 03:21.68] Era un proceso de selección completo.
+[03:21.99 -> 03:25.77] Con perfiles creíbles, con conversaciones normales, con varias fases.
+[03:26.02 -> 03:28.06] Lo que se hace en cualquier empresa de verdad.
+[03:28.79 -> 03:35.82] Para alguien que trabaja programando, recibir una prueba técnica es tan normal como para un cocinero que le pidan preparar un plato en la entrevista.
+[03:36.20 -> 03:37.53] Nadie desconfía de eso.
+[03:38.02 -> 03:39.46] En su ordenador del trabajo.
+[03:39.72 -> 03:44.26] Según el propio informe de Binance, ese código traía escondido un programa malicioso.
+[03:44.58 -> 03:46.30] Y no uno cualquiera: era nuevo.
+[03:46.59 -> 03:50.66] Tan nuevo que los sistemas de seguridad de la empresa no lo detectaron en ese momento.
+[03:50.84 -> 03:53.24] En la pantalla del ingeniero no pasó nada raro.
+[03:53.53 -> 03:54.45] Ninguna alarma.
+[03:54.70 -> 03:55.60] Ningún aviso.
+[03:55.97 -> 03:59.06] La prueba técnica funcionaba como una prueba técnica normal.
+[03:59.33 -> 04:03.43] Pero alguien, en algún lugar del mundo, acababa de abrir una puerta dentro de Binance.
+[04:03.83 -> 04:07.47] Y aquí viene lo que más me impresiona de todo este caso: la paciencia.
+[04:07.83 -> 04:09.54] Porque los atacantes no corrieron.
+[04:09.96 -> 04:12.79] No intentaron llevarse nada esa noche, ni esa semana.
+[04:13.11 -> 04:14.14] Se quedaron quietos.
+[04:14.32 -> 04:14.79] Mirando.
+[04:15.05 -> 04:17.45] Aprendiendo cómo funcionaba todo por dentro.
+[04:17.77 -> 04:24.69] Como alguien que entra en una casa y, en vez de robar, se esconde en el ático durante semanas para saber a qué hora se levanta cada uno.
+[04:25.03 -> 04:26.09] Pasa todo septiembre.
+[04:26.37 -> 04:27.11] Llega octubre.
+[04:27.54 -> 04:31.99] El veinte de octubre, según la cronología de Binance, el intruso da el siguiente paso.
+[04:32.33 -> 04:37.94] Desde el ordenador del Ingeniero B, y usando una herramienta interna de inteligencia artificial de la propia empresa, consigue llegar a los ordenadores de otros dos compañeros.
+[04:38.19 -> 04:40.90] Dos ingenieros que trabajan precisamente con las billeteras.
+[04:41.16 -> 04:44.17] En el informe se les llama el Ingeniero A y el Ingeniero C.
+[04:44.47 -> 04:54.15] Binance no ha explicado con detalle cómo usaron esa herramienta de inteligencia artificial para saltar de un ordenador a otro.
+[04:54.46 -> 04:58.23] Eso, a día de hoy, es una de las piezas que faltan en este expediente.
+[04:58.39 -> 05:00.29] Lo que sí sabemos es lo que encontraron.
+[05:00.63 -> 05:03.76] En el ordenador del Ingeniero A había un permiso muy especial.
+[05:04.05 -> 05:09.11] Un token, que es como una tarjeta de acceso digital, que servía para desplegar contenedores.
+[05:09.43 -> 05:17.08] Y un contenedor, para que lo entiendas, es como un pequeño programa empaquetado que se instala dentro de los sistemas de la empresa para hacer una tarea concreta.
+[05:17.51 -> 05:22.20] Dicho de otra forma: el intruso acababa de encontrar la tarjeta del personal de mantenimiento.
+[05:22.40 -> 05:25.39] La que abre las puertas de las salas donde el público nunca entra.
+[05:25.83 -> 05:27.29] Y otra vez… esperó.
+[05:27.91 -> 05:28.65] Nueve días.
+[05:29.13 -> 05:31.35] Veintinueve de octubre de dos mil veintiséis.
+[05:31.67 -> 05:33.79] Ocho y cinco de la tarde en hora universal.
+[05:34.13 -> 05:36.13] En España, las nueve y cinco de la noche.
+[05:36.40 -> 05:38.49] En Buenos Aires, las cinco y cinco de la tarde.
+[05:38.77 -> 05:40.31] En Bogotá, las tres y cinco.
+[05:40.71 -> 05:48.46] Desde el ordenador del Ingeniero C, y usando la tarjeta de acceso robada al Ingeniero A, el atacante instala un contenedor dentro de los sistemas de Binance.
+[05:48.82 -> 05:55.17] Y ese contenedor ejecuta un programa que llega hasta el corazón de todo: el servicio que firma los movimientos de las billeteras.
+[05:55.47 -> 05:59.75] ¿Te acuerdas de la caja fuerte que necesitaba a cinco personas girando la llave a la vez?
+[06:00.39 -> 06:02.49] Pues los ladrones no robaron ninguna llave.
+[06:02.72 -> 06:05.75] Binance insiste en que no se filtró ninguna clave privada.
+[06:06.01 -> 06:09.49] Lo que hicieron fue meterse dentro del propio sistema que gira las llaves.
+[06:09.71 -> 06:11.37] Y convencerlo de que firmara.
+[06:11.70 -> 06:12.93] No forzaron la cerradura.
+[06:13.27 -> 06:15.61] Convencieron a la cerradura de que se abriera sola.
+[06:15.90 -> 06:17.70] Y entonces el dinero empieza a salir.
+[06:18.16 -> 06:19.49] Primero, bitcoins.
+[06:19.83 -> 06:28.01] En un solo movimiento, una billetera caliente de Binance envía dieciocho mil doscientos setenta bitcoins a una dirección controlada por los atacantes.
+[06:28.27 -> 06:29.11] Dieciocho mil.
+[06:29.42 -> 06:33.33] A los precios de ese día, eso solo ya eran cientos de millones de dólares.
+[06:33.61 -> 06:34.49] Y no se quedan ahí.
+[06:34.77 -> 06:35.30] Ethereum.
+[06:35.46 -> 06:36.40] Monedas estables.
+[06:36.64 -> 06:37.68] Tokens de todo tipo.
+[06:37.98 -> 06:43.80] Según la empresa de rastreo TRM Labs, el dinero salió por diez cadenas de bloques distintas al mismo tiempo.
+[06:44.10 -> 06:49.09] Como si los ladrones vaciaran diez cajas registradoras en diez tiendas diferentes, en el mismo minuto.
+[06:49.38 -> 06:51.32] Y casi todo, en unos veinte minutos.
+[06:51.62 -> 06:54.01] Para que te hagas una idea de lo que significa eso.
+[06:54.40 -> 07:00.09] Seis mil trescientos millones de dólares en veinte minutos son más de cinco millones de dólares por segundo.
+[07:00.37 -> 07:03.86] Mientras tú lees esta frase, ya se habrían ido unos cuantos millones.
+[07:04.14 -> 07:06.45] Y no había ningún camión blindado que perseguir.
+[07:06.79 -> 07:07.75] Ninguna matrícula.
+[07:08.14 -> 07:10.10] Ninguna cara en una cámara de seguridad.
+[07:10.51 -> 07:14.33] Solo números moviéndose de una dirección a otra, a la velocidad de internet.
+[07:14.64 -> 07:17.63] Imagínate la sala de seguridad de Binance en ese momento.
+[07:17.81 -> 07:18.96] Las alertas saltando.
+[07:19.23 -> 07:22.17] Gente mirando pantallas donde los saldos bajan y bajan.
+[07:22.44 -> 07:31.50] Y aquí está lo más cruel del plan: ese sistema de llave partida en trozos, que hacía la caja casi imposible de robar, también la hacía muy difícil de cerrar de golpe.
+[07:31.83 -> 07:35.53] Como no existía una única llave, no había una única llave que cancelar.
+[07:35.84 -> 07:37.93] Quitar los permisos falsos llevó tiempo.
+[07:38.23 -> 07:40.26] Y cada minuto, salían millones.
+[07:41.09 -> 07:43.86] Cuando por fin consiguen cortar el grifo, hacen la cuenta.
+[07:44.13 -> 07:46.34] Y la cifra es tan grande que parece un error.
+[07:46.67 -> 07:48.79] Seis mil trescientos millones de dólares.
+[07:49.08 -> 07:58.54] Según los rastreadores, entre seis mil ciento cincuenta y seis mil trescientos sesenta millones, dependiendo de quién haga las cuentas y de en qué momento se calcule el precio de cada moneda.
+[07:58.88 -> 08:03.32] Pero da igual qué número cojas: es el robo de criptomonedas más grande de la historia.
+[08:03.67 -> 08:09.40] El récord anterior era el hackeo a Bybit, en febrero de dos mil veinticinco, con unos mil quinientos millones.
+[08:09.75 -> 08:11.37] Esto es cuatro veces más.
+[08:12.41 -> 08:14.44] Y ahora ponte en el lugar de los usuarios.
+[08:14.72 -> 08:18.85] Esa misma noche, Binance suspende todos los depósitos y todas las retiradas.
+[08:19.29 -> 08:22.87] Millones de personas abren la aplicación y no pueden sacar su dinero.
+[08:23.41 -> 08:25.30] En redes sociales empieza el pánico.
+[08:25.78 -> 08:30.13] Rumores, capturas de pantalla, gente preguntando si lo ha perdido todo.
+[08:30.45 -> 08:35.71] El bitcoin y la moneda de Binance, el BNB, llegan a caer alrededor de un cinco por ciento.
+[08:36.05 -> 08:38.52] Porque todo el mundo se estaba haciendo la misma pregunta.
+[08:38.77 -> 08:41.74] Si le pueden robar seis mil millones a la empresa más grande…
+[08:42.21 -> 08:42.95] ¿qué está a salvo?
+[08:43.28 -> 08:46.11] Pero aquí la historia da un giro que muy poca gente esperaba.
+[08:46.53 -> 08:47.98] Binance empieza a pelear.
+[08:48.24 -> 08:54.92] Junto a otras empresas del sector, como los emisores de monedas estables, empieza a congelar todo lo que todavía se puede congelar.
+[08:55.25 -> 08:58.34] En los primeros días se habla de unos tres mil millones bloqueados.
+[08:58.58 -> 09:04.04] En su informe posterior, la propia Binance ajusta esa cifra a unos dos mil ochocientos cincuenta millones.
+[09:04.38 -> 09:08.24] Es decir: casi la mitad del botín, los ladrones no lo pudieron tocar.
+[09:08.57 -> 09:10.70] Y luego hace algo todavía más llamativo.
+[09:10.96 -> 09:14.09] La empresa anuncia que va a cubrir el agujero con su propio dinero.
+[09:14.33 -> 09:16.76] Que las pérdidas no van a recaer sobre los usuarios.
+[09:17.02 -> 09:25.06] Y para eso tira de todo lo que tiene: su fondo de seguridad para clientes, su fondo de seguro, sus reservas de bitcoin y la tesorería de la empresa.
+[09:25.41 -> 09:32.24] El treinta y uno de octubre, dos días después del robo, Binance dice que ya ha repuesto el noventa y ocho por ciento de los activos afectados.
+[09:32.52 -> 09:34.65] Y el uno de noviembre, reabre las retiradas.
+[09:34.93 -> 09:35.79] ¿Y sabes qué pasó?
+[09:36.08 -> 09:38.27] Que mucha gente, por si acaso, sacó su dinero.
+[09:38.59 -> 09:43.53] Se habla de más de tres mil seiscientos millones de dólares en retiradas en cuanto se reabrió el grifo.
+[09:44.03 -> 09:45.37] Pero la plataforma aguantó.
+[09:45.65 -> 09:50.94] Los analistas, que llevaban días mirando con lupa, concluyeron que Binance podía absorber el golpe.
+[09:51.25 -> 09:52.26] Que no iba a quebrar.
+[09:52.48 -> 09:54.54] El dinero de los usuarios estaba a salvo.
+[09:54.96 -> 09:56.62] Pero la pregunta seguía en el aire.
+[09:56.94 -> 09:58.00] ¿Quién había hecho esto?
+[09:58.32 -> 10:02.67] Y lo que se descubrió después… es todavía más inquietante que el propio robo.
+[10:03.05 -> 10:04.52] La respuesta llegó del FBI.
+[10:04.69 -> 10:09.90] Según la agencia estadounidense, detrás del ataque está un grupo de hackers al que llaman TraderTraitor.
+[10:10.25 -> 10:14.62] Un grupo que también se conoce con otros nombres, y el más famoso de todos es Lazarus.
+[10:14.90 -> 10:18.74] Y según el FBI, ese grupo trabaja para el gobierno de Corea del Norte.
+[10:18.98 -> 10:24.79] Si te suena raro que un país entero se dedique a robar criptomonedas, no es la primera vez que se le acusa de algo así.
+[10:25.05 -> 10:29.56] Al grupo Lazarus se le atribuyen algunos de los mayores robos digitales de la última década.
+[10:29.89 -> 10:33.33] Incluido, precisamente, el hackeo a Bybit de dos mil veinticinco.
+[10:33.72 -> 10:40.21] Y hay un detalle que se repite una y otra vez en sus ataques, según los investigadores: las ofertas de trabajo falsas.
+[10:40.55 -> 10:42.05] Reclutadores que no existen.
+[10:42.31 -> 10:43.61] Empresas que no existen.
+[10:43.99 -> 10:45.88] Pruebas técnicas que esconden una trampa.
+[10:46.20 -> 10:48.28] Exactamente lo que le pasó al Ingeniero B.
+[10:48.73 -> 10:52.93] De hecho, para entender este caso hay que volver un momento a febrero de dos mil veinticinco.
+[10:53.33 -> 11:02.50] Ese mes, otra casa de cambio de criptomonedas, Bybit, sufrió el que hasta entonces era el mayor robo de la historia del sector: unos mil quinientos millones de dólares en ethereum.
+[11:02.87 -> 11:03.91] ¿Y sabes cómo entraron?
+[11:04.20 -> 11:06.08] Tampoco forzaron ninguna caja fuerte.
+[11:06.34 -> 11:15.68] Comprometieron el ordenador de un desarrollador de una empresa externa que Bybit usaba para gestionar sus billeteras, y desde ahí engañaron al sistema para que los propios responsables firmaran una transferencia que parecía normal.
+[11:15.86 -> 11:18.10] El FBI también señaló entonces al mismo grupo: TraderTraitor.
+[11:18.40 -> 11:20.79] Mismo método.
+[11:21.00 -> 11:24.29] Mismos sospechosos.
+[11:24.61 -> 11:27.69] Y un año y medio después, el golpe es cuatro veces más grande.
+[11:28.01 -> 11:31.06] ¿Y qué se hace con miles de millones robados en criptomonedas?
+[11:31.32 -> 11:34.24] Porque no puedes ir a un banco y depositarlos así como así.
+[11:34.55 -> 11:40.20] Según lo que los investigadores han visto en casos anteriores atribuidos a este grupo, el patrón suele ser parecido.
+[11:40.57 -> 11:46.27] Primero, cambiar lo antes posible las monedas que se pueden congelar por otras que no, como el ethereum o el bitcoin.
+[11:46.63 -> 11:52.01] Después, dividir el botín en miles de pequeñas cantidades, repartidas en miles de billeteras distintas.
+[11:52.21 -> 11:57.34] Pasarlas de una cadena de bloques a otra, una y otra vez, para que el rastro sea un laberinto.
+[11:57.67 -> 12:05.96] Y con paciencia, durante meses o incluso años, ir convirtiendo poco a poco ese dinero en efectivo a través de intermediarios que no hacen demasiadas preguntas.
+[12:06.29 -> 12:11.81] Es como cortar un billete gigante en un millón de pedacitos y esconder cada pedacito en una ciudad distinta.
+[12:11.98 -> 12:15.16] Las empresas de rastreo pueden seguir muchos de esos pedacitos.
+[12:15.63 -> 12:16.34] Pero no todos.
+[12:16.54 -> 12:19.42] Y cada día que pasa, el rastro se enfría un poco más.
+[12:19.74 -> 12:27.77] Informes de Naciones Unidas de años anteriores ya señalaban que este tipo de robos sirven para financiar al régimen norcoreano, incluidos sus programas de armas.
+[12:28.51 -> 12:31.19] Por eso, para muchos expertos, esto no es solo un robo.
+[12:31.45 -> 12:32.16] Es otra cosa.
+[12:32.54 -> 12:33.81] ¿Y qué dice Corea del Norte?
+[12:34.10 -> 12:41.35] El tres de noviembre, Kim Yo-jong, la hermana del líder norcoreano y una de las personas más poderosas del país, publica un comunicado.
+[12:41.60 -> 12:42.40] Y lo niega todo.
+[12:42.66 -> 12:43.99] Ninguna participación.
+[12:44.30 -> 12:45.68] Ninguna responsabilidad.
+[12:46.02 -> 12:47.96] Para Pyongyang, la acusación es falsa.
+[12:48.24 -> 12:57.49] Así que, oficialmente, estamos así: el FBI señala a Corea del Norte, Binance se apoya en lo que dice el FBI, y Corea del Norte dice que no ha sido.
+[12:57.85 -> 13:04.13] Esto, de momento, queda marcado en el expediente como lo que es: una atribución del FBI, negada por el país acusado.
+[13:04.50 -> 13:06.60] Y ahora vamos con lo que de verdad importa.
+[13:06.88 -> 13:09.03] Lo que sabemos hoy, y lo que sigue abierto.
+[13:09.24 -> 13:10.40] Lo que está confirmado.
+[13:10.79 -> 13:14.06] El robo ocurrió el veintinueve de octubre de dos mil veintiséis.
+[13:14.25 -> 13:19.50] Salieron alrededor de seis mil trescientos millones de dólares, la mayor parte en unos veinte minutos.
+[13:20.24 -> 13:25.72] Todo empezó con una entrevista de trabajo falsa y una prueba técnica con un programa malicioso escondido.
+[13:26.07 -> 13:28.70] Los atacantes pasaron semanas dentro antes de actuar.
+[13:29.12 -> 13:33.07] No robaron las claves privadas: usaron el propio sistema de firmas de Binance.
+[13:33.34 -> 13:40.93] La empresa congeló cerca de dos mil ochocientos cincuenta millones, repuso los fondos con dinero propio y reabrió las retiradas el uno de noviembre.
+[13:41.32 -> 13:44.86] Y el FBI atribuye el ataque a hackers vinculados a Corea del Norte.
+[13:45.14 -> 13:46.19] Lo que sigue abierto.
+[13:47.04 -> 13:52.47] Cómo usaron exactamente la herramienta de inteligencia artificial de la empresa para saltar de un ordenador a otro.
+[13:52.81 -> 14:00.02] Dónde está ahora la otra mitad del dinero, porque una parte sigue moviéndose de cartera en cartera mientras las empresas de rastreo la persiguen.
+[14:00.37 -> 14:02.66] Quiénes eran de verdad los falsos reclutadores.
+[14:02.93 -> 14:05.78] Y si alguna vez alguien responderá ante un tribunal por esto.
+[14:06.13 -> 14:10.33] Y hay una última cosa que quiero contarte, porque a lo mejor esta parte te sirve a ti.
+[14:10.65 -> 14:17.50] Este robo, el más grande de la historia de las criptomonedas, no empezó con un genio tecleando a toda velocidad en una habitación oscura.
+[14:17.79 -> 14:20.55] Empezó con un mensaje amable en una plataforma de empleo.
+[14:20.83 -> 14:26.23] Así que, si algún día te escribe un reclutador con una oferta demasiado buena, fíjate en estas señales.
+[14:26.51 -> 14:29.16] Si la empresa casi no tiene presencia real en internet.
+[14:29.38 -> 14:30.86] Si todo va con muchas prisas.
+[14:31.05 -> 14:33.80] Si te cambian de plataforma para hablar por un chat privado.
+[14:34.10 -> 14:38.68] Y sobre todo, si te piden que descargues y ejecutes un programa en tu ordenador.
+[14:38.88 -> 14:40.77] Nunca, jamás, en el ordenador del trabajo.
+[14:41.12 -> 14:44.12] Porque esa noche, a nadie le pusieron una pistola en la cabeza.
+[14:44.39 -> 14:45.83] A nadie le robaron una llave.
+[14:46.08 -> 14:47.96] A alguien le ofrecieron un trabajo mejor.
+[14:48.27 -> 14:51.16] Y ahora te lo pregunto a ti, y quiero leerte en los comentarios.
+[14:51.40 -> 14:55.35] Si te llega una oferta así, con un sueldo mejor y una prueba técnica sencilla…
+[14:55.70 -> 14:56.75] ¿tú la habrías descargado?
+[14:57.24 -> 14:57.91] Sé sincero.
+[14:58.15 -> 14:59.73] Este expediente sigue abierto.
+[15:00.11 -> 15:03.96] Si hay novedades, si aparece el dinero o alguien da la cara, te lo cuento aquí.
+[15:04.57 -> 15:12.21] Y si te pareció interesante, suscríbete y activa la campanita, porque cada semana abrimos un expediente nuevo de lo que todo el mundo está comentando.
+[15:12.61 -> 15:15.82] Contado como lo que es: una historia increíble que pasó de verdad.
+[15:16.19 -> 15:16.72] Soy Javi.
+[15:16.93 -> 15:18.30] Y esto fue Archivo Oscuro.

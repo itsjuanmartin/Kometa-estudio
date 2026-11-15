@@ -1,0 +1,3373 @@
+{
+ "title": "¿Y si te tocara ser uno de los Bastardos sin gloria de verdad?",
+ "duration": 561.972,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 5.186,
+   "line": "6 de junio de 1944. Normandía. El Día D.",
+   "scene": "beachLanding",
+   "params": {
+    "scene": "beachLanding",
+    "date": "6 JUN 1944 · NORMANDÍA",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 0.6,
+     "name": "gunshot",
+     "gain": -18
+    },
+    {
+     "at": 1.8,
+     "name": "impact",
+     "gain": -14
+    },
+    {
+     "at": 2.9,
+     "name": "gunshot",
+     "gain": -18
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.186,
+   "end": 8.765,
+   "line": "Llevas horas avanzando bajo el fuego, con el corazón en la garganta.",
+   "scene": "beachLanding",
+   "params": {
+    "scene": "beachLanding",
+    "cam": {
+     "z0": 1.15,
+     "z1": 1.25,
+     "fx": 900,
+     "fy": 800,
+     "shake": [
+      {
+       "at": 0.6,
+       "d": 0.5,
+       "amp": 14
+      },
+      {
+       "at": 1.8,
+       "d": 0.5,
+       "amp": 12
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -12
+    },
+    {
+     "at": 1.8,
+     "name": "impact",
+     "gain": -14
+    },
+    {
+     "at": 2.5,
+     "name": "gunshot",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s003",
+   "start": 8.765,
+   "end": 12.563,
+   "line": "Y entonces tu oficial te mira y te da una orden que nadie quiere oír.",
+   "scene": "villageStreet",
+   "params": {
+    "scene": "villageStreet",
+    "officer": true,
+    "ex": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      2.12,
+      "worried"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s004",
+   "start": 12.563,
+   "end": 15.703,
+   "line": "—Entra en ese pueblo. Solo. Por el medio de la calle.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "officer",
+    "bg": "normandy",
+    "expr": "determined",
+    "talk": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -31
+   }
+  },
+  {
+   "id": "s005",
+   "start": 15.703,
+   "end": 21.042,
+   "line": "No quiere que lo conquistes. Quiere que te disparen. Así sabrá dónde están escondidos los alemanes.",
+   "scene": "villageStreet",
+   "params": {
+    "scene": "villageStreet",
+    "officer": true,
+    "ex": [
+     [
+      0,
+      "scared"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 1.625,
+       "z": 1.9,
+       "fx": 1220,
+       "fy": 540,
+       "d": 0.6
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.625,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s006",
+   "start": 21.042,
+   "end": 25.41,
+   "line": "Y hay algo que nadie en tu unidad puede decir en voz alta… Tú naciste en Viena.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "normandy",
+    "expr": "worried",
+    "ex": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      3.204,
+      "sad"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s007",
+   "start": 25.41,
+   "end": 27.859,
+   "line": "El idioma del enemigo… es tu idioma.",
+   "scene": "mapUK",
+   "params": {
+    "scene": "mapUK",
+    "marks": [
+     {
+      "xy": [
+       1090,
+       250
+      ],
+      "label": "VIENA",
+      "at": 0.2
+     }
+    ],
+    "cam": {
+     "z0": 1.6,
+     "z1": 1.9,
+     "fx": 1090,
+     "fy": 250
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -37
+   }
+  },
+  {
+   "id": "s008",
+   "start": 27.859,
+   "end": 31.478,
+   "line": "Si te capturan, no serás un prisionero de guerra. Te ejecutarán.",
+   "scene": "order",
+   "params": {
+    "scene": "order",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s009",
+   "start": 31.478,
+   "end": 42.372,
+   "line": "¿Te suena a película? Hay una que se inventó algo parecido: Bastardos sin gloria. Lo que casi nadie sabe es que los bastardos… existieron de verdad. Y su historia es todavía más increíble.",
+   "scene": "cinema",
+   "params": {
+    "scene": "cinema",
+    "pill": "BASTARDOS SIN GLORIA",
+    "pillAt": 2.633,
+    "card": [
+     "EXISTIERON",
+     "DE VERDAD"
+    ],
+    "cardAt": 7.121,
+    "cardY": 520,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 7.121,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 7.121,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 2.633,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s010",
+   "start": 42.372,
+   "end": 55.991,
+   "line": "Pero antes de seguir… un segundo. La mayoría de las personas que ven nuestras historias todavía no están suscritas. Si te gusta vivir la historia desde dentro, suscríbete. Es gratis, solo es un clic… y nos ayuda a seguir contando historias como esta.",
+   "scene": "subscribe2",
+   "params": {
+    "scene": "subscribe2",
+    "press": 9.719
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "freeze",
+     "gain": -10
+    },
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 9.719,
+     "name": "ding",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s011",
+   "start": 55.991,
+   "end": 62.214,
+   "line": "Ahora sí. Para entender cómo acabaste caminando solo por esa calle, tenemos que volver seis años atrás.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "normandy",
+    "expr": "smirk",
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.0
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s012",
+   "start": 62.214,
+   "end": 66.406,
+   "line": "¿Y si te tocara… ser uno de los Bastardos sin gloria de verdad?",
+   "scene": "title2",
+   "params": {
+    "scene": "title2",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s013",
+   "start": 66.406,
+   "end": 71.136,
+   "line": "Noviembre de 1938. Viena. Tienes dieciséis años.",
+   "scene": "viennaNight",
+   "params": {
+    "scene": "viennaNight",
+    "teen": true,
+    "date": "NOV 1938 · VIENA",
+    "ex": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      3.451,
+      "worried"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s014",
+   "start": 71.136,
+   "end": 80.78,
+   "line": "Esa noche, el sonido de los cristales rotos no te deja dormir. Tiendas destrozadas. Sinagogas en llamas. Vecinos que te conocen desde niño… mirando hacia otro lado.",
+   "scene": "viennaNight",
+   "params": {
+    "scene": "viennaNight",
+    "broken": true,
+    "fire": true,
+    "teen": true,
+    "ex": [
+     [
+      0,
+      "scared"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 3.65,
+       "z": 1.8,
+       "fx": 450,
+       "fy": 1000,
+       "d": 0.5,
+       "until": 4.83
+      },
+      {
+       "at": 4.83,
+       "z": 1.6,
+       "fx": 1500,
+       "fy": 560,
+       "d": 0.5,
+       "until": 6.125
+      },
+      {
+       "at": 6.125,
+       "z": 1.5,
+       "fx": 900,
+       "fy": 700,
+       "d": 0.5
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glass",
+     "gain": -8
+    },
+    {
+     "at": 3.65,
+     "name": "glass",
+     "gain": -10
+    },
+    {
+     "at": 4.83,
+     "name": "impact",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s015",
+   "start": 80.78,
+   "end": 89.073,
+   "line": "Esto pasó de verdad. Se la conoce como la Noche de los Cristales Rotos. En una sola noche, miles de negocios judíos fueron destruidos en Alemania y Austria.",
+   "scene": "viennaNight",
+   "params": {
+    "scene": "viennaNight",
+    "broken": true,
+    "fire": true,
+    "card": [
+     "LA NOCHE DE LOS",
+     "CRISTALES ROTOS"
+    ],
+    "cardAt": 1.747,
+    "cardY": 300,
+    "rphoto": {
+     "key": "kristallnacht",
+     "at": 4.048,
+     "dur": 4.2,
+     "cap": "El día después · noviembre de 1938",
+     "credit": "Foto: dominio público · Wikimedia Commons"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 1.747,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 4.048,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 4.548,
+     "name": "stamp",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s016",
+   "start": 89.073,
+   "end": 93.407,
+   "line": "Tus padres toman una decisión que les rompe el corazón: sacarte del país.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "mom",
+    "bg": "vienna",
+    "expr": "cry",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -33
+   }
+  },
+  {
+   "id": "s017",
+   "start": 93.407,
+   "end": 94.075,
+   "line": "Solo.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiTeen",
+    "bg": "vienna",
+    "expr": "shocked",
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.2
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s018",
+   "start": 94.075,
+   "end": 106.212,
+   "line": "Esto pasó de verdad. Entre 1938 y 1939, los trenes del Kindertransport llevaron a Gran Bretaña a unos diez mil niños judíos. La mayoría no volvió a ver a sus padres nunca más.",
+   "scene": "mapUK",
+   "params": {
+    "scene": "mapUK",
+    "marks": [
+     {
+      "xy": [
+       1090,
+       250
+      ],
+      "label": "VIENA",
+      "dx": 90,
+      "dy": 30,
+      "at": 0.2
+     },
+     {
+      "xy": [
+       990,
+       150
+      ],
+      "label": "LONDRES",
+      "dx": -150,
+      "dy": -20,
+      "at": 1.6
+     }
+    ],
+    "routes": [
+     {
+      "pts": [
+       [
+        1090,
+        250
+       ],
+       [
+        990,
+        150
+       ]
+      ],
+      "at": 0.8,
+      "d": 1.6
+     }
+    ],
+    "card": [
+     "≈ 10.000 NIÑOS"
+    ],
+    "cardAt": 3.251,
+    "cardY": 820,
+    "rphoto": {
+     "key": "kindertransport",
+     "at": 6.551,
+     "dur": 5.2,
+     "cap": "Niños refugiados llegando a Inglaterra · 1938",
+     "credit": "Foto: Bundesarchiv, CC BY-SA 3.0 · Wikimedia Commons"
+    },
+    "cam": {
+     "z0": 1.5,
+     "z1": 1.7,
+     "fx": 1040,
+     "fy": 220
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 3.251,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 6.551,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 7.051,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "train",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s019",
+   "start": 106.212,
+   "end": 108.793,
+   "line": "En la estación, tu madre te abraza demasiado fuerte.",
+   "scene": "station",
+   "params": {
+    "scene": "station",
+    "act": "hug",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 0.4,
+       "z": 1.5,
+       "fx": 700,
+       "fy": 780,
+       "d": 1.0
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "train",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s020",
+   "start": 108.793,
+   "end": 111.364,
+   "line": "Tu padre te da la mano, como si ya fueras un hombre.",
+   "scene": "station",
+   "params": {
+    "scene": "station",
+    "act": "hand",
+    "cam": {
+     "z0": 1.3,
+     "z1": 1.4,
+     "fx": 660,
+     "fy": 800
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "train",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s021",
+   "start": 111.364,
+   "end": 115.137,
+   "line": "El tren arranca… y Viena desaparece por la ventana.",
+   "scene": "trainWindow",
+   "params": {
+    "scene": "trainWindow",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whistle",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "train",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s022",
+   "start": 115.137,
+   "end": 116.96,
+   "line": "Llegas a Inglaterra sin hablar inglés.",
+   "scene": "london",
+   "params": {
+    "scene": "london",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s023",
+   "start": 116.96,
+   "end": 122.695,
+   "line": "Aprendes rápido. Trabajas, estudias, y empiezas a creer que lo peor ya ha pasado.",
+   "scene": "london",
+   "params": {
+    "scene": "london",
+    "study": true,
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.15,
+     "fx": 900,
+     "fy": 800
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "rain",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s024",
+   "start": 122.695,
+   "end": 129.374,
+   "line": "Pero en 1940, Gran Bretaña tiene miedo. Hitler ha conquistado media Europa, y todo el mundo busca espías.",
+   "scene": "mapUK",
+   "params": {
+    "scene": "mapUK",
+    "marks": [
+     {
+      "xy": [
+       1000,
+       250
+      ],
+      "label": "EUROPA OCUPADA",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "top": "1940",
+    "cam": {
+     "z0": 1.2,
+     "z1": 1.4,
+     "fx": 1080,
+     "fy": 250
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -31
+   }
+  },
+  {
+   "id": "s025",
+   "start": 129.374,
+   "end": 131.682,
+   "line": "Una mañana, la policía llama a tu puerta.",
+   "scene": "knock",
+   "params": {
+    "scene": "knock",
+    "open": 1.72,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "knock",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s026",
+   "start": 131.682,
+   "end": 143.012,
+   "line": "Esto pasó de verdad. Gran Bretaña detuvo a miles de alemanes y austriacos como «enemigos extranjeros». Incluidos refugiados judíos que habían huido de los nazis. Muchos acabaron en campos de internamiento.",
+   "scene": "internment",
+   "params": {
+    "scene": "internment",
+    "ex": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s027",
+   "start": 143.012,
+   "end": 145.471,
+   "line": "Algunos fueron enviados en barco hasta Australia.",
+   "scene": "mapUK",
+   "params": {
+    "scene": "mapUK",
+    "marks": [
+     {
+      "xy": [
+       990,
+       150
+      ],
+      "at": 0.1
+     },
+     {
+      "xy": [
+       1700,
+       790
+      ],
+      "label": "AUSTRALIA",
+      "at": 1.4
+     }
+    ],
+    "routes": [
+     {
+      "pts": [
+       [
+        990,
+        150
+       ],
+       [
+        1250,
+        700
+       ],
+       [
+        1700,
+        790
+       ]
+      ],
+      "at": 0.3,
+      "d": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -31
+   }
+  },
+  {
+   "id": "s028",
+   "start": 145.471,
+   "end": 150.027,
+   "line": "Piénsalo. Huiste de Hitler… y ahora te encierran por sospechoso de ser nazi.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiTeen",
+    "bg": "camp",
+    "expr": "confused",
+    "ex": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      2.485,
+      "angry"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s029",
+   "start": 150.027,
+   "end": 161.805,
+   "line": "Pero dentro de ese campo pasa algo que cambiará tu vida. Un oficial británico empieza a hacer preguntas muy raras. ¿Hablas alemán? ¿Sabes nadar? ¿Odias a los nazis lo suficiente… como para volver a buscarlos?",
+   "scene": "interview",
+   "params": {
+    "scene": "interview",
+    "qs": [
+     [
+      "¿HABLAS ALEMÁN?",
+      6.322
+     ],
+     [
+      "¿SABES NADAR?",
+      7.319
+     ],
+     [
+      "¿ODIAS A LOS NAZIS?",
+      8.369
+     ]
+    ],
+    "ex": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      9.869,
+      "determined"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 6.322,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 7.319,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 8.369,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s030",
+   "start": 161.805,
+   "end": 176.912,
+   "line": "1942. Te hacen una oferta secreta. Una unidad de comandos. Pequeña. Formada casi entera por refugiados como tú. Judíos de Alemania, de Austria, de Hungría. Hombres que lo han perdido todo… y que quieren volver para luchar.",
+   "scene": "xtroop",
+   "params": {
+    "scene": "xtroop",
+    "date": "1942",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s031",
+   "start": 176.912,
+   "end": 186.484,
+   "line": "Esto pasó de verdad. Era una sección del Comando Número 10, el comando interaliado. Menos de cien hombres. Tan secreta que la llamaron simplemente… X Troop.",
+   "scene": "xtroop",
+   "params": {
+    "scene": "xtroop",
+    "badge": 8.288,
+    "rphoto": {
+     "key": "commando_training",
+     "at": 1.404,
+     "dur": 4.0,
+     "cap": "Comandos aliados entrenando · 1943",
+     "credit": "Foto: Nationaal Archief, CC0 · Wikimedia Commons"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 8.288,
+       "z": 1.3,
+       "fx": 960,
+       "fy": 380,
+       "d": 0.6
+      }
+     ]
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 8.288,
+     "name": "stinger",
+     "gain": -8
+    },
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 1.404,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 1.904,
+     "name": "stamp",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s032",
+   "start": 186.484,
+   "end": 188.995,
+   "line": "Pero para entrar, tienes que dejar de existir.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "dark",
+    "expr": "worried",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -33
+   }
+  },
+  {
+   "id": "s033",
+   "start": 188.995,
+   "end": 203.537,
+   "line": "Te dan un día para elegir un nombre nuevo. Un nombre inglés. Inventas unos padres que nunca existieron, un pueblo donde nunca viviste, una infancia que nunca tuviste. Y en tu placa de identificación ya no pone «judío». Pone «Iglesia de Inglaterra».",
+   "scene": "newName",
+   "params": {
+    "scene": "newName",
+    "cross": 1.32,
+    "tag": 9.511,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 1.32,
+       "z": 1.5,
+       "fx": 840,
+       "fy": 420,
+       "d": 0.6,
+       "until": 9.311
+      },
+      {
+       "at": 9.511,
+       "z": 1.5,
+       "fx": 1520,
+       "fy": 560,
+       "d": 0.6
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.32,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 9.511,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s034",
+   "start": 203.537,
+   "end": 204.9,
+   "line": "¿Por qué tanto secreto?",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "dark",
+    "expr": "thinking"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s035",
+   "start": 204.9,
+   "end": 221.463,
+   "line": "Porque en octubre de 1942, Hitler firmó una orden terrible. Esto pasó de verdad. La llamada Orden de Comandos decía que cualquier comando aliado capturado debía ser ejecutado. Sin juicio. Y si los alemanes descubrían que además eras un judío de Viena… no tendrías ninguna oportunidad.",
+   "scene": "order",
+   "params": {
+    "scene": "order",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 5.521,
+       "z": 1.4,
+       "fx": 860,
+       "fy": 600,
+       "d": 1.0
+      }
+     ]
+    },
+    "real": 4.167
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "typewriter",
+     "gain": -14
+    },
+    {
+     "at": 1.2,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 4.167,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s036",
+   "start": 221.463,
+   "end": 227.799,
+   "line": "Así que te prohíben una cosa por encima de todas: si te capturan, jamás, bajo ninguna circunstancia, hables alemán.",
+   "scene": "noGerman",
+   "params": {
+    "scene": "noGerman",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s037",
+   "start": 227.799,
+   "end": 230.358,
+   "line": "Te mandan a entrenar a un pueblo de la costa de Gales.",
+   "scene": "wales",
+   "params": {
+    "scene": "wales",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.05
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s038",
+   "start": 230.358,
+   "end": 231.735,
+   "line": "Escalas acantilados.",
+   "scene": "training",
+   "params": {
+    "scene": "training",
+    "act": "cliff"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s039",
+   "start": 231.735,
+   "end": 233.247,
+   "line": "Nadas en un mar helado.",
+   "scene": "training",
+   "params": {
+    "scene": "training",
+    "act": "swim"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s040",
+   "start": 233.247,
+   "end": 235.13,
+   "line": "Saltas desde camiones en marcha.",
+   "scene": "training",
+   "params": {
+    "scene": "training",
+    "act": "truck"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s041",
+   "start": 235.13,
+   "end": 238.938,
+   "line": "Disparas con munición real mientras las balas silban por encima de tu cabeza.",
+   "scene": "training",
+   "params": {
+    "scene": "training",
+    "act": "shoot",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "shake": [
+      {
+       "at": 0.4,
+       "d": 2.5,
+       "amp": 4
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "gunshot",
+     "gain": -14
+    },
+    {
+     "at": 0.9,
+     "name": "gunshot",
+     "gain": -16
+    },
+    {
+     "at": 1.5,
+     "name": "gunshot",
+     "gain": -14
+    },
+    {
+     "at": 2.1,
+     "name": "gunshot",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s042",
+   "start": 238.938,
+   "end": 252.954,
+   "line": "Y por la noche, vuelves a casa de una señora galesa que te ha alquilado una habitación. Te prepara té. Te pregunta por tu familia. Y tú le cuentas la historia inventada… mientras piensas en tus padres de verdad, al otro lado de la guerra, sin saber si siguen vivos.",
+   "scene": "landlady",
+   "params": {
+    "scene": "landlady",
+    "talk": true,
+    "thought": 8.162,
+    "ex": [
+     [
+      0,
+      "smile"
+     ],
+     [
+      8.162,
+      "sad"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 8.162,
+       "z": 1.4,
+       "fx": 600,
+       "fy": 420,
+       "d": 1.2
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s043",
+   "start": 252.954,
+   "end": 261.489,
+   "line": "Esto pasó de verdad. Los hombres de X Troop vivían alojados en casas de vecinos del pueblo. Muchos de ellos los recordaron con cariño durante toda su vida.",
+   "scene": "landlady",
+   "params": {
+    "scene": "landlady",
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s044",
+   "start": 261.489,
+   "end": 269.265,
+   "line": "Y aquí te pregunto a ti: si tuvieras que borrar tu identidad… ¿qué nombre falso te habrías puesto? Déjamelo en los comentarios, que los leo todos.",
+   "scene": "question2",
+   "params": {
+    "scene": "question2"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s045",
+   "start": 269.265,
+   "end": 279.001,
+   "line": "Ahora, mientras tú entrenas en Gales, al otro lado del océano está pasando algo muy parecido. Estados Unidos también tiene refugiados que hablan alemán. Y también se le ocurre la misma idea.",
+   "scene": "mapUK",
+   "params": {
+    "scene": "mapUK",
+    "marks": [
+     {
+      "xy": [
+       990,
+       150
+      ],
+      "label": "GALES",
+      "dy": -50,
+      "at": 0.2
+     },
+     {
+      "p": "maryland",
+      "label": "MARYLAND",
+      "at": 1.2
+     }
+    ],
+    "routes": [
+     {
+      "pts": [
+       [
+        990,
+        150
+       ],
+       "maryland"
+      ],
+      "at": 0.5,
+      "d": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s046",
+   "start": 279.001,
+   "end": 294.294,
+   "line": "Esto pasó de verdad. En Camp Ritchie, en Maryland, el ejército estadounidense entrenó a miles de soldados en interrogatorio e inteligencia. Muchos eran refugiados judíos que habían escapado de Europa. Hoy se les conoce como los Ritchie Boys. Y muchos de ellos también desembarcaron en Normandía.",
+   "scene": "ritchie",
+   "params": {
+    "scene": "ritchie",
+    "card": [
+     "LOS RITCHIE BOYS"
+    ],
+    "cardAt": 10.491,
+    "cardY": 820,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 10.491,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s047",
+   "start": 294.294,
+   "end": 297.465,
+   "line": "Bastardos a un lado del océano… y bastardos al otro.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "wales",
+    "expr": "smirk",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s048",
+   "start": 297.465,
+   "end": 306.655,
+   "line": "Y si a estas alturas sigues aquí… ya eres parte del equipo. Hazlo oficial: suscríbete. Porque lo más fuerte de esta historia… todavía no ha llegado.",
+   "scene": "subMid2",
+   "params": {
+    "scene": "subMid2",
+    "press": 4.145
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 4.145,
+     "name": "ding",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s049",
+   "start": 306.655,
+   "end": 314.39,
+   "line": "Vuelta al 6 de junio de 1944. Los hombres de X Troop no luchan juntos. Los reparten entre otras unidades de comandos.",
+   "scene": "beachLanding",
+   "params": {
+    "scene": "beachLanding",
+    "date": "6 JUN 1944",
+    "rphoto": {
+     "key": "sword_beach",
+     "at": 3.178,
+     "dur": 4.5,
+     "cap": "Desembarco en Sword · 6 de junio de 1944",
+     "credit": "Foto: dominio público · Wikimedia Commons"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -14
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 3.178,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 3.678,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s050",
+   "start": 314.39,
+   "end": 318.747,
+   "line": "Son sus ojos y sus oídos. Los únicos que entienden lo que gritan los alemanes.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "beach",
+    "expr": "determined",
+    "look": [
+     0.8,
+     -0.2
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -25
+   }
+  },
+  {
+   "id": "s051",
+   "start": 318.747,
+   "end": 324.348,
+   "line": "Y ahí estás tú. Delante de ese pueblo. Con la orden de caminar solo por la calle principal.",
+   "scene": "villageStreet",
+   "params": {
+    "scene": "villageStreet",
+    "officer": true,
+    "ex": [
+     [
+      0,
+      "nervous"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s052",
+   "start": 324.348,
+   "end": 331.213,
+   "line": "Respiras hondo. Das el primer paso. Y entonces se te ocurre algo. Algo que va contra todo lo que te han enseñado.",
+   "scene": "villageStreet",
+   "params": {
+    "scene": "villageStreet",
+    "walk": 1.19,
+    "walkDur": 6,
+    "ex": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      2.496,
+      "thinking"
+     ]
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.2,
+     "fx": 500,
+     "fy": 800
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "heartbeat",
+     "gain": -12
+    },
+    {
+     "at": 1.19,
+     "name": "footsteps",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s053",
+   "start": 331.213,
+   "end": 335.729,
+   "line": "Gritas. En alemán. Con todas tus fuerzas.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "normandy",
+    "expr": "determined",
+    "ex": [
+     [
+      0,
+      "determined"
+     ],
+     [
+      2.446,
+      "angry"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.2
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -31
+   }
+  },
+  {
+   "id": "s054",
+   "start": 335.729,
+   "end": 337.682,
+   "line": "—¡Rendíos! ¡Estáis rodeados!",
+   "scene": "villageStreet",
+   "params": {
+    "scene": "villageStreet",
+    "walk": -5,
+    "walkDur": 1,
+    "shout": 0.05,
+    "cam": {
+     "z0": 1.2,
+     "z1": 1.25,
+     "fx": 700,
+     "fy": 700
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "hit",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s055",
+   "start": 337.682,
+   "end": 339.955,
+   "line": "Silencio. Y de repente… disparos.",
+   "scene": "villageStreet",
+   "params": {
+    "scene": "villageStreet",
+    "walk": -5,
+    "walkDur": 1,
+    "fire": 1.599,
+    "ex": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      1.599,
+      "scared"
+     ]
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.1,
+     "shake": [
+      {
+       "at": 1.599,
+       "d": 1.6,
+       "amp": 16
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.599,
+     "name": "gunshot",
+     "gain": -6
+    },
+    {
+     "at": 1.799,
+     "name": "gunshot",
+     "gain": -8
+    },
+    {
+     "at": 1.999,
+     "name": "gunshot",
+     "gain": -8
+    },
+    {
+     "at": 2.299,
+     "name": "gunshot",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s056",
+   "start": 339.955,
+   "end": 351.287,
+   "line": "Esto pasó de verdad. Según contó él mismo años después, un comando de X Troop nacido en Viena, llamado Peter Masters, recibió exactamente esa orden el Día D. Caminó solo hacia el enemigo, gritó en alemán… y sobrevivió.",
+   "scene": "villageStreet",
+   "params": {
+    "scene": "villageStreet",
+    "walk": -5,
+    "walkDur": 1,
+    "card": [
+     "PETER MASTERS",
+     "NACIDO EN VIENA"
+    ],
+    "cardAt": 4.469,
+    "cardY": 260,
+    "ex": [
+     [
+      0,
+      "happy"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 4.469,
+     "name": "pop",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s057",
+   "start": 351.287,
+   "end": 361.54,
+   "line": "Durante las semanas siguientes, tu idioma se convierte en un arma. Interrogas prisioneros en la misma playa. Descubres dónde están los cañones, cuántos hombres quedan, por dónde vendrá el contraataque.",
+   "scene": "interrogate",
+   "params": {
+    "scene": "interrogate",
+    "notes": 5.665,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s058",
+   "start": 361.54,
+   "end": 370.408,
+   "line": "Pero la guerra tiene un precio. Compañeros con los que entrenaste en Gales caen en Francia, en Holanda, en Alemania. Algunos son capturados. Y nadie vuelve a saber de ellos.",
+   "scene": "fallen",
+   "params": {
+    "scene": "fallen",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s059",
+   "start": 370.408,
+   "end": 378.163,
+   "line": "Esto pasó de verdad. X Troop sufrió muchas bajas. Muchos de sus hombres fueron condecorados… con nombres que ni siquiera eran los suyos.",
+   "scene": "fallen",
+   "params": {
+    "scene": "fallen",
+    "medal": 3.663,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 3.663,
+       "z": 1.4,
+       "fx": 960,
+       "fy": 420,
+       "d": 0.8
+      }
+     ]
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.663,
+     "name": "ding",
+     "gain": -10
+    },
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "s060",
+   "start": 378.163,
+   "end": 384.48,
+   "line": "Pero la historia más increíble de los bastardos reales no ocurrió en Normandía. Ocurrió en las montañas de Austria.",
+   "scene": "alps",
+   "params": {
+    "scene": "alps",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s061",
+   "start": 384.48,
+   "end": 391.218,
+   "line": "Febrero de 1945. Tres hombres saltan en paracaídas, de noche, sobre un glaciar en los Alpes.",
+   "scene": "alps",
+   "params": {
+    "scene": "alps",
+    "date": "FEB 1945 · ALPES",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15,
+     "fx": 960,
+     "fy": 500
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "plane",
+     "gain": -20
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s062",
+   "start": 391.218,
+   "end": 403.842,
+   "line": "El primero se llama Frederick Mayer. Un judío nacido en Alemania que había emigrado a Estados Unidos. El segundo, Hans Wynberg, un refugiado judío de Holanda. El tercero, Franz Weber, un austriaco que había desertado del ejército alemán.",
+   "scene": "trio",
+   "params": {
+    "scene": "trio",
+    "a": 0.2,
+    "b": 5.274,
+    "c": 8.706
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 5.274,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 8.706,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s063",
+   "start": 403.842,
+   "end": 410.394,
+   "line": "Esto pasó de verdad. Era la Operación Greenup, una misión de los servicios secretos estadounidenses, la OSS.",
+   "scene": "alps",
+   "params": {
+    "scene": "alps",
+    "pill": "OPERACIÓN GREENUP · OSS",
+    "pillAt": 2.234,
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.2
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 2.234,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s064",
+   "start": 410.394,
+   "end": 414.995,
+   "line": "Mayer se infiltra disfrazado de oficial alemán. Se sienta en los comedores de los nazis.",
+   "scene": "messHall",
+   "params": {
+    "scene": "messHall",
+    "ear": false,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 4.721,
+       "z": 1.6,
+       "fx": 1400,
+       "fy": 620,
+       "d": 0.6
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s065",
+   "start": 414.995,
+   "end": 415.925,
+   "line": "Escucha.",
+   "scene": "messHall",
+   "params": {
+    "scene": "messHall",
+    "ear": true,
+    "cam": {
+     "z0": 1.5,
+     "z1": 1.6,
+     "fx": 1400,
+     "fy": 620
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s066",
+   "start": 415.925,
+   "end": 420.238,
+   "line": "Y envía por radio información sobre trenes, armas y movimientos de tropas.",
+   "scene": "radio",
+   "params": {
+    "scene": "radio",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "morse",
+     "gain": -12
+    },
+    {
+     "at": 2.2,
+     "name": "morse",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s067",
+   "start": 420.238,
+   "end": 427.926,
+   "line": "Hasta que lo descubren. La Gestapo lo detiene. Lo interrogan durante horas. Lo torturan. Quieren nombres. Y Mayer… no da ni uno.",
+   "scene": "gestapo",
+   "params": {
+    "scene": "gestapo",
+    "q": 4.882,
+    "silent": 6.691,
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 6.291,
+       "z": 1.6,
+       "fx": 960,
+       "fy": 640,
+       "d": 0.8
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 3.928,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s068",
+   "start": 427.926,
+   "end": 437.672,
+   "line": "Y entonces, a pocos días del final de la guerra, pasa algo que parece sacado de un guion de Hollywood. El prisionero torturado acaba sentado delante del jefe nazi de la región… negociando.",
+   "scene": "negotiate",
+   "params": {
+    "scene": "negotiate",
+    "cex": [
+     [
+      0,
+      "angry"
+     ],
+     [
+      8.088,
+      "worried"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s069",
+   "start": 437.672,
+   "end": 448.375,
+   "line": "Esto pasó de verdad. Según los documentos de la OSS, Mayer convenció a las autoridades nazis del Tirol para que entregaran la ciudad de Innsbruck a los estadounidenses. Sin combatir.",
+   "scene": "innsbruck",
+   "params": {
+    "scene": "innsbruck",
+    "lbl": 9.674,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 9.674,
+     "name": "cheer",
+     "gain": -16
+    },
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ]
+  },
+  {
+   "id": "s070",
+   "start": 448.375,
+   "end": 453.138,
+   "line": "Hay quien dice que su historia inspiró la película de Tarantino. Nunca ha quedado del todo claro.",
+   "scene": "cinema",
+   "params": {
+    "scene": "cinema",
+    "pill": "¿INSPIRÓ A TARANTINO?",
+    "pillAt": 0.3,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s071",
+   "start": 453.138,
+   "end": 463.058,
+   "line": "Lo que sí sabemos es lo que la película se inventó. Esto pasó de verdad. Bastardos sin gloria se estrenó en 2009, y su título viene de una película italiana de 1978.",
+   "scene": "cinema",
+   "params": {
+    "scene": "cinema",
+    "year": 4.875,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    },
+    "real": 2.63
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.63,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s072",
+   "start": 463.058,
+   "end": 466.999,
+   "line": "Y no… Hitler no murió en un cine. Eso es pura ficción.",
+   "scene": "cinema",
+   "params": {
+    "scene": "cinema",
+    "fiction": 2.751,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.751,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s073",
+   "start": 466.999,
+   "end": 471.86,
+   "line": "Los bastardos reales no buscaban venganza en un cine. Buscaban algo mucho más difícil.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "ruins",
+    "expr": "determined",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s074",
+   "start": 471.86,
+   "end": 477.73,
+   "line": "Mayo de 1945. La guerra en Europa ha terminado. Todos celebran. Tú no.",
+   "scene": "victory",
+   "params": {
+    "scene": "victory",
+    "date": "MAYO 1945",
+    "tomi": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 5.358,
+       "z": 1.6,
+       "fx": 1600,
+       "fy": 850,
+       "d": 0.8
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "cheer",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s075",
+   "start": 477.73,
+   "end": 480.494,
+   "line": "Porque llevas seis años sin saber nada de tus padres.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiCmd",
+    "bg": "ruins",
+    "expr": "sad",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "cheer",
+    "gain": -25
+   }
+  },
+  {
+   "id": "s076",
+   "start": 480.494,
+   "end": 486.726,
+   "line": "Consigues un jeep. Unos días de permiso. Y conduces cientos de kilómetros a través de una Europa destrozada.",
+   "scene": "jeepDrive",
+   "params": {
+    "scene": "jeepDrive",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.04
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "carpass",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s077",
+   "start": 486.726,
+   "end": 492.113,
+   "line": "Puentes caídos. Pueblos en ruinas. Columnas de gente caminando hacia ninguna parte.",
+   "scene": "jeepDrive",
+   "params": {
+    "scene": "jeepDrive",
+    "bridge": true,
+    "people": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s078",
+   "start": 492.113,
+   "end": 496.172,
+   "line": "Tu destino es Theresienstadt. Un campo de concentración en Checoslovaquia.",
+   "scene": "mapUK",
+   "params": {
+    "scene": "mapUK",
+    "marks": [
+     {
+      "xy": [
+       1095,
+       222
+      ],
+      "label": "THERESIENSTADT",
+      "dy": -50,
+      "at": 0.2
+     }
+    ],
+    "cam": {
+     "z0": 1.6,
+     "z1": 1.9,
+     "fx": 1095,
+     "fy": 230
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s079",
+   "start": 496.172,
+   "end": 502.991,
+   "line": "Entras. Preguntas. Enseñas una foto vieja y arrugada. Nadie sabe nada. Hasta que alguien señala un barracón.",
+   "scene": "campGate",
+   "params": {
+    "scene": "campGate",
+    "tomi": true,
+    "photo": true,
+    "point": 4.8,
+    "ex": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      3.569,
+      "sad"
+     ],
+     [
+      5.2,
+      "surprised"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 1.392,
+       "z": 1.6,
+       "fx": 860,
+       "fy": 800,
+       "d": 0.6,
+       "until": 4.8
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s080",
+   "start": 502.991,
+   "end": 507.383,
+   "line": "Y allí, sentados en un camastro, más delgados, más viejos… están ellos.",
+   "scene": "reunion",
+   "params": {
+    "scene": "reunion",
+    "hug": 3.52,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1,
+     "fx": 1100,
+     "fy": 700
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s081",
+   "start": 507.383,
+   "end": 519.879,
+   "line": "Esto pasó de verdad. Un comando de X Troop, Manfred Gans, conocido en el ejército como Freddie Gray, hizo exactamente ese viaje en mayo de 1945. Y encontró a sus padres… vivos.",
+   "scene": "reunion",
+   "params": {
+    "scene": "reunion",
+    "hug": -5,
+    "card": [
+     "MANFRED GANS",
+     "«FREDDIE GRAY»"
+    ],
+    "cardAt": 2.829,
+    "cardY": 240,
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.15,
+     "fx": 1100,
+     "fy": 700
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 2.829,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s082",
+   "start": 519.879,
+   "end": 531.07,
+   "line": "Después de la guerra, muchos de estos hombres se quedaron con sus nombres ingleses para siempre. Formaron familias. Trabajaron. Y casi nunca hablaron de lo que habían hecho. Su historia permaneció escondida durante décadas.",
+   "scene": "family",
+   "params": {
+    "scene": "family",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s083",
+   "start": 531.07,
+   "end": 542.068,
+   "line": "Los bastardos sin gloria existieron. Pero no eran los de la película. Eran chicos que habían perdido su hogar… y que volvieron a la guerra para recuperarlo. Con otro nombre. Con su idioma como única arma.",
+   "scene": "xtroop",
+   "params": {
+    "scene": "xtroop",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12,
+     "fx": 960,
+     "fy": 780
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s084",
+   "start": 542.068,
+   "end": 550.005,
+   "line": "Y ahora te toca a ti. Si hubieras sido uno de ellos… ¿habrías vuelto a Europa a luchar, o te habrías quedado a salvo? Te leo en los comentarios.",
+   "scene": "end2",
+   "params": {
+    "scene": "end2",
+    "q": 1.417,
+    "ex": [
+     [
+      0,
+      "smile"
+     ],
+     [
+      3.587,
+      "thinking"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.887,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.287,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s085",
+   "start": 550.005,
+   "end": 561.972,
+   "line": "Y si esta historia te ha llegado, suscríbete a «Y Si Te Tocara» y activa la campana. Porque la semana que viene te toca ser el hombre que engañó a Hitler… sin disparar una sola bala. Porque la próxima vez… te puede tocar a ti.",
+   "scene": "end2",
+   "params": {
+    "scene": "end2",
+    "q": -99,
+    "sub": 0.3,
+    "press": 3.12,
+    "next": 4.989,
+    "ex": [
+     [
+      0,
+      "happy"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 3.12,
+     "name": "ding",
+     "gain": -8
+    },
+    {
+     "at": 4.989,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 42.492,
+   "mood": "tension",
+   "intensity": 0.85
+  },
+  {
+   "start": 42.492,
+   "end": 66.526,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 66.526,
+   "end": 115.257,
+   "mood": "sad",
+   "intensity": 0.45
+  },
+  {
+   "start": 115.257,
+   "end": 161.925,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 161.925,
+   "end": 239.058,
+   "mood": "action",
+   "intensity": 0.55
+  },
+  {
+   "start": 239.058,
+   "end": 306.775,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 306.775,
+   "end": 361.66,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 361.66,
+   "end": 378.283,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 378.283,
+   "end": 437.792,
+   "mood": "dark",
+   "intensity": 0.6
+  },
+  {
+   "start": 437.792,
+   "end": 471.98,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 471.98,
+   "end": 503.111,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 503.111,
+   "end": 561.972,
+   "mood": "hopeful",
+   "intensity": 0.45
+  }
+ ],
+ "sfx": []
+}

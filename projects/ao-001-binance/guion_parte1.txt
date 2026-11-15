@@ -1,0 +1,77 @@
+Veinte minutos. Es lo que tardas en darte una ducha larga. En ver un capítulo corto de una serie. En pedir comida a domicilio. El veintinueve de octubre de dos mil veintiséis, en veinte minutos, salieron de una sola empresa seis mil trescientos millones de dólares. Sin pistolas. Sin túneles. Sin que nadie rompiera una sola puerta. Y lo más increíble de todo es cómo empezó. Semanas antes. Con algo tan inocente… como una entrevista de trabajo.
+
+Ponte cómodo, apaga la luz si te atreves… porque hoy abrimos un expediente que de verdad vale la pena. Soy Javi, y esto es Archivo Oscuro.
+
+Antes de empezar, una cosa rápida. Aquí contamos lo que de verdad pasó. Lo que está confirmado, te lo marco. Lo que es rumor, te lo digo. Y si te gustan las historias reales bien contadas, suscríbete ahora, porque esta se pone muy, muy rara.
+
+Vamos con el expediente.
+
+Primero, tienes que entender dónde estamos. Binance es la casa de cambio de criptomonedas más grande del mundo. Piensa en un banco gigante, pero en vez de euros o dólares, guarda bitcoins, ethereum y cientos de monedas digitales más. Millones de personas, en todos los países, tienen ahí sus ahorros. Algunos, unos pocos dólares. Otros, fortunas enteras.
+
+Y como cualquier banco, Binance guarda el dinero en dos sitios. Una parte está en lo que llaman la billetera fría: una caja fuerte desconectada de internet, casi imposible de tocar. Y otra parte está en la billetera caliente: el dinero que está conectado, listo para que la gente lo saque cuando quiera. Es como la caja registradora de una tienda. Tiene que estar a mano, porque cada segundo hay alguien retirando su dinero.
+
+Ahora bien, esa caja registradora no se abre con una llave normal. Binance usa un sistema que se llama computación multipartita. Suena complicado, pero la idea es sencilla: la llave está partida en trozos, repartidos entre varias máquinas. Nadie tiene la llave completa. Para mover dinero, varias partes del sistema tienen que ponerse de acuerdo y firmar juntas. Es como una caja fuerte que necesita a cinco personas girando su llave a la vez.
+
+Parece imposible de robar, ¿verdad? Pues guarda esa idea, porque los ladrones no intentaron robar la llave. Hicieron algo mucho más inteligente.
+
+Retrocedamos a septiembre de dos mil veintiséis.
+
+Hay un ingeniero de software que trabaja en Binance. En el informe oficial que publicó la empresa no aparece su nombre. Lo llaman, simplemente, el Ingeniero B. Así que nosotros también le vamos a llamar así.
+
+Un día, el Ingeniero B recibe un mensaje en una plataforma de empleo. Alguien que se presenta como director de proyectos de otra empresa le dice que su perfil les encanta. Que tienen un puesto para él. Mejor sueldo, buen proyecto, lo típico.
+
+Y aquí quiero que te pongas en su lugar. Porque esto le pasa a mucha gente que trabaja en tecnología. Te escriben, te halagan, te ofrecen algo mejor. Y piensas: bueno, por escuchar no pierdo nada.
+
+Hay una primera conversación. Todo normal. Luego, una segunda entrevista, esta vez por una aplicación de mensajería, con alguien que dice ser el director general de esa empresa. Y al final, le piden lo que piden en casi todos los procesos de selección de programadores: una prueba técnica. Un pequeño proyecto para ver cómo trabaja. Descárgate este código, ponlo en marcha y dinos qué te parece.
+
+El Ingeniero B lo descarga. Y lo pone en marcha.
+
+Y antes de que pienses que fue un descuido tonto, piénsalo dos veces. Esto no fue un correo mal escrito pidiendo tu contraseña. Era un proceso de selección completo. Con perfiles creíbles, con conversaciones normales, con varias fases. Lo que se hace en cualquier empresa de verdad. Para alguien que trabaja programando, recibir una prueba técnica es tan normal como para un cocinero que le pidan preparar un plato en la entrevista. Nadie desconfía de eso.
+
+En su ordenador del trabajo.
+
+Según el propio informe de Binance, ese código traía escondido un programa malicioso. Y no uno cualquiera: era nuevo. Tan nuevo que los sistemas de seguridad de la empresa no lo detectaron en ese momento. En la pantalla del ingeniero no pasó nada raro. Ninguna alarma. Ningún aviso. La prueba técnica funcionaba como una prueba técnica normal.
+
+Pero alguien, en algún lugar del mundo, acababa de abrir una puerta dentro de Binance.
+
+Y aquí viene lo que más me impresiona de todo este caso: la paciencia. Porque los atacantes no corrieron. No intentaron llevarse nada esa noche, ni esa semana. Se quedaron quietos. Mirando. Aprendiendo cómo funcionaba todo por dentro. Como alguien que entra en una casa y, en vez de robar, se esconde en el ático durante semanas para saber a qué hora se levanta cada uno.
+
+Pasa todo septiembre. Llega octubre.
+
+El veinte de octubre, según la cronología de Binance, el intruso da el siguiente paso. Desde el ordenador del Ingeniero B, y usando una herramienta interna de inteligencia artificial de la propia empresa, consigue llegar a los ordenadores de otros dos compañeros. Dos ingenieros que trabajan precisamente con las billeteras. En el informe se les llama el Ingeniero A y el Ingeniero C.
+
+Binance no ha explicado con detalle cómo usaron esa herramienta de inteligencia artificial para saltar de un ordenador a otro. Eso, a día de hoy, es una de las piezas que faltan en este expediente.
+
+Lo que sí sabemos es lo que encontraron. En el ordenador del Ingeniero A había un permiso muy especial. Un token, que es como una tarjeta de acceso digital, que servía para desplegar contenedores. Y un contenedor, para que lo entiendas, es como un pequeño programa empaquetado que se instala dentro de los sistemas de la empresa para hacer una tarea concreta.
+
+Dicho de otra forma: el intruso acababa de encontrar la tarjeta del personal de mantenimiento. La que abre las puertas de las salas donde el público nunca entra.
+
+Y otra vez… esperó.
+
+Nueve días.
+
+Veintinueve de octubre de dos mil veintiséis. Ocho y cinco de la tarde en hora universal. En España, las nueve y cinco de la noche. En Buenos Aires, las cinco y cinco de la tarde. En Bogotá, las tres y cinco.
+
+Desde el ordenador del Ingeniero C, y usando la tarjeta de acceso robada al Ingeniero A, el atacante instala un contenedor dentro de los sistemas de Binance. Y ese contenedor ejecuta un programa que llega hasta el corazón de todo: el servicio que firma los movimientos de las billeteras.
+
+¿Te acuerdas de la caja fuerte que necesitaba a cinco personas girando la llave a la vez? Pues los ladrones no robaron ninguna llave. Binance insiste en que no se filtró ninguna clave privada. Lo que hicieron fue meterse dentro del propio sistema que gira las llaves. Y convencerlo de que firmara.
+
+No forzaron la cerradura. Convencieron a la cerradura de que se abriera sola.
+
+Y entonces el dinero empieza a salir.
+
+Primero, bitcoins. En un solo movimiento, una billetera caliente de Binance envía dieciocho mil doscientos setenta bitcoins a una dirección controlada por los atacantes. Dieciocho mil. A los precios de ese día, eso solo ya eran cientos de millones de dólares.
+
+Y no se quedan ahí. Ethereum. Monedas estables. Tokens de todo tipo. Según la empresa de rastreo TRM Labs, el dinero salió por diez cadenas de bloques distintas al mismo tiempo. Como si los ladrones vaciaran diez cajas registradoras en diez tiendas diferentes, en el mismo minuto.
+
+Y casi todo, en unos veinte minutos.
+
+Para que te hagas una idea de lo que significa eso. Seis mil trescientos millones de dólares en veinte minutos son más de cinco millones de dólares por segundo. Mientras tú lees esta frase, ya se habrían ido unos cuantos millones. Y no había ningún camión blindado que perseguir. Ninguna matrícula. Ninguna cara en una cámara de seguridad. Solo números moviéndose de una dirección a otra, a la velocidad de internet.
+
+Imagínate la sala de seguridad de Binance en ese momento. Las alertas saltando. Gente mirando pantallas donde los saldos bajan y bajan. Y aquí está lo más cruel del plan: ese sistema de llave partida en trozos, que hacía la caja casi imposible de robar, también la hacía muy difícil de cerrar de golpe. Como no existía una única llave, no había una única llave que cancelar. Quitar los permisos falsos llevó tiempo. Y cada minuto, salían millones.
+
+Cuando por fin consiguen cortar el grifo, hacen la cuenta. Y la cifra es tan grande que parece un error.
+
+Seis mil trescientos millones de dólares.
+
+Según los rastreadores, entre seis mil ciento cincuenta y seis mil trescientos sesenta millones, dependiendo de quién haga las cuentas y de en qué momento se calcule el precio de cada moneda. Pero da igual qué número cojas: es el robo de criptomonedas más grande de la historia. El récord anterior era el hackeo a Bybit, en febrero de dos mil veinticinco, con unos mil quinientos millones. Esto es cuatro veces más.

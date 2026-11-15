@@ -1,0 +1,7 @@
+{
+ "title": "Le hicieron una entrevista de trabajo… y se llevaron 6.300 millones de dólares",
+ "aspect": "16:9", "resolution": "1080p", "fps": 24, "style": "toon",
+ "voiceover": "input/voiceover.mp3", "script": "input/script.txt",
+ "duration": 918.648163, "captions": false, "bars": null, "fadeIn": 0.5, "fadeOut": 0.8,
+ "music": {"enabled": true, "gainDb": -18}, "sfx": {"enabled": true, "gainDb": -6}, "loudness": -14
+}

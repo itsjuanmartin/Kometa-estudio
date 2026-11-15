@@ -1,0 +1,63 @@
+Seguro que te han contado que el jefe de Nvidia cayó por culpa de una espía china, ¿verdad? Pues la verdad es que no. O al menos, nadie ha podido demostrarlo todavía. Y lo que de verdad pasó es mucho más extraño.
+
+Jueves, doce de noviembre de dos mil veintiséis. Son las nueve y media de la mañana en Nueva York y la bolsa acaba de abrir. En cuestión de minutos, las acciones de la empresa más importante de la inteligencia artificial caen un trece por ciento. Miles de millones de dólares desaparecen antes de que mucha gente se haya terminado el café.
+
+Unas horas después, la empresa publica un comunicado de apenas unas líneas. Su fundador, el hombre que la había dirigido durante treinta y tres años, se va. Con efecto inmediato.
+
+No hubo un producto defectuoso. No hubo una crisis económica. Hubo una pregunta que llevaba meses circulando en voz baja por los despachos de Washington: ¿quién era la mujer que viajaba en su coche?
+
+Ponte cómodo, apaga la luz si te atreves… porque hoy abrimos un expediente que de verdad vale la pena. Soy Javi, y esto es Archivo Oscuro.
+
+Y antes de empezar, lo de siempre. Aquí contamos lo que de verdad pasó. Lo confirmado, te lo marco. Lo que es sospecha, te lo digo. Y en este caso eso es más importante que nunca, porque al final de este vídeo vas a descubrir algo que cambia toda la historia. Si te gustan las historias reales bien contadas, suscríbete ahora. Vamos con el expediente.
+
+Capítulo uno. El chico que lavaba platos.
+
+Taiwán, mil novecientos sesenta y tres. Nace un niño que se llama Jensen Huang. Con nueve años, sus padres lo mandan a Estados Unidos con su hermano mayor, a un internado en un pueblo pequeño de Kentucky. Un niño que casi no habla inglés, a miles de kilómetros de su familia.
+
+De adolescente trabaja lavando platos y sirviendo mesas en una cadena de restaurantes de carretera. Estudia ingeniería eléctrica. Diseña chips para otras empresas. Y en mil novecientos noventa y tres, con treinta años, se sienta con dos amigos ingenieros en una de esas mismas cafeterías de carretera, en California… y deciden fundar una empresa. La llaman Nvidia.
+
+Durante años estuvo a punto de quebrar varias veces. Pero aguantó. Y treinta años después, aquel chico que lavaba platos se había convertido en una de las personas más ricas e influyentes del planeta. El hombre de la chaqueta de cuero negra. Presidentes y primeros ministros pedían reunirse con él.
+
+Pero para entender por qué su caída ha hecho temblar al mundo entero, primero tienes que entender qué tiene Nvidia que no tiene nadie más.
+
+Capítulo dos. La empresa que vale más que países.
+
+Al principio, Nvidia fabricaba chips para que los videojuegos se vieran mejor. Esos chips tenían algo especial: no eran buenos haciendo una cosa muy rápido, sino haciendo miles de cosas pequeñas a la vez.
+
+Y un día alguien descubrió que eso era exactamente lo que necesitaba la inteligencia artificial para aprender. Piénsalo así: enseñar a una inteligencia artificial es como obligarla a leer una biblioteca entera millones de veces. Un procesador normal es una persona leyendo libro por libro. Un chip de Nvidia es un ejército de miles de lectores leyendo a la vez.
+
+Cuando llegó la fiebre de la inteligencia artificial, todas las grandes tecnológicas del mundo necesitaron lo mismo: montañas de chips de Nvidia. Y la empresa de los videojuegos se convirtió en la más valiosa del planeta. El seis de octubre de dos mil veintiséis llegó a su récord: casi cinco billones ochocientos mil millones de dólares. Más que la economía de casi cualquier país.
+
+¿Y por qué te debería importar a ti? Por una razón muy sencilla. Hay un índice que se llama S&P 500: una especie de cesta con las quinientas empresas más grandes de Estados Unidos. Es donde están invertidos millones de planes de pensiones y fondos de todo el mundo. Y en octubre, Nvidia sola llegó a pesar alrededor del ocho por ciento de esa cesta. Si tienes un plan de pensiones o un fondo de inversión, aunque sea a través de tu banco, es muy probable que una parte de tu dinero esté en Nvidia sin que lo sepas.
+
+Pero hay algo todavía más delicado. Estos chips se han convertido en un arma estratégica. Estados Unidos y China están en una carrera por dominar la inteligencia artificial. Y en octubre de dos mil veintidós, el gobierno estadounidense puso límites muy duros a qué chips se le pueden vender a China.
+
+Quédate con esa fecha. Porque justo después, una pequeña empresa empezó a crecer muy rápido.
+
+Capítulo tres. La empresa que cambió de nombre.
+
+En dos mil quince se crea en Singapur una empresa llamada Seven Road Internacional, propiedad de un grupo chino del mundo de los videojuegos. Durante años, nadie se fija en ella. Pero cuando llegan las restricciones de chips, empieza a crecer de golpe. En marzo de dos mil veintitrés cambia de nombre. A partir de ahora se llamará Megaspeed.
+
+Megaspeed es lo que en el sector llaman una nube de computación: compra chips, en este caso chips de Nvidia, los instala en enormes centros de datos y alquila esa potencia a otras empresas. Según el New York Times, entre sus clientes había grandes tecnológicas chinas.
+
+Y aquí hay un detalle que a los investigadores les llamó mucho la atención. En otoño de dos mil veintitrés la empresa cambia de dueño… y cuatro días después se convierte en socio oficial de la nube de Nvidia.
+
+¿Por qué es esto importante? Porque en los últimos años muchas empresas con raíces en China se han trasladado a Singapur. Hay quien lo llama el lavado de Singapur: la empresa sigue siendo la misma, pero desde fuera parece de otro país. Y si un chip no se puede vender a China… ¿qué pasa si se alquila su potencia desde Singapur?
+
+Eso es exactamente lo que empezó a preguntarse el gobierno de Estados Unidos.
+
+Capítulo cuatro. La mujer del coche.
+
+En septiembre de dos mil veinticuatro, la oficina del Departamento de Comercio que vigila las exportaciones de tecnología abre una investigación sobre Megaspeed. Y sobre una de sus ejecutivas. Se llama Alice Huang. No es familia de Jensen, aunque compartan apellido.
+
+Según el Wall Street Journal, se la presentó a Jensen un empresario chino al que él conocía desde hacía más de una década. Y no fue un encuentro de un día. En junio de dos mil veinticuatro los vieron juntos. En mayo de dos mil veinticinco, otra vez. Viajando en el mismo coche.
+
+Y entonces pasa algo que, visto ahora, parece sacado de una novela. En agosto de dos mil veinticinco, el abogado principal de Nvidia contacta con los funcionarios que investigaban a Megaspeed y les pide una reunión. Los funcionarios se niegan. Y para evitar que la investigación pudiera verse comprometida, el caso sale del Departamento de Comercio… y pasa al Departamento de Justicia, que abre una investigación penal contra Megaspeed.
+
+Y hay más. Según el New York Times, en la primavera de dos mil veintiséis el secretario de Estado, Marco Rubio, redactó un informe clasificado advirtiendo sobre esa relación. Ese documento circuló entre funcionarios con acceso a secretos de alto nivel justo antes de un viaje oficial del presidente Trump a China, en mayo. Un viaje en el que Jensen Huang formaba parte de la delegación.
+
+Es decir: en las altas esferas de Washington, algunos ya estaban preocupados. Pero nadie hizo nada en público. Nvidia era demasiado importante. Sus ventas estaban tirando de la economía, y nadie quería ser el que la hiciera tropezar.
+
+Hasta aquí, todo esto ocurría en silencio. Ningún periódico lo sabía. Jensen seguía subiendo a los escenarios, Nvidia seguía batiendo récords, y la bolsa seguía subiendo.
+
+Hasta el veintinueve de octubre de dos mil veintiséis. El día en que el New York Times publicó una historia que lo cambiaría todo.

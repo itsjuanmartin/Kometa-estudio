@@ -1,0 +1,3963 @@
+{
+ "title": "Le hicieron una entrevista de trabajo… y se llevaron 6.300 millones de dólares",
+ "duration": 918.648163,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 7.914,
+   "line": "Veinte minutos. Es lo que tardas en darte una ducha larga. En ver un capítulo corto de una serie. En pedir comida a domicilio.",
+   "scene": "timer",
+   "params": {
+    "scene": "timer",
+    "icons": [
+     1.492,
+     3.967,
+     6.272
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 1.492,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.967,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.272,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s002",
+   "start": 7.914,
+   "end": 15.317,
+   "line": "El veintinueve de octubre de dos mil veintiséis, en veinte minutos, salieron de una sola empresa seis mil trescientos millones de dólares.",
+   "scene": "moneyOut",
+   "params": {
+    "scene": "moneyOut",
+    "date": "29 OCT 2026",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "riser",
+     "gain": -14
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s003",
+   "start": 15.317,
+   "end": 19.86,
+   "line": "Sin pistolas. Sin túneles. Sin que nadie rompiera una sola puerta.",
+   "scene": "noWeapons",
+   "params": {
+    "scene": "noWeapons",
+    "at": [
+     0.05,
+     1.146,
+     2.047
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 1.496,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 2.397,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s004",
+   "start": 19.86,
+   "end": 28.355,
+   "line": "Y lo más increíble de todo es cómo empezó. Semanas antes. Con algo tan inocente… como una entrevista de trabajo.",
+   "scene": "teaser",
+   "params": {
+    "scene": "teaser",
+    "glitch": 6.114,
+    "lbl": 6.114,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15,
+     "punch": [
+      {
+       "at": 6.114,
+       "z": 1.15,
+       "fy": 420,
+       "d": 0.3
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 6.014,
+     "name": "glitch",
+     "gain": -8
+    },
+    {
+     "at": 6.214,
+     "name": "stinger",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s005",
+   "start": 28.355,
+   "end": 36.818,
+   "line": "Ponte cómodo, apaga la luz si te atreves… porque hoy abrimos un expediente que de verdad vale la pena. Soy Javi, y esto es Archivo Oscuro.",
+   "scene": "intro",
+   "params": {
+    "scene": "intro",
+    "dark": 0.4,
+    "title": 6.518
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "buzz",
+     "gain": -16
+    },
+    {
+     "at": 6.518,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 7.018,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s006",
+   "start": 36.818,
+   "end": 45.097,
+   "line": "Antes de empezar, una cosa rápida. Aquí contamos lo que de verdad pasó. Lo que está confirmado, te lo marco. Lo que es rumor, te lo digo.",
+   "scene": "rules",
+   "params": {
+    "scene": "rules",
+    "conf": 4.383,
+    "rum": 6.36,
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.383,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 6.36,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s007",
+   "start": 45.097,
+   "end": 51.659,
+   "line": "Y si te gustan las historias reales bien contadas, suscríbete ahora, porque esta se pone muy, muy rara.",
+   "scene": "subscribe",
+   "params": {
+    "scene": "subscribe",
+    "press": 2.72,
+    "rare": 3.72
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 2.72,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s008",
+   "start": 51.659,
+   "end": 53.552,
+   "line": "Vamos con el expediente.",
+   "scene": "folder",
+   "params": {
+    "scene": "folder"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "typewriter",
+     "gain": -14
+    },
+    {
+     "at": 2.6,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s009",
+   "start": 53.552,
+   "end": 74.055,
+   "line": "Primero, tienes que entender dónde estamos. Binance es la casa de cambio de criptomonedas más grande del mundo. Piensa en un banco gigante, pero en vez de euros o dólares, guarda bitcoins, ethereum y cientos de monedas digitales más. Millones de personas, en todos los países, tienen ahí sus ahorros. Algunos, unos pocos dólares. Otros, fortunas enteras.",
+   "scene": "exchange",
+   "params": {
+    "scene": "exchange",
+    "users": 13.264,
+    "small": 15.793,
+    "big": 18.958,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 13.264,
+     "name": "shimmer",
+     "gain": -16
+    },
+    {
+     "at": 15.793,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 18.958,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s010",
+   "start": 74.055,
+   "end": 96.668,
+   "line": "Y como cualquier banco, Binance guarda el dinero en dos sitios. Una parte está en lo que llaman la billetera fría: una caja fuerte desconectada de internet, casi imposible de tocar. Y otra parte está en la billetera caliente: el dinero que está conectado, listo para que la gente lo saque cuando quiera. Es como la caja registradora de una tienda. Tiene que estar a mano, porque cada segundo hay alguien retirando su dinero.",
+   "scene": "wallets",
+   "params": {
+    "scene": "wallets",
+    "cold": 5.945,
+    "hot": 12.158,
+    "out": 18.551
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.945,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 12.158,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 18.551,
+     "name": "counter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s011",
+   "start": 96.668,
+   "end": 116.977,
+   "line": "Ahora bien, esa caja registradora no se abre con una llave normal. Binance usa un sistema que se llama computación multipartita. Suena complicado, pero la idea es sencilla: la llave está partida en trozos, repartidos entre varias máquinas. Nadie tiene la llave completa. Para mover dinero, varias partes del sistema tienen que ponerse de acuerdo y firmar juntas.",
+   "scene": "splitKey",
+   "params": {
+    "scene": "splitKey",
+    "split": 8.375,
+    "sign": 15.986,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 8.375,
+     "name": "glitch",
+     "gain": -12
+    },
+    {
+     "at": 16.586,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s012",
+   "start": 116.977,
+   "end": 121.43,
+   "line": "Es como una caja fuerte que necesita a cinco personas girando su llave a la vez.",
+   "scene": "fiveKeys",
+   "params": {
+    "scene": "fiveKeys",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s013",
+   "start": 121.43,
+   "end": 130.466,
+   "line": "Parece imposible de robar, ¿verdad? Pues guarda esa idea, porque los ladrones no intentaron robar la llave. Hicieron algo mucho más inteligente.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "smirk"
+     ],
+     [
+      3.01,
+      "thinking"
+     ],
+     [
+      6.873,
+      "determined"
+     ]
+    ],
+    "say": [
+     [
+      "¿IMPOSIBLE?",
+      0.4
+     ],
+     [
+      "ALGO MÁS",
+      7.073
+     ],
+     [
+      "INTELIGENTE",
+      7.473
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 7.073,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -40
+   }
+  },
+  {
+   "id": "s014",
+   "start": 130.466,
+   "end": 133.179,
+   "line": "Retrocedamos a septiembre de dos mil veintiséis.",
+   "scene": "calendarFlip",
+   "params": {
+    "scene": "calendarFlip",
+    "months": [
+     [
+      "SEPTIEMBRE",
+      1
+     ]
+    ],
+    "lbl": "RETROCEDAMOS…"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -42
+   }
+  },
+  {
+   "id": "s015",
+   "start": 133.179,
+   "end": 144.227,
+   "line": "Hay un ingeniero de software que trabaja en Binance. En el informe oficial que publicó la empresa no aparece su nombre. Lo llaman, simplemente, el Ingeniero B. Así que nosotros también le vamos a llamar así.",
+   "scene": "engineer",
+   "params": {
+    "scene": "engineer",
+    "tag": 6.643,
+    "redact": 3.518
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.518,
+     "name": "stamp",
+     "gain": -10
+    },
+    {
+     "at": 6.643,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s016",
+   "start": 144.227,
+   "end": 147.95,
+   "line": "Un día, el Ingeniero B recibe un mensaje en una plataforma de empleo.",
+   "scene": "engineer",
+   "params": {
+    "scene": "engineer",
+    "ping": 1.32,
+    "tag": -9,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.18,
+     "fx": 1300,
+     "fy": 520
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.32,
+     "name": "phonebuzz",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s017",
+   "start": 147.95,
+   "end": 156.917,
+   "line": "Alguien que se presenta como director de proyectos de otra empresa le dice que su perfil les encanta. Que tienen un puesto para él. Mejor sueldo, buen proyecto, lo típico.",
+   "scene": "chat",
+   "params": {
+    "scene": "chat",
+    "msgs": [
+     [
+      "¡Nos encanta tu perfil! 😍",
+      1.62
+     ],
+     [
+      "Tenemos un puesto para ti",
+      5.161
+     ],
+     [
+      "Mejor sueldo · gran proyecto 💰",
+      6.772
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.62,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 5.161,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 6.772,
+     "name": "blip",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s018",
+   "start": 156.917,
+   "end": 165.227,
+   "line": "Y aquí quiero que te pongas en su lugar. Porque esto le pasa a mucha gente que trabaja en tecnología. Te escriben, te halagan, te ofrecen algo mejor.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      5.321,
+      "smirk"
+     ]
+    ],
+    "say": [
+     [
+      "TE ESCRIBEN",
+      5.321
+     ],
+     [
+      "TE HALAGAN",
+      6.121
+     ],
+     [
+      "TE OFRECEN MÁS",
+      6.921
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.321,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.121,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.921,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s019",
+   "start": 165.227,
+   "end": 168.292,
+   "line": "Y piensas: bueno, por escuchar no pierdo nada.",
+   "scene": "thought",
+   "params": {
+    "scene": "thought",
+    "bubbles": [
+     [
+      "«Por escuchar no pierdo nada»",
+      0.4
+     ]
+    ],
+    "ex": [
+     [
+      0,
+      "thinking"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s020",
+   "start": 168.292,
+   "end": 170.91,
+   "line": "Hay una primera conversación. Todo normal.",
+   "scene": "chat",
+   "params": {
+    "scene": "chat",
+    "night": true,
+    "stage": [
+     [
+      "1ª ENTREVISTA ✓",
+      0.3
+     ]
+    ],
+    "msgs": [
+     [
+      "Todo normal 👍",
+      1.792
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s021",
+   "start": 170.91,
+   "end": 189.899,
+   "line": "Luego, una segunda entrevista, esta vez por una aplicación de mensajería, con alguien que dice ser el director general de esa empresa. Y al final, le piden lo que piden en casi todos los procesos de selección de programadores: una prueba técnica. Un pequeño proyecto para ver cómo trabaja. Descárgate este código, ponlo en marcha y dinos qué te parece.",
+   "scene": "chat",
+   "params": {
+    "scene": "chat",
+    "app": "chat",
+    "night": true,
+    "msgs": [
+     [
+      "Hola, soy el CEO 👋",
+      2.62
+     ],
+     [
+      "Última fase: una prueba técnica",
+      9.261
+     ],
+     [
+      "Descárgate este código y ponlo en marcha",
+      15.813
+     ]
+    ],
+    "file": 17.213,
+    "stage": [
+     [
+      "2ª ENTREVISTA",
+      0.3
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.62,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 9.261,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 15.813,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 17.213,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s022",
+   "start": 189.899,
+   "end": 192.775,
+   "line": "El Ingeniero B lo descarga. Y lo pone en marcha.",
+   "scene": "download",
+   "params": {
+    "scene": "download",
+    "run": 2.208,
+    "lbl": "LO DESCARGA… Y LO EJECUTA",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 2.208,
+     "name": "blip",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -40
+   }
+  },
+  {
+   "id": "s023",
+   "start": 192.775,
+   "end": 208.674,
+   "line": "Y antes de que pienses que fue un descuido tonto, piénsalo dos veces. Esto no fue un correo mal escrito pidiendo tu contraseña. Era un proceso de selección completo. Con perfiles creíbles, con conversaciones normales, con varias fases. Lo que se hace en cualquier empresa de verdad.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "title": "NO FUE UN DESCUIDO TONTO",
+    "items": [
+     [
+      "un correo mal escrito",
+      4.407,
+      "x"
+     ],
+     [
+      "perfiles creíbles",
+      9.513
+     ],
+     [
+      "conversaciones normales",
+      10.513
+     ],
+     [
+      "varias fases",
+      11.813
+     ]
+    ],
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.707,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 9.813,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 10.813,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 12.113,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -42
+   }
+  },
+  {
+   "id": "s024",
+   "start": 208.674,
+   "end": 217.904,
+   "line": "Para alguien que trabaja programando, recibir una prueba técnica es tan normal como para un cocinero que le pidan preparar un plato en la entrevista. Nadie desconfía de eso.",
+   "scene": "chef",
+   "params": {
+    "scene": "chef",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -44
+   }
+  },
+  {
+   "id": "s025",
+   "start": 217.904,
+   "end": 219.599,
+   "line": "En su ordenador del trabajo.",
+   "scene": "workPC",
+   "params": {
+    "scene": "workPC",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.35,
+     "fy": 650
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -46
+   }
+  },
+  {
+   "id": "s026",
+   "start": 219.599,
+   "end": 239.212,
+   "line": "Según el propio informe de Binance, ese código traía escondido un programa malicioso. Y no uno cualquiera: era nuevo. Tan nuevo que los sistemas de seguridad de la empresa no lo detectaron en ese momento. En la pantalla del ingeniero no pasó nada raro. Ninguna alarma. Ningún aviso. La prueba técnica funcionaba como una prueba técnica normal.",
+   "scene": "malware",
+   "params": {
+    "scene": "malware",
+    "lbl": 2.52,
+    "nd": 7.591,
+    "none": [
+     [
+      "NINGUNA ALARMA",
+      13.929
+     ],
+     [
+      "NINGÚN AVISO",
+      15.098
+     ]
+    ],
+    "conf": 0.72,
+    "confTxt": "SEGÚN BINANCE"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "glitch",
+     "gain": -12
+    },
+    {
+     "at": 2.52,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 7.591,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 14.229,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 15.398,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s027",
+   "start": 239.212,
+   "end": 243.713,
+   "line": "Pero alguien, en algún lugar del mundo, acababa de abrir una puerta dentro de Binance.",
+   "scene": "somewhere",
+   "params": {
+    "scene": "somewhere",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s028",
+   "start": 243.713,
+   "end": 252.99,
+   "line": "Y aquí viene lo que más me impresiona de todo este caso: la paciencia. Porque los atacantes no corrieron. No intentaron llevarse nada esa noche, ni esa semana.",
+   "scene": "watching",
+   "params": {
+    "scene": "watching",
+    "grin": 1,
+    "lbl": "LA PACIENCIA",
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.0
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s029",
+   "start": 252.99,
+   "end": 257.65,
+   "line": "Se quedaron quietos. Mirando. Aprendiendo cómo funcionaba todo por dentro.",
+   "scene": "watching",
+   "params": {
+    "scene": "watching",
+    "lbl": "MIRANDO… APRENDIENDO",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12,
+     "fx": 1500,
+     "fy": 760
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s030",
+   "start": 257.65,
+   "end": 264.907,
+   "line": "Como alguien que entra en una casa y, en vez de robar, se esconde en el ático durante semanas para saber a qué hora se levanta cada uno.",
+   "scene": "attic",
+   "params": {
+    "scene": "attic",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15,
+     "fy": 420
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s031",
+   "start": 264.907,
+   "end": 267.416,
+   "line": "Pasa todo septiembre. Llega octubre.",
+   "scene": "calendarFlip",
+   "params": {
+    "scene": "calendarFlip",
+    "months": [
+     [
+      "SEPTIEMBRE",
+      30
+     ],
+     [
+      "OCTUBRE",
+      1
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s032",
+   "start": 267.416,
+   "end": 284.346,
+   "line": "El veinte de octubre, según la cronología de Binance, el intruso da el siguiente paso. Desde el ordenador del Ingeniero B, y usando una herramienta interna de inteligencia artificial de la propia empresa, consigue llegar a los ordenadores de otros dos compañeros. Dos ingenieros que trabajan precisamente con las billeteras. En el informe se les llama el Ingeniero A y el Ingeniero C.",
+   "scene": "network",
+   "params": {
+    "scene": "network",
+    "spread": 6.91,
+    "ai": 7.91,
+    "date": "20 OCT 2026",
+    "conf": 1.12,
+    "confTxt": "CRONOLOGÍA DE BINANCE"
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 6.91,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 7.91,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s033",
+   "start": 284.346,
+   "end": 298.266,
+   "line": "Binance no ha explicado con detalle cómo usaron esa herramienta de inteligencia artificial para saltar de un ordenador a otro. Eso, a día de hoy, es una de las piezas que faltan en este expediente.",
+   "scene": "network",
+   "params": {
+    "scene": "network",
+    "spread": -5,
+    "q": 1.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.12,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 1.52,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s034",
+   "start": 298.266,
+   "end": 309.306,
+   "line": "Lo que sí sabemos es lo que encontraron. En el ordenador del Ingeniero A había un permiso muy especial. Un token, que es como una tarjeta de acceso digital, que servía para desplegar contenedores.",
+   "scene": "token",
+   "params": {
+    "scene": "token",
+    "card": 2.661,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.661,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -40
+   }
+  },
+  {
+   "id": "s035",
+   "start": 309.306,
+   "end": 317.394,
+   "line": "Y un contenedor, para que lo entiendas, es como un pequeño programa empaquetado que se instala dentro de los sistemas de la empresa para hacer una tarea concreta.",
+   "scene": "token",
+   "params": {
+    "scene": "token",
+    "card": -5,
+    "box": 0.4
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -42
+   }
+  },
+  {
+   "id": "s036",
+   "start": 317.394,
+   "end": 325.71,
+   "line": "Dicho de otra forma: el intruso acababa de encontrar la tarjeta del personal de mantenimiento. La que abre las puertas de las salas donde el público nunca entra.",
+   "scene": "token",
+   "params": {
+    "scene": "token",
+    "card": -5,
+    "maint": 0.72,
+    "doors": 5.11
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.72,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 5.11,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -44
+   }
+  },
+  {
+   "id": "s037",
+   "start": 325.71,
+   "end": 329.012,
+   "line": "Y otra vez… esperó. Nueve días.",
+   "scene": "calendarFlip",
+   "params": {
+    "scene": "calendarFlip",
+    "months": [
+     [
+      "OCTUBRE",
+      20
+     ],
+     [
+      "OCTUBRE",
+      23
+     ],
+     [
+      "OCTUBRE",
+      26
+     ],
+     [
+      "OCTUBRE",
+      29
+     ]
+    ],
+    "lbl": "NUEVE DÍAS"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "clock",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -46
+   }
+  },
+  {
+   "id": "s038",
+   "start": 329.012,
+   "end": 340.589,
+   "line": "Veintinueve de octubre de dos mil veintiséis. Ocho y cinco de la tarde en hora universal. En España, las nueve y cinco de la noche. En Buenos Aires, las cinco y cinco de la tarde. En Bogotá, las tres y cinco.",
+   "scene": "clocks",
+   "params": {
+    "scene": "clocks",
+    "date": "29 OCT 2026",
+    "at": [
+     2.659,
+     5.117,
+     7.388,
+     9.762
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.659,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 5.117,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 7.388,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 9.762,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s039",
+   "start": 340.589,
+   "end": 355.351,
+   "line": "Desde el ordenador del Ingeniero C, y usando la tarjeta de acceso robada al Ingeniero A, el atacante instala un contenedor dentro de los sistemas de Binance. Y ese contenedor ejecuta un programa que llega hasta el corazón de todo: el servicio que firma los movimientos de las billeteras.",
+   "scene": "deploy",
+   "params": {
+    "scene": "deploy",
+    "core": 9.73,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 9.73,
+     "name": "alarm",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s040",
+   "start": 355.351,
+   "end": 360.27,
+   "line": "¿Te acuerdas de la caja fuerte que necesitaba a cinco personas girando la llave a la vez?",
+   "scene": "fiveKeys",
+   "params": {
+    "scene": "fiveKeys",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s041",
+   "start": 360.27,
+   "end": 375.781,
+   "line": "Pues los ladrones no robaron ninguna llave. Binance insiste en que no se filtró ninguna clave privada. Lo que hicieron fue meterse dentro del propio sistema que gira las llaves. Y convencerlo de que firmara. No forzaron la cerradura. Convencieron a la cerradura de que se abriera sola.",
+   "scene": "lock",
+   "params": {
+    "scene": "lock",
+    "key": 0.2,
+    "conf": 2.85,
+    "confTxt": "NINGUNA CLAVE FILTRADA",
+    "inside": 6.037,
+    "open": 13.598,
+    "lbl": [
+     [
+      "NO FORZARON LA CERRADURA",
+      11.427
+     ],
+     [
+      "LA CONVENCIERON",
+      13.198
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 13.598,
+       "z": 1.25,
+       "fy": 420,
+       "d": 0.4
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 2.85,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 6.037,
+     "name": "glitch",
+     "gain": -12
+    },
+    {
+     "at": 13.598,
+     "name": "impact",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s042",
+   "start": 375.781,
+   "end": 393.485,
+   "line": "Y entonces el dinero empieza a salir. Primero, bitcoins. En un solo movimiento, una billetera caliente de Binance envía dieciocho mil doscientos setenta bitcoins a una dirección controlada por los atacantes. Dieciocho mil. A los precios de ese día, eso solo ya eran cientos de millones de dólares.",
+   "scene": "drain",
+   "params": {
+    "scene": "drain",
+    "mode": "btc",
+    "lbl": "EN UN SOLO MOVIMIENTO",
+    "lblAt": 4.051,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    },
+    "rphoto": {
+     "key": "bitcoin_coin",
+     "at": 2.481,
+     "dur": 2.6,
+     "cap": "Un bitcoin «físico» de colección",
+     "credit": "Foto: Bits86, CC0 · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -10
+    },
+    {
+     "at": 12.493,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 2.481,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 2.981,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s043",
+   "start": 393.485,
+   "end": 397.863,
+   "line": "Y no se quedan ahí. Ethereum. Monedas estables. Tokens de todo tipo.",
+   "scene": "drain",
+   "params": {
+    "scene": "drain",
+    "mode": "multi",
+    "at": [
+     0.2,
+     1.382,
+     2.076,
+     3.254
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 1.382,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 2.076,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 3.254,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s044",
+   "start": 397.863,
+   "end": 403.982,
+   "line": "Según la empresa de rastreo TRM Labs, el dinero salió por diez cadenas de bloques distintas al mismo tiempo.",
+   "scene": "drain",
+   "params": {
+    "scene": "drain",
+    "mode": "chains",
+    "conf": 0.92,
+    "confTxt": "TRM LABS"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s045",
+   "start": 403.982,
+   "end": 409.255,
+   "line": "Como si los ladrones vaciaran diez cajas registradoras en diez tiendas diferentes, en el mismo minuto.",
+   "scene": "drain",
+   "params": {
+    "scene": "drain",
+    "mode": "registers"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s046",
+   "start": 409.255,
+   "end": 411.498,
+   "line": "Y casi todo, en unos veinte minutos.",
+   "scene": "drain",
+   "params": {
+    "scene": "drain",
+    "mode": "clock"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "clock",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s047",
+   "start": 411.498,
+   "end": 430.394,
+   "line": "Para que te hagas una idea de lo que significa eso. Seis mil trescientos millones de dólares en veinte minutos son más de cinco millones de dólares por segundo. Mientras tú lees esta frase, ya se habrían ido unos cuantos millones. Y no había ningún camión blindado que perseguir. Ninguna matrícula. Ninguna cara en una cámara de seguridad.",
+   "scene": "perSecond",
+   "params": {
+    "scene": "perSecond",
+    "icons": [
+     12.841,
+     15.392,
+     16.741
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -12
+    },
+    {
+     "at": 13.041,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 15.592,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 16.941,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s048",
+   "start": 430.394,
+   "end": 434.518,
+   "line": "Solo números moviéndose de una dirección a otra, a la velocidad de internet.",
+   "scene": "addresses",
+   "params": {
+    "scene": "addresses",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -40
+   }
+  },
+  {
+   "id": "s049",
+   "start": 434.518,
+   "end": 442.321,
+   "line": "Imagínate la sala de seguridad de Binance en ese momento. Las alertas saltando. Gente mirando pantallas donde los saldos bajan y bajan.",
+   "scene": "secRoom",
+   "params": {
+    "scene": "secRoom",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    },
+    "rphoto": {
+     "key": "datacenter",
+     "at": 3.889,
+     "dur": 3.4,
+     "cap": "Un centro de datos (imagen de referencia)",
+     "credit": "Foto: Carl Lender, CC BY 2.0 · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "alarm",
+     "gain": -12
+    },
+    {
+     "at": 1.8,
+     "name": "alarm",
+     "gain": -14
+    },
+    {
+     "at": 3.889,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 4.389,
+     "name": "stamp",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s050",
+   "start": 442.321,
+   "end": 460.97,
+   "line": "Y aquí está lo más cruel del plan: ese sistema de llave partida en trozos, que hacía la caja casi imposible de robar, también la hacía muy difícil de cerrar de golpe. Como no existía una única llave, no había una única llave que cancelar. Quitar los permisos falsos llevó tiempo. Y cada minuto, salían millones.",
+   "scene": "noSingleKey",
+   "params": {
+    "scene": "noSingleKey",
+    "lbl": 15.911
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 15.911,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s051",
+   "start": 460.97,
+   "end": 483.549,
+   "line": "Cuando por fin consiguen cortar el grifo, hacen la cuenta. Y la cifra es tan grande que parece un error. Seis mil trescientos millones de dólares. Según los rastreadores, entre seis mil ciento cincuenta y seis mil trescientos sesenta millones, dependiendo de quién haga las cuentas y de en qué momento se calcule el precio de cada moneda. Pero da igual qué número cojas: es el robo de criptomonedas más grande de la historia.",
+   "scene": "bigNumber",
+   "params": {
+    "scene": "bigNumber",
+    "num": 5.704,
+    "range": 8.615,
+    "record": 18.707,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.704,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 18.707,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s052",
+   "start": 483.549,
+   "end": 492.288,
+   "line": "El récord anterior era el hackeo a Bybit, en febrero de dos mil veinticinco, con unos mil quinientos millones. Esto es cuatro veces más.",
+   "scene": "bars",
+   "params": {
+    "scene": "bars",
+    "b2": 6.206,
+    "x4": 7.206
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 6.206,
+     "name": "riser",
+     "gain": -12
+    },
+    {
+     "at": 7.206,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s053",
+   "start": 492.288,
+   "end": 510.326,
+   "line": "Y ahora ponte en el lugar de los usuarios. Esa misma noche, Binance suspende todos los depósitos y todas las retiradas. Millones de personas abren la aplicación y no pueden sacar su dinero. En redes sociales empieza el pánico. Rumores, capturas de pantalla, gente preguntando si lo ha perdido todo.",
+   "scene": "usersPanic",
+   "params": {
+    "scene": "usersPanic",
+    "suspend": 3.031,
+    "posts": [
+     [
+      "¿Alguien puede retirar? 😰",
+      11.423
+     ],
+     [
+      "Dicen que hackearon Binance…",
+      13.789
+     ],
+     [
+      "¿Lo he perdido todo?",
+      15.889
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonebuzz",
+     "gain": -12
+    },
+    {
+     "at": 3.031,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 11.423,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 13.789,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 15.889,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s054",
+   "start": 510.326,
+   "end": 515.926,
+   "line": "El bitcoin y la moneda de Binance, el BNB, llegan a caer alrededor de un cinco por ciento.",
+   "scene": "chartDrop",
+   "params": {
+    "scene": "chartDrop"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s055",
+   "start": 515.926,
+   "end": 523.164,
+   "line": "Porque todo el mundo se estaba haciendo la misma pregunta. Si le pueden robar seis mil millones a la empresa más grande… ¿qué está a salvo?",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "worried"
+     ]
+    ],
+    "say": [
+     [
+      "¿QUÉ ESTÁ",
+      6.281
+     ],
+     [
+      "A SALVO?",
+      6.681
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 6.281,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s056",
+   "start": 523.164,
+   "end": 538.457,
+   "line": "Pero aquí la historia da un giro que muy poca gente esperaba. Binance empieza a pelear. Junto a otras empresas del sector, como los emisores de monedas estables, empieza a congelar todo lo que todavía se puede congelar. En los primeros días se habla de unos tres mil millones bloqueados.",
+   "scene": "freeze",
+   "params": {
+    "scene": "freeze",
+    "num": 12.382,
+    "numTxt": "≈ 3.000 M"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 0.8,
+     "name": "freeze",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s057",
+   "start": 538.457,
+   "end": 544.263,
+   "line": "En su informe posterior, la propia Binance ajusta esa cifra a unos dos mil ochocientos cincuenta millones.",
+   "scene": "freeze",
+   "params": {
+    "scene": "freeze",
+    "num": 0.3,
+    "numTxt": "≈ 2.850 M",
+    "conf": 0.6,
+    "confTxt": "INFORME DE BINANCE"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s058",
+   "start": 544.263,
+   "end": 548.451,
+   "line": "Es decir: casi la mitad del botín, los ladrones no lo pudieron tocar.",
+   "scene": "half",
+   "params": {
+    "scene": "half"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s059",
+   "start": 548.451,
+   "end": 565.294,
+   "line": "Y luego hace algo todavía más llamativo. La empresa anuncia que va a cubrir el agujero con su propio dinero. Que las pérdidas no van a recaer sobre los usuarios. Y para eso tira de todo lo que tiene: su fondo de seguridad para clientes, su fondo de seguro, sus reservas de bitcoin y la tesorería de la empresa.",
+   "scene": "refill",
+   "params": {
+    "scene": "refill",
+    "own": 2.809,
+    "src": [
+     10.172,
+     11.572,
+     12.972,
+     14.172
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 10.172,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 11.572,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 12.972,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 14.172,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -40
+   }
+  },
+  {
+   "id": "s060",
+   "start": 565.294,
+   "end": 572.404,
+   "line": "El treinta y uno de octubre, dos días después del robo, Binance dice que ya ha repuesto el noventa y ocho por ciento de los activos afectados.",
+   "scene": "refill",
+   "params": {
+    "scene": "refill",
+    "src": [
+     -9,
+     -9,
+     -9,
+     -9
+    ],
+    "pct": 1.62
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.62,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -42
+   }
+  },
+  {
+   "id": "s061",
+   "start": 572.404,
+   "end": 583.91,
+   "line": "Y el uno de noviembre, reabre las retiradas. ¿Y sabes qué pasó? Que mucha gente, por si acaso, sacó su dinero. Se habla de más de tres mil seiscientos millones de dólares en retiradas en cuanto se reabrió el grifo.",
+   "scene": "reopen",
+   "params": {
+    "scene": "reopen",
+    "queue": 3.677,
+    "num": 6.588,
+    "conf": 0.8
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "powerup",
+     "gain": -12
+    },
+    {
+     "at": 6.588,
+     "name": "counter",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -44
+   }
+  },
+  {
+   "id": "s062",
+   "start": 583.91,
+   "end": 594.837,
+   "line": "Pero la plataforma aguantó. Los analistas, que llevaban días mirando con lupa, concluyeron que Binance podía absorber el golpe. Que no iba a quebrar. El dinero de los usuarios estaba a salvo.",
+   "scene": "stands",
+   "params": {
+    "scene": "stands",
+    "shield": 8.573,
+    "lbl": "AGUANTÓ"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 8.573,
+     "name": "ding",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -46
+   }
+  },
+  {
+   "id": "s063",
+   "start": 594.837,
+   "end": 602.926,
+   "line": "Pero la pregunta seguía en el aire. ¿Quién había hecho esto? Y lo que se descubrió después… es todavía más inquietante que el propio robo.",
+   "scene": "who",
+   "params": {
+    "scene": "who"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.101,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s064",
+   "start": 602.926,
+   "end": 618.863,
+   "line": "La respuesta llegó del FBI. Según la agencia estadounidense, detrás del ataque está un grupo de hackers al que llaman TraderTraitor. Un grupo que también se conoce con otros nombres, y el más famoso de todos es Lazarus. Y según el FBI, ese grupo trabaja para el gobierno de Corea del Norte.",
+   "scene": "dossier",
+   "params": {
+    "scene": "dossier",
+    "lines": [
+     [
+      "Grupo: «TraderTraitor»",
+      2.76
+     ],
+     [
+      "También conocido como:",
+      8.327
+     ],
+     [
+      "Vinculado a: Corea del Norte",
+      12.47,
+      "#c0392b"
+     ]
+    ],
+    "aka": 10.327,
+    "conf": 2.16,
+    "rphoto": {
+     "key": "fbi_hq",
+     "at": 0.2,
+     "dur": 2.6,
+     "cap": "Sede del FBI · Washington D. C.",
+     "credit": "Foto: Tony Webster, CC BY 2.0 · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "typewriter",
+     "gain": -14
+    },
+    {
+     "at": 10.327,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.2,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 0.7,
+     "name": "stamp",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s065",
+   "start": 618.863,
+   "end": 624.928,
+   "line": "Si te suena raro que un país entero se dedique a robar criptomonedas, no es la primera vez que se le acusa de algo así.",
+   "scene": "mapNK",
+   "params": {
+    "scene": "mapNK",
+    "lbl": "NO ES LA PRIMERA VEZ",
+    "rphoto": {
+     "key": "pyongyang",
+     "at": 1.12,
+     "dur": 3.0,
+     "cap": "Pionyang, capital de Corea del Norte",
+     "credit": "Foto: Jan Engelhardt, CC BY-SA 4.0 · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 1.12,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 1.62,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s066",
+   "start": 624.928,
+   "end": 640.431,
+   "line": "Al grupo Lazarus se le atribuyen algunos de los mayores robos digitales de la última década. Incluido, precisamente, el hackeo a Bybit de dos mil veinticinco. Y hay un detalle que se repite una y otra vez en sus ataques, según los investigadores: las ofertas de trabajo falsas.",
+   "scene": "board",
+   "params": {
+    "scene": "board",
+    "title": "LO QUE SE LE ATRIBUYE A LAZARUS",
+    "strings": true,
+    "cards": [
+     [
+      "Grandes robos digitales",
+      0.3,
+      520,
+      420
+     ],
+     [
+      "Bybit · 2025",
+      5.166,
+      1100,
+      360
+     ],
+     [
+      "Ofertas de trabajo falsas",
+      11.29,
+      760,
+      680,
+      "#ffe6a8"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.166,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 11.29,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s067",
+   "start": 640.431,
+   "end": 648.609,
+   "line": "Reclutadores que no existen. Empresas que no existen. Pruebas técnicas que esconden una trampa. Exactamente lo que le pasó al Ingeniero B.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "javi": false,
+    "title": "EL PATRÓN",
+    "gap": 150,
+    "size": 56,
+    "items": [
+     [
+      "Reclutadores que no existen",
+      0.1,
+      "!"
+     ],
+     [
+      "Empresas que no existen",
+      1.979,
+      "!"
+     ],
+     [
+      "Pruebas técnicas con trampa",
+      3.655,
+      "!"
+     ],
+     [
+      "…lo que le pasó al Ingeniero B",
+      5.971,
+      "x"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 1.979,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 3.655,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s068",
+   "start": 648.609,
+   "end": 678.285,
+   "line": "De hecho, para entender este caso hay que volver un momento a febrero de dos mil veinticinco. Ese mes, otra casa de cambio de criptomonedas, Bybit, sufrió el que hasta entonces era el mayor robo de la historia del sector: unos mil quinientos millones de dólares en ethereum. ¿Y sabes cómo entraron? Tampoco forzaron ninguna caja fuerte. Comprometieron el ordenador de un desarrollador de una empresa externa que Bybit usaba para gestionar sus billeteras, y desde ahí engañaron al sistema para que los propios responsables firmaran una transferencia que parecía normal. El FBI también señaló entonces al mismo grupo: TraderTraitor.",
+   "scene": "flashback",
+   "params": {
+    "scene": "flashback",
+    "dev": 18.032,
+    "fbi": 27.553
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 27.553,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -40
+   }
+  },
+  {
+   "id": "s069",
+   "start": 678.285,
+   "end": 687.893,
+   "line": "Mismo método. Mismos sospechosos. Y un año y medio después, el golpe es cuatro veces más grande.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "javi": true,
+    "title": "BYBIT 2025 → BINANCE 2026",
+    "items": [
+     [
+      "Mismo método",
+      0.1
+     ],
+     [
+      "Mismos sospechosos",
+      2.82
+     ],
+     [
+      "El golpe: 4 veces más grande",
+      6.922,
+      "!"
+     ]
+    ],
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.12,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.922,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -42
+   }
+  },
+  {
+   "id": "s070",
+   "start": 687.893,
+   "end": 706.506,
+   "line": "¿Y qué se hace con miles de millones robados en criptomonedas? Porque no puedes ir a un banco y depositarlos así como así. Según lo que los investigadores han visto en casos anteriores atribuidos a este grupo, el patrón suele ser parecido. Primero, cambiar lo antes posible las monedas que se pueden congelar por otras que no, como el ethereum o el bitcoin.",
+   "scene": "launder",
+   "params": {
+    "scene": "launder",
+    "step": 1,
+    "unc": 7.153
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 7.153,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -44
+   }
+  },
+  {
+   "id": "s071",
+   "start": 706.506,
+   "end": 712.085,
+   "line": "Después, dividir el botín en miles de pequeñas cantidades, repartidas en miles de billeteras distintas.",
+   "scene": "launder",
+   "params": {
+    "scene": "launder",
+    "step": 2
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -46
+   }
+  },
+  {
+   "id": "s072",
+   "start": 712.085,
+   "end": 717.552,
+   "line": "Pasarlas de una cadena de bloques a otra, una y otra vez, para que el rastro sea un laberinto.",
+   "scene": "launder",
+   "params": {
+    "scene": "launder",
+    "step": 3
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -48
+   }
+  },
+  {
+   "id": "s073",
+   "start": 717.552,
+   "end": 726.17,
+   "line": "Y con paciencia, durante meses o incluso años, ir convirtiendo poco a poco ese dinero en efectivo a través de intermediarios que no hacen demasiadas preguntas.",
+   "scene": "launder",
+   "params": {
+    "scene": "launder",
+    "step": 4
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -50
+   }
+  },
+  {
+   "id": "s074",
+   "start": 726.17,
+   "end": 731.861,
+   "line": "Es como cortar un billete gigante en un millón de pedacitos y esconder cada pedacito en una ciudad distinta.",
+   "scene": "launder",
+   "params": {
+    "scene": "launder",
+    "step": 5
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -52
+   }
+  },
+  {
+   "id": "s075",
+   "start": 731.861,
+   "end": 739.624,
+   "line": "Las empresas de rastreo pueden seguir muchos de esos pedacitos. Pero no todos. Y cada día que pasa, el rastro se enfría un poco más.",
+   "scene": "launder",
+   "params": {
+    "scene": "launder",
+    "step": 6
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "wind",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -54
+   }
+  },
+  {
+   "id": "s076",
+   "start": 739.624,
+   "end": 748.386,
+   "line": "Informes de Naciones Unidas de años anteriores ya señalaban que este tipo de robos sirven para financiar al régimen norcoreano, incluidos sus programas de armas.",
+   "scene": "dossier",
+   "params": {
+    "scene": "dossier",
+    "head": "INFORMES · ONU",
+    "lines": [
+     [
+      "Informes de Naciones Unidas:",
+      0.6
+     ],
+     [
+      "estos robos financian al régimen",
+      3.12
+     ],
+     [
+      "y sus programas de armas",
+      5.12,
+      "#c0392b"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "typewriter",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -56
+   }
+  },
+  {
+   "id": "s077",
+   "start": 748.386,
+   "end": 752.417,
+   "line": "Por eso, para muchos expertos, esto no es solo un robo. Es otra cosa.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "worried"
+     ]
+    ],
+    "say": [
+     [
+      "NO ES SOLO",
+      0.3
+     ],
+     [
+      "UN ROBO",
+      3.16
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.16,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -58
+   }
+  },
+  {
+   "id": "s078",
+   "start": 752.417,
+   "end": 768.118,
+   "line": "¿Y qué dice Corea del Norte? El tres de noviembre, Kim Yo-jong, la hermana del líder norcoreano y una de las personas más poderosas del país, publica un comunicado. Y lo niega todo. Ninguna participación. Ninguna responsabilidad. Para Pyongyang, la acusación es falsa.",
+   "scene": "statement",
+   "params": {
+    "scene": "statement",
+    "no": [
+     [
+      "LO NIEGA TODO",
+      9.279
+     ],
+     [
+      "NINGUNA PARTICIPACIÓN",
+      10.442
+     ],
+     [
+      "«ES FALSO»",
+      14.006
+     ]
+    ],
+    "rphoto": {
+     "key": "kim_yojong",
+     "at": 3.18,
+     "dur": 4.0,
+     "cap": "Kim Yo-jong (2018)",
+     "credit": "Foto: Departamento de Estado de EE. UU., dominio público"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 9.279,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 10.442,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 14.006,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 3.18,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 3.68,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -60
+   }
+  },
+  {
+   "id": "s079",
+   "start": 768.118,
+   "end": 784.376,
+   "line": "Así que, oficialmente, estamos así: el FBI señala a Corea del Norte, Binance se apoya en lo que dice el FBI, y Corea del Norte dice que no ha sido. Esto, de momento, queda marcado en el expediente como lo que es: una atribución del FBI, negada por el país acusado.",
+   "scene": "scale",
+   "params": {
+    "scene": "scale",
+    "st": 10.731
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 10.731,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -62
+   }
+  },
+  {
+   "id": "s080",
+   "start": 784.376,
+   "end": 790.673,
+   "line": "Y ahora vamos con lo que de verdad importa. Lo que sabemos hoy, y lo que sigue abierto. Lo que está confirmado.",
+   "scene": "board",
+   "params": {
+    "scene": "board",
+    "title": "LO QUE SABEMOS HOY",
+    "cards": [
+     [
+      "CONFIRMADO",
+      4.867,
+      520,
+      330,
+      "#c9f0c0"
+     ],
+     [
+      "ABIERTO",
+      40.768,
+      1400,
+      330,
+      "#ffd0a8"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.867,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 40.768,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -64
+   }
+  },
+  {
+   "id": "s081",
+   "start": 790.673,
+   "end": 825.024,
+   "line": "El robo ocurrió el veintinueve de octubre de dos mil veintiséis. Salieron alrededor de seis mil trescientos millones de dólares, la mayor parte en unos veinte minutos. Todo empezó con una entrevista de trabajo falsa y una prueba técnica con un programa malicioso escondido. Los atacantes pasaron semanas dentro antes de actuar. No robaron las claves privadas: usaron el propio sistema de firmas de Binance. La empresa congeló cerca de dos mil ochocientos cincuenta millones, repuso los fondos con dinero propio y reabrió las retiradas el uno de noviembre. Y el FBI atribuye el ataque a hackers vinculados a Corea del Norte.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "javi": false,
+    "title": "CONFIRMADO",
+    "gap": 100,
+    "size": 42,
+    "items": [
+     [
+      "29 de octubre de 2026",
+      0.1
+     ],
+     [
+      "≈ 6.300 M $ en unos 20 minutos",
+      3.773
+     ],
+     [
+      "Entrevista falsa + prueba con malware",
+      9.77
+     ],
+     [
+      "Semanas dentro antes de actuar",
+      15.496
+     ],
+     [
+      "No robaron claves: usaron las firmas",
+      18.652
+     ],
+     [
+      "Congelados ≈ 2.850 M · fondos repuestos",
+      22.869
+     ],
+     [
+      "FBI: hackers vinculados a Corea del Norte",
+      30.847
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 3.973,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 9.97,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 15.696,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 18.852,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 23.069,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 31.047,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -66
+   }
+  },
+  {
+   "id": "s082",
+   "start": 825.024,
+   "end": 846.01,
+   "line": "Lo que sigue abierto. Cómo usaron exactamente la herramienta de inteligencia artificial de la empresa para saltar de un ordenador a otro. Dónde está ahora la otra mitad del dinero, porque una parte sigue moviéndose de cartera en cartera mientras las empresas de rastreo la persiguen. Quiénes eran de verdad los falsos reclutadores. Y si alguna vez alguien responderá ante un tribunal por esto.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "javi": false,
+    "title": "SIGUE ABIERTO",
+    "gap": 140,
+    "size": 46,
+    "items": [
+     [
+      "¿Cómo usaron la IA interna?",
+      2.219,
+      "!"
+     ],
+     [
+      "¿Dónde está la otra mitad?",
+      7.986,
+      "!"
+     ],
+     [
+      "¿Quiénes eran los reclutadores?",
+      15.449,
+      "!"
+     ],
+     [
+      "¿Habrá juicio algún día?",
+      18.002,
+      "!"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.219,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 7.986,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 15.449,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 18.002,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -68
+   }
+  },
+  {
+   "id": "s083",
+   "start": 846.01,
+   "end": 850.532,
+   "line": "Y hay una última cosa que quiero contarte, porque a lo mejor esta parte te sirve a ti.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ],
+    "say": [
+     [
+      "ESTO TE",
+      2.52
+     ],
+     [
+      "PUEDE SERVIR",
+      2.92
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.52,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -70
+   }
+  },
+  {
+   "id": "s084",
+   "start": 850.532,
+   "end": 860.713,
+   "line": "Este robo, el más grande de la historia de las criptomonedas, no empezó con un genio tecleando a toda velocidad en una habitación oscura. Empezó con un mensaje amable en una plataforma de empleo.",
+   "scene": "engineer",
+   "params": {
+    "scene": "engineer",
+    "ping": 7.561,
+    "tag": -9,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15,
+     "fx": 1300,
+     "fy": 520
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 7.561,
+     "name": "phonebuzz",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -72
+   }
+  },
+  {
+   "id": "s085",
+   "start": 860.713,
+   "end": 881.004,
+   "line": "Así que, si algún día te escribe un reclutador con una oferta demasiado buena, fíjate en estas señales. Si la empresa casi no tiene presencia real en internet. Si todo va con muchas prisas. Si te cambian de plataforma para hablar por un chat privado. Y sobre todo, si te piden que descargues y ejecutes un programa en tu ordenador. Nunca, jamás, en el ordenador del trabajo.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "title": "SEÑALES DE UN RECLUTADOR FALSO",
+    "gap": 130,
+    "size": 44,
+    "items": [
+     [
+      "Casi no existe en internet",
+      5.9,
+      "!"
+     ],
+     [
+      "Todo va con muchas prisas",
+      8.765,
+      "!"
+     ],
+     [
+      "Te pasa a un chat privado",
+      10.442,
+      "!"
+     ],
+     [
+      "Te pide ejecutar un programa",
+      13.683,
+      "!"
+     ],
+     [
+      "NUNCA en el ordenador del trabajo",
+      18.264,
+      "x"
+     ]
+    ],
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.9,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 8.765,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 10.442,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 13.683,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 18.264,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -74
+   }
+  },
+  {
+   "id": "s086",
+   "start": 881.004,
+   "end": 888.153,
+   "line": "Porque esa noche, a nadie le pusieron una pistola en la cabeza. A nadie le robaron una llave. A alguien le ofrecieron un trabajo mejor.",
+   "scene": "ending",
+   "params": {
+    "scene": "ending",
+    "at": [
+     0.1,
+     3.49,
+     5.176
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 3.79,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 5.476,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -76
+   }
+  },
+  {
+   "id": "s087",
+   "start": 888.153,
+   "end": 898.034,
+   "line": "Y ahora te lo pregunto a ti, y quiero leerte en los comentarios. Si te llega una oferta así, con un sueldo mejor y una prueba técnica sencilla… ¿tú la habrías descargado? Sé sincero.",
+   "scene": "outro",
+   "params": {
+    "scene": "outro",
+    "q": 7.546,
+    "ex": [
+     [
+      0,
+      "smile"
+     ],
+     [
+      7.546,
+      "smirk"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 7.546,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 7.946,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 8.346,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -78
+   }
+  },
+  {
+   "id": "s088",
+   "start": 898.034,
+   "end": 904.451,
+   "line": "Este expediente sigue abierto. Si hay novedades, si aparece el dinero o alguien da la cara, te lo cuento aquí.",
+   "scene": "outro",
+   "params": {
+    "scene": "outro",
+    "open": 0.2,
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -80
+   }
+  },
+  {
+   "id": "s089",
+   "start": 904.451,
+   "end": 916.073,
+   "line": "Y si te pareció interesante, suscríbete y activa la campanita, porque cada semana abrimos un expediente nuevo de lo que todo el mundo está comentando. Contado como lo que es: una historia increíble que pasó de verdad.",
+   "scene": "outro",
+   "params": {
+    "scene": "outro",
+    "sub": 0.3,
+    "press": 1.72,
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 1.72,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -82
+   }
+  },
+  {
+   "id": "s090",
+   "start": 916.073,
+   "end": 918.648163,
+   "line": "Soy Javi. Y esto fue Archivo Oscuro.",
+   "scene": "outro",
+   "params": {
+    "scene": "outro",
+    "logo": 0.1,
+    "ex": [
+     [
+      0,
+      "happy"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -84
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 28.475,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 28.475,
+   "end": 53.672,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 53.672,
+   "end": 130.586,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 130.586,
+   "end": 219.719,
+   "mood": "calm",
+   "intensity": 0.35
+  },
+  {
+   "start": 219.719,
+   "end": 329.132,
+   "mood": "dark",
+   "intensity": 0.55
+  },
+  {
+   "start": 329.132,
+   "end": 492.408,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 492.408,
+   "end": 523.284,
+   "mood": "sad",
+   "intensity": 0.45
+  },
+  {
+   "start": 523.284,
+   "end": 594.957,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 594.957,
+   "end": 688.013,
+   "mood": "dark",
+   "intensity": 0.6
+  },
+  {
+   "start": 688.013,
+   "end": 784.496,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 784.496,
+   "end": 881.124,
+   "mood": "calm",
+   "intensity": 0.35
+  },
+  {
+   "start": 881.124,
+   "end": 918.648163,
+   "mood": "mystery",
+   "intensity": 0.5
+  }
+ ],
+ "sfx": []
+}

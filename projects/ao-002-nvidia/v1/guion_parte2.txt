@@ -1,0 +1,61 @@
+Finales de octubre de dos mil veintiséis. El New York Times publica que Jensen Huang tiene una relación cercana con Alice Huang, la ejecutiva de Megaspeed. La empresa investigada por ayudar, presuntamente, a que la tecnología de Nvidia llegara a donde no debía llegar.
+
+Al principio, Nvidia le quita importancia. Un portavoz dice que no hay nada fuera de lo normal. Pero los periodistas siguen tirando del hilo.
+
+Y a principios de noviembre llega el golpe. Según el New York Times, la vigilancia del gobierno de Estados Unidos sugería que Alice Huang estaba pasando información directamente a Pekín. El mismo periódico va más allá: cita fuentes que aseguran que el Ministerio de Seguridad del Estado chino la habría reclutado para obtener información sobre Jensen Huang… e incluso para influir en lo que él pensaba sobre venderle chips de inteligencia artificial a empresas chinas.
+
+Ahora, para un momento, porque aquí tengo que ser muy claro contigo. Todo esto son informaciones de prensa basadas en fuentes del gobierno estadounidense. A día de hoy, el Departamento de Justicia todavía no ha determinado si Alice Huang era una espía. No hay ninguna acusación formal contra ella que se haya hecho pública. Y el gobierno de China lo niega rotundamente: lo ha llamado difamación sin fundamento. Así que en este expediente, esto lleva un sello bien grande: sin confirmar.
+
+Pero aunque no esté confirmado, imagina lo que significa la simple sospecha. Estamos hablando del hombre que decide qué chips se fabrican, a quién se venden y cuáles son los planes de la empresa más importante de la inteligencia artificial. Si alguien con acceso a él trabajara para otro país, sería uno de los mayores fallos de seguridad de la historia de la tecnología.
+
+Y quizá te estés preguntando: ¿para qué querría un país espiar al jefe de una empresa de chips? ¿No es más fácil robar los planos?
+
+La respuesta es que, según los expertos en inteligencia, muchas veces lo más valioso no es un documento. Es saber qué piensa alguien, qué va a decidir, a quién va a escuchar. Saber antes que nadie qué chips va a fabricar Nvidia, cuáles va a intentar vender en China, cómo va a responder a las restricciones de Washington. Y si además consigues que esa persona vea las cosas un poco más a tu manera… el premio es enorme.
+
+En el mundo del espionaje esto tiene incluso un nombre informal: la trampa de miel. Una relación personal usada para acercarse a alguien poderoso. Es una técnica tan antigua como el propio espionaje. Pero ojo: que exista esa técnica no significa que sea lo que pasó aquí. Por eso, de momento, todo esto sigue siendo una sospecha, no un hecho.
+
+Además, la prensa estadounidense publicó otra acusación muy seria: que las autoridades sospechaban que Alice Huang había ayudado a hacer llegar chips avanzados de inteligencia artificial a China de forma ilegal. De nuevo: es lo que publican los periódicos citando fuentes oficiales, no una condena. Pero explica por qué el gobierno de Estados Unidos estaba tan pendiente de ella… mucho antes de que su nombre apareciera junto al de Jensen Huang.
+
+Y entonces, todo se acelera.
+
+La junta directiva de Nvidia crea un comité de consejeros independientes y contrata a un bufete de abogados externo. Su misión: averiguar si Jensen Huang fue el blanco de una operación de inteligencia extranjera. Jensen dice que apoya la investigación y que colaborará en todo.
+
+Poco después, envía un mensaje interno a los empleados de Nvidia. Y en ese mensaje reconoce algo muy personal: que había sido infiel a su esposa. Ya no era solo un rumor de periódico. Era él mismo admitiéndolo.
+
+Y la noche del miércoles once de noviembre, sale a la luz una segunda relación. Esta vez, según la prensa, con una empleada de la propia Nvidia que trabajaba bajo su mando. En cualquier gran empresa, una relación así con alguien de tu propio equipo es una línea roja.
+
+Al día siguiente, jueves doce de noviembre de dos mil veintiséis, la junta directiva de Nvidia publica un comunicado de apenas unas líneas. Jensen Huang renuncia como director ejecutivo, como presidente y como miembro del consejo. Con efecto inmediato.
+
+Después de más de treinta años. El hombre que fundó la empresa en una cafetería de carretera… sale por la puerta de atrás.
+
+La directora financiera, Colette Kress, pasa a dirigir la compañía de forma interina mientras se busca un sustituto.
+
+¿Y qué hace la bolsa? Esa mañana, las acciones de Nvidia llegan a caer más de un trece por ciento al abrir el mercado. Durante el día se recuperan un poco y cierran con una caída de alrededor del cuatro por ciento. Pero el daño acumulado es enorme. Desde su récord del seis de octubre, Nvidia ha perdido alrededor de un treinta por ciento de su valor. Ese billón setecientos mil millones de dólares que te decía al principio.
+
+Y aquí pasa algo curioso. Mientras muchos grandes inversores profesionales recortaban sus previsiones, miles de pequeños inversores aprovechaban la caída para comprar. Unos ven un desastre. Otros, una oportunidad. Y nadie sabe todavía quién tiene razón.
+
+Pero la historia no se queda en la bolsa. Llega hasta Washington.
+
+Varios congresistas piden explicaciones. El republicano John Moolenaar, que preside el comité de la Cámara de Representantes centrado en China, anuncia que Jensen Huang ha aceptado informar al Congreso sobre su relación con la presunta espía y sobre los protocolos de seguridad de Nvidia. Los medios no coinciden en la fecha exacta: unos hablan del dieciocho de noviembre, otros de diciembre. El líder demócrata de la Cámara pide una sesión informativa clasificada. Y el presidente de la Cámara se muestra a favor de limitar todavía más la venta de chips avanzados a China.
+
+¿Te das cuenta? Lo que empezó como una historia personal ya está cambiando las reglas del comercio de chips entre las dos mayores potencias del mundo.
+
+Y ahora vamos con lo que de verdad importa. Lo que sabemos hoy, y lo que sigue abierto.
+
+Lo que está confirmado. Jensen Huang, cofundador de Nvidia, renunció el doce de noviembre de dos mil veintiséis con efecto inmediato. Él mismo reconoció ante sus empleados que había sido infiel a su esposa. La junta de Nvidia abrió una investigación independiente para saber si fue blanco de una operación de inteligencia extranjera. Megaspeed está siendo investigada por las autoridades de Estados Unidos. Colette Kress dirige la empresa de forma interina. Y Nvidia ha perdido alrededor de un treinta por ciento de su valor desde su récord de octubre.
+
+Lo que sigue abierto. Si Alice Huang trabajaba realmente para la inteligencia china. Si llegó a obtener alguna información de Jensen Huang, y cuál. Si Megaspeed ayudó de verdad a saltarse las restricciones de exportación. Qué contará Jensen ante el Congreso. Y quién será el próximo director de Nvidia.
+
+Y hay una cosa más que conviene mirar. El diecisiete de noviembre, Nvidia presenta sus resultados del trimestre. Serán los primeros números sin Jensen Huang al frente. Y mucha gente en el mundo entero va a estar mirando esa cifra, porque de ella depende buena parte del ánimo de los mercados en las próximas semanas.
+
+Así que, ¿por qué esta historia te afecta a ti? Por tres razones. Porque una parte de los ahorros de millones de personas está, directa o indirectamente, invertida en esta empresa. Porque de sus chips depende buena parte de la inteligencia artificial que usamos cada día. Y porque lo que decida Estados Unidos sobre la venta de estos chips a China puede cambiar la tecnología, los precios y la economía de los próximos años.
+
+Todo eso, por una pregunta que al principio nadie quería hacer: quién estaba realmente al lado del hombre más poderoso de la inteligencia artificial.
+
+Y ahora te lo pregunto a ti, y quiero leerte en los comentarios. ¿Crees que esto fue una operación de espionaje, o solo un escándalo personal que se hizo enorme? Y si tuvieras acciones de Nvidia… ¿venderías o comprarías?
+
+Este expediente sigue abierto. Cuando Jensen Huang hable ante el Congreso, o cuando el Departamento de Justicia diga algo, te lo cuento aquí.
+
+Y si te pareció interesante, suscríbete y activa la campanita, porque cada semana abrimos un expediente nuevo de lo que todo el mundo está comentando. Contado como lo que es: una historia increíble que pasó de verdad.
+
+Soy Javi. Y esto fue Archivo Oscuro.

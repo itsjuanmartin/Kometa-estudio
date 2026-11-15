@@ -1,0 +1,9 @@
+node_modules/
+**/out/
+**/build/
+*.mp4
+*.mov
+*.webm
+**/frames/
+.cache/
+assets/music/*/

@@ -1,0 +1,326 @@
+== segment 0: 0 -> 60
+Rendering frames 0-1440 (60.0 s) with 4 worker(s)…
+  48/1440 frames  3.03 fps  elapsed 0m16s  eta 7m39s
+  96/1440 frames  3.46 fps  elapsed 0m28s  eta 6m29s
+  144/1440 frames  3.59 fps  elapsed 0m40s  eta 6m01s
+  192/1440 frames  3.59 fps  elapsed 0m53s  eta 5m47s
+  240/1440 frames  3.61 fps  elapsed 1m06s  eta 5m32s
+  288/1440 frames  3.64 fps  elapsed 1m19s  eta 5m16s
+  336/1440 frames  3.66 fps  elapsed 1m32s  eta 5m02s
+  384/1440 frames  3.67 fps  elapsed 1m45s  eta 4m48s
+  432/1440 frames  3.68 fps  elapsed 1m57s  eta 4m34s
+  480/1440 frames  3.68 fps  elapsed 2m11s  eta 4m21s
+  528/1440 frames  3.67 fps  elapsed 2m24s  eta 4m09s
+  576/1440 frames  3.65 fps  elapsed 2m38s  eta 3m56s
+  624/1440 frames  3.66 fps  elapsed 2m51s  eta 3m43s
+  672/1440 frames  3.65 fps  elapsed 3m04s  eta 3m30s
+  720/1440 frames  3.64 fps  elapsed 3m18s  eta 3m18s
+  768/1440 frames  3.57 fps  elapsed 3m35s  eta 3m08s
+  816/1440 frames  3.45 fps  elapsed 3m57s  eta 3m01s
+  864/1440 frames  3.40 fps  elapsed 4m14s  eta 2m49s
+  912/1440 frames  3.34 fps  elapsed 4m33s  eta 2m38s
+  960/1440 frames  3.29 fps  elapsed 4m52s  eta 2m26s
+  1008/1440 frames  3.17 fps  elapsed 5m18s  eta 2m16s
+  1056/1440 frames  1.93 fps  elapsed 9m06s  eta 3m19s
+  1104/1440 frames  1.19 fps  elapsed 15m30s  eta 4m43s
+  1152/1440 frames  0.87 fps  elapsed 22m04s  eta 5m31s
+  1200/1440 frames  0.69 fps  elapsed 28m59s  eta 5m48s
+  1248/1440 frames  0.58 fps  elapsed 35m48s  eta 5m30s
+  1296/1440 frames  0.51 fps  elapsed 42m42s  eta 4m45s
+  1344/1440 frames  0.45 fps  elapsed 49m25s  eta 3m32s
+  1392/1440 frames  0.47 fps  elapsed 49m39s  eta 1m43s
+  1440/1440 frames  0.48 fps  elapsed 49m53s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_00.mp4  (49m54s)
+== segment 1: 60 -> 120
+Rendering frames 1440-2880 (60.0 s) with 4 worker(s)…
+  48/1440 frames  4.44 fps  elapsed 0m11s  eta 5m14s
+  96/1440 frames  4.88 fps  elapsed 0m20s  eta 4m35s
+  144/1440 frames  4.96 fps  elapsed 0m29s  eta 4m21s
+  192/1440 frames  4.87 fps  elapsed 0m39s  eta 4m16s
+  240/1440 frames  4.85 fps  elapsed 0m50s  eta 4m08s
+  288/1440 frames  4.79 fps  elapsed 1m00s  eta 4m00s
+  336/1440 frames  4.74 fps  elapsed 1m11s  eta 3m53s
+  384/1440 frames  4.72 fps  elapsed 1m21s  eta 3m44s
+  432/1440 frames  4.72 fps  elapsed 1m32s  eta 3m34s
+  480/1440 frames  4.75 fps  elapsed 1m41s  eta 3m22s
+  528/1440 frames  4.76 fps  elapsed 1m51s  eta 3m11s
+  576/1440 frames  4.78 fps  elapsed 2m00s  eta 3m01s
+  624/1440 frames  4.82 fps  elapsed 2m10s  eta 2m49s
+  672/1440 frames  4.82 fps  elapsed 2m19s  eta 2m39s
+  720/1440 frames  4.85 fps  elapsed 2m29s  eta 2m29s
+  768/1440 frames  4.88 fps  elapsed 2m37s  eta 2m18s
+  816/1440 frames  4.92 fps  elapsed 2m46s  eta 2m07s
+  864/1440 frames  4.95 fps  elapsed 2m55s  eta 1m56s
+  912/1440 frames  4.98 fps  elapsed 3m03s  eta 1m46s
+  960/1440 frames  4.98 fps  elapsed 3m13s  eta 1m36s
+  1008/1440 frames  5.00 fps  elapsed 3m22s  eta 1m26s
+  1056/1440 frames  5.01 fps  elapsed 3m31s  eta 1m17s
+  1104/1440 frames  5.01 fps  elapsed 3m40s  eta 1m07s
+  1152/1440 frames  5.02 fps  elapsed 3m50s  eta 0m57s
+  1200/1440 frames  5.02 fps  elapsed 3m59s  eta 0m48s
+  1248/1440 frames  5.02 fps  elapsed 4m09s  eta 0m38s
+  1296/1440 frames  4.97 fps  elapsed 4m21s  eta 0m29s
+  1344/1440 frames  4.96 fps  elapsed 4m31s  eta 0m19s
+  1392/1440 frames  4.91 fps  elapsed 4m44s  eta 0m10s
+  1440/1440 frames  4.86 fps  elapsed 4m56s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_01.mp4  (4m58s)
+== segment 2: 120 -> 180
+Rendering frames 2880-4320 (60.0 s) with 4 worker(s)…
+  48/1440 frames  4.07 fps  elapsed 0m12s  eta 5m42s
+  96/1440 frames  4.59 fps  elapsed 0m21s  eta 4m53s
+  144/1440 frames  4.87 fps  elapsed 0m30s  eta 4m26s
+  192/1440 frames  4.87 fps  elapsed 0m39s  eta 4m16s
+  240/1440 frames  4.88 fps  elapsed 0m49s  eta 4m06s
+  288/1440 frames  4.89 fps  elapsed 0m59s  eta 3m56s
+  336/1440 frames  4.94 fps  elapsed 1m08s  eta 3m44s
+  384/1440 frames  4.97 fps  elapsed 1m17s  eta 3m33s
+  432/1440 frames  4.99 fps  elapsed 1m27s  eta 3m22s
+  480/1440 frames  5.03 fps  elapsed 1m35s  eta 3m11s
+  528/1440 frames  5.06 fps  elapsed 1m44s  eta 3m00s
+  576/1440 frames  5.08 fps  elapsed 1m53s  eta 2m50s
+  624/1440 frames  5.09 fps  elapsed 2m03s  eta 2m40s
+  672/1440 frames  5.10 fps  elapsed 2m12s  eta 2m31s
+  720/1440 frames  5.10 fps  elapsed 2m21s  eta 2m21s
+  768/1440 frames  5.12 fps  elapsed 2m30s  eta 2m11s
+  816/1440 frames  5.14 fps  elapsed 2m39s  eta 2m01s
+  864/1440 frames  5.14 fps  elapsed 2m48s  eta 1m52s
+  912/1440 frames  5.17 fps  elapsed 2m56s  eta 1m42s
+  960/1440 frames  5.20 fps  elapsed 3m05s  eta 1m32s
+  1008/1440 frames  5.21 fps  elapsed 3m13s  eta 1m23s
+  1056/1440 frames  5.22 fps  elapsed 3m22s  eta 1m14s
+  1104/1440 frames  5.18 fps  elapsed 3m33s  eta 1m05s
+  1152/1440 frames  5.16 fps  elapsed 3m43s  eta 0m56s
+  1200/1440 frames  5.14 fps  elapsed 3m54s  eta 0m47s
+  1248/1440 frames  5.12 fps  elapsed 4m04s  eta 0m37s
+  1296/1440 frames  5.09 fps  elapsed 4m15s  eta 0m28s
+  1344/1440 frames  5.07 fps  elapsed 4m25s  eta 0m19s
+  1392/1440 frames  5.02 fps  elapsed 4m37s  eta 0m10s
+  1440/1440 frames  4.95 fps  elapsed 4m51s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_02.mp4  (4m52s)
+== segment 3: 180 -> 240
+Rendering frames 4320-5760 (60.0 s) with 4 worker(s)…
+  48/1440 frames  5.44 fps  elapsed 0m09s  eta 4m16s
+  96/1440 frames  6.23 fps  elapsed 0m15s  eta 3m36s
+  144/1440 frames  6.45 fps  elapsed 0m22s  eta 3m21s
+  192/1440 frames  6.51 fps  elapsed 0m29s  eta 3m12s
+  240/1440 frames  6.52 fps  elapsed 0m37s  eta 3m04s
+  288/1440 frames  6.43 fps  elapsed 0m45s  eta 2m59s
+  336/1440 frames  6.33 fps  elapsed 0m53s  eta 2m54s
+  384/1440 frames  6.30 fps  elapsed 1m01s  eta 2m48s
+  432/1440 frames  6.25 fps  elapsed 1m09s  eta 2m41s
+  480/1440 frames  6.18 fps  elapsed 1m18s  eta 2m35s
+  528/1440 frames  6.14 fps  elapsed 1m26s  eta 2m28s
+  576/1440 frames  6.13 fps  elapsed 1m34s  eta 2m21s
+  624/1440 frames  6.09 fps  elapsed 1m42s  eta 2m14s
+  672/1440 frames  6.06 fps  elapsed 1m51s  eta 2m07s
+  720/1440 frames  6.05 fps  elapsed 1m59s  eta 1m59s
+  768/1440 frames  6.03 fps  elapsed 2m07s  eta 1m51s
+  816/1440 frames  6.04 fps  elapsed 2m15s  eta 1m43s
+  864/1440 frames  6.05 fps  elapsed 2m23s  eta 1m35s
+  912/1440 frames  6.05 fps  elapsed 2m31s  eta 1m27s
+  960/1440 frames  6.07 fps  elapsed 2m38s  eta 1m19s
+  1008/1440 frames  6.08 fps  elapsed 2m46s  eta 1m11s
+  1056/1440 frames  6.11 fps  elapsed 2m53s  eta 1m03s
+  1104/1440 frames  6.13 fps  elapsed 3m00s  eta 0m55s
+  1152/1440 frames  6.15 fps  elapsed 3m07s  eta 0m47s
+  1200/1440 frames  6.17 fps  elapsed 3m14s  eta 0m39s
+  1248/1440 frames  6.20 fps  elapsed 3m21s  eta 0m31s
+  1296/1440 frames  6.22 fps  elapsed 3m28s  eta 0m23s
+  1344/1440 frames  6.23 fps  elapsed 3m36s  eta 0m15s
+  1392/1440 frames  6.21 fps  elapsed 3m44s  eta 0m08s
+  1440/1440 frames  6.17 fps  elapsed 3m53s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_03.mp4  (3m55s)
+== segment 4: 240 -> 300
+Rendering frames 5760-7200 (60.0 s) with 4 worker(s)…
+  48/1440 frames  5.16 fps  elapsed 0m09s  eta 4m30s
+  96/1440 frames  5.88 fps  elapsed 0m16s  eta 3m49s
+  144/1440 frames  6.08 fps  elapsed 0m24s  eta 3m33s
+  192/1440 frames  6.16 fps  elapsed 0m31s  eta 3m22s
+  240/1440 frames  6.17 fps  elapsed 0m39s  eta 3m15s
+  288/1440 frames  6.14 fps  elapsed 0m47s  eta 3m08s
+  336/1440 frames  6.10 fps  elapsed 0m55s  eta 3m01s
+  384/1440 frames  6.00 fps  elapsed 1m04s  eta 2m56s
+  432/1440 frames  6.00 fps  elapsed 1m12s  eta 2m48s
+  480/1440 frames  5.98 fps  elapsed 1m20s  eta 2m40s
+  528/1440 frames  5.97 fps  elapsed 1m28s  eta 2m33s
+  576/1440 frames  5.96 fps  elapsed 1m37s  eta 2m25s
+  624/1440 frames  5.97 fps  elapsed 1m45s  eta 2m17s
+  672/1440 frames  5.95 fps  elapsed 1m53s  eta 2m09s
+  720/1440 frames  5.96 fps  elapsed 2m01s  eta 2m01s
+  768/1440 frames  5.96 fps  elapsed 2m09s  eta 1m53s
+  816/1440 frames  5.98 fps  elapsed 2m17s  eta 1m44s
+  864/1440 frames  5.96 fps  elapsed 2m25s  eta 1m37s
+  912/1440 frames  5.95 fps  elapsed 2m33s  eta 1m29s
+  960/1440 frames  5.93 fps  elapsed 2m42s  eta 1m21s
+  1008/1440 frames  5.92 fps  elapsed 2m50s  eta 1m13s
+  1056/1440 frames  5.92 fps  elapsed 2m58s  eta 1m05s
+  1104/1440 frames  5.92 fps  elapsed 3m07s  eta 0m57s
+  1152/1440 frames  5.92 fps  elapsed 3m15s  eta 0m49s
+  1200/1440 frames  5.91 fps  elapsed 3m23s  eta 0m41s
+  1248/1440 frames  5.91 fps  elapsed 3m31s  eta 0m32s
+  1296/1440 frames  5.90 fps  elapsed 3m40s  eta 0m24s
+  1344/1440 frames  5.91 fps  elapsed 3m48s  eta 0m16s
+  1392/1440 frames  5.88 fps  elapsed 3m57s  eta 0m08s
+  1440/1440 frames  5.75 fps  elapsed 4m10s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_04.mp4  (4m12s)
+== segment 5: 300 -> 360
+Rendering frames 7200-8640 (60.0 s) with 4 worker(s)…
+  48/1440 frames  4.18 fps  elapsed 0m11s  eta 5m33s
+  96/1440 frames  4.61 fps  elapsed 0m21s  eta 4m52s
+  144/1440 frames  4.86 fps  elapsed 0m30s  eta 4m27s
+  192/1440 frames  4.87 fps  elapsed 0m39s  eta 4m16s
+  240/1440 frames  4.82 fps  elapsed 0m50s  eta 4m09s
+  288/1440 frames  4.81 fps  elapsed 0m60s  eta 3m59s
+  336/1440 frames  4.74 fps  elapsed 1m11s  eta 3m53s
+  384/1440 frames  4.71 fps  elapsed 1m22s  eta 3m44s
+  432/1440 frames  4.69 fps  elapsed 1m32s  eta 3m35s
+  480/1440 frames  4.67 fps  elapsed 1m43s  eta 3m26s
+  528/1440 frames  4.66 fps  elapsed 1m53s  eta 3m16s
+  576/1440 frames  4.66 fps  elapsed 2m03s  eta 3m05s
+  624/1440 frames  4.65 fps  elapsed 2m14s  eta 2m55s
+  672/1440 frames  4.64 fps  elapsed 2m25s  eta 2m46s
+  720/1440 frames  4.65 fps  elapsed 2m35s  eta 2m35s
+  768/1440 frames  4.64 fps  elapsed 2m46s  eta 2m25s
+  816/1440 frames  4.64 fps  elapsed 2m56s  eta 2m15s
+  864/1440 frames  4.63 fps  elapsed 3m07s  eta 2m05s
+  912/1440 frames  4.63 fps  elapsed 3m17s  eta 1m54s
+  960/1440 frames  4.63 fps  elapsed 3m27s  eta 1m44s
+  1008/1440 frames  4.63 fps  elapsed 3m37s  eta 1m33s
+  1056/1440 frames  4.64 fps  elapsed 3m47s  eta 1m23s
+  1104/1440 frames  4.65 fps  elapsed 3m58s  eta 1m12s
+  1152/1440 frames  4.64 fps  elapsed 4m08s  eta 1m02s
+  1200/1440 frames  4.64 fps  elapsed 4m19s  eta 0m52s
+  1248/1440 frames  4.65 fps  elapsed 4m29s  eta 0m41s
+  1296/1440 frames  4.64 fps  elapsed 4m39s  eta 0m31s
+  1344/1440 frames  4.65 fps  elapsed 4m49s  eta 0m21s
+  1392/1440 frames  4.65 fps  elapsed 4m60s  eta 0m10s
+  1440/1440 frames  4.61 fps  elapsed 5m12s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_05.mp4  (5m15s)
+== segment 6: 360 -> 420
+Rendering frames 8640-10080 (60.0 s) with 4 worker(s)…
+  48/1440 frames  4.25 fps  elapsed 0m11s  eta 5m28s
+  96/1440 frames  4.89 fps  elapsed 0m20s  eta 4m35s
+  144/1440 frames  5.15 fps  elapsed 0m28s  eta 4m12s
+  192/1440 frames  5.26 fps  elapsed 0m37s  eta 3m57s
+  240/1440 frames  5.25 fps  elapsed 0m46s  eta 3m48s
+  288/1440 frames  5.27 fps  elapsed 0m55s  eta 3m39s
+  336/1440 frames  5.29 fps  elapsed 1m04s  eta 3m29s
+  384/1440 frames  5.29 fps  elapsed 1m13s  eta 3m19s
+  432/1440 frames  5.30 fps  elapsed 1m21s  eta 3m10s
+  480/1440 frames  5.29 fps  elapsed 1m31s  eta 3m01s
+  528/1440 frames  5.29 fps  elapsed 1m40s  eta 2m52s
+  576/1440 frames  5.31 fps  elapsed 1m48s  eta 2m43s
+  624/1440 frames  5.32 fps  elapsed 1m57s  eta 2m33s
+  672/1440 frames  5.33 fps  elapsed 2m06s  eta 2m24s
+  720/1440 frames  5.34 fps  elapsed 2m15s  eta 2m15s
+  768/1440 frames  5.33 fps  elapsed 2m24s  eta 2m06s
+  816/1440 frames  5.33 fps  elapsed 2m33s  eta 1m57s
+  864/1440 frames  5.33 fps  elapsed 2m42s  eta 1m48s
+  912/1440 frames  5.32 fps  elapsed 2m51s  eta 1m39s
+  960/1440 frames  5.31 fps  elapsed 3m01s  eta 1m30s
+  1008/1440 frames  5.31 fps  elapsed 3m10s  eta 1m21s
+  1056/1440 frames  5.31 fps  elapsed 3m19s  eta 1m12s
+  1104/1440 frames  5.31 fps  elapsed 3m28s  eta 1m03s
+  1152/1440 frames  5.30 fps  elapsed 3m37s  eta 0m54s
+  1200/1440 frames  5.31 fps  elapsed 3m46s  eta 0m45s
+  1248/1440 frames  5.31 fps  elapsed 3m55s  eta 0m36s
+  1296/1440 frames  5.31 fps  elapsed 4m04s  eta 0m27s
+  1344/1440 frames  5.30 fps  elapsed 4m14s  eta 0m18s
+  1392/1440 frames  5.28 fps  elapsed 4m24s  eta 0m09s
+  1440/1440 frames  5.24 fps  elapsed 4m35s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_06.mp4  (4m36s)
+== segment 7: 420 -> 480
+Rendering frames 10080-11520 (60.0 s) with 4 worker(s)…
+  48/1440 frames  5.26 fps  elapsed 0m09s  eta 4m25s
+  96/1440 frames  6.01 fps  elapsed 0m16s  eta 3m44s
+  144/1440 frames  6.33 fps  elapsed 0m23s  eta 3m25s
+  192/1440 frames  6.32 fps  elapsed 0m30s  eta 3m17s
+  240/1440 frames  6.26 fps  elapsed 0m38s  eta 3m12s
+  288/1440 frames  6.19 fps  elapsed 0m47s  eta 3m06s
+  336/1440 frames  6.18 fps  elapsed 0m54s  eta 2m59s
+  384/1440 frames  6.14 fps  elapsed 1m03s  eta 2m52s
+  432/1440 frames  6.14 fps  elapsed 1m10s  eta 2m44s
+  480/1440 frames  6.09 fps  elapsed 1m19s  eta 2m38s
+  528/1440 frames  6.06 fps  elapsed 1m27s  eta 2m30s
+  576/1440 frames  6.05 fps  elapsed 1m35s  eta 2m23s
+  624/1440 frames  6.01 fps  elapsed 1m44s  eta 2m16s
+  672/1440 frames  5.99 fps  elapsed 1m52s  eta 2m08s
+  720/1440 frames  5.97 fps  elapsed 2m01s  eta 2m01s
+  768/1440 frames  5.91 fps  elapsed 2m10s  eta 1m54s
+  816/1440 frames  5.88 fps  elapsed 2m19s  eta 1m46s
+  864/1440 frames  5.85 fps  elapsed 2m28s  eta 1m38s
+  912/1440 frames  5.83 fps  elapsed 2m37s  eta 1m31s
+  960/1440 frames  5.79 fps  elapsed 2m46s  eta 1m23s
+  1008/1440 frames  5.76 fps  elapsed 2m55s  eta 1m15s
+  1056/1440 frames  5.74 fps  elapsed 3m04s  eta 1m07s
+  1104/1440 frames  5.71 fps  elapsed 3m13s  eta 0m59s
+  1152/1440 frames  5.69 fps  elapsed 3m22s  eta 0m51s
+  1200/1440 frames  5.68 fps  elapsed 3m31s  eta 0m42s
+  1248/1440 frames  5.66 fps  elapsed 3m40s  eta 0m34s
+  1296/1440 frames  5.61 fps  elapsed 3m51s  eta 0m26s
+  1344/1440 frames  5.52 fps  elapsed 4m03s  eta 0m17s
+  1392/1440 frames  5.52 fps  elapsed 4m12s  eta 0m09s
+  1440/1440 frames  5.46 fps  elapsed 4m24s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_07.mp4  (4m25s)
+== segment 8: 480 -> 540
+Rendering frames 11520-12960 (60.0 s) with 4 worker(s)…
+  48/1440 frames  4.81 fps  elapsed 0m10s  eta 4m49s
+  96/1440 frames  5.31 fps  elapsed 0m18s  eta 4m13s
+  144/1440 frames  5.41 fps  elapsed 0m27s  eta 3m60s
+  192/1440 frames  5.39 fps  elapsed 0m36s  eta 3m52s
+  240/1440 frames  5.29 fps  elapsed 0m45s  eta 3m47s
+  288/1440 frames  5.21 fps  elapsed 0m55s  eta 3m41s
+  336/1440 frames  5.17 fps  elapsed 1m05s  eta 3m34s
+  384/1440 frames  5.17 fps  elapsed 1m14s  eta 3m24s
+  432/1440 frames  5.12 fps  elapsed 1m24s  eta 3m17s
+  480/1440 frames  5.08 fps  elapsed 1m34s  eta 3m09s
+  528/1440 frames  5.04 fps  elapsed 1m45s  eta 3m01s
+  576/1440 frames  5.04 fps  elapsed 1m54s  eta 2m51s
+  624/1440 frames  5.05 fps  elapsed 2m04s  eta 2m42s
+  672/1440 frames  5.04 fps  elapsed 2m13s  eta 2m32s
+  720/1440 frames  5.02 fps  elapsed 2m23s  eta 2m23s
+  768/1440 frames  5.00 fps  elapsed 2m34s  eta 2m14s
+  816/1440 frames  4.98 fps  elapsed 2m44s  eta 2m05s
+  864/1440 frames  4.96 fps  elapsed 2m54s  eta 1m56s
+  912/1440 frames  4.97 fps  elapsed 3m04s  eta 1m46s
+  960/1440 frames  4.97 fps  elapsed 3m13s  eta 1m37s
+  1008/1440 frames  4.97 fps  elapsed 3m23s  eta 1m27s
+  1056/1440 frames  4.98 fps  elapsed 3m32s  eta 1m17s
+  1104/1440 frames  4.96 fps  elapsed 3m42s  eta 1m08s
+  1152/1440 frames  4.96 fps  elapsed 3m52s  eta 0m58s
+  1200/1440 frames  4.97 fps  elapsed 4m01s  eta 0m48s
+  1248/1440 frames  4.98 fps  elapsed 4m10s  eta 0m39s
+  1296/1440 frames  5.00 fps  elapsed 4m19s  eta 0m29s
+  1344/1440 frames  5.02 fps  elapsed 4m28s  eta 0m19s
+  1392/1440 frames  5.03 fps  elapsed 4m37s  eta 0m10s
+  1440/1440 frames  4.93 fps  elapsed 4m52s  eta 0m00s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_08.mp4  (4m54s)
+== segment 9: 540 -> 561.972
+Rendering frames 12960-13487 (22.0 s) with 4 worker(s)…
+  48/527 frames  4.50 fps  elapsed 0m11s  eta 1m46s
+  96/527 frames  5.16 fps  elapsed 0m19s  eta 1m23s
+  144/527 frames  5.41 fps  elapsed 0m27s  eta 1m11s
+  192/527 frames  5.43 fps  elapsed 0m35s  eta 1m02s
+  240/527 frames  5.42 fps  elapsed 0m44s  eta 0m53s
+  288/527 frames  5.44 fps  elapsed 0m53s  eta 0m44s
+  336/527 frames  5.45 fps  elapsed 1m02s  eta 0m35s
+  384/527 frames  5.48 fps  elapsed 1m10s  eta 0m26s
+  432/527 frames  5.48 fps  elapsed 1m19s  eta 0m17s
+  480/527 frames  5.50 fps  elapsed 1m27s  eta 0m09s
+
+Done: /home/user/growkaz-stickman-studio/projects/ep02-bastardos/build/segs/seg_09.mp4  (1m39s)
+CONCAT OK
+generating music: 12 section(s) — tension@0.85, mystery@0.4, sad@0.45, mystery@0.45, action@0.55, hopeful@0.35, tension@0.8, sad@0.4, dark@0.6, mystery@0.45, sad@0.4, hopeful@0.45
+sfx: 111 cue(s), ambience on 67 shot(s)
+wrote projects/ep02-bastardos/build/mix.wav  (562.0s, target -14 LUFS)
+FINAL VIDEO: projects/ep02-bastardos/out/Y_si_te_tocara_ser_uno_de_los_Bastardos_sin_gloria_de_verdad.mp4
+-rw-r--r-- 1 root root 38541571 Nov 11 03:36 projects/ep02-bastardos/out/YSiTeTocara_EP02_Bastardos.mp4

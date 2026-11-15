@@ -1,0 +1,8360 @@
+{
+ "source": "script+silence",
+ "words": [
+  {
+   "word": "6",
+   "start": 0.0,
+   "end": 0.336
+  },
+  {
+   "word": "de",
+   "start": 0.356,
+   "end": 0.514
+  },
+  {
+   "word": "junio",
+   "start": 0.534,
+   "end": 0.959
+  },
+  {
+   "word": "de",
+   "start": 0.979,
+   "end": 1.137
+  },
+  {
+   "word": "1944.",
+   "start": 1.157,
+   "end": 2.56
+  },
+  {
+   "word": "Normandía.",
+   "start": 2.994,
+   "end": 3.53
+  },
+  {
+   "word": "El",
+   "start": 3.893,
+   "end": 4.062
+  },
+  {
+   "word": "Día",
+   "start": 4.082,
+   "end": 4.346
+  },
+  {
+   "word": "D.",
+   "start": 4.366,
+   "end": 4.44
+  },
+  {
+   "word": "Llevas",
+   "start": 5.306,
+   "end": 5.616
+  },
+  {
+   "word": "horas",
+   "start": 5.636,
+   "end": 5.891
+  },
+  {
+   "word": "avanzando",
+   "start": 5.911,
+   "end": 6.385
+  },
+  {
+   "word": "bajo",
+   "start": 6.405,
+   "end": 6.605
+  },
+  {
+   "word": "el",
+   "start": 6.625,
+   "end": 6.715
+  },
+  {
+   "word": "fuego,",
+   "start": 6.735,
+   "end": 6.989
+  },
+  {
+   "word": "con",
+   "start": 7.009,
+   "end": 7.463
+  },
+  {
+   "word": "el",
+   "start": 7.483,
+   "end": 7.573
+  },
+  {
+   "word": "corazón",
+   "start": 7.593,
+   "end": 7.957
+  },
+  {
+   "word": "en",
+   "start": 7.977,
+   "end": 8.067
+  },
+  {
+   "word": "la",
+   "start": 8.087,
+   "end": 8.177
+  },
+  {
+   "word": "garganta.",
+   "start": 8.197,
+   "end": 8.616
+  },
+  {
+   "word": "Y",
+   "start": 8.885,
+   "end": 8.935
+  },
+  {
+   "word": "entonces",
+   "start": 8.945,
+   "end": 9.406
+  },
+  {
+   "word": "tu",
+   "start": 9.426,
+   "end": 9.527
+  },
+  {
+   "word": "oficial",
+   "start": 9.547,
+   "end": 9.948
+  },
+  {
+   "word": "te",
+   "start": 9.968,
+   "end": 10.069
+  },
+  {
+   "word": "mira",
+   "start": 10.089,
+   "end": 10.309
+  },
+  {
+   "word": "y",
+   "start": 10.329,
+   "end": 10.379
+  },
+  {
+   "word": "te",
+   "start": 10.39,
+   "end": 10.49
+  },
+  {
+   "word": "da",
+   "start": 10.51,
+   "end": 10.61
+  },
+  {
+   "word": "una",
+   "start": 10.63,
+   "end": 10.791
+  },
+  {
+   "word": "orden",
+   "start": 10.811,
+   "end": 11.092
+  },
+  {
+   "word": "que",
+   "start": 11.112,
+   "end": 11.272
+  },
+  {
+   "word": "nadie",
+   "start": 11.292,
+   "end": 11.573
+  },
+  {
+   "word": "quiere",
+   "start": 11.593,
+   "end": 11.935
+  },
+  {
+   "word": "oír.",
+   "start": 11.955,
+   "end": 12.115
+  },
+  {
+   "word": "—Entra",
+   "start": 12.683,
+   "end": 12.934
+  },
+  {
+   "word": "en",
+   "start": 12.954,
+   "end": 13.042
+  },
+  {
+   "word": "ese",
+   "start": 13.062,
+   "end": 13.205
+  },
+  {
+   "word": "pueblo.",
+   "start": 13.225,
+   "end": 13.53
+  },
+  {
+   "word": "Solo.",
+   "start": 13.936,
+   "end": 14.275
+  },
+  {
+   "word": "Por",
+   "start": 14.69,
+   "end": 14.816
+  },
+  {
+   "word": "el",
+   "start": 14.836,
+   "end": 14.914
+  },
+  {
+   "word": "medio",
+   "start": 14.934,
+   "end": 15.158
+  },
+  {
+   "word": "de",
+   "start": 15.178,
+   "end": 15.255
+  },
+  {
+   "word": "la",
+   "start": 15.275,
+   "end": 15.353
+  },
+  {
+   "word": "calle.",
+   "start": 15.373,
+   "end": 15.596
+  },
+  {
+   "word": "No",
+   "start": 15.823,
+   "end": 15.91
+  },
+  {
+   "word": "quiere",
+   "start": 15.93,
+   "end": 16.23
+  },
+  {
+   "word": "que",
+   "start": 16.25,
+   "end": 16.39
+  },
+  {
+   "word": "lo",
+   "start": 16.41,
+   "end": 16.497
+  },
+  {
+   "word": "conquistes.",
+   "start": 16.517,
+   "end": 17.031
+  },
+  {
+   "word": "Quiere",
+   "start": 17.328,
+   "end": 17.599
+  },
+  {
+   "word": "que",
+   "start": 17.619,
+   "end": 17.745
+  },
+  {
+   "word": "te",
+   "start": 17.765,
+   "end": 17.842
+  },
+  {
+   "word": "disparen.",
+   "start": 17.862,
+   "end": 18.229
+  },
+  {
+   "word": "Así",
+   "start": 18.553,
+   "end": 18.707
+  },
+  {
+   "word": "sabrá",
+   "start": 18.727,
+   "end": 18.996
+  },
+  {
+   "word": "dónde",
+   "start": 19.016,
+   "end": 19.286
+  },
+  {
+   "word": "están",
+   "start": 19.306,
+   "end": 19.576
+  },
+  {
+   "word": "escondidos",
+   "start": 19.596,
+   "end": 20.155
+  },
+  {
+   "word": "los",
+   "start": 20.175,
+   "end": 20.329
+  },
+  {
+   "word": "alemanes.",
+   "start": 20.349,
+   "end": 20.793
+  },
+  {
+   "word": "Y",
+   "start": 21.162,
+   "end": 21.212
+  },
+  {
+   "word": "hay",
+   "start": 21.222,
+   "end": 21.381
+  },
+  {
+   "word": "algo",
+   "start": 21.401,
+   "end": 21.621
+  },
+  {
+   "word": "que",
+   "start": 21.641,
+   "end": 21.8
+  },
+  {
+   "word": "nadie",
+   "start": 21.82,
+   "end": 22.099
+  },
+  {
+   "word": "en",
+   "start": 22.119,
+   "end": 22.218
+  },
+  {
+   "word": "tu",
+   "start": 22.238,
+   "end": 22.338
+  },
+  {
+   "word": "unidad",
+   "start": 22.358,
+   "end": 22.697
+  },
+  {
+   "word": "puede",
+   "start": 22.717,
+   "end": 22.996
+  },
+  {
+   "word": "decir",
+   "start": 23.016,
+   "end": 23.295
+  },
+  {
+   "word": "en",
+   "start": 23.315,
+   "end": 23.414
+  },
+  {
+   "word": "voz",
+   "start": 23.434,
+   "end": 23.594
+  },
+  {
+   "word": "alta…",
+   "start": 23.614,
+   "end": 23.833
+  },
+  {
+   "word": "Tú",
+   "start": 24.246,
+   "end": 24.348
+  },
+  {
+   "word": "naciste",
+   "start": 24.368,
+   "end": 24.774
+  },
+  {
+   "word": "en",
+   "start": 24.794,
+   "end": 24.896
+  },
+  {
+   "word": "Viena.",
+   "start": 24.916,
+   "end": 25.2
+  },
+  {
+   "word": "El",
+   "start": 25.53,
+   "end": 25.637
+  },
+  {
+   "word": "idioma",
+   "start": 25.657,
+   "end": 26.016
+  },
+  {
+   "word": "del",
+   "start": 26.036,
+   "end": 26.205
+  },
+  {
+   "word": "enemigo…",
+   "start": 26.225,
+   "end": 27.01
+  },
+  {
+   "word": "es",
+   "start": 27.03,
+   "end": 27.136
+  },
+  {
+   "word": "tu",
+   "start": 27.156,
+   "end": 27.262
+  },
+  {
+   "word": "idioma.",
+   "start": 27.282,
+   "end": 27.641
+  },
+  {
+   "word": "Si",
+   "start": 27.979,
+   "end": 28.067
+  },
+  {
+   "word": "te",
+   "start": 28.087,
+   "end": 28.176
+  },
+  {
+   "word": "capturan,",
+   "start": 28.196,
+   "end": 28.61
+  },
+  {
+   "word": "no",
+   "start": 28.63,
+   "end": 28.719
+  },
+  {
+   "word": "serás",
+   "start": 28.739,
+   "end": 28.99
+  },
+  {
+   "word": "un",
+   "start": 29.01,
+   "end": 29.099
+  },
+  {
+   "word": "prisionero",
+   "start": 29.119,
+   "end": 29.642
+  },
+  {
+   "word": "de",
+   "start": 29.662,
+   "end": 29.751
+  },
+  {
+   "word": "guerra.",
+   "start": 29.771,
+   "end": 30.076
+  },
+  {
+   "word": "Te",
+   "start": 30.48,
+   "end": 30.583
+  },
+  {
+   "word": "ejecutarán.",
+   "start": 30.603,
+   "end": 31.203
+  },
+  {
+   "word": "¿Te",
+   "start": 31.598,
+   "end": 31.694
+  },
+  {
+   "word": "suena",
+   "start": 31.714,
+   "end": 31.983
+  },
+  {
+   "word": "a",
+   "start": 32.003,
+   "end": 32.053
+  },
+  {
+   "word": "película?",
+   "start": 32.061,
+   "end": 32.504
+  },
+  {
+   "word": "Hay",
+   "start": 32.911,
+   "end": 33.066
+  },
+  {
+   "word": "una",
+   "start": 33.086,
+   "end": 33.241
+  },
+  {
+   "word": "que",
+   "start": 33.261,
+   "end": 33.417
+  },
+  {
+   "word": "se",
+   "start": 33.437,
+   "end": 33.534
+  },
+  {
+   "word": "inventó",
+   "start": 33.554,
+   "end": 33.943
+  },
+  {
+   "word": "algo",
+   "start": 33.963,
+   "end": 34.177
+  },
+  {
+   "word": "parecido:",
+   "start": 34.197,
+   "end": 35.166
+  },
+  {
+   "word": "Bastardos",
+   "start": 35.186,
+   "end": 35.693
+  },
+  {
+   "word": "sin",
+   "start": 35.713,
+   "end": 35.868
+  },
+  {
+   "word": "gloria.",
+   "start": 35.888,
+   "end": 36.219
+  },
+  {
+   "word": "Lo",
+   "start": 36.599,
+   "end": 36.697
+  },
+  {
+   "word": "que",
+   "start": 36.717,
+   "end": 36.875
+  },
+  {
+   "word": "casi",
+   "start": 36.895,
+   "end": 37.111
+  },
+  {
+   "word": "nadie",
+   "start": 37.131,
+   "end": 37.407
+  },
+  {
+   "word": "sabe",
+   "start": 37.427,
+   "end": 37.643
+  },
+  {
+   "word": "es",
+   "start": 37.663,
+   "end": 37.761
+  },
+  {
+   "word": "que",
+   "start": 37.781,
+   "end": 37.939
+  },
+  {
+   "word": "los",
+   "start": 37.959,
+   "end": 38.116
+  },
+  {
+   "word": "bastardos…",
+   "start": 38.136,
+   "end": 38.648
+  },
+  {
+   "word": "existieron",
+   "start": 38.668,
+   "end": 39.492
+  },
+  {
+   "word": "de",
+   "start": 39.512,
+   "end": 39.611
+  },
+  {
+   "word": "verdad.",
+   "start": 39.631,
+   "end": 39.965
+  },
+  {
+   "word": "Y",
+   "start": 40.281,
+   "end": 40.331
+  },
+  {
+   "word": "su",
+   "start": 40.338,
+   "end": 40.433
+  },
+  {
+   "word": "historia",
+   "start": 40.453,
+   "end": 40.889
+  },
+  {
+   "word": "es",
+   "start": 40.909,
+   "end": 41.004
+  },
+  {
+   "word": "todavía",
+   "start": 41.024,
+   "end": 41.403
+  },
+  {
+   "word": "más",
+   "start": 41.423,
+   "end": 41.574
+  },
+  {
+   "word": "increíble.",
+   "start": 41.594,
+   "end": 42.088
+  },
+  {
+   "word": "Pero",
+   "start": 42.492,
+   "end": 42.681
+  },
+  {
+   "word": "antes",
+   "start": 42.701,
+   "end": 42.942
+  },
+  {
+   "word": "de",
+   "start": 42.962,
+   "end": 43.046
+  },
+  {
+   "word": "seguir…",
+   "start": 43.066,
+   "end": 43.635
+  },
+  {
+   "word": "un",
+   "start": 43.655,
+   "end": 43.74
+  },
+  {
+   "word": "segundo.",
+   "start": 43.76,
+   "end": 44.105
+  },
+  {
+   "word": "La",
+   "start": 44.459,
+   "end": 44.545
+  },
+  {
+   "word": "mayoría",
+   "start": 44.565,
+   "end": 44.916
+  },
+  {
+   "word": "de",
+   "start": 44.936,
+   "end": 45.021
+  },
+  {
+   "word": "las",
+   "start": 45.041,
+   "end": 45.18
+  },
+  {
+   "word": "personas",
+   "start": 45.2,
+   "end": 45.603
+  },
+  {
+   "word": "que",
+   "start": 45.623,
+   "end": 45.762
+  },
+  {
+   "word": "ven",
+   "start": 45.782,
+   "end": 45.921
+  },
+  {
+   "word": "nuestras",
+   "start": 45.941,
+   "end": 46.344
+  },
+  {
+   "word": "historias",
+   "start": 46.364,
+   "end": 46.82
+  },
+  {
+   "word": "todavía",
+   "start": 46.84,
+   "end": 47.191
+  },
+  {
+   "word": "no",
+   "start": 47.211,
+   "end": 47.297
+  },
+  {
+   "word": "están",
+   "start": 47.317,
+   "end": 47.561
+  },
+  {
+   "word": "suscritas.",
+   "start": 47.581,
+   "end": 48.037
+  },
+  {
+   "word": "Si",
+   "start": 48.303,
+   "end": 48.395
+  },
+  {
+   "word": "te",
+   "start": 48.415,
+   "end": 48.507
+  },
+  {
+   "word": "gusta",
+   "start": 48.527,
+   "end": 48.788
+  },
+  {
+   "word": "vivir",
+   "start": 48.808,
+   "end": 49.069
+  },
+  {
+   "word": "la",
+   "start": 49.089,
+   "end": 49.181
+  },
+  {
+   "word": "historia",
+   "start": 49.201,
+   "end": 49.63
+  },
+  {
+   "word": "desde",
+   "start": 49.65,
+   "end": 49.911
+  },
+  {
+   "word": "dentro,",
+   "start": 49.931,
+   "end": 50.429
+  },
+  {
+   "word": "suscríbete.",
+   "start": 50.449,
+   "end": 50.991
+  },
+  {
+   "word": "Es",
+   "start": 51.291,
+   "end": 51.395
+  },
+  {
+   "word": "gratis,",
+   "start": 51.415,
+   "end": 51.766
+  },
+  {
+   "word": "solo",
+   "start": 51.786,
+   "end": 52.013
+  },
+  {
+   "word": "es",
+   "start": 52.033,
+   "end": 52.137
+  },
+  {
+   "word": "un",
+   "start": 52.157,
+   "end": 52.26
+  },
+  {
+   "word": "clic…",
+   "start": 52.28,
+   "end": 52.508
+  },
+  {
+   "word": "y",
+   "start": 52.528,
+   "end": 52.578
+  },
+  {
+   "word": "nos",
+   "start": 52.59,
+   "end": 52.755
+  },
+  {
+   "word": "ayuda",
+   "start": 52.775,
+   "end": 53.743
+  },
+  {
+   "word": "a",
+   "start": 53.763,
+   "end": 53.813
+  },
+  {
+   "word": "seguir",
+   "start": 53.825,
+   "end": 54.176
+  },
+  {
+   "word": "contando",
+   "start": 54.196,
+   "end": 54.671
+  },
+  {
+   "word": "historias",
+   "start": 54.691,
+   "end": 55.227
+  },
+  {
+   "word": "como",
+   "start": 55.247,
+   "end": 55.475
+  },
+  {
+   "word": "esta.",
+   "start": 55.495,
+   "end": 55.722
+  },
+  {
+   "word": "Ahora",
+   "start": 56.111,
+   "end": 56.382
+  },
+  {
+   "word": "sí.",
+   "start": 56.402,
+   "end": 56.499
+  },
+  {
+   "word": "Para",
+   "start": 57.378,
+   "end": 57.583
+  },
+  {
+   "word": "entender",
+   "start": 57.603,
+   "end": 58.034
+  },
+  {
+   "word": "cómo",
+   "start": 58.054,
+   "end": 58.259
+  },
+  {
+   "word": "acabaste",
+   "start": 58.279,
+   "end": 58.709
+  },
+  {
+   "word": "caminando",
+   "start": 58.729,
+   "end": 59.216
+  },
+  {
+   "word": "solo",
+   "start": 59.236,
+   "end": 59.441
+  },
+  {
+   "word": "por",
+   "start": 59.461,
+   "end": 59.61
+  },
+  {
+   "word": "esa",
+   "start": 59.63,
+   "end": 59.779
+  },
+  {
+   "word": "calle,",
+   "start": 59.799,
+   "end": 60.06
+  },
+  {
+   "word": "tenemos",
+   "start": 60.08,
+   "end": 60.682
+  },
+  {
+   "word": "que",
+   "start": 60.702,
+   "end": 60.851
+  },
+  {
+   "word": "volver",
+   "start": 60.871,
+   "end": 61.189
+  },
+  {
+   "word": "seis",
+   "start": 61.209,
+   "end": 61.414
+  },
+  {
+   "word": "años",
+   "start": 61.434,
+   "end": 61.639
+  },
+  {
+   "word": "atrás.",
+   "start": 61.659,
+   "end": 61.92
+  },
+  {
+   "word": "¿Y",
+   "start": 62.334,
+   "end": 62.384
+  },
+  {
+   "word": "si",
+   "start": 62.394,
+   "end": 62.494
+  },
+  {
+   "word": "te",
+   "start": 62.514,
+   "end": 62.614
+  },
+  {
+   "word": "tocara…",
+   "start": 62.634,
+   "end": 62.974
+  },
+  {
+   "word": "ser",
+   "start": 62.994,
+   "end": 63.54
+  },
+  {
+   "word": "uno",
+   "start": 63.56,
+   "end": 63.72
+  },
+  {
+   "word": "de",
+   "start": 63.74,
+   "end": 63.84
+  },
+  {
+   "word": "los",
+   "start": 63.86,
+   "end": 64.02
+  },
+  {
+   "word": "Bastardos",
+   "start": 64.04,
+   "end": 64.56
+  },
+  {
+   "word": "sin",
+   "start": 64.58,
+   "end": 64.74
+  },
+  {
+   "word": "gloria",
+   "start": 64.76,
+   "end": 65.1
+  },
+  {
+   "word": "de",
+   "start": 65.12,
+   "end": 65.22
+  },
+  {
+   "word": "verdad?",
+   "start": 65.24,
+   "end": 65.58
+  },
+  {
+   "word": "Noviembre",
+   "start": 66.526,
+   "end": 67.216
+  },
+  {
+   "word": "de",
+   "start": 67.236,
+   "end": 67.374
+  },
+  {
+   "word": "1938.",
+   "start": 67.394,
+   "end": 68.638
+  },
+  {
+   "word": "Viena.",
+   "start": 69.108,
+   "end": 69.475
+  },
+  {
+   "word": "Tienes",
+   "start": 69.857,
+   "end": 70.196
+  },
+  {
+   "word": "dieciséis",
+   "start": 70.216,
+   "end": 70.733
+  },
+  {
+   "word": "años.",
+   "start": 70.753,
+   "end": 70.972
+  },
+  {
+   "word": "Esa",
+   "start": 71.256,
+   "end": 71.424
+  },
+  {
+   "word": "noche,",
+   "start": 71.444,
+   "end": 71.738
+  },
+  {
+   "word": "el",
+   "start": 71.758,
+   "end": 71.863
+  },
+  {
+   "word": "sonido",
+   "start": 71.883,
+   "end": 72.24
+  },
+  {
+   "word": "de",
+   "start": 72.26,
+   "end": 72.366
+  },
+  {
+   "word": "los",
+   "start": 72.386,
+   "end": 72.554
+  },
+  {
+   "word": "cristales",
+   "start": 72.574,
+   "end": 73.119
+  },
+  {
+   "word": "rotos",
+   "start": 73.139,
+   "end": 73.432
+  },
+  {
+   "word": "no",
+   "start": 73.452,
+   "end": 73.558
+  },
+  {
+   "word": "te",
+   "start": 73.578,
+   "end": 73.683
+  },
+  {
+   "word": "deja",
+   "start": 73.703,
+   "end": 73.934
+  },
+  {
+   "word": "dormir.",
+   "start": 73.954,
+   "end": 74.311
+  },
+  {
+   "word": "Tiendas",
+   "start": 74.786,
+   "end": 75.139
+  },
+  {
+   "word": "destrozadas.",
+   "start": 75.159,
+   "end": 75.725
+  },
+  {
+   "word": "Sinagogas",
+   "start": 75.966,
+   "end": 76.459
+  },
+  {
+   "word": "en",
+   "start": 76.479,
+   "end": 76.573
+  },
+  {
+   "word": "llamas.",
+   "start": 76.593,
+   "end": 76.915
+  },
+  {
+   "word": "Vecinos",
+   "start": 77.261,
+   "end": 77.628
+  },
+  {
+   "word": "que",
+   "start": 77.648,
+   "end": 77.794
+  },
+  {
+   "word": "te",
+   "start": 77.814,
+   "end": 77.905
+  },
+  {
+   "word": "conocen",
+   "start": 77.925,
+   "end": 78.292
+  },
+  {
+   "word": "desde",
+   "start": 78.312,
+   "end": 78.568
+  },
+  {
+   "word": "niño…",
+   "start": 78.588,
+   "end": 78.789
+  },
+  {
+   "word": "mirando",
+   "start": 78.809,
+   "end": 79.893
+  },
+  {
+   "word": "hacia",
+   "start": 79.913,
+   "end": 80.169
+  },
+  {
+   "word": "otro",
+   "start": 80.189,
+   "end": 80.39
+  },
+  {
+   "word": "lado.",
+   "start": 80.41,
+   "end": 80.611
+  },
+  {
+   "word": "Esto",
+   "start": 80.9,
+   "end": 81.098
+  },
+  {
+   "word": "pasó",
+   "start": 81.118,
+   "end": 81.315
+  },
+  {
+   "word": "de",
+   "start": 81.335,
+   "end": 81.424
+  },
+  {
+   "word": "verdad.",
+   "start": 81.444,
+   "end": 81.75
+  },
+  {
+   "word": "Se",
+   "start": 82.227,
+   "end": 82.322
+  },
+  {
+   "word": "la",
+   "start": 82.342,
+   "end": 82.437
+  },
+  {
+   "word": "conoce",
+   "start": 82.457,
+   "end": 82.782
+  },
+  {
+   "word": "como",
+   "start": 82.802,
+   "end": 83.013
+  },
+  {
+   "word": "la",
+   "start": 83.033,
+   "end": 83.128
+  },
+  {
+   "word": "Noche",
+   "start": 83.148,
+   "end": 83.415
+  },
+  {
+   "word": "de",
+   "start": 83.435,
+   "end": 83.53
+  },
+  {
+   "word": "los",
+   "start": 83.55,
+   "end": 83.703
+  },
+  {
+   "word": "Cristales",
+   "start": 83.723,
+   "end": 84.221
+  },
+  {
+   "word": "Rotos.",
+   "start": 84.241,
+   "end": 84.508
+  },
+  {
+   "word": "En",
+   "start": 84.828,
+   "end": 84.923
+  },
+  {
+   "word": "una",
+   "start": 84.943,
+   "end": 85.096
+  },
+  {
+   "word": "sola",
+   "start": 85.116,
+   "end": 85.327
+  },
+  {
+   "word": "noche,",
+   "start": 85.347,
+   "end": 85.615
+  },
+  {
+   "word": "miles",
+   "start": 85.635,
+   "end": 85.903
+  },
+  {
+   "word": "de",
+   "start": 85.923,
+   "end": 86.018
+  },
+  {
+   "word": "negocios",
+   "start": 86.038,
+   "end": 86.479
+  },
+  {
+   "word": "judíos",
+   "start": 86.499,
+   "end": 86.825
+  },
+  {
+   "word": "fueron",
+   "start": 86.845,
+   "end": 87.171
+  },
+  {
+   "word": "destruidos",
+   "start": 87.191,
+   "end": 87.747
+  },
+  {
+   "word": "en",
+   "start": 87.767,
+   "end": 87.862
+  },
+  {
+   "word": "Alemania",
+   "start": 87.882,
+   "end": 88.323
+  },
+  {
+   "word": "y",
+   "start": 88.343,
+   "end": 88.393
+  },
+  {
+   "word": "Austria.",
+   "start": 88.401,
+   "end": 88.784
+  },
+  {
+   "word": "Tus",
+   "start": 89.193,
+   "end": 89.352
+  },
+  {
+   "word": "padres",
+   "start": 89.372,
+   "end": 89.711
+  },
+  {
+   "word": "toman",
+   "start": 89.731,
+   "end": 90.01
+  },
+  {
+   "word": "una",
+   "start": 90.03,
+   "end": 90.19
+  },
+  {
+   "word": "decisión",
+   "start": 90.21,
+   "end": 90.668
+  },
+  {
+   "word": "que",
+   "start": 90.688,
+   "end": 90.848
+  },
+  {
+   "word": "les",
+   "start": 90.868,
+   "end": 91.027
+  },
+  {
+   "word": "rompe",
+   "start": 91.047,
+   "end": 91.326
+  },
+  {
+   "word": "el",
+   "start": 91.346,
+   "end": 91.446
+  },
+  {
+   "word": "corazón:",
+   "start": 91.466,
+   "end": 92.332
+  },
+  {
+   "word": "sacarte",
+   "start": 92.352,
+   "end": 92.751
+  },
+  {
+   "word": "del",
+   "start": 92.771,
+   "end": 92.931
+  },
+  {
+   "word": "país.",
+   "start": 92.951,
+   "end": 93.17
+  },
+  {
+   "word": "Solo.",
+   "start": 93.527,
+   "end": 93.863
+  },
+  {
+   "word": "Esto",
+   "start": 94.195,
+   "end": 94.409
+  },
+  {
+   "word": "pasó",
+   "start": 94.429,
+   "end": 94.644
+  },
+  {
+   "word": "de",
+   "start": 94.664,
+   "end": 94.761
+  },
+  {
+   "word": "verdad.",
+   "start": 94.781,
+   "end": 95.112
+  },
+  {
+   "word": "Entre",
+   "start": 95.826,
+   "end": 96.148
+  },
+  {
+   "word": "1938",
+   "start": 96.168,
+   "end": 97.24
+  },
+  {
+   "word": "y",
+   "start": 97.26,
+   "end": 97.31
+  },
+  {
+   "word": "1939,",
+   "start": 97.329,
+   "end": 98.401
+  },
+  {
+   "word": "los",
+   "start": 98.421,
+   "end": 98.606
+  },
+  {
+   "word": "trenes",
+   "start": 98.626,
+   "end": 99.016
+  },
+  {
+   "word": "del",
+   "start": 99.036,
+   "end": 99.409
+  },
+  {
+   "word": "Kindertransport",
+   "start": 99.429,
+   "end": 100.433
+  },
+  {
+   "word": "llevaron",
+   "start": 100.453,
+   "end": 100.979
+  },
+  {
+   "word": "a",
+   "start": 100.999,
+   "end": 101.049
+  },
+  {
+   "word": "Gran",
+   "start": 101.067,
+   "end": 101.321
+  },
+  {
+   "word": "Bretaña",
+   "start": 101.341,
+   "end": 101.799
+  },
+  {
+   "word": "a",
+   "start": 101.819,
+   "end": 101.869
+  },
+  {
+   "word": "unos",
+   "start": 101.887,
+   "end": 102.14
+  },
+  {
+   "word": "diez",
+   "start": 102.16,
+   "end": 102.413
+  },
+  {
+   "word": "mil",
+   "start": 102.433,
+   "end": 102.618
+  },
+  {
+   "word": "niños",
+   "start": 102.638,
+   "end": 102.959
+  },
+  {
+   "word": "judíos.",
+   "start": 102.979,
+   "end": 103.369
+  },
+  {
+   "word": "La",
+   "start": 103.58,
+   "end": 103.681
+  },
+  {
+   "word": "mayoría",
+   "start": 103.701,
+   "end": 104.105
+  },
+  {
+   "word": "no",
+   "start": 104.125,
+   "end": 104.226
+  },
+  {
+   "word": "volvió",
+   "start": 104.246,
+   "end": 104.589
+  },
+  {
+   "word": "a",
+   "start": 104.609,
+   "end": 104.659
+  },
+  {
+   "word": "ver",
+   "start": 104.67,
+   "end": 104.831
+  },
+  {
+   "word": "a",
+   "start": 104.851,
+   "end": 104.901
+  },
+  {
+   "word": "sus",
+   "start": 104.912,
+   "end": 105.073
+  },
+  {
+   "word": "padres",
+   "start": 105.093,
+   "end": 105.437
+  },
+  {
+   "word": "nunca",
+   "start": 105.457,
+   "end": 105.739
+  },
+  {
+   "word": "más.",
+   "start": 105.759,
+   "end": 105.921
+  },
+  {
+   "word": "En",
+   "start": 106.332,
+   "end": 106.425
+  },
+  {
+   "word": "la",
+   "start": 106.445,
+   "end": 106.539
+  },
+  {
+   "word": "estación,",
+   "start": 106.559,
+   "end": 106.992
+  },
+  {
+   "word": "tu",
+   "start": 107.012,
+   "end": 107.105
+  },
+  {
+   "word": "madre",
+   "start": 107.125,
+   "end": 107.389
+  },
+  {
+   "word": "te",
+   "start": 107.409,
+   "end": 107.502
+  },
+  {
+   "word": "abraza",
+   "start": 107.522,
+   "end": 107.842
+  },
+  {
+   "word": "demasiado",
+   "start": 107.862,
+   "end": 108.352
+  },
+  {
+   "word": "fuerte.",
+   "start": 108.372,
+   "end": 108.692
+  },
+  {
+   "word": "Tu",
+   "start": 108.913,
+   "end": 109.007
+  },
+  {
+   "word": "padre",
+   "start": 109.027,
+   "end": 109.291
+  },
+  {
+   "word": "te",
+   "start": 109.311,
+   "end": 109.404
+  },
+  {
+   "word": "da",
+   "start": 109.424,
+   "end": 109.518
+  },
+  {
+   "word": "la",
+   "start": 109.538,
+   "end": 109.631
+  },
+  {
+   "word": "mano,",
+   "start": 109.651,
+   "end": 109.859
+  },
+  {
+   "word": "como",
+   "start": 109.879,
+   "end": 110.086
+  },
+  {
+   "word": "si",
+   "start": 110.106,
+   "end": 110.199
+  },
+  {
+   "word": "ya",
+   "start": 110.219,
+   "end": 110.313
+  },
+  {
+   "word": "fueras",
+   "start": 110.333,
+   "end": 110.654
+  },
+  {
+   "word": "un",
+   "start": 110.674,
+   "end": 110.767
+  },
+  {
+   "word": "hombre.",
+   "start": 110.787,
+   "end": 111.108
+  },
+  {
+   "word": "El",
+   "start": 111.484,
+   "end": 111.58
+  },
+  {
+   "word": "tren",
+   "start": 111.6,
+   "end": 111.812
+  },
+  {
+   "word": "arranca…",
+   "start": 111.832,
+   "end": 112.218
+  },
+  {
+   "word": "y",
+   "start": 112.238,
+   "end": 113.007
+  },
+  {
+   "word": "Viena",
+   "start": 113.027,
+   "end": 113.297
+  },
+  {
+   "word": "desaparece",
+   "start": 113.317,
+   "end": 113.878
+  },
+  {
+   "word": "por",
+   "start": 113.898,
+   "end": 114.052
+  },
+  {
+   "word": "la",
+   "start": 114.072,
+   "end": 114.168
+  },
+  {
+   "word": "ventana.",
+   "start": 114.188,
+   "end": 114.574
+  },
+  {
+   "word": "Llegas",
+   "start": 115.257,
+   "end": 115.543
+  },
+  {
+   "word": "a",
+   "start": 115.563,
+   "end": 115.613
+  },
+  {
+   "word": "Inglaterra",
+   "start": 115.614,
+   "end": 116.103
+  },
+  {
+   "word": "sin",
+   "start": 116.123,
+   "end": 116.256
+  },
+  {
+   "word": "hablar",
+   "start": 116.276,
+   "end": 116.561
+  },
+  {
+   "word": "inglés.",
+   "start": 116.581,
+   "end": 116.867
+  },
+  {
+   "word": "Aprendes",
+   "start": 117.08,
+   "end": 117.55
+  },
+  {
+   "word": "rápido.",
+   "start": 117.57,
+   "end": 117.917
+  },
+  {
+   "word": "Trabajas,",
+   "start": 118.285,
+   "end": 118.781
+  },
+  {
+   "word": "estudias,",
+   "start": 118.801,
+   "end": 119.416
+  },
+  {
+   "word": "y",
+   "start": 119.436,
+   "end": 119.486
+  },
+  {
+   "word": "empiezas",
+   "start": 119.501,
+   "end": 120.279
+  },
+  {
+   "word": "a",
+   "start": 120.299,
+   "end": 120.349
+  },
+  {
+   "word": "creer",
+   "start": 120.364,
+   "end": 120.666
+  },
+  {
+   "word": "que",
+   "start": 120.686,
+   "end": 120.86
+  },
+  {
+   "word": "lo",
+   "start": 120.88,
+   "end": 120.989
+  },
+  {
+   "word": "peor",
+   "start": 121.009,
+   "end": 121.247
+  },
+  {
+   "word": "ya",
+   "start": 121.267,
+   "end": 121.376
+  },
+  {
+   "word": "ha",
+   "start": 121.396,
+   "end": 121.505
+  },
+  {
+   "word": "pasado.",
+   "start": 121.525,
+   "end": 121.892
+  },
+  {
+   "word": "Pero",
+   "start": 122.815,
+   "end": 123.044
+  },
+  {
+   "word": "en",
+   "start": 123.064,
+   "end": 123.169
+  },
+  {
+   "word": "1940,",
+   "start": 123.189,
+   "end": 124.167
+  },
+  {
+   "word": "Gran",
+   "start": 124.187,
+   "end": 124.416
+  },
+  {
+   "word": "Bretaña",
+   "start": 124.436,
+   "end": 124.853
+  },
+  {
+   "word": "tiene",
+   "start": 124.873,
+   "end": 125.164
+  },
+  {
+   "word": "miedo.",
+   "start": 125.184,
+   "end": 125.476
+  },
+  {
+   "word": "Hitler",
+   "start": 125.872,
+   "end": 126.212
+  },
+  {
+   "word": "ha",
+   "start": 126.232,
+   "end": 126.331
+  },
+  {
+   "word": "conquistado",
+   "start": 126.351,
+   "end": 126.991
+  },
+  {
+   "word": "media",
+   "start": 127.011,
+   "end": 127.29
+  },
+  {
+   "word": "Europa,",
+   "start": 127.31,
+   "end": 127.821
+  },
+  {
+   "word": "y",
+   "start": 127.841,
+   "end": 127.891
+  },
+  {
+   "word": "todo",
+   "start": 127.901,
+   "end": 128.12
+  },
+  {
+   "word": "el",
+   "start": 128.14,
+   "end": 128.24
+  },
+  {
+   "word": "mundo",
+   "start": 128.26,
+   "end": 128.54
+  },
+  {
+   "word": "busca",
+   "start": 128.56,
+   "end": 128.839
+  },
+  {
+   "word": "espías.",
+   "start": 128.859,
+   "end": 129.199
+  },
+  {
+   "word": "Una",
+   "start": 129.494,
+   "end": 129.666
+  },
+  {
+   "word": "mañana,",
+   "start": 129.686,
+   "end": 130.049
+  },
+  {
+   "word": "la",
+   "start": 130.069,
+   "end": 130.177
+  },
+  {
+   "word": "policía",
+   "start": 130.197,
+   "end": 130.625
+  },
+  {
+   "word": "llama",
+   "start": 130.645,
+   "end": 130.945
+  },
+  {
+   "word": "a",
+   "start": 130.965,
+   "end": 131.015
+  },
+  {
+   "word": "tu",
+   "start": 131.029,
+   "end": 131.136
+  },
+  {
+   "word": "puerta.",
+   "start": 131.156,
+   "end": 131.52
+  },
+  {
+   "word": "Esto",
+   "start": 131.802,
+   "end": 132.017
+  },
+  {
+   "word": "pasó",
+   "start": 132.037,
+   "end": 132.252
+  },
+  {
+   "word": "de",
+   "start": 132.272,
+   "end": 132.37
+  },
+  {
+   "word": "verdad.",
+   "start": 132.39,
+   "end": 132.723
+  },
+  {
+   "word": "Gran",
+   "start": 133.516,
+   "end": 133.736
+  },
+  {
+   "word": "Bretaña",
+   "start": 133.756,
+   "end": 134.156
+  },
+  {
+   "word": "detuvo",
+   "start": 134.176,
+   "end": 134.517
+  },
+  {
+   "word": "a",
+   "start": 134.537,
+   "end": 134.587
+  },
+  {
+   "word": "miles",
+   "start": 134.597,
+   "end": 134.877
+  },
+  {
+   "word": "de",
+   "start": 134.897,
+   "end": 134.997
+  },
+  {
+   "word": "alemanes",
+   "start": 135.017,
+   "end": 135.477
+  },
+  {
+   "word": "y",
+   "start": 135.497,
+   "end": 135.547
+  },
+  {
+   "word": "austriacos",
+   "start": 135.558,
+   "end": 136.138
+  },
+  {
+   "word": "como",
+   "start": 136.158,
+   "end": 136.378
+  },
+  {
+   "word": "«enemigos",
+   "start": 136.398,
+   "end": 136.859
+  },
+  {
+   "word": "extranjeros».",
+   "start": 136.879,
+   "end": 137.519
+  },
+  {
+   "word": "Incluidos",
+   "start": 137.82,
+   "end": 138.318
+  },
+  {
+   "word": "refugiados",
+   "start": 138.338,
+   "end": 138.893
+  },
+  {
+   "word": "judíos",
+   "start": 138.913,
+   "end": 139.238
+  },
+  {
+   "word": "que",
+   "start": 139.258,
+   "end": 139.411
+  },
+  {
+   "word": "habían",
+   "start": 139.431,
+   "end": 139.756
+  },
+  {
+   "word": "huido",
+   "start": 139.776,
+   "end": 140.044
+  },
+  {
+   "word": "de",
+   "start": 140.064,
+   "end": 140.159
+  },
+  {
+   "word": "los",
+   "start": 140.179,
+   "end": 140.331
+  },
+  {
+   "word": "nazis.",
+   "start": 140.351,
+   "end": 140.619
+  },
+  {
+   "word": "Muchos",
+   "start": 140.947,
+   "end": 141.255
+  },
+  {
+   "word": "acabaron",
+   "start": 141.275,
+   "end": 141.692
+  },
+  {
+   "word": "en",
+   "start": 141.712,
+   "end": 141.801
+  },
+  {
+   "word": "campos",
+   "start": 141.821,
+   "end": 142.129
+  },
+  {
+   "word": "de",
+   "start": 142.149,
+   "end": 142.238
+  },
+  {
+   "word": "internamiento.",
+   "start": 142.258,
+   "end": 142.948
+  },
+  {
+   "word": "Algunos",
+   "start": 143.132,
+   "end": 143.451
+  },
+  {
+   "word": "fueron",
+   "start": 143.471,
+   "end": 143.741
+  },
+  {
+   "word": "enviados",
+   "start": 143.761,
+   "end": 144.127
+  },
+  {
+   "word": "en",
+   "start": 144.148,
+   "end": 144.224
+  },
+  {
+   "word": "barco",
+   "start": 144.244,
+   "end": 144.466
+  },
+  {
+   "word": "hasta",
+   "start": 144.486,
+   "end": 144.708
+  },
+  {
+   "word": "Australia.",
+   "start": 144.728,
+   "end": 145.143
+  },
+  {
+   "word": "Piénsalo.",
+   "start": 145.591,
+   "end": 145.976
+  },
+  {
+   "word": "Huiste",
+   "start": 146.356,
+   "end": 146.677
+  },
+  {
+   "word": "de",
+   "start": 146.697,
+   "end": 146.791
+  },
+  {
+   "word": "Hitler…",
+   "start": 146.811,
+   "end": 147.132
+  },
+  {
+   "word": "y",
+   "start": 147.152,
+   "end": 147.638
+  },
+  {
+   "word": "ahora",
+   "start": 147.658,
+   "end": 147.922
+  },
+  {
+   "word": "te",
+   "start": 147.942,
+   "end": 148.036
+  },
+  {
+   "word": "encierran",
+   "start": 148.056,
+   "end": 148.547
+  },
+  {
+   "word": "por",
+   "start": 148.567,
+   "end": 148.718
+  },
+  {
+   "word": "sospechoso",
+   "start": 148.738,
+   "end": 149.286
+  },
+  {
+   "word": "de",
+   "start": 149.306,
+   "end": 149.4
+  },
+  {
+   "word": "ser",
+   "start": 149.42,
+   "end": 149.571
+  },
+  {
+   "word": "nazi.",
+   "start": 149.591,
+   "end": 149.798
+  },
+  {
+   "word": "Pero",
+   "start": 150.147,
+   "end": 150.35
+  },
+  {
+   "word": "dentro",
+   "start": 150.37,
+   "end": 150.683
+  },
+  {
+   "word": "de",
+   "start": 150.703,
+   "end": 150.795
+  },
+  {
+   "word": "ese",
+   "start": 150.815,
+   "end": 150.962
+  },
+  {
+   "word": "campo",
+   "start": 150.982,
+   "end": 151.24
+  },
+  {
+   "word": "pasa",
+   "start": 151.26,
+   "end": 151.462
+  },
+  {
+   "word": "algo",
+   "start": 151.482,
+   "end": 151.685
+  },
+  {
+   "word": "que",
+   "start": 151.705,
+   "end": 151.852
+  },
+  {
+   "word": "cambiará",
+   "start": 151.872,
+   "end": 152.297
+  },
+  {
+   "word": "tu",
+   "start": 152.317,
+   "end": 152.408
+  },
+  {
+   "word": "vida.",
+   "start": 152.428,
+   "end": 152.631
+  },
+  {
+   "word": "Un",
+   "start": 153.239,
+   "end": 153.334
+  },
+  {
+   "word": "oficial",
+   "start": 153.354,
+   "end": 153.738
+  },
+  {
+   "word": "británico",
+   "start": 153.758,
+   "end": 154.256
+  },
+  {
+   "word": "empieza",
+   "start": 154.276,
+   "end": 154.66
+  },
+  {
+   "word": "a",
+   "start": 154.68,
+   "end": 154.73
+  },
+  {
+   "word": "hacer",
+   "start": 154.737,
+   "end": 155.005
+  },
+  {
+   "word": "preguntas",
+   "start": 155.025,
+   "end": 155.524
+  },
+  {
+   "word": "muy",
+   "start": 155.544,
+   "end": 155.697
+  },
+  {
+   "word": "raras.",
+   "start": 155.717,
+   "end": 155.985
+  },
+  {
+   "word": "¿Hablas",
+   "start": 156.349,
+   "end": 156.646
+  },
+  {
+   "word": "alemán?",
+   "start": 156.666,
+   "end": 156.964
+  },
+  {
+   "word": "¿Sabes",
+   "start": 157.346,
+   "end": 157.64
+  },
+  {
+   "word": "nadar?",
+   "start": 157.66,
+   "end": 157.954
+  },
+  {
+   "word": "¿Odias",
+   "start": 158.396,
+   "end": 158.678
+  },
+  {
+   "word": "a",
+   "start": 158.698,
+   "end": 158.748
+  },
+  {
+   "word": "los",
+   "start": 158.759,
+   "end": 158.92
+  },
+  {
+   "word": "nazis",
+   "start": 158.94,
+   "end": 159.222
+  },
+  {
+   "word": "lo",
+   "start": 159.242,
+   "end": 159.343
+  },
+  {
+   "word": "suficiente…",
+   "start": 159.363,
+   "end": 159.947
+  },
+  {
+   "word": "como",
+   "start": 159.967,
+   "end": 160.377
+  },
+  {
+   "word": "para",
+   "start": 160.397,
+   "end": 160.619
+  },
+  {
+   "word": "volver",
+   "start": 160.639,
+   "end": 160.982
+  },
+  {
+   "word": "a",
+   "start": 161.002,
+   "end": 161.052
+  },
+  {
+   "word": "buscarlos?",
+   "start": 161.062,
+   "end": 161.586
+  },
+  {
+   "word": "1942.",
+   "start": 161.925,
+   "end": 163.48
+  },
+  {
+   "word": "Te",
+   "start": 163.79,
+   "end": 163.881
+  },
+  {
+   "word": "hacen",
+   "start": 163.901,
+   "end": 164.157
+  },
+  {
+   "word": "una",
+   "start": 164.177,
+   "end": 164.323
+  },
+  {
+   "word": "oferta",
+   "start": 164.343,
+   "end": 164.656
+  },
+  {
+   "word": "secreta.",
+   "start": 164.676,
+   "end": 165.043
+  },
+  {
+   "word": "Una",
+   "start": 165.385,
+   "end": 165.551
+  },
+  {
+   "word": "unidad",
+   "start": 165.571,
+   "end": 165.923
+  },
+  {
+   "word": "de",
+   "start": 165.943,
+   "end": 166.048
+  },
+  {
+   "word": "comandos.",
+   "start": 166.068,
+   "end": 166.544
+  },
+  {
+   "word": "Pequeña.",
+   "start": 166.894,
+   "end": 167.321
+  },
+  {
+   "word": "Formada",
+   "start": 167.784,
+   "end": 168.163
+  },
+  {
+   "word": "casi",
+   "start": 168.183,
+   "end": 168.391
+  },
+  {
+   "word": "entera",
+   "start": 168.411,
+   "end": 168.733
+  },
+  {
+   "word": "por",
+   "start": 168.753,
+   "end": 168.905
+  },
+  {
+   "word": "refugiados",
+   "start": 168.925,
+   "end": 169.475
+  },
+  {
+   "word": "como",
+   "start": 169.495,
+   "end": 169.703
+  },
+  {
+   "word": "tú.",
+   "start": 169.723,
+   "end": 169.817
+  },
+  {
+   "word": "Judíos",
+   "start": 170.442,
+   "end": 170.783
+  },
+  {
+   "word": "de",
+   "start": 170.803,
+   "end": 170.904
+  },
+  {
+   "word": "Alemania,",
+   "start": 170.924,
+   "end": 171.605
+  },
+  {
+   "word": "de",
+   "start": 171.625,
+   "end": 171.726
+  },
+  {
+   "word": "Austria,",
+   "start": 171.746,
+   "end": 172.3
+  },
+  {
+   "word": "de",
+   "start": 172.32,
+   "end": 172.421
+  },
+  {
+   "word": "Hungría.",
+   "start": 172.441,
+   "end": 172.842
+  },
+  {
+   "word": "Hombres",
+   "start": 173.254,
+   "end": 173.592
+  },
+  {
+   "word": "que",
+   "start": 173.612,
+   "end": 173.745
+  },
+  {
+   "word": "lo",
+   "start": 173.765,
+   "end": 173.847
+  },
+  {
+   "word": "han",
+   "start": 173.867,
+   "end": 174.001
+  },
+  {
+   "word": "perdido",
+   "start": 174.021,
+   "end": 174.358
+  },
+  {
+   "word": "todo…",
+   "start": 174.378,
+   "end": 175.283
+  },
+  {
+   "word": "y",
+   "start": 175.303,
+   "end": 175.353
+  },
+  {
+   "word": "que",
+   "start": 175.354,
+   "end": 175.487
+  },
+  {
+   "word": "quieren",
+   "start": 175.507,
+   "end": 175.845
+  },
+  {
+   "word": "volver",
+   "start": 175.865,
+   "end": 176.152
+  },
+  {
+   "word": "para",
+   "start": 176.172,
+   "end": 176.356
+  },
+  {
+   "word": "luchar.",
+   "start": 176.376,
+   "end": 176.663
+  },
+  {
+   "word": "Esto",
+   "start": 177.032,
+   "end": 177.237
+  },
+  {
+   "word": "pasó",
+   "start": 177.257,
+   "end": 177.461
+  },
+  {
+   "word": "de",
+   "start": 177.481,
+   "end": 177.573
+  },
+  {
+   "word": "verdad.",
+   "start": 177.593,
+   "end": 177.91
+  },
+  {
+   "word": "Era",
+   "start": 178.316,
+   "end": 178.455
+  },
+  {
+   "word": "una",
+   "start": 178.475,
+   "end": 178.614
+  },
+  {
+   "word": "sección",
+   "start": 178.634,
+   "end": 178.985
+  },
+  {
+   "word": "del",
+   "start": 179.005,
+   "end": 179.144
+  },
+  {
+   "word": "Comando",
+   "start": 179.164,
+   "end": 179.515
+  },
+  {
+   "word": "Número",
+   "start": 179.535,
+   "end": 179.834
+  },
+  {
+   "word": "10,",
+   "start": 179.854,
+   "end": 180.449
+  },
+  {
+   "word": "el",
+   "start": 180.469,
+   "end": 180.555
+  },
+  {
+   "word": "comando",
+   "start": 180.575,
+   "end": 180.926
+  },
+  {
+   "word": "interaliado.",
+   "start": 180.946,
+   "end": 181.509
+  },
+  {
+   "word": "Menos",
+   "start": 181.873,
+   "end": 182.129
+  },
+  {
+   "word": "de",
+   "start": 182.149,
+   "end": 182.239
+  },
+  {
+   "word": "cien",
+   "start": 182.259,
+   "end": 182.459
+  },
+  {
+   "word": "hombres.",
+   "start": 182.479,
+   "end": 182.845
+  },
+  {
+   "word": "Tan",
+   "start": 183.6,
+   "end": 183.746
+  },
+  {
+   "word": "secreta",
+   "start": 183.766,
+   "end": 184.134
+  },
+  {
+   "word": "que",
+   "start": 184.154,
+   "end": 184.3
+  },
+  {
+   "word": "la",
+   "start": 184.32,
+   "end": 184.411
+  },
+  {
+   "word": "llamaron",
+   "start": 184.431,
+   "end": 184.854
+  },
+  {
+   "word": "simplemente…",
+   "start": 184.874,
+   "end": 185.463
+  },
+  {
+   "word": "X",
+   "start": 185.757,
+   "end": 185.827
+  },
+  {
+   "word": "Troop.",
+   "start": 185.847,
+   "end": 186.28
+  },
+  {
+   "word": "Pero",
+   "start": 186.604,
+   "end": 186.781
+  },
+  {
+   "word": "para",
+   "start": 186.801,
+   "end": 186.978
+  },
+  {
+   "word": "entrar,",
+   "start": 186.998,
+   "end": 187.454
+  },
+  {
+   "word": "tienes",
+   "start": 187.474,
+   "end": 187.75
+  },
+  {
+   "word": "que",
+   "start": 187.77,
+   "end": 187.898
+  },
+  {
+   "word": "dejar",
+   "start": 187.918,
+   "end": 188.144
+  },
+  {
+   "word": "de",
+   "start": 188.164,
+   "end": 188.243
+  },
+  {
+   "word": "existir.",
+   "start": 188.263,
+   "end": 188.588
+  },
+  {
+   "word": "Te",
+   "start": 189.115,
+   "end": 189.206
+  },
+  {
+   "word": "dan",
+   "start": 189.226,
+   "end": 189.372
+  },
+  {
+   "word": "un",
+   "start": 189.392,
+   "end": 189.483
+  },
+  {
+   "word": "día",
+   "start": 189.503,
+   "end": 189.649
+  },
+  {
+   "word": "para",
+   "start": 189.669,
+   "end": 189.871
+  },
+  {
+   "word": "elegir",
+   "start": 189.891,
+   "end": 190.203
+  },
+  {
+   "word": "un",
+   "start": 190.223,
+   "end": 190.314
+  },
+  {
+   "word": "nombre",
+   "start": 190.334,
+   "end": 190.646
+  },
+  {
+   "word": "nuevo.",
+   "start": 190.666,
+   "end": 190.923
+  },
+  {
+   "word": "Un",
+   "start": 191.266,
+   "end": 191.366
+  },
+  {
+   "word": "nombre",
+   "start": 191.386,
+   "end": 191.725
+  },
+  {
+   "word": "inglés.",
+   "start": 191.745,
+   "end": 192.085
+  },
+  {
+   "word": "Inventas",
+   "start": 192.379,
+   "end": 192.837
+  },
+  {
+   "word": "unos",
+   "start": 192.857,
+   "end": 193.077
+  },
+  {
+   "word": "padres",
+   "start": 193.097,
+   "end": 193.435
+  },
+  {
+   "word": "que",
+   "start": 193.455,
+   "end": 193.615
+  },
+  {
+   "word": "nunca",
+   "start": 193.635,
+   "end": 193.914
+  },
+  {
+   "word": "existieron,",
+   "start": 193.934,
+   "end": 194.744
+  },
+  {
+   "word": "un",
+   "start": 194.764,
+   "end": 194.864
+  },
+  {
+   "word": "pueblo",
+   "start": 194.884,
+   "end": 195.222
+  },
+  {
+   "word": "donde",
+   "start": 195.242,
+   "end": 195.521
+  },
+  {
+   "word": "nunca",
+   "start": 195.541,
+   "end": 195.82
+  },
+  {
+   "word": "viviste,",
+   "start": 195.84,
+   "end": 196.415
+  },
+  {
+   "word": "una",
+   "start": 196.435,
+   "end": 196.594
+  },
+  {
+   "word": "infancia",
+   "start": 196.614,
+   "end": 197.073
+  },
+  {
+   "word": "que",
+   "start": 197.093,
+   "end": 197.252
+  },
+  {
+   "word": "nunca",
+   "start": 197.272,
+   "end": 197.551
+  },
+  {
+   "word": "tuviste.",
+   "start": 197.571,
+   "end": 197.97
+  },
+  {
+   "word": "Y",
+   "start": 198.306,
+   "end": 198.356
+  },
+  {
+   "word": "en",
+   "start": 198.373,
+   "end": 198.488
+  },
+  {
+   "word": "tu",
+   "start": 198.508,
+   "end": 198.623
+  },
+  {
+   "word": "placa",
+   "start": 198.643,
+   "end": 198.96
+  },
+  {
+   "word": "de",
+   "start": 198.98,
+   "end": 199.094
+  },
+  {
+   "word": "identificación",
+   "start": 199.114,
+   "end": 200.037
+  },
+  {
+   "word": "ya",
+   "start": 200.057,
+   "end": 200.172
+  },
+  {
+   "word": "no",
+   "start": 200.192,
+   "end": 200.307
+  },
+  {
+   "word": "pone",
+   "start": 200.327,
+   "end": 200.576
+  },
+  {
+   "word": "«judío».",
+   "start": 200.596,
+   "end": 200.913
+  },
+  {
+   "word": "Pone",
+   "start": 201.724,
+   "end": 201.972
+  },
+  {
+   "word": "«Iglesia",
+   "start": 201.992,
+   "end": 202.44
+  },
+  {
+   "word": "de",
+   "start": 202.46,
+   "end": 202.574
+  },
+  {
+   "word": "Inglaterra».",
+   "start": 202.594,
+   "end": 203.243
+  },
+  {
+   "word": "¿Por",
+   "start": 203.657,
+   "end": 203.796
+  },
+  {
+   "word": "qué",
+   "start": 203.816,
+   "end": 203.955
+  },
+  {
+   "word": "tanto",
+   "start": 203.975,
+   "end": 204.219
+  },
+  {
+   "word": "secreto?",
+   "start": 204.239,
+   "end": 204.59
+  },
+  {
+   "word": "Porque",
+   "start": 205.02,
+   "end": 205.38
+  },
+  {
+   "word": "en",
+   "start": 205.4,
+   "end": 205.507
+  },
+  {
+   "word": "octubre",
+   "start": 205.527,
+   "end": 205.951
+  },
+  {
+   "word": "de",
+   "start": 205.971,
+   "end": 206.077
+  },
+  {
+   "word": "1942,",
+   "start": 206.097,
+   "end": 207.091
+  },
+  {
+   "word": "Hitler",
+   "start": 207.111,
+   "end": 207.471
+  },
+  {
+   "word": "firmó",
+   "start": 207.491,
+   "end": 207.788
+  },
+  {
+   "word": "una",
+   "start": 207.808,
+   "end": 207.978
+  },
+  {
+   "word": "orden",
+   "start": 207.998,
+   "end": 208.295
+  },
+  {
+   "word": "terrible.",
+   "start": 208.315,
+   "end": 208.802
+  },
+  {
+   "word": "Esto",
+   "start": 209.067,
+   "end": 209.3
+  },
+  {
+   "word": "pasó",
+   "start": 209.32,
+   "end": 209.552
+  },
+  {
+   "word": "de",
+   "start": 209.572,
+   "end": 209.679
+  },
+  {
+   "word": "verdad.",
+   "start": 209.699,
+   "end": 210.058
+  },
+  {
+   "word": "La",
+   "start": 210.421,
+   "end": 210.518
+  },
+  {
+   "word": "llamada",
+   "start": 210.538,
+   "end": 210.926
+  },
+  {
+   "word": "Orden",
+   "start": 210.946,
+   "end": 211.218
+  },
+  {
+   "word": "de",
+   "start": 211.238,
+   "end": 211.335
+  },
+  {
+   "word": "Comandos",
+   "start": 211.355,
+   "end": 211.802
+  },
+  {
+   "word": "decía",
+   "start": 211.822,
+   "end": 212.094
+  },
+  {
+   "word": "que",
+   "start": 212.114,
+   "end": 212.269
+  },
+  {
+   "word": "cualquier",
+   "start": 212.289,
+   "end": 212.794
+  },
+  {
+   "word": "comando",
+   "start": 212.814,
+   "end": 213.202
+  },
+  {
+   "word": "aliado",
+   "start": 213.222,
+   "end": 213.553
+  },
+  {
+   "word": "capturado",
+   "start": 213.573,
+   "end": 214.078
+  },
+  {
+   "word": "debía",
+   "start": 214.098,
+   "end": 214.37
+  },
+  {
+   "word": "ser",
+   "start": 214.39,
+   "end": 214.545
+  },
+  {
+   "word": "ejecutado.",
+   "start": 214.565,
+   "end": 215.07
+  },
+  {
+   "word": "Sin",
+   "start": 215.378,
+   "end": 215.554
+  },
+  {
+   "word": "juicio.",
+   "start": 215.574,
+   "end": 215.946
+  },
+  {
+   "word": "Y",
+   "start": 216.301,
+   "end": 216.351
+  },
+  {
+   "word": "si",
+   "start": 216.358,
+   "end": 216.452
+  },
+  {
+   "word": "los",
+   "start": 216.472,
+   "end": 216.623
+  },
+  {
+   "word": "alemanes",
+   "start": 216.643,
+   "end": 217.08
+  },
+  {
+   "word": "descubrían",
+   "start": 217.1,
+   "end": 217.65
+  },
+  {
+   "word": "que",
+   "start": 217.67,
+   "end": 217.821
+  },
+  {
+   "word": "además",
+   "start": 217.841,
+   "end": 218.164
+  },
+  {
+   "word": "eras",
+   "start": 218.184,
+   "end": 218.392
+  },
+  {
+   "word": "un",
+   "start": 218.412,
+   "end": 218.506
+  },
+  {
+   "word": "judío",
+   "start": 218.526,
+   "end": 218.791
+  },
+  {
+   "word": "de",
+   "start": 218.811,
+   "end": 218.905
+  },
+  {
+   "word": "Viena…",
+   "start": 218.925,
+   "end": 219.191
+  },
+  {
+   "word": "no",
+   "start": 219.211,
+   "end": 219.756
+  },
+  {
+   "word": "tendrías",
+   "start": 219.776,
+   "end": 220.212
+  },
+  {
+   "word": "ninguna",
+   "start": 220.232,
+   "end": 220.611
+  },
+  {
+   "word": "oportunidad.",
+   "start": 220.631,
+   "end": 221.239
+  },
+  {
+   "word": "Así",
+   "start": 221.583,
+   "end": 221.742
+  },
+  {
+   "word": "que",
+   "start": 221.762,
+   "end": 221.922
+  },
+  {
+   "word": "te",
+   "start": 221.942,
+   "end": 222.041
+  },
+  {
+   "word": "prohíben",
+   "start": 222.061,
+   "end": 222.519
+  },
+  {
+   "word": "una",
+   "start": 222.539,
+   "end": 222.699
+  },
+  {
+   "word": "cosa",
+   "start": 222.719,
+   "end": 222.938
+  },
+  {
+   "word": "por",
+   "start": 222.958,
+   "end": 223.117
+  },
+  {
+   "word": "encima",
+   "start": 223.137,
+   "end": 223.476
+  },
+  {
+   "word": "de",
+   "start": 223.496,
+   "end": 223.595
+  },
+  {
+   "word": "todas:",
+   "start": 223.615,
+   "end": 223.894
+  },
+  {
+   "word": "si",
+   "start": 223.914,
+   "end": 224.273
+  },
+  {
+   "word": "te",
+   "start": 224.293,
+   "end": 224.392
+  },
+  {
+   "word": "capturan,",
+   "start": 224.412,
+   "end": 224.87
+  },
+  {
+   "word": "jamás,",
+   "start": 224.89,
+   "end": 225.169
+  },
+  {
+   "word": "bajo",
+   "start": 225.189,
+   "end": 225.408
+  },
+  {
+   "word": "ninguna",
+   "start": 225.428,
+   "end": 225.827
+  },
+  {
+   "word": "circunstancia,",
+   "start": 225.847,
+   "end": 226.604
+  },
+  {
+   "word": "hables",
+   "start": 226.624,
+   "end": 227.229
+  },
+  {
+   "word": "alemán.",
+   "start": 227.249,
+   "end": 227.588
+  },
+  {
+   "word": "Te",
+   "start": 227.919,
+   "end": 228.008
+  },
+  {
+   "word": "mandan",
+   "start": 228.028,
+   "end": 228.334
+  },
+  {
+   "word": "a",
+   "start": 228.354,
+   "end": 228.404
+  },
+  {
+   "word": "entrenar",
+   "start": 228.408,
+   "end": 228.823
+  },
+  {
+   "word": "a",
+   "start": 228.843,
+   "end": 228.893
+  },
+  {
+   "word": "un",
+   "start": 228.898,
+   "end": 228.987
+  },
+  {
+   "word": "pueblo",
+   "start": 229.007,
+   "end": 229.313
+  },
+  {
+   "word": "de",
+   "start": 229.333,
+   "end": 229.422
+  },
+  {
+   "word": "la",
+   "start": 229.442,
+   "end": 229.53
+  },
+  {
+   "word": "costa",
+   "start": 229.55,
+   "end": 229.802
+  },
+  {
+   "word": "de",
+   "start": 229.822,
+   "end": 229.911
+  },
+  {
+   "word": "Gales.",
+   "start": 229.931,
+   "end": 230.183
+  },
+  {
+   "word": "Escalas",
+   "start": 230.478,
+   "end": 230.9
+  },
+  {
+   "word": "acantilados.",
+   "start": 230.92,
+   "end": 231.594
+  },
+  {
+   "word": "Nadas",
+   "start": 231.855,
+   "end": 232.169
+  },
+  {
+   "word": "en",
+   "start": 232.189,
+   "end": 232.303
+  },
+  {
+   "word": "un",
+   "start": 232.323,
+   "end": 232.436
+  },
+  {
+   "word": "mar",
+   "start": 232.457,
+   "end": 232.637
+  },
+  {
+   "word": "helado.",
+   "start": 232.657,
+   "end": 233.038
+  },
+  {
+   "word": "Saltas",
+   "start": 233.367,
+   "end": 233.707
+  },
+  {
+   "word": "desde",
+   "start": 233.727,
+   "end": 234.006
+  },
+  {
+   "word": "camiones",
+   "start": 234.026,
+   "end": 234.486
+  },
+  {
+   "word": "en",
+   "start": 234.506,
+   "end": 234.605
+  },
+  {
+   "word": "marcha.",
+   "start": 234.625,
+   "end": 234.965
+  },
+  {
+   "word": "Disparas",
+   "start": 235.25,
+   "end": 235.672
+  },
+  {
+   "word": "con",
+   "start": 235.692,
+   "end": 235.838
+  },
+  {
+   "word": "munición",
+   "start": 235.858,
+   "end": 236.28
+  },
+  {
+   "word": "real",
+   "start": 236.3,
+   "end": 236.501
+  },
+  {
+   "word": "mientras",
+   "start": 236.521,
+   "end": 236.944
+  },
+  {
+   "word": "las",
+   "start": 236.964,
+   "end": 237.11
+  },
+  {
+   "word": "balas",
+   "start": 237.13,
+   "end": 237.386
+  },
+  {
+   "word": "silban",
+   "start": 237.406,
+   "end": 237.718
+  },
+  {
+   "word": "por",
+   "start": 237.738,
+   "end": 237.883
+  },
+  {
+   "word": "encima",
+   "start": 237.904,
+   "end": 238.215
+  },
+  {
+   "word": "de",
+   "start": 238.235,
+   "end": 238.326
+  },
+  {
+   "word": "tu",
+   "start": 238.346,
+   "end": 238.436
+  },
+  {
+   "word": "cabeza.",
+   "start": 238.456,
+   "end": 238.768
+  },
+  {
+   "word": "Y",
+   "start": 239.058,
+   "end": 239.108
+  },
+  {
+   "word": "por",
+   "start": 239.115,
+   "end": 239.268
+  },
+  {
+   "word": "la",
+   "start": 239.288,
+   "end": 239.383
+  },
+  {
+   "word": "noche,",
+   "start": 239.403,
+   "end": 239.67
+  },
+  {
+   "word": "vuelves",
+   "start": 239.69,
+   "end": 240.072
+  },
+  {
+   "word": "a",
+   "start": 240.092,
+   "end": 240.142
+  },
+  {
+   "word": "casa",
+   "start": 240.15,
+   "end": 240.36
+  },
+  {
+   "word": "de",
+   "start": 240.38,
+   "end": 240.475
+  },
+  {
+   "word": "una",
+   "start": 240.495,
+   "end": 240.647
+  },
+  {
+   "word": "señora",
+   "start": 240.667,
+   "end": 240.992
+  },
+  {
+   "word": "galesa",
+   "start": 241.012,
+   "end": 241.337
+  },
+  {
+   "word": "que",
+   "start": 241.357,
+   "end": 241.509
+  },
+  {
+   "word": "te",
+   "start": 241.529,
+   "end": 241.624
+  },
+  {
+   "word": "ha",
+   "start": 241.644,
+   "end": 241.739
+  },
+  {
+   "word": "alquilado",
+   "start": 241.759,
+   "end": 242.256
+  },
+  {
+   "word": "una",
+   "start": 242.276,
+   "end": 242.428
+  },
+  {
+   "word": "habitación.",
+   "start": 242.448,
+   "end": 243.003
+  },
+  {
+   "word": "Te",
+   "start": 243.356,
+   "end": 243.452
+  },
+  {
+   "word": "prepara",
+   "start": 243.472,
+   "end": 243.856
+  },
+  {
+   "word": "té.",
+   "start": 243.876,
+   "end": 243.972
+  },
+  {
+   "word": "Te",
+   "start": 244.253,
+   "end": 244.348
+  },
+  {
+   "word": "pregunta",
+   "start": 244.368,
+   "end": 244.81
+  },
+  {
+   "word": "por",
+   "start": 244.83,
+   "end": 244.983
+  },
+  {
+   "word": "tu",
+   "start": 245.003,
+   "end": 245.099
+  },
+  {
+   "word": "familia.",
+   "start": 245.119,
+   "end": 245.503
+  },
+  {
+   "word": "Y",
+   "start": 245.9,
+   "end": 245.95
+  },
+  {
+   "word": "tú",
+   "start": 245.954,
+   "end": 246.042
+  },
+  {
+   "word": "le",
+   "start": 246.062,
+   "end": 246.15
+  },
+  {
+   "word": "cuentas",
+   "start": 246.17,
+   "end": 246.527
+  },
+  {
+   "word": "la",
+   "start": 246.547,
+   "end": 246.635
+  },
+  {
+   "word": "historia",
+   "start": 246.655,
+   "end": 247.067
+  },
+  {
+   "word": "inventada…",
+   "start": 247.087,
+   "end": 248.256
+  },
+  {
+   "word": "mientras",
+   "start": 248.276,
+   "end": 248.688
+  },
+  {
+   "word": "piensas",
+   "start": 248.708,
+   "end": 249.065
+  },
+  {
+   "word": "en",
+   "start": 249.085,
+   "end": 249.173
+  },
+  {
+   "word": "tus",
+   "start": 249.193,
+   "end": 249.335
+  },
+  {
+   "word": "padres",
+   "start": 249.355,
+   "end": 249.659
+  },
+  {
+   "word": "de",
+   "start": 249.679,
+   "end": 249.767
+  },
+  {
+   "word": "verdad,",
+   "start": 249.787,
+   "end": 250.258
+  },
+  {
+   "word": "al",
+   "start": 250.278,
+   "end": 250.366
+  },
+  {
+   "word": "otro",
+   "start": 250.386,
+   "end": 250.582
+  },
+  {
+   "word": "lado",
+   "start": 250.602,
+   "end": 250.798
+  },
+  {
+   "word": "de",
+   "start": 250.818,
+   "end": 250.906
+  },
+  {
+   "word": "la",
+   "start": 250.926,
+   "end": 251.014
+  },
+  {
+   "word": "guerra,",
+   "start": 251.034,
+   "end": 251.621
+  },
+  {
+   "word": "sin",
+   "start": 251.641,
+   "end": 251.783
+  },
+  {
+   "word": "saber",
+   "start": 251.803,
+   "end": 252.053
+  },
+  {
+   "word": "si",
+   "start": 252.073,
+   "end": 252.161
+  },
+  {
+   "word": "siguen",
+   "start": 252.181,
+   "end": 252.484
+  },
+  {
+   "word": "vivos.",
+   "start": 252.504,
+   "end": 252.754
+  },
+  {
+   "word": "Esto",
+   "start": 253.074,
+   "end": 253.303
+  },
+  {
+   "word": "pasó",
+   "start": 253.323,
+   "end": 253.552
+  },
+  {
+   "word": "de",
+   "start": 253.572,
+   "end": 253.676
+  },
+  {
+   "word": "verdad.",
+   "start": 253.696,
+   "end": 254.049
+  },
+  {
+   "word": "Los",
+   "start": 254.839,
+   "end": 254.989
+  },
+  {
+   "word": "hombres",
+   "start": 255.009,
+   "end": 255.385
+  },
+  {
+   "word": "de",
+   "start": 255.405,
+   "end": 255.498
+  },
+  {
+   "word": "X",
+   "start": 255.518,
+   "end": 255.568
+  },
+  {
+   "word": "Troop",
+   "start": 255.575,
+   "end": 255.838
+  },
+  {
+   "word": "vivían",
+   "start": 255.858,
+   "end": 256.177
+  },
+  {
+   "word": "alojados",
+   "start": 256.197,
+   "end": 256.63
+  },
+  {
+   "word": "en",
+   "start": 256.65,
+   "end": 256.743
+  },
+  {
+   "word": "casas",
+   "start": 256.763,
+   "end": 257.026
+  },
+  {
+   "word": "de",
+   "start": 257.046,
+   "end": 257.139
+  },
+  {
+   "word": "vecinos",
+   "start": 257.159,
+   "end": 257.536
+  },
+  {
+   "word": "del",
+   "start": 257.556,
+   "end": 257.705
+  },
+  {
+   "word": "pueblo.",
+   "start": 257.725,
+   "end": 258.045
+  },
+  {
+   "word": "Muchos",
+   "start": 258.369,
+   "end": 258.677
+  },
+  {
+   "word": "de",
+   "start": 258.697,
+   "end": 258.786
+  },
+  {
+   "word": "ellos",
+   "start": 258.806,
+   "end": 259.059
+  },
+  {
+   "word": "los",
+   "start": 259.079,
+   "end": 259.223
+  },
+  {
+   "word": "recordaron",
+   "start": 259.243,
+   "end": 259.769
+  },
+  {
+   "word": "con",
+   "start": 259.789,
+   "end": 259.933
+  },
+  {
+   "word": "cariño",
+   "start": 259.953,
+   "end": 260.261
+  },
+  {
+   "word": "durante",
+   "start": 260.281,
+   "end": 260.644
+  },
+  {
+   "word": "toda",
+   "start": 260.664,
+   "end": 260.862
+  },
+  {
+   "word": "su",
+   "start": 260.882,
+   "end": 260.971
+  },
+  {
+   "word": "vida.",
+   "start": 260.991,
+   "end": 261.19
+  },
+  {
+   "word": "Y",
+   "start": 261.609,
+   "end": 261.659
+  },
+  {
+   "word": "aquí",
+   "start": 261.664,
+   "end": 261.866
+  },
+  {
+   "word": "te",
+   "start": 261.886,
+   "end": 261.977
+  },
+  {
+   "word": "pregunto",
+   "start": 261.997,
+   "end": 262.421
+  },
+  {
+   "word": "a",
+   "start": 262.441,
+   "end": 262.491
+  },
+  {
+   "word": "ti:",
+   "start": 262.497,
+   "end": 262.588
+  },
+  {
+   "word": "si",
+   "start": 262.608,
+   "end": 263.044
+  },
+  {
+   "word": "tuvieras",
+   "start": 263.064,
+   "end": 263.487
+  },
+  {
+   "word": "que",
+   "start": 263.507,
+   "end": 263.654
+  },
+  {
+   "word": "borrar",
+   "start": 263.674,
+   "end": 263.987
+  },
+  {
+   "word": "tu",
+   "start": 264.007,
+   "end": 264.098
+  },
+  {
+   "word": "identidad…",
+   "start": 264.118,
+   "end": 264.597
+  },
+  {
+   "word": "¿qué",
+   "start": 265.088,
+   "end": 265.214
+  },
+  {
+   "word": "nombre",
+   "start": 265.234,
+   "end": 265.507
+  },
+  {
+   "word": "falso",
+   "start": 265.527,
+   "end": 265.751
+  },
+  {
+   "word": "te",
+   "start": 265.771,
+   "end": 265.848
+  },
+  {
+   "word": "habrías",
+   "start": 265.868,
+   "end": 266.189
+  },
+  {
+   "word": "puesto?",
+   "start": 266.209,
+   "end": 266.482
+  },
+  {
+   "word": "Déjamelo",
+   "start": 266.828,
+   "end": 267.197
+  },
+  {
+   "word": "en",
+   "start": 267.217,
+   "end": 267.294
+  },
+  {
+   "word": "los",
+   "start": 267.314,
+   "end": 267.44
+  },
+  {
+   "word": "comentarios,",
+   "start": 267.46,
+   "end": 268.408
+  },
+  {
+   "word": "que",
+   "start": 268.428,
+   "end": 268.554
+  },
+  {
+   "word": "los",
+   "start": 268.574,
+   "end": 268.699
+  },
+  {
+   "word": "leo",
+   "start": 268.719,
+   "end": 268.845
+  },
+  {
+   "word": "todos.",
+   "start": 268.865,
+   "end": 269.088
+  },
+  {
+   "word": "Ahora,",
+   "start": 269.385,
+   "end": 269.663
+  },
+  {
+   "word": "mientras",
+   "start": 269.683,
+   "end": 270.14
+  },
+  {
+   "word": "tú",
+   "start": 270.16,
+   "end": 270.26
+  },
+  {
+   "word": "entrenas",
+   "start": 270.28,
+   "end": 270.737
+  },
+  {
+   "word": "en",
+   "start": 270.757,
+   "end": 270.856
+  },
+  {
+   "word": "Gales,",
+   "start": 270.876,
+   "end": 271.155
+  },
+  {
+   "word": "al",
+   "start": 271.175,
+   "end": 271.274
+  },
+  {
+   "word": "otro",
+   "start": 271.294,
+   "end": 271.513
+  },
+  {
+   "word": "lado",
+   "start": 271.533,
+   "end": 271.751
+  },
+  {
+   "word": "del",
+   "start": 271.771,
+   "end": 271.93
+  },
+  {
+   "word": "océano",
+   "start": 271.95,
+   "end": 272.288
+  },
+  {
+   "word": "está",
+   "start": 272.308,
+   "end": 272.527
+  },
+  {
+   "word": "pasando",
+   "start": 272.547,
+   "end": 272.944
+  },
+  {
+   "word": "algo",
+   "start": 272.964,
+   "end": 273.183
+  },
+  {
+   "word": "muy",
+   "start": 273.203,
+   "end": 273.362
+  },
+  {
+   "word": "parecido.",
+   "start": 273.382,
+   "end": 273.839
+  },
+  {
+   "word": "Estados",
+   "start": 274.425,
+   "end": 274.766
+  },
+  {
+   "word": "Unidos",
+   "start": 274.786,
+   "end": 275.076
+  },
+  {
+   "word": "también",
+   "start": 275.096,
+   "end": 275.437
+  },
+  {
+   "word": "tiene",
+   "start": 275.457,
+   "end": 275.695
+  },
+  {
+   "word": "refugiados",
+   "start": 275.715,
+   "end": 276.211
+  },
+  {
+   "word": "que",
+   "start": 276.231,
+   "end": 276.366
+  },
+  {
+   "word": "hablan",
+   "start": 276.386,
+   "end": 276.675
+  },
+  {
+   "word": "alemán.",
+   "start": 276.695,
+   "end": 276.985
+  },
+  {
+   "word": "Y",
+   "start": 277.325,
+   "end": 277.375
+  },
+  {
+   "word": "también",
+   "start": 277.378,
+   "end": 277.731
+  },
+  {
+   "word": "se",
+   "start": 277.751,
+   "end": 277.838
+  },
+  {
+   "word": "le",
+   "start": 277.858,
+   "end": 277.945
+  },
+  {
+   "word": "ocurre",
+   "start": 277.965,
+   "end": 278.265
+  },
+  {
+   "word": "la",
+   "start": 278.285,
+   "end": 278.371
+  },
+  {
+   "word": "misma",
+   "start": 278.391,
+   "end": 278.638
+  },
+  {
+   "word": "idea.",
+   "start": 278.658,
+   "end": 278.851
+  },
+  {
+   "word": "Esto",
+   "start": 279.121,
+   "end": 279.327
+  },
+  {
+   "word": "pasó",
+   "start": 279.347,
+   "end": 279.553
+  },
+  {
+   "word": "de",
+   "start": 279.573,
+   "end": 279.667
+  },
+  {
+   "word": "verdad.",
+   "start": 279.687,
+   "end": 280.006
+  },
+  {
+   "word": "En",
+   "start": 280.4,
+   "end": 280.494
+  },
+  {
+   "word": "Camp",
+   "start": 280.514,
+   "end": 280.722
+  },
+  {
+   "word": "Ritchie,",
+   "start": 280.742,
+   "end": 281.12
+  },
+  {
+   "word": "en",
+   "start": 281.14,
+   "end": 281.234
+  },
+  {
+   "word": "Maryland,",
+   "start": 281.254,
+   "end": 281.69
+  },
+  {
+   "word": "el",
+   "start": 281.71,
+   "end": 281.804
+  },
+  {
+   "word": "ejército",
+   "start": 281.824,
+   "end": 282.383
+  },
+  {
+   "word": "estadounidense",
+   "start": 282.403,
+   "end": 283.181
+  },
+  {
+   "word": "entrenó",
+   "start": 283.201,
+   "end": 283.579
+  },
+  {
+   "word": "a",
+   "start": 283.599,
+   "end": 283.649
+  },
+  {
+   "word": "miles",
+   "start": 283.656,
+   "end": 283.921
+  },
+  {
+   "word": "de",
+   "start": 283.941,
+   "end": 284.035
+  },
+  {
+   "word": "soldados",
+   "start": 284.055,
+   "end": 284.49
+  },
+  {
+   "word": "en",
+   "start": 284.51,
+   "end": 284.604
+  },
+  {
+   "word": "interrogatorio",
+   "start": 284.624,
+   "end": 285.402
+  },
+  {
+   "word": "e",
+   "start": 285.422,
+   "end": 285.472
+  },
+  {
+   "word": "inteligencia.",
+   "start": 285.479,
+   "end": 286.142
+  },
+  {
+   "word": "Muchos",
+   "start": 286.501,
+   "end": 286.797
+  },
+  {
+   "word": "eran",
+   "start": 286.817,
+   "end": 287.007
+  },
+  {
+   "word": "refugiados",
+   "start": 287.027,
+   "end": 287.533
+  },
+  {
+   "word": "judíos",
+   "start": 287.553,
+   "end": 287.848
+  },
+  {
+   "word": "que",
+   "start": 287.868,
+   "end": 288.006
+  },
+  {
+   "word": "habían",
+   "start": 288.026,
+   "end": 288.322
+  },
+  {
+   "word": "escapado",
+   "start": 288.342,
+   "end": 288.742
+  },
+  {
+   "word": "de",
+   "start": 288.762,
+   "end": 288.847
+  },
+  {
+   "word": "Europa.",
+   "start": 288.867,
+   "end": 289.163
+  },
+  {
+   "word": "Hoy",
+   "start": 289.492,
+   "end": 289.666
+  },
+  {
+   "word": "se",
+   "start": 289.686,
+   "end": 289.795
+  },
+  {
+   "word": "les",
+   "start": 289.815,
+   "end": 289.989
+  },
+  {
+   "word": "conoce",
+   "start": 290.009,
+   "end": 290.376
+  },
+  {
+   "word": "como",
+   "start": 290.396,
+   "end": 290.635
+  },
+  {
+   "word": "los",
+   "start": 290.655,
+   "end": 290.828
+  },
+  {
+   "word": "Ritchie",
+   "start": 290.848,
+   "end": 291.281
+  },
+  {
+   "word": "Boys.",
+   "start": 291.301,
+   "end": 291.539
+  },
+  {
+   "word": "Y",
+   "start": 291.813,
+   "end": 291.863
+  },
+  {
+   "word": "muchos",
+   "start": 291.867,
+   "end": 292.171
+  },
+  {
+   "word": "de",
+   "start": 292.191,
+   "end": 292.278
+  },
+  {
+   "word": "ellos",
+   "start": 292.298,
+   "end": 292.548
+  },
+  {
+   "word": "también",
+   "start": 292.568,
+   "end": 292.926
+  },
+  {
+   "word": "desembarcaron",
+   "start": 292.946,
+   "end": 293.627
+  },
+  {
+   "word": "en",
+   "start": 293.647,
+   "end": 293.735
+  },
+  {
+   "word": "Normandía.",
+   "start": 293.755,
+   "end": 294.22
+  },
+  {
+   "word": "Bastardos",
+   "start": 294.414,
+   "end": 294.949
+  },
+  {
+   "word": "a",
+   "start": 294.969,
+   "end": 295.019
+  },
+  {
+   "word": "un",
+   "start": 295.031,
+   "end": 295.134
+  },
+  {
+   "word": "lado",
+   "start": 295.154,
+   "end": 295.381
+  },
+  {
+   "word": "del",
+   "start": 295.401,
+   "end": 295.566
+  },
+  {
+   "word": "océano…",
+   "start": 295.586,
+   "end": 295.937
+  },
+  {
+   "word": "y",
+   "start": 295.957,
+   "end": 296.302
+  },
+  {
+   "word": "bastardos",
+   "start": 296.322,
+   "end": 296.858
+  },
+  {
+   "word": "al",
+   "start": 296.878,
+   "end": 296.981
+  },
+  {
+   "word": "otro.",
+   "start": 297.001,
+   "end": 297.228
+  },
+  {
+   "word": "Y",
+   "start": 297.585,
+   "end": 297.635
+  },
+  {
+   "word": "si",
+   "start": 297.644,
+   "end": 297.741
+  },
+  {
+   "word": "a",
+   "start": 297.761,
+   "end": 297.811
+  },
+  {
+   "word": "estas",
+   "start": 297.82,
+   "end": 298.093
+  },
+  {
+   "word": "alturas",
+   "start": 298.113,
+   "end": 298.503
+  },
+  {
+   "word": "sigues",
+   "start": 298.523,
+   "end": 298.855
+  },
+  {
+   "word": "aquí…",
+   "start": 298.875,
+   "end": 299.444
+  },
+  {
+   "word": "ya",
+   "start": 299.464,
+   "end": 299.561
+  },
+  {
+   "word": "eres",
+   "start": 299.581,
+   "end": 299.796
+  },
+  {
+   "word": "parte",
+   "start": 299.816,
+   "end": 300.089
+  },
+  {
+   "word": "del",
+   "start": 300.109,
+   "end": 300.265
+  },
+  {
+   "word": "equipo.",
+   "start": 300.285,
+   "end": 300.617
+  },
+  {
+   "word": "Hazlo",
+   "start": 301.01,
+   "end": 301.324
+  },
+  {
+   "word": "oficial:",
+   "start": 301.344,
+   "end": 301.791
+  },
+  {
+   "word": "suscríbete.",
+   "start": 301.811,
+   "end": 302.835
+  },
+  {
+   "word": "Porque",
+   "start": 303.203,
+   "end": 303.51
+  },
+  {
+   "word": "lo",
+   "start": 303.53,
+   "end": 303.619
+  },
+  {
+   "word": "más",
+   "start": 303.639,
+   "end": 303.782
+  },
+  {
+   "word": "fuerte",
+   "start": 303.802,
+   "end": 304.109
+  },
+  {
+   "word": "de",
+   "start": 304.129,
+   "end": 304.218
+  },
+  {
+   "word": "esta",
+   "start": 304.238,
+   "end": 304.435
+  },
+  {
+   "word": "historia…",
+   "start": 304.455,
+   "end": 305.296
+  },
+  {
+   "word": "todavía",
+   "start": 305.316,
+   "end": 305.677
+  },
+  {
+   "word": "no",
+   "start": 305.697,
+   "end": 305.786
+  },
+  {
+   "word": "ha",
+   "start": 305.806,
+   "end": 305.895
+  },
+  {
+   "word": "llegado.",
+   "start": 305.915,
+   "end": 306.276
+  },
+  {
+   "word": "Vuelta",
+   "start": 306.775,
+   "end": 307.199
+  },
+  {
+   "word": "al",
+   "start": 307.219,
+   "end": 307.347
+  },
+  {
+   "word": "6",
+   "start": 307.367,
+   "end": 307.643
+  },
+  {
+   "word": "de",
+   "start": 307.663,
+   "end": 307.791
+  },
+  {
+   "word": "junio",
+   "start": 307.811,
+   "end": 308.162
+  },
+  {
+   "word": "de",
+   "start": 308.182,
+   "end": 308.31
+  },
+  {
+   "word": "1944.",
+   "start": 308.33,
+   "end": 309.494
+  },
+  {
+   "word": "Los",
+   "start": 309.833,
+   "end": 310.001
+  },
+  {
+   "word": "hombres",
+   "start": 310.021,
+   "end": 310.438
+  },
+  {
+   "word": "de",
+   "start": 310.458,
+   "end": 310.563
+  },
+  {
+   "word": "X",
+   "start": 310.583,
+   "end": 310.633
+  },
+  {
+   "word": "Troop",
+   "start": 310.646,
+   "end": 310.938
+  },
+  {
+   "word": "no",
+   "start": 310.958,
+   "end": 311.063
+  },
+  {
+   "word": "luchan",
+   "start": 311.083,
+   "end": 311.438
+  },
+  {
+   "word": "juntos.",
+   "start": 311.458,
+   "end": 311.813
+  },
+  {
+   "word": "Los",
+   "start": 312.038,
+   "end": 312.187
+  },
+  {
+   "word": "reparten",
+   "start": 312.207,
+   "end": 312.638
+  },
+  {
+   "word": "entre",
+   "start": 312.658,
+   "end": 312.92
+  },
+  {
+   "word": "otras",
+   "start": 312.94,
+   "end": 313.202
+  },
+  {
+   "word": "unidades",
+   "start": 313.222,
+   "end": 313.653
+  },
+  {
+   "word": "de",
+   "start": 313.673,
+   "end": 313.766
+  },
+  {
+   "word": "comandos.",
+   "start": 313.786,
+   "end": 314.217
+  },
+  {
+   "word": "Son",
+   "start": 314.51,
+   "end": 314.715
+  },
+  {
+   "word": "sus",
+   "start": 314.735,
+   "end": 314.939
+  },
+  {
+   "word": "ojos",
+   "start": 314.959,
+   "end": 315.238
+  },
+  {
+   "word": "y",
+   "start": 315.258,
+   "end": 315.313
+  },
+  {
+   "word": "sus",
+   "start": 315.333,
+   "end": 315.538
+  },
+  {
+   "word": "oídos.",
+   "start": 315.558,
+   "end": 315.912
+  },
+  {
+   "word": "Los",
+   "start": 316.146,
+   "end": 316.292
+  },
+  {
+   "word": "únicos",
+   "start": 316.312,
+   "end": 316.624
+  },
+  {
+   "word": "que",
+   "start": 316.644,
+   "end": 316.79
+  },
+  {
+   "word": "entienden",
+   "start": 316.81,
+   "end": 317.289
+  },
+  {
+   "word": "lo",
+   "start": 317.309,
+   "end": 317.4
+  },
+  {
+   "word": "que",
+   "start": 317.42,
+   "end": 317.566
+  },
+  {
+   "word": "gritan",
+   "start": 317.586,
+   "end": 317.898
+  },
+  {
+   "word": "los",
+   "start": 317.918,
+   "end": 318.064
+  },
+  {
+   "word": "alemanes.",
+   "start": 318.084,
+   "end": 318.507
+  },
+  {
+   "word": "Y",
+   "start": 318.867,
+   "end": 318.917
+  },
+  {
+   "word": "ahí",
+   "start": 318.935,
+   "end": 319.119
+  },
+  {
+   "word": "estás",
+   "start": 319.139,
+   "end": 319.46
+  },
+  {
+   "word": "tú.",
+   "start": 319.48,
+   "end": 319.596
+  },
+  {
+   "word": "Delante",
+   "start": 320.028,
+   "end": 320.419
+  },
+  {
+   "word": "de",
+   "start": 320.439,
+   "end": 320.537
+  },
+  {
+   "word": "ese",
+   "start": 320.557,
+   "end": 320.713
+  },
+  {
+   "word": "pueblo.",
+   "start": 320.733,
+   "end": 321.065
+  },
+  {
+   "word": "Con",
+   "start": 321.673,
+   "end": 321.825
+  },
+  {
+   "word": "la",
+   "start": 321.845,
+   "end": 321.94
+  },
+  {
+   "word": "orden",
+   "start": 321.96,
+   "end": 322.228
+  },
+  {
+   "word": "de",
+   "start": 322.248,
+   "end": 322.342
+  },
+  {
+   "word": "caminar",
+   "start": 322.362,
+   "end": 322.745
+  },
+  {
+   "word": "solo",
+   "start": 322.765,
+   "end": 322.974
+  },
+  {
+   "word": "por",
+   "start": 322.994,
+   "end": 323.147
+  },
+  {
+   "word": "la",
+   "start": 323.167,
+   "end": 323.262
+  },
+  {
+   "word": "calle",
+   "start": 323.282,
+   "end": 323.549
+  },
+  {
+   "word": "principal.",
+   "start": 323.569,
+   "end": 324.066
+  },
+  {
+   "word": "Respiras",
+   "start": 324.468,
+   "end": 324.879
+  },
+  {
+   "word": "hondo.",
+   "start": 324.899,
+   "end": 325.149
+  },
+  {
+   "word": "Das",
+   "start": 325.538,
+   "end": 325.701
+  },
+  {
+   "word": "el",
+   "start": 325.721,
+   "end": 325.822
+  },
+  {
+   "word": "primer",
+   "start": 325.842,
+   "end": 326.188
+  },
+  {
+   "word": "paso.",
+   "start": 326.208,
+   "end": 326.431
+  },
+  {
+   "word": "Y",
+   "start": 326.844,
+   "end": 326.894
+  },
+  {
+   "word": "entonces",
+   "start": 326.898,
+   "end": 327.314
+  },
+  {
+   "word": "se",
+   "start": 327.334,
+   "end": 327.422
+  },
+  {
+   "word": "te",
+   "start": 327.442,
+   "end": 327.531
+  },
+  {
+   "word": "ocurre",
+   "start": 327.551,
+   "end": 327.857
+  },
+  {
+   "word": "algo.",
+   "start": 327.877,
+   "end": 328.075
+  },
+  {
+   "word": "Algo",
+   "start": 328.349,
+   "end": 328.593
+  },
+  {
+   "word": "que",
+   "start": 328.613,
+   "end": 328.791
+  },
+  {
+   "word": "va",
+   "start": 328.811,
+   "end": 328.923
+  },
+  {
+   "word": "contra",
+   "start": 328.943,
+   "end": 329.319
+  },
+  {
+   "word": "todo",
+   "start": 329.339,
+   "end": 329.582
+  },
+  {
+   "word": "lo",
+   "start": 329.602,
+   "end": 329.714
+  },
+  {
+   "word": "que",
+   "start": 329.734,
+   "end": 329.912
+  },
+  {
+   "word": "te",
+   "start": 329.932,
+   "end": 330.044
+  },
+  {
+   "word": "han",
+   "start": 330.064,
+   "end": 330.242
+  },
+  {
+   "word": "enseñado.",
+   "start": 330.262,
+   "end": 331.179
+  },
+  {
+   "word": "Gritas.",
+   "start": 331.333,
+   "end": 331.827
+  },
+  {
+   "word": "En",
+   "start": 332.205,
+   "end": 332.457
+  },
+  {
+   "word": "alemán.",
+   "start": 332.477,
+   "end": 333.275
+  },
+  {
+   "word": "Con",
+   "start": 333.659,
+   "end": 333.93
+  },
+  {
+   "word": "todas",
+   "start": 333.95,
+   "end": 334.416
+  },
+  {
+   "word": "tus",
+   "start": 334.436,
+   "end": 334.707
+  },
+  {
+   "word": "fuerzas.",
+   "start": 334.727,
+   "end": 335.387
+  },
+  {
+   "word": "—¡Rendíos!",
+   "start": 335.849,
+   "end": 336.369
+  },
+  {
+   "word": "¡Estáis",
+   "start": 336.821,
+   "end": 337.051
+  },
+  {
+   "word": "rodeados!",
+   "start": 337.071,
+   "end": 337.385
+  },
+  {
+   "word": "Silencio.",
+   "start": 337.802,
+   "end": 338.307
+  },
+  {
+   "word": "Y",
+   "start": 338.681,
+   "end": 338.731
+  },
+  {
+   "word": "de",
+   "start": 338.736,
+   "end": 338.825
+  },
+  {
+   "word": "repente…",
+   "start": 338.844,
+   "end": 339.206
+  },
+  {
+   "word": "disparos.",
+   "start": 339.226,
+   "end": 339.642
+  },
+  {
+   "word": "Esto",
+   "start": 340.075,
+   "end": 340.463
+  },
+  {
+   "word": "pasó",
+   "start": 340.483,
+   "end": 340.87
+  },
+  {
+   "word": "de",
+   "start": 340.89,
+   "end": 341.074
+  },
+  {
+   "word": "verdad.",
+   "start": 341.094,
+   "end": 341.686
+  },
+  {
+   "word": "Según",
+   "start": 341.924,
+   "end": 342.136
+  },
+  {
+   "word": "contó",
+   "start": 342.156,
+   "end": 342.367
+  },
+  {
+   "word": "él",
+   "start": 342.387,
+   "end": 342.46
+  },
+  {
+   "word": "mismo",
+   "start": 342.48,
+   "end": 342.691
+  },
+  {
+   "word": "años",
+   "start": 342.711,
+   "end": 342.877
+  },
+  {
+   "word": "después,",
+   "start": 342.897,
+   "end": 343.201
+  },
+  {
+   "word": "un",
+   "start": 343.221,
+   "end": 343.294
+  },
+  {
+   "word": "comando",
+   "start": 343.314,
+   "end": 343.618
+  },
+  {
+   "word": "de",
+   "start": 343.638,
+   "end": 343.711
+  },
+  {
+   "word": "X",
+   "start": 343.731,
+   "end": 343.781
+  },
+  {
+   "word": "Troop",
+   "start": 343.777,
+   "end": 343.988
+  },
+  {
+   "word": "nacido",
+   "start": 344.008,
+   "end": 344.266
+  },
+  {
+   "word": "en",
+   "start": 344.286,
+   "end": 344.359
+  },
+  {
+   "word": "Viena,",
+   "start": 344.379,
+   "end": 344.591
+  },
+  {
+   "word": "llamado",
+   "start": 344.611,
+   "end": 344.915
+  },
+  {
+   "word": "Peter",
+   "start": 344.935,
+   "end": 345.453
+  },
+  {
+   "word": "Masters,",
+   "start": 345.473,
+   "end": 345.778
+  },
+  {
+   "word": "recibió",
+   "start": 345.798,
+   "end": 346.102
+  },
+  {
+   "word": "exactamente",
+   "start": 346.122,
+   "end": 346.612
+  },
+  {
+   "word": "esa",
+   "start": 346.632,
+   "end": 346.75
+  },
+  {
+   "word": "orden",
+   "start": 346.77,
+   "end": 346.982
+  },
+  {
+   "word": "el",
+   "start": 347.002,
+   "end": 347.075
+  },
+  {
+   "word": "Día",
+   "start": 347.095,
+   "end": 347.214
+  },
+  {
+   "word": "D.",
+   "start": 347.234,
+   "end": 347.284
+  },
+  {
+   "word": "Caminó",
+   "start": 347.654,
+   "end": 347.989
+  },
+  {
+   "word": "solo",
+   "start": 348.009,
+   "end": 348.225
+  },
+  {
+   "word": "hacia",
+   "start": 348.245,
+   "end": 348.521
+  },
+  {
+   "word": "el",
+   "start": 348.541,
+   "end": 348.639
+  },
+  {
+   "word": "enemigo,",
+   "start": 348.659,
+   "end": 349.245
+  },
+  {
+   "word": "gritó",
+   "start": 349.264,
+   "end": 349.54
+  },
+  {
+   "word": "en",
+   "start": 349.56,
+   "end": 349.658
+  },
+  {
+   "word": "alemán…",
+   "start": 349.678,
+   "end": 350.334
+  },
+  {
+   "word": "y",
+   "start": 350.354,
+   "end": 350.404
+  },
+  {
+   "word": "sobrevivió.",
+   "start": 350.413,
+   "end": 350.984
+  },
+  {
+   "word": "Durante",
+   "start": 351.407,
+   "end": 351.745
+  },
+  {
+   "word": "las",
+   "start": 351.765,
+   "end": 351.899
+  },
+  {
+   "word": "semanas",
+   "start": 351.919,
+   "end": 352.257
+  },
+  {
+   "word": "siguientes,",
+   "start": 352.277,
+   "end": 353.155
+  },
+  {
+   "word": "tu",
+   "start": 353.175,
+   "end": 353.257
+  },
+  {
+   "word": "idioma",
+   "start": 353.277,
+   "end": 353.564
+  },
+  {
+   "word": "se",
+   "start": 353.584,
+   "end": 353.667
+  },
+  {
+   "word": "convierte",
+   "start": 353.687,
+   "end": 354.128
+  },
+  {
+   "word": "en",
+   "start": 354.148,
+   "end": 354.23
+  },
+  {
+   "word": "un",
+   "start": 354.25,
+   "end": 354.332
+  },
+  {
+   "word": "arma.",
+   "start": 354.352,
+   "end": 354.537
+  },
+  {
+   "word": "Interrogas",
+   "start": 354.81,
+   "end": 355.315
+  },
+  {
+   "word": "prisioneros",
+   "start": 355.335,
+   "end": 355.892
+  },
+  {
+   "word": "en",
+   "start": 355.912,
+   "end": 355.997
+  },
+  {
+   "word": "la",
+   "start": 356.017,
+   "end": 356.101
+  },
+  {
+   "word": "misma",
+   "start": 356.121,
+   "end": 356.364
+  },
+  {
+   "word": "playa.",
+   "start": 356.384,
+   "end": 356.626
+  },
+  {
+   "word": "Descubres",
+   "start": 356.952,
+   "end": 357.377
+  },
+  {
+   "word": "dónde",
+   "start": 357.397,
+   "end": 357.624
+  },
+  {
+   "word": "están",
+   "start": 357.644,
+   "end": 357.871
+  },
+  {
+   "word": "los",
+   "start": 357.891,
+   "end": 358.019
+  },
+  {
+   "word": "cañones,",
+   "start": 358.039,
+   "end": 358.365
+  },
+  {
+   "word": "cuántos",
+   "start": 358.385,
+   "end": 358.971
+  },
+  {
+   "word": "hombres",
+   "start": 358.991,
+   "end": 359.317
+  },
+  {
+   "word": "quedan,",
+   "start": 359.337,
+   "end": 359.614
+  },
+  {
+   "word": "por",
+   "start": 359.634,
+   "end": 360.084
+  },
+  {
+   "word": "dónde",
+   "start": 360.104,
+   "end": 360.331
+  },
+  {
+   "word": "vendrá",
+   "start": 360.351,
+   "end": 360.628
+  },
+  {
+   "word": "el",
+   "start": 360.648,
+   "end": 360.727
+  },
+  {
+   "word": "contraataque.",
+   "start": 360.747,
+   "end": 361.32
+  },
+  {
+   "word": "Pero",
+   "start": 361.66,
+   "end": 361.839
+  },
+  {
+   "word": "la",
+   "start": 361.859,
+   "end": 361.939
+  },
+  {
+   "word": "guerra",
+   "start": 361.959,
+   "end": 362.238
+  },
+  {
+   "word": "tiene",
+   "start": 362.258,
+   "end": 362.487
+  },
+  {
+   "word": "un",
+   "start": 362.507,
+   "end": 362.586
+  },
+  {
+   "word": "precio.",
+   "start": 362.606,
+   "end": 362.885
+  },
+  {
+   "word": "Compañeros",
+   "start": 363.314,
+   "end": 363.82
+  },
+  {
+   "word": "con",
+   "start": 363.84,
+   "end": 363.977
+  },
+  {
+   "word": "los",
+   "start": 363.997,
+   "end": 364.135
+  },
+  {
+   "word": "que",
+   "start": 364.155,
+   "end": 364.293
+  },
+  {
+   "word": "entrenaste",
+   "start": 364.313,
+   "end": 364.819
+  },
+  {
+   "word": "en",
+   "start": 364.839,
+   "end": 364.924
+  },
+  {
+   "word": "Gales",
+   "start": 364.944,
+   "end": 365.187
+  },
+  {
+   "word": "caen",
+   "start": 365.207,
+   "end": 365.397
+  },
+  {
+   "word": "en",
+   "start": 365.417,
+   "end": 365.502
+  },
+  {
+   "word": "Francia,",
+   "start": 365.522,
+   "end": 366.083
+  },
+  {
+   "word": "en",
+   "start": 366.103,
+   "end": 366.188
+  },
+  {
+   "word": "Holanda,",
+   "start": 366.208,
+   "end": 366.556
+  },
+  {
+   "word": "en",
+   "start": 366.576,
+   "end": 366.774
+  },
+  {
+   "word": "Alemania.",
+   "start": 366.794,
+   "end": 367.195
+  },
+  {
+   "word": "Algunos",
+   "start": 367.558,
+   "end": 367.91
+  },
+  {
+   "word": "son",
+   "start": 367.93,
+   "end": 368.07
+  },
+  {
+   "word": "capturados.",
+   "start": 368.089,
+   "end": 368.601
+  },
+  {
+   "word": "Y",
+   "start": 368.888,
+   "end": 368.938
+  },
+  {
+   "word": "nadie",
+   "start": 368.944,
+   "end": 369.204
+  },
+  {
+   "word": "vuelve",
+   "start": 369.224,
+   "end": 369.54
+  },
+  {
+   "word": "a",
+   "start": 369.56,
+   "end": 369.61
+  },
+  {
+   "word": "saber",
+   "start": 369.617,
+   "end": 369.877
+  },
+  {
+   "word": "de",
+   "start": 369.897,
+   "end": 369.989
+  },
+  {
+   "word": "ellos.",
+   "start": 370.009,
+   "end": 370.269
+  },
+  {
+   "word": "Esto",
+   "start": 370.528,
+   "end": 370.742
+  },
+  {
+   "word": "pasó",
+   "start": 370.762,
+   "end": 370.975
+  },
+  {
+   "word": "de",
+   "start": 370.995,
+   "end": 371.092
+  },
+  {
+   "word": "verdad.",
+   "start": 371.112,
+   "end": 371.442
+  },
+  {
+   "word": "X",
+   "start": 371.888,
+   "end": 371.939
+  },
+  {
+   "word": "Troop",
+   "start": 371.959,
+   "end": 372.296
+  },
+  {
+   "word": "sufrió",
+   "start": 372.316,
+   "end": 372.724
+  },
+  {
+   "word": "muchas",
+   "start": 372.744,
+   "end": 373.152
+  },
+  {
+   "word": "bajas.",
+   "start": 373.172,
+   "end": 373.509
+  },
+  {
+   "word": "Muchos",
+   "start": 373.771,
+   "end": 374.071
+  },
+  {
+   "word": "de",
+   "start": 374.091,
+   "end": 374.177
+  },
+  {
+   "word": "sus",
+   "start": 374.197,
+   "end": 374.337
+  },
+  {
+   "word": "hombres",
+   "start": 374.357,
+   "end": 374.711
+  },
+  {
+   "word": "fueron",
+   "start": 374.731,
+   "end": 375.03
+  },
+  {
+   "word": "condecorados…",
+   "start": 375.05,
+   "end": 376.076
+  },
+  {
+   "word": "con",
+   "start": 376.096,
+   "end": 376.236
+  },
+  {
+   "word": "nombres",
+   "start": 376.256,
+   "end": 376.609
+  },
+  {
+   "word": "que",
+   "start": 376.629,
+   "end": 376.769
+  },
+  {
+   "word": "ni",
+   "start": 376.789,
+   "end": 376.876
+  },
+  {
+   "word": "siquiera",
+   "start": 376.896,
+   "end": 377.302
+  },
+  {
+   "word": "eran",
+   "start": 377.322,
+   "end": 377.516
+  },
+  {
+   "word": "los",
+   "start": 377.536,
+   "end": 377.675
+  },
+  {
+   "word": "suyos.",
+   "start": 377.695,
+   "end": 377.942
+  },
+  {
+   "word": "Pero",
+   "start": 378.283,
+   "end": 378.496
+  },
+  {
+   "word": "la",
+   "start": 378.516,
+   "end": 378.613
+  },
+  {
+   "word": "historia",
+   "start": 378.633,
+   "end": 379.079
+  },
+  {
+   "word": "más",
+   "start": 379.099,
+   "end": 379.254
+  },
+  {
+   "word": "increíble",
+   "start": 379.274,
+   "end": 379.778
+  },
+  {
+   "word": "de",
+   "start": 379.798,
+   "end": 379.895
+  },
+  {
+   "word": "los",
+   "start": 379.915,
+   "end": 380.07
+  },
+  {
+   "word": "bastardos",
+   "start": 380.09,
+   "end": 380.595
+  },
+  {
+   "word": "reales",
+   "start": 380.615,
+   "end": 380.944
+  },
+  {
+   "word": "no",
+   "start": 380.964,
+   "end": 381.061
+  },
+  {
+   "word": "ocurrió",
+   "start": 381.081,
+   "end": 381.469
+  },
+  {
+   "word": "en",
+   "start": 381.489,
+   "end": 381.585
+  },
+  {
+   "word": "Normandía.",
+   "start": 381.605,
+   "end": 382.11
+  },
+  {
+   "word": "Ocurrió",
+   "start": 382.581,
+   "end": 382.952
+  },
+  {
+   "word": "en",
+   "start": 382.972,
+   "end": 383.063
+  },
+  {
+   "word": "las",
+   "start": 383.083,
+   "end": 383.231
+  },
+  {
+   "word": "montañas",
+   "start": 383.251,
+   "end": 383.678
+  },
+  {
+   "word": "de",
+   "start": 383.698,
+   "end": 383.789
+  },
+  {
+   "word": "Austria.",
+   "start": 383.809,
+   "end": 384.18
+  },
+  {
+   "word": "Febrero",
+   "start": 384.6,
+   "end": 385.178
+  },
+  {
+   "word": "de",
+   "start": 385.198,
+   "end": 385.348
+  },
+  {
+   "word": "1945.",
+   "start": 385.368,
+   "end": 386.714
+  },
+  {
+   "word": "Tres",
+   "start": 387.092,
+   "end": 387.299
+  },
+  {
+   "word": "hombres",
+   "start": 387.319,
+   "end": 387.696
+  },
+  {
+   "word": "saltan",
+   "start": 387.716,
+   "end": 388.037
+  },
+  {
+   "word": "en",
+   "start": 388.057,
+   "end": 388.15
+  },
+  {
+   "word": "paracaídas,",
+   "start": 388.17,
+   "end": 388.718
+  },
+  {
+   "word": "de",
+   "start": 388.738,
+   "end": 388.931
+  },
+  {
+   "word": "noche,",
+   "start": 388.951,
+   "end": 389.215
+  },
+  {
+   "word": "sobre",
+   "start": 389.235,
+   "end": 389.838
+  },
+  {
+   "word": "un",
+   "start": 389.858,
+   "end": 389.951
+  },
+  {
+   "word": "glaciar",
+   "start": 389.971,
+   "end": 390.349
+  },
+  {
+   "word": "en",
+   "start": 390.368,
+   "end": 390.462
+  },
+  {
+   "word": "los",
+   "start": 390.482,
+   "end": 390.632
+  },
+  {
+   "word": "Alpes.",
+   "start": 390.652,
+   "end": 390.916
+  },
+  {
+   "word": "El",
+   "start": 391.338,
+   "end": 391.424
+  },
+  {
+   "word": "primero",
+   "start": 391.444,
+   "end": 391.793
+  },
+  {
+   "word": "se",
+   "start": 391.813,
+   "end": 391.898
+  },
+  {
+   "word": "llama",
+   "start": 391.918,
+   "end": 392.162
+  },
+  {
+   "word": "Frederick",
+   "start": 392.182,
+   "end": 392.637
+  },
+  {
+   "word": "Mayer.",
+   "start": 392.657,
+   "end": 392.901
+  },
+  {
+   "word": "Un",
+   "start": 393.105,
+   "end": 393.206
+  },
+  {
+   "word": "judío",
+   "start": 393.226,
+   "end": 393.507
+  },
+  {
+   "word": "nacido",
+   "start": 393.527,
+   "end": 393.869
+  },
+  {
+   "word": "en",
+   "start": 393.889,
+   "end": 393.99
+  },
+  {
+   "word": "Alemania",
+   "start": 394.01,
+   "end": 394.473
+  },
+  {
+   "word": "que",
+   "start": 394.493,
+   "end": 394.654
+  },
+  {
+   "word": "había",
+   "start": 394.674,
+   "end": 394.956
+  },
+  {
+   "word": "emigrado",
+   "start": 394.976,
+   "end": 395.438
+  },
+  {
+   "word": "a",
+   "start": 395.458,
+   "end": 395.508
+  },
+  {
+   "word": "Estados",
+   "start": 395.519,
+   "end": 395.921
+  },
+  {
+   "word": "Unidos.",
+   "start": 395.941,
+   "end": 396.283
+  },
+  {
+   "word": "El",
+   "start": 396.492,
+   "end": 396.608
+  },
+  {
+   "word": "segundo,",
+   "start": 396.628,
+   "end": 397.086
+  },
+  {
+   "word": "Hans",
+   "start": 397.106,
+   "end": 397.359
+  },
+  {
+   "word": "Wynberg,",
+   "start": 397.379,
+   "end": 397.958
+  },
+  {
+   "word": "un",
+   "start": 397.978,
+   "end": 398.095
+  },
+  {
+   "word": "refugiado",
+   "start": 398.115,
+   "end": 398.709
+  },
+  {
+   "word": "judío",
+   "start": 398.729,
+   "end": 399.05
+  },
+  {
+   "word": "de",
+   "start": 399.07,
+   "end": 399.186
+  },
+  {
+   "word": "Holanda.",
+   "start": 399.206,
+   "end": 399.664
+  },
+  {
+   "word": "El",
+   "start": 399.924,
+   "end": 400.021
+  },
+  {
+   "word": "tercero,",
+   "start": 400.041,
+   "end": 400.431
+  },
+  {
+   "word": "Franz",
+   "start": 400.451,
+   "end": 400.724
+  },
+  {
+   "word": "Weber,",
+   "start": 400.744,
+   "end": 401.017
+  },
+  {
+   "word": "un",
+   "start": 401.037,
+   "end": 401.134
+  },
+  {
+   "word": "austriaco",
+   "start": 401.154,
+   "end": 401.662
+  },
+  {
+   "word": "que",
+   "start": 401.682,
+   "end": 401.838
+  },
+  {
+   "word": "había",
+   "start": 401.858,
+   "end": 402.131
+  },
+  {
+   "word": "desertado",
+   "start": 402.151,
+   "end": 402.658
+  },
+  {
+   "word": "del",
+   "start": 402.678,
+   "end": 402.834
+  },
+  {
+   "word": "ejército",
+   "start": 402.854,
+   "end": 403.302
+  },
+  {
+   "word": "alemán.",
+   "start": 403.322,
+   "end": 403.654
+  },
+  {
+   "word": "Esto",
+   "start": 403.962,
+   "end": 404.185
+  },
+  {
+   "word": "pasó",
+   "start": 404.205,
+   "end": 404.428
+  },
+  {
+   "word": "de",
+   "start": 404.448,
+   "end": 404.55
+  },
+  {
+   "word": "verdad.",
+   "start": 404.57,
+   "end": 404.915
+  },
+  {
+   "word": "Era",
+   "start": 405.276,
+   "end": 405.45
+  },
+  {
+   "word": "la",
+   "start": 405.47,
+   "end": 405.579
+  },
+  {
+   "word": "Operación",
+   "start": 405.599,
+   "end": 406.161
+  },
+  {
+   "word": "Greenup,",
+   "start": 406.181,
+   "end": 406.905
+  },
+  {
+   "word": "una",
+   "start": 406.925,
+   "end": 407.099
+  },
+  {
+   "word": "misión",
+   "start": 407.119,
+   "end": 407.487
+  },
+  {
+   "word": "de",
+   "start": 407.507,
+   "end": 407.616
+  },
+  {
+   "word": "los",
+   "start": 407.636,
+   "end": 407.81
+  },
+  {
+   "word": "servicios",
+   "start": 407.83,
+   "end": 408.392
+  },
+  {
+   "word": "secretos",
+   "start": 408.412,
+   "end": 408.909
+  },
+  {
+   "word": "estadounidenses,",
+   "start": 408.929,
+   "end": 410.066
+  },
+  {
+   "word": "la",
+   "start": 410.086,
+   "end": 410.195
+  },
+  {
+   "word": "OSS.",
+   "start": 410.215,
+   "end": 410.389
+  },
+  {
+   "word": "Mayer",
+   "start": 410.514,
+   "end": 410.784
+  },
+  {
+   "word": "se",
+   "start": 410.804,
+   "end": 410.899
+  },
+  {
+   "word": "infiltra",
+   "start": 410.919,
+   "end": 411.363
+  },
+  {
+   "word": "disfrazado",
+   "start": 411.383,
+   "end": 411.942
+  },
+  {
+   "word": "de",
+   "start": 411.962,
+   "end": 412.058
+  },
+  {
+   "word": "oficial",
+   "start": 412.078,
+   "end": 412.463
+  },
+  {
+   "word": "alemán.",
+   "start": 412.483,
+   "end": 412.811
+  },
+  {
+   "word": "Se",
+   "start": 413.139,
+   "end": 413.23
+  },
+  {
+   "word": "sienta",
+   "start": 413.25,
+   "end": 413.561
+  },
+  {
+   "word": "en",
+   "start": 413.581,
+   "end": 413.672
+  },
+  {
+   "word": "los",
+   "start": 413.692,
+   "end": 413.838
+  },
+  {
+   "word": "comedores",
+   "start": 413.858,
+   "end": 414.335
+  },
+  {
+   "word": "de",
+   "start": 414.355,
+   "end": 414.446
+  },
+  {
+   "word": "los",
+   "start": 414.466,
+   "end": 414.612
+  },
+  {
+   "word": "nazis.",
+   "start": 414.632,
+   "end": 414.888
+  },
+  {
+   "word": "Escucha.",
+   "start": 415.115,
+   "end": 415.682
+  },
+  {
+   "word": "Y",
+   "start": 416.045,
+   "end": 416.095
+  },
+  {
+   "word": "envía",
+   "start": 416.109,
+   "end": 416.412
+  },
+  {
+   "word": "por",
+   "start": 416.432,
+   "end": 416.605
+  },
+  {
+   "word": "radio",
+   "start": 416.625,
+   "end": 416.927
+  },
+  {
+   "word": "información",
+   "start": 416.947,
+   "end": 417.636
+  },
+  {
+   "word": "sobre",
+   "start": 417.656,
+   "end": 417.959
+  },
+  {
+   "word": "trenes,",
+   "start": 417.979,
+   "end": 418.452
+  },
+  {
+   "word": "armas",
+   "start": 418.472,
+   "end": 418.774
+  },
+  {
+   "word": "y",
+   "start": 418.794,
+   "end": 418.844
+  },
+  {
+   "word": "movimientos",
+   "start": 418.858,
+   "end": 419.547
+  },
+  {
+   "word": "de",
+   "start": 419.567,
+   "end": 419.676
+  },
+  {
+   "word": "tropas.",
+   "start": 419.696,
+   "end": 420.063
+  },
+  {
+   "word": "Hasta",
+   "start": 420.358,
+   "end": 420.596
+  },
+  {
+   "word": "que",
+   "start": 420.616,
+   "end": 420.751
+  },
+  {
+   "word": "lo",
+   "start": 420.771,
+   "end": 420.854
+  },
+  {
+   "word": "descubren.",
+   "start": 420.874,
+   "end": 421.318
+  },
+  {
+   "word": "La",
+   "start": 421.549,
+   "end": 421.651
+  },
+  {
+   "word": "Gestapo",
+   "start": 421.671,
+   "end": 422.08
+  },
+  {
+   "word": "lo",
+   "start": 422.1,
+   "end": 422.202
+  },
+  {
+   "word": "detiene.",
+   "start": 422.222,
+   "end": 422.631
+  },
+  {
+   "word": "Lo",
+   "start": 422.808,
+   "end": 422.891
+  },
+  {
+   "word": "interrogan",
+   "start": 422.911,
+   "end": 423.408
+  },
+  {
+   "word": "durante",
+   "start": 423.428,
+   "end": 423.77
+  },
+  {
+   "word": "horas.",
+   "start": 423.79,
+   "end": 424.028
+  },
+  {
+   "word": "Lo",
+   "start": 424.166,
+   "end": 424.278
+  },
+  {
+   "word": "torturan.",
+   "start": 424.298,
+   "end": 424.808
+  },
+  {
+   "word": "Quieren",
+   "start": 425.12,
+   "end": 425.442
+  },
+  {
+   "word": "nombres.",
+   "start": 425.462,
+   "end": 425.783
+  },
+  {
+   "word": "Y",
+   "start": 425.929,
+   "end": 425.997
+  },
+  {
+   "word": "Mayer…",
+   "start": 426.017,
+   "end": 426.435
+  },
+  {
+   "word": "no",
+   "start": 426.455,
+   "end": 426.964
+  },
+  {
+   "word": "da",
+   "start": 426.984,
+   "end": 427.14
+  },
+  {
+   "word": "ni",
+   "start": 427.16,
+   "end": 427.315
+  },
+  {
+   "word": "uno.",
+   "start": 427.335,
+   "end": 427.578
+  },
+  {
+   "word": "Y",
+   "start": 428.046,
+   "end": 428.096
+  },
+  {
+   "word": "entonces,",
+   "start": 428.105,
+   "end": 428.553
+  },
+  {
+   "word": "a",
+   "start": 428.573,
+   "end": 428.623
+  },
+  {
+   "word": "pocos",
+   "start": 428.632,
+   "end": 428.904
+  },
+  {
+   "word": "días",
+   "start": 428.924,
+   "end": 429.139
+  },
+  {
+   "word": "del",
+   "start": 429.159,
+   "end": 429.314
+  },
+  {
+   "word": "final",
+   "start": 429.334,
+   "end": 429.607
+  },
+  {
+   "word": "de",
+   "start": 429.627,
+   "end": 429.724
+  },
+  {
+   "word": "la",
+   "start": 429.744,
+   "end": 429.841
+  },
+  {
+   "word": "guerra,",
+   "start": 429.861,
+   "end": 430.193
+  },
+  {
+   "word": "pasa",
+   "start": 430.213,
+   "end": 430.539
+  },
+  {
+   "word": "algo",
+   "start": 430.559,
+   "end": 430.773
+  },
+  {
+   "word": "que",
+   "start": 430.793,
+   "end": 430.949
+  },
+  {
+   "word": "parece",
+   "start": 430.969,
+   "end": 431.3
+  },
+  {
+   "word": "sacado",
+   "start": 431.32,
+   "end": 431.652
+  },
+  {
+   "word": "de",
+   "start": 431.672,
+   "end": 431.769
+  },
+  {
+   "word": "un",
+   "start": 431.789,
+   "end": 431.886
+  },
+  {
+   "word": "guion",
+   "start": 431.906,
+   "end": 432.179
+  },
+  {
+   "word": "de",
+   "start": 432.199,
+   "end": 432.296
+  },
+  {
+   "word": "Hollywood.",
+   "start": 432.316,
+   "end": 432.823
+  },
+  {
+   "word": "El",
+   "start": 433.014,
+   "end": 433.113
+  },
+  {
+   "word": "prisionero",
+   "start": 433.133,
+   "end": 433.709
+  },
+  {
+   "word": "torturado",
+   "start": 433.729,
+   "end": 434.245
+  },
+  {
+   "word": "acaba",
+   "start": 434.265,
+   "end": 434.542
+  },
+  {
+   "word": "sentado",
+   "start": 434.562,
+   "end": 434.959
+  },
+  {
+   "word": "delante",
+   "start": 434.979,
+   "end": 435.376
+  },
+  {
+   "word": "del",
+   "start": 435.396,
+   "end": 435.555
+  },
+  {
+   "word": "jefe",
+   "start": 435.575,
+   "end": 435.793
+  },
+  {
+   "word": "nazi",
+   "start": 435.813,
+   "end": 436.031
+  },
+  {
+   "word": "de",
+   "start": 436.051,
+   "end": 436.15
+  },
+  {
+   "word": "la",
+   "start": 436.17,
+   "end": 436.269
+  },
+  {
+   "word": "región…",
+   "start": 436.289,
+   "end": 436.96
+  },
+  {
+   "word": "negociando.",
+   "start": 436.98,
+   "end": 437.555
+  },
+  {
+   "word": "Esto",
+   "start": 437.792,
+   "end": 438.035
+  },
+  {
+   "word": "pasó",
+   "start": 438.055,
+   "end": 438.298
+  },
+  {
+   "word": "de",
+   "start": 438.317,
+   "end": 438.429
+  },
+  {
+   "word": "verdad.",
+   "start": 438.449,
+   "end": 438.823
+  },
+  {
+   "word": "Según",
+   "start": 439.618,
+   "end": 439.904
+  },
+  {
+   "word": "los",
+   "start": 439.924,
+   "end": 440.088
+  },
+  {
+   "word": "documentos",
+   "start": 440.108,
+   "end": 440.701
+  },
+  {
+   "word": "de",
+   "start": 440.721,
+   "end": 440.823
+  },
+  {
+   "word": "la",
+   "start": 440.843,
+   "end": 440.946
+  },
+  {
+   "word": "OSS,",
+   "start": 440.966,
+   "end": 441.129
+  },
+  {
+   "word": "Mayer",
+   "start": 441.149,
+   "end": 441.436
+  },
+  {
+   "word": "convenció",
+   "start": 441.456,
+   "end": 441.987
+  },
+  {
+   "word": "a",
+   "start": 442.007,
+   "end": 442.057
+  },
+  {
+   "word": "las",
+   "start": 442.068,
+   "end": 442.232
+  },
+  {
+   "word": "autoridades",
+   "start": 442.252,
+   "end": 442.906
+  },
+  {
+   "word": "nazis",
+   "start": 442.926,
+   "end": 443.212
+  },
+  {
+   "word": "del",
+   "start": 443.232,
+   "end": 443.396
+  },
+  {
+   "word": "Tirol",
+   "start": 443.416,
+   "end": 443.702
+  },
+  {
+   "word": "para",
+   "start": 443.722,
+   "end": 443.947
+  },
+  {
+   "word": "que",
+   "start": 443.967,
+   "end": 444.131
+  },
+  {
+   "word": "entregaran",
+   "start": 444.151,
+   "end": 444.743
+  },
+  {
+   "word": "la",
+   "start": 444.763,
+   "end": 444.866
+  },
+  {
+   "word": "ciudad",
+   "start": 444.886,
+   "end": 445.233
+  },
+  {
+   "word": "de",
+   "start": 445.253,
+   "end": 445.356
+  },
+  {
+   "word": "Innsbruck",
+   "start": 445.376,
+   "end": 445.907
+  },
+  {
+   "word": "a",
+   "start": 445.927,
+   "end": 445.977
+  },
+  {
+   "word": "los",
+   "start": 445.988,
+   "end": 446.152
+  },
+  {
+   "word": "estadounidenses.",
+   "start": 446.172,
+   "end": 447.071
+  },
+  {
+   "word": "Sin",
+   "start": 447.346,
+   "end": 447.559
+  },
+  {
+   "word": "combatir.",
+   "start": 447.579,
+   "end": 448.179
+  },
+  {
+   "word": "Hay",
+   "start": 448.495,
+   "end": 448.629
+  },
+  {
+   "word": "quien",
+   "start": 448.649,
+   "end": 448.885
+  },
+  {
+   "word": "dice",
+   "start": 448.905,
+   "end": 449.09
+  },
+  {
+   "word": "que",
+   "start": 449.11,
+   "end": 449.243
+  },
+  {
+   "word": "su",
+   "start": 449.263,
+   "end": 449.346
+  },
+  {
+   "word": "historia",
+   "start": 449.366,
+   "end": 449.756
+  },
+  {
+   "word": "inspiró",
+   "start": 449.776,
+   "end": 450.114
+  },
+  {
+   "word": "la",
+   "start": 450.134,
+   "end": 450.217
+  },
+  {
+   "word": "película",
+   "start": 450.237,
+   "end": 450.627
+  },
+  {
+   "word": "de",
+   "start": 450.647,
+   "end": 450.729
+  },
+  {
+   "word": "Tarantino.",
+   "start": 450.749,
+   "end": 451.19
+  },
+  {
+   "word": "Nunca",
+   "start": 451.394,
+   "end": 451.678
+  },
+  {
+   "word": "ha",
+   "start": 451.698,
+   "end": 451.8
+  },
+  {
+   "word": "quedado",
+   "start": 451.82,
+   "end": 452.226
+  },
+  {
+   "word": "del",
+   "start": 452.246,
+   "end": 452.408
+  },
+  {
+   "word": "todo",
+   "start": 452.428,
+   "end": 452.652
+  },
+  {
+   "word": "claro.",
+   "start": 452.672,
+   "end": 452.956
+  },
+  {
+   "word": "Lo",
+   "start": 453.258,
+   "end": 453.349
+  },
+  {
+   "word": "que",
+   "start": 453.369,
+   "end": 453.516
+  },
+  {
+   "word": "sí",
+   "start": 453.536,
+   "end": 453.627
+  },
+  {
+   "word": "sabemos",
+   "start": 453.647,
+   "end": 454.016
+  },
+  {
+   "word": "es",
+   "start": 454.036,
+   "end": 454.128
+  },
+  {
+   "word": "lo",
+   "start": 454.148,
+   "end": 454.239
+  },
+  {
+   "word": "que",
+   "start": 454.259,
+   "end": 454.406
+  },
+  {
+   "word": "la",
+   "start": 454.426,
+   "end": 454.517
+  },
+  {
+   "word": "película",
+   "start": 454.537,
+   "end": 454.962
+  },
+  {
+   "word": "se",
+   "start": 454.982,
+   "end": 455.073
+  },
+  {
+   "word": "inventó.",
+   "start": 455.093,
+   "end": 455.462
+  },
+  {
+   "word": "Esto",
+   "start": 455.768,
+   "end": 455.972
+  },
+  {
+   "word": "pasó",
+   "start": 455.992,
+   "end": 456.196
+  },
+  {
+   "word": "de",
+   "start": 456.216,
+   "end": 456.308
+  },
+  {
+   "word": "verdad.",
+   "start": 456.328,
+   "end": 456.644
+  },
+  {
+   "word": "Bastardos",
+   "start": 457.013,
+   "end": 457.525
+  },
+  {
+   "word": "sin",
+   "start": 457.545,
+   "end": 457.703
+  },
+  {
+   "word": "gloria",
+   "start": 457.723,
+   "end": 458.058
+  },
+  {
+   "word": "se",
+   "start": 458.078,
+   "end": 458.176
+  },
+  {
+   "word": "estrenó",
+   "start": 458.196,
+   "end": 458.59
+  },
+  {
+   "word": "en",
+   "start": 458.61,
+   "end": 458.708
+  },
+  {
+   "word": "2009,",
+   "start": 458.728,
+   "end": 459.654
+  },
+  {
+   "word": "y",
+   "start": 459.674,
+   "end": 459.724
+  },
+  {
+   "word": "su",
+   "start": 459.734,
+   "end": 459.832
+  },
+  {
+   "word": "título",
+   "start": 459.852,
+   "end": 460.187
+  },
+  {
+   "word": "viene",
+   "start": 460.207,
+   "end": 460.482
+  },
+  {
+   "word": "de",
+   "start": 460.502,
+   "end": 460.601
+  },
+  {
+   "word": "una",
+   "start": 460.621,
+   "end": 460.778
+  },
+  {
+   "word": "película",
+   "start": 460.798,
+   "end": 461.251
+  },
+  {
+   "word": "italiana",
+   "start": 461.271,
+   "end": 461.724
+  },
+  {
+   "word": "de",
+   "start": 461.744,
+   "end": 461.843
+  },
+  {
+   "word": "1978.",
+   "start": 461.863,
+   "end": 462.789
+  },
+  {
+   "word": "Y",
+   "start": 463.178,
+   "end": 463.251
+  },
+  {
+   "word": "no…",
+   "start": 463.271,
+   "end": 463.438
+  },
+  {
+   "word": "Hitler",
+   "start": 464.16,
+   "end": 464.535
+  },
+  {
+   "word": "no",
+   "start": 464.555,
+   "end": 464.666
+  },
+  {
+   "word": "murió",
+   "start": 464.686,
+   "end": 464.996
+  },
+  {
+   "word": "en",
+   "start": 465.016,
+   "end": 465.127
+  },
+  {
+   "word": "un",
+   "start": 465.147,
+   "end": 465.259
+  },
+  {
+   "word": "cine.",
+   "start": 465.279,
+   "end": 465.522
+  },
+  {
+   "word": "Eso",
+   "start": 465.809,
+   "end": 465.973
+  },
+  {
+   "word": "es",
+   "start": 465.993,
+   "end": 466.096
+  },
+  {
+   "word": "pura",
+   "start": 466.116,
+   "end": 466.341
+  },
+  {
+   "word": "ficción.",
+   "start": 466.361,
+   "end": 466.77
+  },
+  {
+   "word": "Los",
+   "start": 467.119,
+   "end": 467.275
+  },
+  {
+   "word": "bastardos",
+   "start": 467.295,
+   "end": 467.803
+  },
+  {
+   "word": "reales",
+   "start": 467.823,
+   "end": 468.154
+  },
+  {
+   "word": "no",
+   "start": 468.174,
+   "end": 468.272
+  },
+  {
+   "word": "buscaban",
+   "start": 468.292,
+   "end": 468.741
+  },
+  {
+   "word": "venganza",
+   "start": 468.761,
+   "end": 469.21
+  },
+  {
+   "word": "en",
+   "start": 469.23,
+   "end": 469.327
+  },
+  {
+   "word": "un",
+   "start": 469.347,
+   "end": 469.444
+  },
+  {
+   "word": "cine.",
+   "start": 469.464,
+   "end": 469.679
+  },
+  {
+   "word": "Buscaban",
+   "start": 469.946,
+   "end": 470.411
+  },
+  {
+   "word": "algo",
+   "start": 470.431,
+   "end": 470.654
+  },
+  {
+   "word": "mucho",
+   "start": 470.674,
+   "end": 470.957
+  },
+  {
+   "word": "más",
+   "start": 470.977,
+   "end": 471.139
+  },
+  {
+   "word": "difícil.",
+   "start": 471.159,
+   "end": 471.564
+  },
+  {
+   "word": "Mayo",
+   "start": 471.98,
+   "end": 472.314
+  },
+  {
+   "word": "de",
+   "start": 472.334,
+   "end": 472.491
+  },
+  {
+   "word": "1945.",
+   "start": 472.511,
+   "end": 473.907
+  },
+  {
+   "word": "La",
+   "start": 474.298,
+   "end": 474.391
+  },
+  {
+   "word": "guerra",
+   "start": 474.411,
+   "end": 474.73
+  },
+  {
+   "word": "en",
+   "start": 474.75,
+   "end": 474.842
+  },
+  {
+   "word": "Europa",
+   "start": 474.862,
+   "end": 475.181
+  },
+  {
+   "word": "ha",
+   "start": 475.201,
+   "end": 475.294
+  },
+  {
+   "word": "terminado.",
+   "start": 475.314,
+   "end": 475.802
+  },
+  {
+   "word": "Todos",
+   "start": 476.171,
+   "end": 476.41
+  },
+  {
+   "word": "celebran.",
+   "start": 476.43,
+   "end": 476.825
+  },
+  {
+   "word": "Tú",
+   "start": 477.218,
+   "end": 477.355
+  },
+  {
+   "word": "no.",
+   "start": 477.375,
+   "end": 477.512
+  },
+  {
+   "word": "Porque",
+   "start": 477.85,
+   "end": 478.172
+  },
+  {
+   "word": "llevas",
+   "start": 478.192,
+   "end": 478.514
+  },
+  {
+   "word": "seis",
+   "start": 478.534,
+   "end": 478.742
+  },
+  {
+   "word": "años",
+   "start": 478.762,
+   "end": 478.97
+  },
+  {
+   "word": "sin",
+   "start": 478.99,
+   "end": 479.141
+  },
+  {
+   "word": "saber",
+   "start": 479.161,
+   "end": 479.426
+  },
+  {
+   "word": "nada",
+   "start": 479.446,
+   "end": 479.654
+  },
+  {
+   "word": "de",
+   "start": 479.674,
+   "end": 479.768
+  },
+  {
+   "word": "tus",
+   "start": 479.788,
+   "end": 479.939
+  },
+  {
+   "word": "padres.",
+   "start": 479.959,
+   "end": 480.281
+  },
+  {
+   "word": "Consigues",
+   "start": 480.614,
+   "end": 481.072
+  },
+  {
+   "word": "un",
+   "start": 481.092,
+   "end": 481.178
+  },
+  {
+   "word": "jeep.",
+   "start": 481.198,
+   "end": 481.391
+  },
+  {
+   "word": "Unos",
+   "start": 481.664,
+   "end": 481.896
+  },
+  {
+   "word": "días",
+   "start": 481.916,
+   "end": 482.148
+  },
+  {
+   "word": "de",
+   "start": 482.168,
+   "end": 482.275
+  },
+  {
+   "word": "permiso.",
+   "start": 482.295,
+   "end": 482.716
+  },
+  {
+   "word": "Y",
+   "start": 483.102,
+   "end": 483.152
+  },
+  {
+   "word": "conduces",
+   "start": 483.16,
+   "end": 483.605
+  },
+  {
+   "word": "cientos",
+   "start": 483.625,
+   "end": 484.013
+  },
+  {
+   "word": "de",
+   "start": 484.033,
+   "end": 484.129
+  },
+  {
+   "word": "kilómetros",
+   "start": 484.149,
+   "end": 484.711
+  },
+  {
+   "word": "a",
+   "start": 484.731,
+   "end": 484.781
+  },
+  {
+   "word": "través",
+   "start": 484.789,
+   "end": 485.118
+  },
+  {
+   "word": "de",
+   "start": 485.138,
+   "end": 485.234
+  },
+  {
+   "word": "una",
+   "start": 485.254,
+   "end": 485.408
+  },
+  {
+   "word": "Europa",
+   "start": 485.428,
+   "end": 485.757
+  },
+  {
+   "word": "destrozada.",
+   "start": 485.777,
+   "end": 486.339
+  },
+  {
+   "word": "Puentes",
+   "start": 486.846,
+   "end": 487.303
+  },
+  {
+   "word": "caídos.",
+   "start": 487.323,
+   "end": 487.711
+  },
+  {
+   "word": "Pueblos",
+   "start": 488.029,
+   "end": 488.419
+  },
+  {
+   "word": "en",
+   "start": 488.439,
+   "end": 488.536
+  },
+  {
+   "word": "ruinas.",
+   "start": 488.556,
+   "end": 488.888
+  },
+  {
+   "word": "Columnas",
+   "start": 489.66,
+   "end": 490.087
+  },
+  {
+   "word": "de",
+   "start": 490.107,
+   "end": 490.199
+  },
+  {
+   "word": "gente",
+   "start": 490.219,
+   "end": 490.478
+  },
+  {
+   "word": "caminando",
+   "start": 490.498,
+   "end": 490.981
+  },
+  {
+   "word": "hacia",
+   "start": 491.001,
+   "end": 491.26
+  },
+  {
+   "word": "ninguna",
+   "start": 491.28,
+   "end": 491.652
+  },
+  {
+   "word": "parte.",
+   "start": 491.672,
+   "end": 491.931
+  },
+  {
+   "word": "Tu",
+   "start": 492.233,
+   "end": 492.325
+  },
+  {
+   "word": "destino",
+   "start": 492.345,
+   "end": 492.717
+  },
+  {
+   "word": "es",
+   "start": 492.737,
+   "end": 492.829
+  },
+  {
+   "word": "Theresienstadt.",
+   "start": 492.849,
+   "end": 493.612
+  },
+  {
+   "word": "Un",
+   "start": 493.937,
+   "end": 494.024
+  },
+  {
+   "word": "campo",
+   "start": 494.044,
+   "end": 494.292
+  },
+  {
+   "word": "de",
+   "start": 494.312,
+   "end": 494.399
+  },
+  {
+   "word": "concentración",
+   "start": 494.418,
+   "end": 495.094
+  },
+  {
+   "word": "en",
+   "start": 495.114,
+   "end": 495.201
+  },
+  {
+   "word": "Checoslovaquia.",
+   "start": 495.221,
+   "end": 495.95
+  },
+  {
+   "word": "Entras.",
+   "start": 496.292,
+   "end": 496.702
+  },
+  {
+   "word": "Preguntas.",
+   "start": 496.842,
+   "end": 497.312
+  },
+  {
+   "word": "Enseñas",
+   "start": 497.564,
+   "end": 498.015
+  },
+  {
+   "word": "una",
+   "start": 498.035,
+   "end": 498.216
+  },
+  {
+   "word": "foto",
+   "start": 498.236,
+   "end": 498.485
+  },
+  {
+   "word": "vieja",
+   "start": 498.505,
+   "end": 498.821
+  },
+  {
+   "word": "y",
+   "start": 498.841,
+   "end": 498.891
+  },
+  {
+   "word": "arrugada.",
+   "start": 498.908,
+   "end": 499.426
+  },
+  {
+   "word": "Nadie",
+   "start": 499.741,
+   "end": 500.079
+  },
+  {
+   "word": "sabe",
+   "start": 500.099,
+   "end": 500.365
+  },
+  {
+   "word": "nada.",
+   "start": 500.385,
+   "end": 500.651
+  },
+  {
+   "word": "Hasta",
+   "start": 500.972,
+   "end": 501.227
+  },
+  {
+   "word": "que",
+   "start": 501.247,
+   "end": 501.393
+  },
+  {
+   "word": "alguien",
+   "start": 501.413,
+   "end": 501.778
+  },
+  {
+   "word": "señala",
+   "start": 501.798,
+   "end": 502.108
+  },
+  {
+   "word": "un",
+   "start": 502.128,
+   "end": 502.218
+  },
+  {
+   "word": "barracón.",
+   "start": 502.238,
+   "end": 502.659
+  },
+  {
+   "word": "Y",
+   "start": 503.111,
+   "end": 503.161
+  },
+  {
+   "word": "allí,",
+   "start": 503.175,
+   "end": 503.413
+  },
+  {
+   "word": "sentados",
+   "start": 503.433,
+   "end": 503.927
+  },
+  {
+   "word": "en",
+   "start": 503.947,
+   "end": 504.056
+  },
+  {
+   "word": "un",
+   "start": 504.076,
+   "end": 504.185
+  },
+  {
+   "word": "camastro,",
+   "start": 504.205,
+   "end": 504.906
+  },
+  {
+   "word": "más",
+   "start": 504.926,
+   "end": 505.099
+  },
+  {
+   "word": "delgados,",
+   "start": 505.119,
+   "end": 505.614
+  },
+  {
+   "word": "más",
+   "start": 505.634,
+   "end": 505.807
+  },
+  {
+   "word": "viejos…",
+   "start": 505.827,
+   "end": 506.193
+  },
+  {
+   "word": "están",
+   "start": 506.213,
+   "end": 506.818
+  },
+  {
+   "word": "ellos.",
+   "start": 506.838,
+   "end": 507.14
+  },
+  {
+   "word": "Esto",
+   "start": 507.503,
+   "end": 507.701
+  },
+  {
+   "word": "pasó",
+   "start": 507.721,
+   "end": 507.918
+  },
+  {
+   "word": "de",
+   "start": 507.938,
+   "end": 508.027
+  },
+  {
+   "word": "verdad.",
+   "start": 508.047,
+   "end": 508.354
+  },
+  {
+   "word": "Un",
+   "start": 508.712,
+   "end": 508.822
+  },
+  {
+   "word": "comando",
+   "start": 508.842,
+   "end": 509.276
+  },
+  {
+   "word": "de",
+   "start": 509.296,
+   "end": 509.406
+  },
+  {
+   "word": "X",
+   "start": 509.426,
+   "end": 509.476
+  },
+  {
+   "word": "Troop,",
+   "start": 509.491,
+   "end": 509.795
+  },
+  {
+   "word": "Manfred",
+   "start": 509.815,
+   "end": 510.524
+  },
+  {
+   "word": "Gans,",
+   "start": 510.544,
+   "end": 510.783
+  },
+  {
+   "word": "conocido",
+   "start": 510.803,
+   "end": 511.505
+  },
+  {
+   "word": "en",
+   "start": 511.525,
+   "end": 511.635
+  },
+  {
+   "word": "el",
+   "start": 511.655,
+   "end": 511.764
+  },
+  {
+   "word": "ejército",
+   "start": 511.784,
+   "end": 512.284
+  },
+  {
+   "word": "como",
+   "start": 512.304,
+   "end": 512.543
+  },
+  {
+   "word": "Freddie",
+   "start": 512.563,
+   "end": 512.998
+  },
+  {
+   "word": "Gray,",
+   "start": 513.018,
+   "end": 513.551
+  },
+  {
+   "word": "hizo",
+   "start": 513.571,
+   "end": 513.811
+  },
+  {
+   "word": "exactamente",
+   "start": 513.831,
+   "end": 514.525
+  },
+  {
+   "word": "ese",
+   "start": 514.545,
+   "end": 514.72
+  },
+  {
+   "word": "viaje",
+   "start": 514.74,
+   "end": 515.044
+  },
+  {
+   "word": "en",
+   "start": 515.064,
+   "end": 515.174
+  },
+  {
+   "word": "mayo",
+   "start": 515.194,
+   "end": 515.434
+  },
+  {
+   "word": "de",
+   "start": 515.454,
+   "end": 515.563
+  },
+  {
+   "word": "1945.",
+   "start": 515.583,
+   "end": 516.602
+  },
+  {
+   "word": "Y",
+   "start": 516.83,
+   "end": 516.88
+  },
+  {
+   "word": "encontró",
+   "start": 516.894,
+   "end": 517.383
+  },
+  {
+   "word": "a",
+   "start": 517.403,
+   "end": 517.453
+  },
+  {
+   "word": "sus",
+   "start": 517.467,
+   "end": 517.638
+  },
+  {
+   "word": "padres…",
+   "start": 517.658,
+   "end": 518.758
+  },
+  {
+   "word": "vivos.",
+   "start": 518.778,
+   "end": 519.077
+  },
+  {
+   "word": "Después",
+   "start": 519.999,
+   "end": 520.343
+  },
+  {
+   "word": "de",
+   "start": 520.363,
+   "end": 520.446
+  },
+  {
+   "word": "la",
+   "start": 520.466,
+   "end": 520.55
+  },
+  {
+   "word": "guerra,",
+   "start": 520.57,
+   "end": 520.862
+  },
+  {
+   "word": "muchos",
+   "start": 520.882,
+   "end": 521.174
+  },
+  {
+   "word": "de",
+   "start": 521.194,
+   "end": 521.277
+  },
+  {
+   "word": "estos",
+   "start": 521.297,
+   "end": 521.537
+  },
+  {
+   "word": "hombres",
+   "start": 521.557,
+   "end": 521.901
+  },
+  {
+   "word": "se",
+   "start": 521.921,
+   "end": 522.005
+  },
+  {
+   "word": "quedaron",
+   "start": 522.025,
+   "end": 522.42
+  },
+  {
+   "word": "con",
+   "start": 522.44,
+   "end": 522.576
+  },
+  {
+   "word": "sus",
+   "start": 522.596,
+   "end": 522.732
+  },
+  {
+   "word": "nombres",
+   "start": 522.752,
+   "end": 523.095
+  },
+  {
+   "word": "ingleses",
+   "start": 523.115,
+   "end": 523.511
+  },
+  {
+   "word": "para",
+   "start": 523.531,
+   "end": 523.718
+  },
+  {
+   "word": "siempre.",
+   "start": 523.738,
+   "end": 524.082
+  },
+  {
+   "word": "Formaron",
+   "start": 524.293,
+   "end": 524.753
+  },
+  {
+   "word": "familias.",
+   "start": 524.773,
+   "end": 525.233
+  },
+  {
+   "word": "Trabajaron.",
+   "start": 525.475,
+   "end": 526.068
+  },
+  {
+   "word": "Y",
+   "start": 526.382,
+   "end": 526.432
+  },
+  {
+   "word": "casi",
+   "start": 526.437,
+   "end": 526.637
+  },
+  {
+   "word": "nunca",
+   "start": 526.657,
+   "end": 526.912
+  },
+  {
+   "word": "hablaron",
+   "start": 526.932,
+   "end": 527.352
+  },
+  {
+   "word": "de",
+   "start": 527.372,
+   "end": 527.463
+  },
+  {
+   "word": "lo",
+   "start": 527.483,
+   "end": 527.573
+  },
+  {
+   "word": "que",
+   "start": 527.593,
+   "end": 527.738
+  },
+  {
+   "word": "habían",
+   "start": 527.758,
+   "end": 528.068
+  },
+  {
+   "word": "hecho.",
+   "start": 528.088,
+   "end": 528.343
+  },
+  {
+   "word": "Su",
+   "start": 528.703,
+   "end": 528.791
+  },
+  {
+   "word": "historia",
+   "start": 528.811,
+   "end": 529.223
+  },
+  {
+   "word": "permaneció",
+   "start": 529.243,
+   "end": 529.763
+  },
+  {
+   "word": "escondida",
+   "start": 529.783,
+   "end": 530.249
+  },
+  {
+   "word": "durante",
+   "start": 530.269,
+   "end": 530.627
+  },
+  {
+   "word": "décadas.",
+   "start": 530.647,
+   "end": 531.005
+  },
+  {
+   "word": "Los",
+   "start": 531.19,
+   "end": 531.336
+  },
+  {
+   "word": "bastardos",
+   "start": 531.356,
+   "end": 531.833
+  },
+  {
+   "word": "sin",
+   "start": 531.853,
+   "end": 531.999
+  },
+  {
+   "word": "gloria",
+   "start": 532.019,
+   "end": 532.33
+  },
+  {
+   "word": "existieron.",
+   "start": 532.35,
+   "end": 532.883
+  },
+  {
+   "word": "Pero",
+   "start": 533.236,
+   "end": 533.432
+  },
+  {
+   "word": "no",
+   "start": 533.452,
+   "end": 533.54
+  },
+  {
+   "word": "eran",
+   "start": 533.56,
+   "end": 533.756
+  },
+  {
+   "word": "los",
+   "start": 533.776,
+   "end": 533.917
+  },
+  {
+   "word": "de",
+   "start": 533.937,
+   "end": 534.025
+  },
+  {
+   "word": "la",
+   "start": 534.045,
+   "end": 534.133
+  },
+  {
+   "word": "película.",
+   "start": 534.153,
+   "end": 534.565
+  },
+  {
+   "word": "Eran",
+   "start": 534.856,
+   "end": 535.048
+  },
+  {
+   "word": "chicos",
+   "start": 535.068,
+   "end": 535.366
+  },
+  {
+   "word": "que",
+   "start": 535.386,
+   "end": 535.525
+  },
+  {
+   "word": "habían",
+   "start": 535.545,
+   "end": 535.842
+  },
+  {
+   "word": "perdido",
+   "start": 535.862,
+   "end": 536.213
+  },
+  {
+   "word": "su",
+   "start": 536.233,
+   "end": 536.319
+  },
+  {
+   "word": "hogar…",
+   "start": 536.339,
+   "end": 536.584
+  },
+  {
+   "word": "y",
+   "start": 536.604,
+   "end": 536.955
+  },
+  {
+   "word": "que",
+   "start": 536.975,
+   "end": 537.114
+  },
+  {
+   "word": "volvieron",
+   "start": 537.134,
+   "end": 537.591
+  },
+  {
+   "word": "a",
+   "start": 537.611,
+   "end": 537.661
+  },
+  {
+   "word": "la",
+   "start": 537.664,
+   "end": 537.75
+  },
+  {
+   "word": "guerra",
+   "start": 537.77,
+   "end": 538.067
+  },
+  {
+   "word": "para",
+   "start": 538.087,
+   "end": 538.279
+  },
+  {
+   "word": "recuperarlo.",
+   "start": 538.299,
+   "end": 538.862
+  },
+  {
+   "word": "Con",
+   "start": 539.339,
+   "end": 539.473
+  },
+  {
+   "word": "otro",
+   "start": 539.493,
+   "end": 539.679
+  },
+  {
+   "word": "nombre.",
+   "start": 539.699,
+   "end": 539.987
+  },
+  {
+   "word": "Con",
+   "start": 540.349,
+   "end": 540.511
+  },
+  {
+   "word": "su",
+   "start": 540.531,
+   "end": 540.632
+  },
+  {
+   "word": "idioma",
+   "start": 540.652,
+   "end": 540.995
+  },
+  {
+   "word": "como",
+   "start": 541.015,
+   "end": 541.238
+  },
+  {
+   "word": "única",
+   "start": 541.258,
+   "end": 541.541
+  },
+  {
+   "word": "arma.",
+   "start": 541.561,
+   "end": 541.783
+  },
+  {
+   "word": "Y",
+   "start": 542.188,
+   "end": 542.238
+  },
+  {
+   "word": "ahora",
+   "start": 542.25,
+   "end": 542.54
+  },
+  {
+   "word": "te",
+   "start": 542.56,
+   "end": 542.664
+  },
+  {
+   "word": "toca",
+   "start": 542.684,
+   "end": 542.912
+  },
+  {
+   "word": "a",
+   "start": 542.932,
+   "end": 542.982
+  },
+  {
+   "word": "ti.",
+   "start": 542.994,
+   "end": 543.098
+  },
+  {
+   "word": "Si",
+   "start": 543.485,
+   "end": 543.576
+  },
+  {
+   "word": "hubieras",
+   "start": 543.596,
+   "end": 544.018
+  },
+  {
+   "word": "sido",
+   "start": 544.038,
+   "end": 544.239
+  },
+  {
+   "word": "uno",
+   "start": 544.259,
+   "end": 544.404
+  },
+  {
+   "word": "de",
+   "start": 544.424,
+   "end": 544.515
+  },
+  {
+   "word": "ellos…",
+   "start": 544.535,
+   "end": 544.791
+  },
+  {
+   "word": "¿habrías",
+   "start": 545.655,
+   "end": 546.01
+  },
+  {
+   "word": "vuelto",
+   "start": 546.03,
+   "end": 546.332
+  },
+  {
+   "word": "a",
+   "start": 546.352,
+   "end": 546.402
+  },
+  {
+   "word": "Europa",
+   "start": 546.406,
+   "end": 546.708
+  },
+  {
+   "word": "a",
+   "start": 546.728,
+   "end": 546.778
+  },
+  {
+   "word": "luchar,",
+   "start": 546.781,
+   "end": 547.083
+  },
+  {
+   "word": "o",
+   "start": 547.103,
+   "end": 547.153
+  },
+  {
+   "word": "te",
+   "start": 547.157,
+   "end": 547.244
+  },
+  {
+   "word": "habrías",
+   "start": 547.264,
+   "end": 547.62
+  },
+  {
+   "word": "quedado",
+   "start": 547.64,
+   "end": 547.995
+  },
+  {
+   "word": "a",
+   "start": 548.015,
+   "end": 548.065
+  },
+  {
+   "word": "salvo?",
+   "start": 548.069,
+   "end": 548.317
+  },
+  {
+   "word": "Te",
+   "start": 548.791,
+   "end": 548.876
+  },
+  {
+   "word": "leo",
+   "start": 548.896,
+   "end": 549.033
+  },
+  {
+   "word": "en",
+   "start": 549.053,
+   "end": 549.138
+  },
+  {
+   "word": "los",
+   "start": 549.158,
+   "end": 549.295
+  },
+  {
+   "word": "comentarios.",
+   "start": 549.315,
+   "end": 549.872
+  },
+  {
+   "word": "Y",
+   "start": 550.125,
+   "end": 550.175
+  },
+  {
+   "word": "si",
+   "start": 550.191,
+   "end": 550.302
+  },
+  {
+   "word": "esta",
+   "start": 550.322,
+   "end": 550.566
+  },
+  {
+   "word": "historia",
+   "start": 550.586,
+   "end": 551.092
+  },
+  {
+   "word": "te",
+   "start": 551.112,
+   "end": 551.224
+  },
+  {
+   "word": "ha",
+   "start": 551.244,
+   "end": 551.355
+  },
+  {
+   "word": "llegado,",
+   "start": 551.375,
+   "end": 551.816
+  },
+  {
+   "word": "suscríbete",
+   "start": 551.836,
+   "end": 552.474
+  },
+  {
+   "word": "a",
+   "start": 552.494,
+   "end": 552.544
+  },
+  {
+   "word": "«Y",
+   "start": 552.56,
+   "end": 552.61
+  },
+  {
+   "word": "Si",
+   "start": 552.626,
+   "end": 552.737
+  },
+  {
+   "word": "Te",
+   "start": 552.757,
+   "end": 552.869
+  },
+  {
+   "word": "Tocara»",
+   "start": 552.889,
+   "end": 553.264
+  },
+  {
+   "word": "y",
+   "start": 553.284,
+   "end": 553.334
+  },
+  {
+   "word": "activa",
+   "start": 553.35,
+   "end": 553.725
+  },
+  {
+   "word": "la",
+   "start": 553.745,
+   "end": 553.856
+  },
+  {
+   "word": "campana.",
+   "start": 553.876,
+   "end": 554.317
+  },
+  {
+   "word": "Porque",
+   "start": 554.694,
+   "end": 554.989
+  },
+  {
+   "word": "la",
+   "start": 555.009,
+   "end": 555.095
+  },
+  {
+   "word": "semana",
+   "start": 555.115,
+   "end": 555.41
+  },
+  {
+   "word": "que",
+   "start": 555.43,
+   "end": 555.568
+  },
+  {
+   "word": "viene",
+   "start": 555.588,
+   "end": 555.831
+  },
+  {
+   "word": "te",
+   "start": 555.851,
+   "end": 555.936
+  },
+  {
+   "word": "toca",
+   "start": 555.956,
+   "end": 556.146
+  },
+  {
+   "word": "ser",
+   "start": 556.166,
+   "end": 556.304
+  },
+  {
+   "word": "el",
+   "start": 556.324,
+   "end": 556.409
+  },
+  {
+   "word": "hombre",
+   "start": 556.429,
+   "end": 556.724
+  },
+  {
+   "word": "que",
+   "start": 556.744,
+   "end": 556.882
+  },
+  {
+   "word": "engañó",
+   "start": 556.902,
+   "end": 557.197
+  },
+  {
+   "word": "a",
+   "start": 557.217,
+   "end": 557.267
+  },
+  {
+   "word": "Hitler…",
+   "start": 557.27,
+   "end": 557.946
+  },
+  {
+   "word": "sin",
+   "start": 557.966,
+   "end": 558.104
+  },
+  {
+   "word": "disparar",
+   "start": 558.124,
+   "end": 558.525
+  },
+  {
+   "word": "una",
+   "start": 558.545,
+   "end": 558.682
+  },
+  {
+   "word": "sola",
+   "start": 558.702,
+   "end": 558.893
+  },
+  {
+   "word": "bala.",
+   "start": 558.913,
+   "end": 559.103
+  },
+  {
+   "word": "Porque",
+   "start": 559.408,
+   "end": 559.723
+  },
+  {
+   "word": "la",
+   "start": 559.743,
+   "end": 559.835
+  },
+  {
+   "word": "próxima",
+   "start": 559.855,
+   "end": 560.226
+  },
+  {
+   "word": "vez…",
+   "start": 560.246,
+   "end": 560.76
+  },
+  {
+   "word": "te",
+   "start": 560.78,
+   "end": 560.872
+  },
+  {
+   "word": "puede",
+   "start": 560.892,
+   "end": 561.151
+  },
+  {
+   "word": "tocar",
+   "start": 561.171,
+   "end": 561.43
+  },
+  {
+   "word": "a",
+   "start": 561.45,
+   "end": 561.5
+  },
+  {
+   "word": "ti.",
+   "start": 561.506,
+   "end": 561.598
+  }
+ ]
+}

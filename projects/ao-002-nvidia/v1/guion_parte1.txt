@@ -1,0 +1,59 @@
+Un billón setecientos mil millones de dólares. Esa es la cantidad de dinero que se evaporó en un mes de una sola empresa. Para que te hagas una idea, es casi todo lo que produce un país entero como España en un año. Y no hubo ningún incendio, ninguna fábrica cerrada, ningún producto defectuoso. Todo empezó con una pregunta que nadie se atrevía a hacer en voz alta: ¿quién estaba realmente al lado del hombre más poderoso de la inteligencia artificial?
+
+Ponte cómodo, apaga la luz si te atreves… porque hoy abrimos un expediente que de verdad vale la pena. Soy Javi, y esto es Archivo Oscuro.
+
+Y antes de empezar, lo de siempre. Aquí contamos lo que de verdad pasó. Lo que está confirmado, te lo marco. Lo que es sospecha o rumor, te lo digo. Y en este caso eso es más importante que nunca. Si te gustan las historias reales bien contadas, suscríbete ahora, porque esta tiene de todo: dinero, poder, espionaje… y un final que nadie vio venir.
+
+Vamos con el expediente.
+
+Primero, una pregunta que mucha gente se está haciendo estos días. ¿De quién es Nvidia? ¿Quién es el dueño?
+
+La respuesta corta es: de nadie… y de todos. Nvidia es una empresa que cotiza en bolsa. Eso significa que está dividida en miles de millones de pequeños trozos, que se llaman acciones, y cualquiera puede comprar uno. Fondos de inversión, bancos, planes de pensiones, y gente normal desde su móvil. No hay un único dueño que pueda hacer lo que quiera con ella.
+
+Pero sí había un hombre que era la cara, la voz y el cerebro de Nvidia durante más de treinta años. Su cofundador. El que la dirigía. Y uno de sus mayores accionistas individuales. Se llama Jensen Huang. Y si alguna vez has visto a un señor con una chaqueta de cuero negra presentando chips en un escenario como si fuera una estrella de rock… era él.
+
+Y su historia, antes de todo esto, parece sacada de una película. Jensen nació en Taiwán en mil novecientos sesenta y tres. Con apenas nueve años, sus padres lo enviaron a Estados Unidos con su hermano, a un internado en un pueblo pequeño de Kentucky. Un niño que casi no hablaba inglés, lejos de su familia. De adolescente trabajó lavando platos y sirviendo mesas en una cadena de restaurantes de carretera. Estudió ingeniería eléctrica, trabajó diseñando chips para otras empresas… y a los treinta años decidió montar la suya.
+
+Durante años, Nvidia estuvo varias veces cerca de quebrar. Él mismo lo ha contado en entrevistas: que si hubiera sabido lo difícil que iba a ser, quizá no lo habría intentado. Pero aguantó. Y treinta años después, aquel chico que lavaba platos se había convertido en una de las personas más ricas y más influyentes del planeta. Presidentes y primeros ministros pedían reunirse con él. Cada vez que subía a un escenario, el mundo de la tecnología se paraba para escucharlo.
+
+Guarda bien esa imagen. Porque en noviembre de dos mil veintiséis, todo eso se vino abajo en cuestión de días.
+
+Ahora, segunda pregunta. ¿Qué hace exactamente Nvidia? Porque mucha gente la conoce solo por las tarjetas gráficas de los videojuegos. Y así empezó, sí. En mil novecientos noventa y tres, tres ingenieros se reunieron en una cafetería de carretera en California y decidieron fundar una empresa para fabricar chips que hicieran que los videojuegos se vieran mejor. Uno de ellos era Jensen.
+
+Esos chips tenían algo especial. No eran buenos haciendo una cosa muy rápido, como el procesador normal de tu ordenador. Eran buenos haciendo miles de cosas pequeñas a la vez. Y durante años eso solo servía para dibujar explosiones, coches y personajes en tu pantalla.
+
+Hasta que alguien se dio cuenta de algo que lo cambió todo. Esa misma capacidad, la de hacer miles de cálculos al mismo tiempo, era exactamente lo que necesitaba la inteligencia artificial para aprender.
+
+Piénsalo así. Enseñar a una inteligencia artificial es como hacer que lea toda una biblioteca, millones de veces, a toda velocidad. Un procesador normal sería como una sola persona leyendo libro por libro. Un chip de Nvidia es como un ejército de miles de lectores leyendo a la vez.
+
+Así que cuando llegó la fiebre de la inteligencia artificial, cuando aparecieron los asistentes que escriben, que dibujan, que contestan preguntas, todas las grandes empresas tecnológicas del mundo necesitaron lo mismo: chips de Nvidia. Montañas de ellos. Para llenar centros de datos gigantes.
+
+Y Nvidia pasó de ser la empresa de los videojuegos a ser, durante un tiempo, la empresa más valiosa del planeta. El seis de octubre de dos mil veintiséis, su valor en bolsa llegó a su récord: unos cinco billones setecientos ochenta mil millones de dólares. Más que la economía entera de casi cualquier país del mundo.
+
+Y aquí viene la parte que de verdad te afecta a ti, aunque no tengas ni una sola acción.
+
+Hay un índice que se llama S&P 500. Es como una cesta con las quinientas empresas más grandes de Estados Unidos. Y es, probablemente, el lugar donde más dinero del mundo está invertido. Planes de pensiones, fondos indexados, ahorros de millones de familias en Estados Unidos, en Europa y en Latinoamérica.
+
+Pues bien, en octubre, Nvidia sola llegó a pesar alrededor del ocho por ciento de esa cesta. Ocho de cada cien dólares invertidos en el índice más importante del mundo dependían de una sola empresa. Y si a esa empresa le pasa algo, se mueve todo.
+
+Dicho de forma sencilla: si tienes un plan de pensiones, un fondo de inversión o algo de ahorro invertido en bolsa, aunque sea a través de tu banco, es muy probable que una parte de tu dinero esté en Nvidia sin que lo sepas. Y cuando Nvidia cae, tu dinero cae un poquito con ella.
+
+Pero hay más. Nvidia no es solo una empresa que vale mucho. Es la que fabrica la gran mayoría de los chips con los que se entrena la inteligencia artificial del mundo. Si Nvidia tiembla, tiemblan los planes de las empresas que están construyendo el futuro.
+
+Y hay una tercera razón, quizá la más delicada de todas. Estos chips se han convertido en algo parecido a un arma estratégica. Estados Unidos y China están en una carrera para ver quién domina la inteligencia artificial. Y por eso el gobierno estadounidense ha puesto límites muy estrictos a qué chips puede venderle Nvidia a China, y a quién.
+
+Quédate con esa idea, porque es la clave de todo lo que viene.
+
+Así que tenemos la empresa más valiosa del mundo, un líder que es casi una leyenda… y unos chips que dos superpotencias quieren controlar.
+
+Y entonces, aparece una empresa de la que casi nadie había oído hablar.
+
+Se llama Megaspeed. Es lo que en el sector llaman una nube de computación: una empresa que compra chips, en este caso chips de Nvidia, los instala en sus centros de datos y alquila esa potencia a otras compañías. Según el New York Times, entre sus clientes había grandes empresas tecnológicas chinas.
+
+Y eso, por sí solo, ya llamó la atención del gobierno de Estados Unidos. Porque si un chip no se puede vender directamente a China… ¿qué pasa si se alquila su potencia desde fuera? Según la prensa estadounidense, funcionarios del Departamento de Comercio llevaban más de un año investigando si Megaspeed estaba ayudando a empresas chinas a saltarse las restricciones. Más tarde, el Departamento de Justicia se hizo cargo de esa investigación.
+
+Hasta aquí, podría ser una historia más de negocios y burocracia. Pero en esa empresa había una persona. Una ejecutiva. Y su nombre empezó a aparecer en los periódicos de todo el mundo.
+
+Se llama Alice Huang. No es familia de Jensen, aunque compartan apellido. Y según el New York Times, entre ella y el hombre más poderoso de la inteligencia artificial había algo más que una relación de negocios.
+
+Y aquí es donde este expediente deja de ser una historia de chips… y se convierte en otra cosa.

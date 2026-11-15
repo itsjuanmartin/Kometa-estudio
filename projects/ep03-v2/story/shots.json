@@ -1,0 +1,2763 @@
+{
+ "title": "¿Y si te tocará engañar a Hitler? El gran engaño del Día D",
+ "duration": 723.09551,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 4.009,
+   "line": "Te contaron que el Día D se ganó en las playas de Normandía, ¿verdad?",
+   "scene": "hookTrue",
+   "params": {
+    "scene": "hookTrue",
+    "date": "6 JUN 1944 · NORMANDÍA",
+    "q": 2.6,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 0.7,
+     "name": "gunshot",
+     "gain": -18
+    },
+    {
+     "at": 2.6,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.009,
+   "end": 6.665,
+   "line": "Con soldados, barcos y valentía.",
+   "scene": "hookTrue",
+   "params": {
+    "scene": "hookTrue",
+    "rphoto": {
+     "key": "omaha_lcvp",
+     "at": 0.1,
+     "dur": 2.6,
+     "cap": "Desembarco en Omaha · 6 de junio de 1944",
+     "credit": "Foto: Robert F. Sargent, USCG · dominio público"
+    },
+    "cam": {
+     "z0": 1.15,
+     "z1": 1.25,
+     "fx": 900,
+     "fy": 800
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 0.6,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s003",
+   "start": 6.665,
+   "end": 8.078,
+   "line": "Pues la verdad es que no.",
+   "scene": "hookTrue",
+   "params": {
+    "scene": "hookTrue",
+    "no": 0.42,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 0.42,
+       "z": 1.3,
+       "fx": 960,
+       "fy": 420,
+       "d": 0.5
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.42,
+     "name": "hit",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s004",
+   "start": 8.078,
+   "end": 16.104,
+   "line": "Una parte enorme de esa victoria se ganó semanas antes… con tanques de goma, barcos de cartón y un espía que mentía mejor que nadie.",
+   "scene": "hookTrue",
+   "params": {
+    "scene": "hookTrue",
+    "rubber": 0,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 2.62,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s005",
+   "start": 16.104,
+   "end": 31.933,
+   "line": "Mayo de mil novecientos cuarenta y cuatro. Sur de Inglaterra. Es de noche y tienes en las manos algo que no tiene ningún sentido: un tanque. Un tanque Sherman de treinta toneladas… que pesa menos que tu mochila. Porque es de goma. Y tu trabajo esta noche es inflarlo.",
+   "scene": "inflate",
+   "params": {
+    "scene": "inflate",
+    "date": "MAYO 1944 · SUR DE INGLATERRA",
+    "from": 4.942,
+    "dur": 7,
+    "tons": 8.65,
+    "rub": 12.629,
+    "ex": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      8.15,
+      "confused"
+     ],
+     [
+      13.522,
+      "smirk"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.942,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 12.629,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s006",
+   "start": 31.933,
+   "end": 44.78,
+   "line": "¿Y si te tocará a ti engañar a Hitler? No con balas. No con bombas. Con globos, barcos de cartón, un ejército que no existe… y un espía catalán que se inventó a casi treinta agentes secretos que nunca existieron.",
+   "scene": "title3",
+   "params": {
+    "scene": "title3",
+    "items": [
+     [
+      "BALAS",
+      3.984
+     ],
+     [
+      "BOMBAS",
+      5.994
+     ],
+     [
+      "GLOBOS",
+      7.856
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -8
+    },
+    {
+     "at": 4.284,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 6.294,
+     "name": "swish",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s007",
+   "start": 44.78,
+   "end": 50.18,
+   "line": "Esto pasó de verdad. Y es, probablemente, el mayor engaño de la historia de la guerra.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "smirk",
+    "talk": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -31
+   }
+  },
+  {
+   "id": "s008",
+   "start": 50.18,
+   "end": 66.157,
+   "line": "Primero, tienes que entender el problema. Los aliados llevan meses preparando la invasión de Europa. Cientos de miles de soldados, miles de barcos, miles de aviones. Algo así no se puede esconder. Los alemanes saben perfectamente que el ataque va a llegar. Lo que no saben es dónde.",
+   "scene": "invasion",
+   "params": {
+    "scene": "invasion",
+    "lbl": "MESES PREPARANDO LA INVASIÓN",
+    "where": 14.674,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 14.674,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s009",
+   "start": 66.157,
+   "end": 67.387,
+   "line": "Y eso lo es todo.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "worried",
+    "talk": true
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s010",
+   "start": 67.387,
+   "end": 77.553,
+   "line": "Porque Hitler tiene una muralla de búnkeres a lo largo de toda la costa. Si los alemanes adivinan el lugar exacto, pueden concentrar allí sus tanques y lanzar al mar a los aliados el primer día.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "wall": 0.4,
+    "top": "MURO ATLÁNTICO",
+    "flags": true,
+    "rphoto": {
+     "key": "atlantic_wall",
+     "at": 5.269,
+     "dur": 4.2,
+     "cap": "Búnker del Muro Atlántico · Francia, 1944",
+     "credit": "Foto: Bundesarchiv, CC BY-SA 3.0 DE · Wikimedia Commons"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.269,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 5.769,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s011",
+   "start": 77.553,
+   "end": 86.298,
+   "line": "Mira un mapa. Entre Inglaterra y Francia, el sitio más lógico para cruzar es Calais. Es el punto más estrecho del canal: apenas treinta kilómetros.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "marks": [
+     {
+      "p": "calais",
+      "label": "CALAIS",
+      "at": 2.518,
+      "big": true
+     },
+     {
+      "p": "dover",
+      "label": "DOVER",
+      "dy": -46,
+      "at": 2.018
+     }
+    ],
+    "km": 5.954,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.0,
+     "punch": [
+      {
+       "at": 2.518,
+       "z": 1.7,
+       "fx": 1200,
+       "fy": 500,
+       "d": 1.0
+      }
+     ]
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.518,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 5.954,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -35
+   }
+  },
+  {
+   "id": "s012",
+   "start": 86.298,
+   "end": 90.404,
+   "line": "Desde allí se llega rápido a Alemania. Cualquier general lo elegiría.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "marks": [
+     {
+      "p": "calais",
+      "label": "CALAIS",
+      "at": 0,
+      "big": true
+     },
+     {
+      "p": "germany",
+      "label": "ALEMANIA",
+      "at": 0.6
+     }
+    ],
+    "arrows": [
+     {
+      "from": "calais",
+      "to": "germany",
+      "at": 0.4,
+      "d": 1.2,
+      "col": "#2a2a30"
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s013",
+   "start": 90.404,
+   "end": 94.174,
+   "line": "Y precisamente por eso, los alemanes tienen allí sus mejores defensas.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "wall": 0,
+    "marks": [
+     {
+      "p": "calais",
+      "label": "MEJORES DEFENSAS",
+      "at": 0.6,
+      "big": true,
+      "size": 40
+     }
+    ],
+    "cam": {
+     "z0": 1.3,
+     "z1": 1.5,
+     "fx": 1250,
+     "fy": 520
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -41
+   }
+  },
+  {
+   "id": "s014",
+   "start": 94.174,
+   "end": 102.196,
+   "line": "Así que los aliados toman una decisión: atacarán en Normandía. Mucho más lejos. Mucho más difícil. Pero menos protegida.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "wall": 0,
+    "marks": [
+     {
+      "p": "calais",
+      "label": "CALAIS",
+      "at": 0
+     },
+     {
+      "p": "normandy",
+      "label": "NORMANDÍA",
+      "dy": 60,
+      "at": 2.12,
+      "col": "#2a8a4a",
+      "big": true
+     }
+    ],
+    "arrows": [
+     {
+      "from": "portsmouth",
+      "to": "normandy",
+      "at": 2.32,
+      "d": 1.4,
+      "col": "#2a8a4a"
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1,
+     "fx": 900,
+     "fy": 600
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.12,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -44
+   }
+  },
+  {
+   "id": "s015",
+   "start": 102.196,
+   "end": 104.385,
+   "line": "Y ahora viene la parte imposible.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "worried",
+    "talk": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -47
+   }
+  },
+  {
+   "id": "s016",
+   "start": 104.385,
+   "end": 111.644,
+   "line": "Hay que conseguir que Hitler crea que el ataque será en Calais. Y no solo antes del desembarco. También después.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "top": "OBJETIVO: QUE HITLER CREA EN CALAIS",
+    "topAt": 0.3,
+    "marks": [
+     {
+      "p": "calais",
+      "label": "¿CALAIS?",
+      "at": 0.6,
+      "big": true,
+      "col": "#f2a01a"
+     }
+    ],
+    "arrows": [
+     {
+      "from": "dover",
+      "to": "calais",
+      "at": 0.8,
+      "d": 1.0,
+      "col": "#f2a01a"
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -50
+   }
+  },
+  {
+   "id": "s017",
+   "start": 111.644,
+   "end": 117.51,
+   "line": "Porque si los alemanes mandan todos sus tanques a Normandía en los primeros días… la invasión fracasa.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "marks": [
+     {
+      "p": "normandy",
+      "label": "NORMANDÍA",
+      "at": 0
+     }
+    ],
+    "arrows": [
+     {
+      "from": "germany",
+      "to": "normandy",
+      "at": 0.6,
+      "d": 2.0,
+      "col": "#2a2a30",
+      "w": 16
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -53
+   }
+  },
+  {
+   "id": "s018",
+   "start": 117.51,
+   "end": 132.45,
+   "line": "El riesgo es tan grande que el general Eisenhower, el jefe de toda la operación, llega a escribir una nota a mano por si el desembarco fracasa. En ella asume toda la culpa. Una nota que nunca tuvo que leer en voz alta… en parte, gracias a lo que vas a hacer tú.",
+   "scene": "ikeNote",
+   "params": {
+    "scene": "ikeNote",
+    "lbl": "GENERAL EISENHOWER",
+    "rphoto": {
+     "key": "eisenhower",
+     "at": 2.62,
+     "dur": 4.2,
+     "cap": "Eisenhower con paracaidistas · 5 de junio de 1944",
+     "credit": "Foto: U.S. Army · dominio público"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.62,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 3.12,
+     "name": "stamp",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s019",
+   "start": 132.45,
+   "end": 134.267,
+   "line": "Ese es tu trabajo.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "determined",
+    "talk": true
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s020",
+   "start": 134.267,
+   "end": 136.51,
+   "line": "Bienvenido a la Operación Fortitude.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "top": "OPERACIÓN FORTITUDE",
+    "marks": [
+     {
+      "p": "kent",
+      "label": "TÚ",
+      "at": 0.6
+     }
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.25,
+     "fx": 1000,
+     "fy": 420
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s021",
+   "start": 136.51,
+   "end": 152.168,
+   "line": "Te destinan a una unidad muy rara. No hay fusiles nuevos ni entrenamiento de combate. Hay pintores, escenógrafos de cine, decoradores, ingenieros de sonido. Gente que, antes de la guerra, se dedicaba a montar películas. Y ahora van a montar la película más grande de su vida.",
+   "scene": "crew",
+   "params": {
+    "scene": "crew",
+    "lbl": "PINTORES · CINE · SONIDO",
+    "lblAt": 4.93,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s022",
+   "start": 152.168,
+   "end": 158.016,
+   "line": "Te llevan al sureste de Inglaterra, a los condados de Kent y Essex. Justo enfrente de Calais.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "marks": [
+     {
+      "p": "kent",
+      "label": "KENT · ESSEX",
+      "at": 0.5,
+      "big": true
+     },
+     {
+      "p": "calais",
+      "label": "CALAIS",
+      "at": 3.892
+     }
+    ],
+    "arrows": [
+     {
+      "from": "kent",
+      "to": "calais",
+      "at": 4.192,
+      "d": 1.0
+     }
+    ],
+    "cam": {
+     "z0": 1.2,
+     "z1": 1.4,
+     "fx": 1100,
+     "fy": 450
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s023",
+   "start": 158.016,
+   "end": 165.442,
+   "line": "Y allí empezáis a construir un ejército entero. Tanques hinchables que, desde el aire, parecen de verdad. Camiones de madera y lona.",
+   "scene": "fakeArmy",
+   "params": {
+    "scene": "fakeArmy",
+    "lbl": "UN EJÉRCITO… FALSO",
+    "km": true,
+    "rphoto": {
+     "key": "dummy_tank",
+     "at": 3.696,
+     "dur": 4.5,
+     "cap": "Tanque Sherman hinchable · Segunda Guerra Mundial",
+     "credit": "Foto: U.S. Army · dominio público"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.696,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 4.196,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s024",
+   "start": 165.442,
+   "end": 169.067,
+   "line": "Lanchas de desembarco falsas flotando en los puertos y en los ríos, hechas de tela y tubos.",
+   "scene": "fakeArmy",
+   "params": {
+    "scene": "fakeArmy",
+    "boats": true,
+    "lbl": "LANCHAS DE TELA Y TUBOS",
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s025",
+   "start": 169.067,
+   "end": 175.639,
+   "line": "Hasta un enorme depósito de combustible en Dover, levantado con ayuda de escenógrafos de cine, con tuberías, tanques y chimeneas… que no contiene ni una gota de gasolina.",
+   "scene": "oilDock",
+   "params": {
+    "scene": "oilDock",
+    "empty": 4.12,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.12,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s026",
+   "start": 175.639,
+   "end": 183.416,
+   "line": "Y aprendes trucos que nadie te enseñó en el ejército. Hay que mover los tanques de goma de vez en cuando, para que los aviones espía vean huellas nuevas en el barro.",
+   "scene": "tricks",
+   "params": {
+    "scene": "tricks",
+    "mode": "tracks",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.05
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s027",
+   "start": 183.416,
+   "end": 188.783,
+   "line": "Hay que encender hogueras de cocina en campamentos vacíos.",
+   "scene": "tricks",
+   "params": {
+    "scene": "tricks",
+    "mode": "fires"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s028",
+   "start": 188.783,
+   "end": 191.868,
+   "line": "Hay que tender ropa.",
+   "scene": "tricks",
+   "params": {
+    "scene": "tricks",
+    "mode": "laundry"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s029",
+   "start": 191.868,
+   "end": 195.313,
+   "line": "Un ejército de verdad deja rastro. Y el vuestro tiene que dejarlo también.",
+   "scene": "fakeArmy",
+   "params": {
+    "scene": "fakeArmy",
+    "aerial": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "plane",
+     "gain": -18
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ]
+  },
+  {
+   "id": "s030",
+   "start": 195.313,
+   "end": 203.312,
+   "line": "Pero los aliados saben que con los muñecos no basta. Los aviones alemanes ya casi no pueden sobrevolar Inglaterra.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "thinking",
+    "talk": true
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -31
+   }
+  },
+  {
+   "id": "s031",
+   "start": 203.312,
+   "end": 228.275,
+   "line": "Así que el engaño tiene que entrar también por los oídos. Y aquí entra el sonido. Unidades enteras de radio se dedican a enviar mensajes falsos todo el día. Órdenes de transporte, pedidos de material, quejas por la comida, conversaciones entre regimientos que no existen. Todo pensado para que los alemanes, que escuchan cada transmisión, oigan exactamente lo mismo que oirían si al otro lado del canal hubiera un ejército gigante preparando el ataque.",
+   "scene": "radioRoom",
+   "params": {
+    "scene": "radioRoom",
+    "at": 9.381,
+    "listen": 16.265,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 16.265,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "radio",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s032",
+   "start": 228.275,
+   "end": 235.016,
+   "line": "Le ponen hasta un nombre. El Primer Grupo de Ejércitos de Estados Unidos. Y le dan un general al frente. No uno cualquiera.",
+   "scene": "fusag",
+   "params": {
+    "scene": "fusag",
+    "ghost": 4.422,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.422,
+     "name": "stamp",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s033",
+   "start": 235.016,
+   "end": 238.848,
+   "line": "Le dan el general al que los alemanes más temen: George Patton.",
+   "scene": "patton",
+   "params": {
+    "scene": "patton",
+    "lbl": "GENERAL GEORGE PATTON",
+    "ex": [
+     [
+      0,
+      "angry"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s034",
+   "start": 238.848,
+   "end": 249.622,
+   "line": "Esto pasó de verdad. Patton estaba castigado: unos meses antes, en Sicilia, había abofeteado a dos soldados ingresados en un hospital, y el escándalo le había costado el mando real.",
+   "scene": "patton",
+   "params": {
+    "scene": "patton",
+    "slap": 2.626,
+    "pose": "point",
+    "ex": [
+     [
+      0,
+      "angry"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    },
+    "real": 0.12
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.126,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 0.12,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s035",
+   "start": 249.622,
+   "end": 258.766,
+   "line": "Los aliados aprovechan su fama: si Patton está en el sureste de Inglaterra, mirando hacia Calais… los alemanes darán por hecho que el golpe principal vendrá de allí.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "marks": [
+     {
+      "p": "kent",
+      "label": "PATTON",
+      "at": 0.4,
+      "big": true
+     },
+     {
+      "p": "calais",
+      "label": "CALAIS",
+      "at": 1.0
+     }
+    ],
+    "arrows": [
+     {
+      "from": "kent",
+      "to": "calais",
+      "at": 1.5,
+      "d": 1.2,
+      "col": "#f2a01a"
+     }
+    ],
+    "cam": {
+     "z0": 1.2,
+     "z1": 1.4,
+     "fx": 1100,
+     "fy": 460
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s036",
+   "start": 258.766,
+   "end": 269.349,
+   "line": "Así que ahí estás tú, de noche, inflando tanques de goma en un campo de Kent, sabiendo que si los alemanes descubren el truco, miles de soldados podrían morir en las playas de Normandía.",
+   "scene": "inflate",
+   "params": {
+    "scene": "inflate",
+    "from": 0,
+    "dur": 4,
+    "ex": [
+     [
+      0,
+      "smirk"
+     ]
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.2,
+     "fx": 900,
+     "fy": 700
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s037",
+   "start": 269.349,
+   "end": 284.355,
+   "line": "Y no es el único ejército inventado. Al mismo tiempo, en Escocia, otra unidad finge que se prepara para invadir Noruega. Más radios falsas, más mensajes inventados. El objetivo es que Hitler mantenga miles de soldados vigilando las costas noruegas, lejos de Francia.",
+   "scene": "norway",
+   "params": {
+    "scene": "norway",
+    "lbl": "OTRO EJÉRCITO FALSO: ESCOCIA → NORUEGA",
+    "wait": 9.699,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s038",
+   "start": 284.355,
+   "end": 286.3,
+   "line": "Un engaño dentro de otro engaño.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "smirk",
+    "talk": true
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -31
+   }
+  },
+  {
+   "id": "s039",
+   "start": 286.3,
+   "end": 297.15,
+   "line": "Pero había un problema que ni los tanques de goma ni las radios podían resolver. Los alemanes no se fiaban solo de lo que veían. Se fiaban, sobre todo, de lo que les contaban sus espías en Inglaterra.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "german",
+    "bg": "office",
+    "expr": "thinking",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s040",
+   "start": 297.15,
+   "end": 332.593,
+   "line": "Lo que los alemanes no sabían es que los británicos tenían un arma secreta para eso también. La llamaban el Sistema de la Doble Cruz. Durante la guerra, los servicios secretos británicos fueron capturando, uno tras otro, a los espías que Alemania enviaba a Inglaterra. A muchos les dieron a elegir: trabajar para los británicos… o enfrentarse a un juicio. Y muchos aceptaron. Así que, sin saberlo, los alemanes recibían informes de espías que en realidad trabajaban para el enemigo. Según los historiadores británicos, en mil novecientos cuarenta y cuatro prácticamente toda la red alemana en Inglaterra estaba controlada por Londres.",
+   "scene": "doubleCross",
+   "params": {
+    "scene": "doubleCross",
+    "turn": 15.786,
+    "lbl": 21.557,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 21.557,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s041",
+   "start": 332.593,
+   "end": 335.738,
+   "line": "Y aquí empieza la parte más increíble de esta historia.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "surprised",
+    "talk": true
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s042",
+   "start": 335.738,
+   "end": 345.276,
+   "line": "Porque el espía más valioso de Hitler en Inglaterra… era un catalán que nunca había sido espía. Y que, al principio, ni siquiera había pisado Inglaterra.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "garbo",
+    "bg": "dark",
+    "expr": "smirk",
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.0
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s043",
+   "start": 345.276,
+   "end": 353.66,
+   "line": "Se llamaba Juan Pujol García. Nació en Barcelona. Había vivido la guerra civil española y odiaba a los nazis y a los comunistas por igual.",
+   "scene": "garboIntro",
+   "params": {
+    "scene": "garboIntro",
+    "lbl": "JUAN PUJOL GARCÍA",
+    "hates": 4.594,
+    "rphoto": {
+     "key": "garbo",
+     "at": 2.599,
+     "dur": 4.0,
+     "cap": "Juan Pujol García, «Garbo»",
+     "credit": "Foto: dominio público · Wikimedia Commons"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.599,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 3.099,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -35
+   }
+  },
+  {
+   "id": "s044",
+   "start": 353.66,
+   "end": 366.979,
+   "line": "Cuando empezó la Segunda Guerra Mundial, tomó una decisión muy simple: quería ayudar a derrotar a Hitler. Así que fue a ofrecerse a los británicos. Y los británicos le dijeron que no. Lo intentó otra vez. Y otra vez le dijeron que no.",
+   "scene": "rejected",
+   "params": {
+    "scene": "rejected",
+    "nos": [
+     8.596,
+     11.815
+    ],
+    "ex": [
+     [
+      0,
+      "smile"
+     ],
+     [
+      8.696,
+      "sad"
+     ],
+     [
+      11.915,
+      "angry"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 8.596,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 11.815,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s045",
+   "start": 366.979,
+   "end": 376.245,
+   "line": "Entonces a Juan se le ocurrió un plan completamente loco. Si los británicos no lo querían como espía… se haría espía de los alemanes. Y desde dentro, los engañaría.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "garbo",
+    "bg": "office",
+    "expr": "smirk",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s046",
+   "start": 376.245,
+   "end": 386.647,
+   "line": "Y lo consiguió. Convenció a los servicios secretos alemanes de que era un fanático pronazi dispuesto a viajar a Inglaterra. Le dieron dinero, tinta invisible y un nombre en clave.",
+   "scene": "abwehr",
+   "params": {
+    "scene": "abwehr",
+    "at": 7.146,
+    "lbl": "EL ESPÍA QUE IBA A ENGAÑAR A LOS ALEMANES",
+    "lblAt": 0.4,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s047",
+   "start": 386.647,
+   "end": 397.549,
+   "line": "Pero Juan no fue a Inglaterra. Se instaló en Lisboa. Y desde allí empezó a enviar informes inventados sobre Inglaterra… usando una guía turística, mapas, revistas y noticiarios de cine.",
+   "scene": "lisbon",
+   "params": {
+    "scene": "lisbon",
+    "at": 4.668,
+    "lbl": "DESDE LISBOA… «DESDE INGLATERRA»",
+    "lblAt": 3.168,
+    "ex": [
+     [
+      0,
+      "smirk"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s048",
+   "start": 397.549,
+   "end": 407.758,
+   "line": "Cometía errores. En una ocasión escribió que los escoceses eran capaces de cualquier cosa por un litro de vino… cuando allí se bebía whisky y cerveza. Pero los alemanes se lo creían todo.",
+   "scene": "wineError",
+   "params": {
+    "scene": "wineError",
+    "err": 4.275,
+    "believe": 8.479,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 8.979,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s049",
+   "start": 407.758,
+   "end": 423.557,
+   "line": "Hasta que los británicos se dieron cuenta de que había un espía alemán enviando informes falsos que les volvían locos. Y cuando descubrieron quién era, por fin lo aceptaron. Lo llevaron a Londres y le dieron un nombre nuevo. Un nombre que significaba que era el mejor actor del mundo: Garbo.",
+   "scene": "london",
+   "params": {
+    "scene": "london",
+    "code": 14.4,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 14.4,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s050",
+   "start": 423.557,
+   "end": 441.386,
+   "line": "Le asignan un oficial de los servicios secretos que habla español perfectamente: Tomás Harris, un marchante de arte con un talento enorme para inventar historias. Juntos forman la pareja perfecta. Trabajan muchas horas al día escribiendo cartas, inventando detalles, cuidando cada palabra para que suene creíble.",
+   "scene": "london",
+   "params": {
+    "scene": "london",
+    "code": 0,
+    "harris": 3.12,
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.15,
+     "fx": 1100,
+     "fy": 600
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s051",
+   "start": 441.386,
+   "end": 467.204,
+   "line": "Y ahora, desde Londres, trabajando para los británicos, Garbo hace algo que no se había hecho nunca. Inventa una red de espías. Casi treinta agentes que no existen. Un soldado que habla demasiado en el bar. Un funcionario descontento. Un marinero. Una secretaria. Cada uno con su personalidad, sus quejas y hasta sus problemas personales. Garbo les escribe cartas, les paga sueldos con dinero alemán… y envía a Berlín cientos de informes.",
+   "scene": "network",
+   "params": {
+    "scene": "network",
+    "agents": [
+     [
+      "Soldado charlatán",
+      9.953
+     ],
+     [
+      "Funcionario descontento",
+      12.117
+     ],
+     [
+      "Marinero",
+      13.763
+     ],
+     [
+      "Secretaria",
+      14.582
+     ]
+    ],
+    "many": 16.818,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 9.953,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 12.117,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 13.763,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 14.582,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s052",
+   "start": 467.204,
+   "end": 494.043,
+   "line": "Y aquí viene uno de los detalles más surrealistas de la guerra. En una ocasión, Garbo necesitaba explicar por qué uno de sus agentes inventados no había avisado de algo importante. Así que decidió matarlo. Le contó a Berlín que su agente de Liverpool había muerto de una enfermedad, e incluso hizo publicar una esquela en un periódico británico. ¿Y sabes qué hicieron los alemanes? Le enviaron sus condolencias… y empezaron a pagarle una pensión a la viuda. Una viuda que, por supuesto, tampoco existía.",
+   "scene": "widow",
+   "params": {
+    "scene": "widow",
+    "cond": 20.017,
+    "pension": 21.617,
+    "ghost": 24.516,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 24.516,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s053",
+   "start": 494.043,
+   "end": 506.406,
+   "line": "Los alemanes están encantados. Su mejor espía en Inglaterra tiene una red enorme y nunca falla. Le mandan más y más dinero. No saben que cada palabra ha sido escrita, revisada y aprobada por los británicos.",
+   "scene": "berlinHappy",
+   "params": {
+    "scene": "berlinHappy",
+    "stamp": 8.283,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 8.283,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s054",
+   "start": 506.406,
+   "end": 527.807,
+   "line": "Pero no todo era fácil. La mujer de Juan, Araceli, vivía con él en Londres, echaba de menos España y no soportaba aquella vida secreta. En un momento de desesperación llegó a amenazar con contarlo todo. Así que los británicos montaron una pequeña obra de teatro: le hicieron creer que su marido había sido detenido por su culpa. Ella se asustó tanto que prometió no volver a intentarlo nunca.",
+   "scene": "araceli",
+   "params": {
+    "scene": "araceli",
+    "threat": 8.49,
+    "play": 12.636,
+    "ex": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      8.19,
+      "angry"
+     ],
+     [
+      13.336,
+      "scared"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s055",
+   "start": 527.807,
+   "end": 529.621,
+   "line": "Y la operación siguió adelante.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "smile",
+    "talk": true
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s056",
+   "start": 529.621,
+   "end": 541.948,
+   "line": "Y antes de seguir, quiero saber qué piensas tú. Escribe en los comentarios: tanque, si crees que tú te habrías creído el ejército de goma. O espía, si crees que habrías descubierto a Garbo. Solo una palabra.",
+   "scene": "vote3",
+   "params": {
+    "scene": "vote3",
+    "a": 2.839,
+    "b": 8.072,
+    "one": 11.198,
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.04
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.839,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 8.072,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 11.198,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s057",
+   "start": 541.948,
+   "end": 545.5,
+   "line": "Porque lo que viene ahora es lo más arriesgado de toda la guerra.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "tomiBr",
+    "bg": "kent",
+    "expr": "determined",
+    "talk": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s058",
+   "start": 545.5,
+   "end": 550.369,
+   "line": "Seis de junio de mil novecientos cuarenta y cuatro. El Día D.",
+   "scene": "beachLanding",
+   "params": {
+    "scene": "beachLanding",
+    "date": "6 JUN 1944 · EL DÍA D",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "impact",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "gunshot",
+     "gain": -18
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s059",
+   "start": 550.369,
+   "end": 568.752,
+   "line": "Unas horas antes del desembarco, los británicos dejan que Garbo haga algo que parece una locura. Le permiten avisar a los alemanes de que la invasión va a empezar. Un aviso real. Pero calculado para llegar demasiado tarde para cambiar nada. Garbo intenta comunicarse de madrugada… y al otro lado nadie contesta.",
+   "scene": "dawnRadio",
+   "params": {
+    "scene": "dawnRadio",
+    "noAnswer": 17.852,
+    "ex": [
+     [
+      0,
+      "smirk"
+     ],
+     [
+      16.852,
+      "worried"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "radio",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s060",
+   "start": 568.752,
+   "end": 570.486,
+   "line": "Cuando por fin le responden, ya hay soldados en las playas.",
+   "scene": "beachLanding",
+   "params": {
+    "scene": "beachLanding",
+    "cam": {
+     "z0": 1.15,
+     "z1": 1.25
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s061",
+   "start": 570.486,
+   "end": 576.607,
+   "line": "¿Por qué hacer algo así? Porque a partir de ese momento, para los alemanes, Garbo es el espía que lo había visto venir. Y la próxima vez que hable, le van a creer.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "garbo",
+    "bg": "office",
+    "expr": "smirk",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.12
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -25
+   }
+  },
+  {
+   "id": "s062",
+   "start": 576.607,
+   "end": 598.9,
+   "line": "Y entonces llega el mensaje que cambia la guerra. Tres días después del desembarco, Garbo envía su informe más importante. Les dice a los alemanes que lo de Normandía es solo una maniobra para distraerlos. Que el ejército de Patton sigue en el sureste de Inglaterra, intacto. Y que el golpe de verdad va a llegar pronto… en Calais. Ese mensaje llega a lo más alto.",
+   "scene": "telegram",
+   "params": {
+    "scene": "telegram",
+    "ats": [
+     5.734,
+     13.646,
+     17.65
+    ],
+    "top": 20.518,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.734,
+     "name": "typewriter",
+     "gain": -12
+    },
+    {
+     "at": 13.646,
+     "name": "typewriter",
+     "gain": -12
+    },
+    {
+     "at": 17.65,
+     "name": "typewriter",
+     "gain": -12
+    },
+    {
+     "at": 20.518,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s063",
+   "start": 598.9,
+   "end": 611.325,
+   "line": "Y según los historiadores, tropas alemanas que iban camino de Normandía reciben la orden de quedarse donde están. Durante semanas, decenas de miles de soldados alemanes se quedan esperando en Calais un ataque que nunca llega.",
+   "scene": "calaisWait",
+   "params": {
+    "scene": "calaisWait",
+    "halt": 2.12,
+    "weeks": 6.747,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.12,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s064",
+   "start": 611.325,
+   "end": 617.366,
+   "line": "Vigilando el mar. Mirando hacia un ejército que estaba hecho de goma, de cartón y de mensajes de radio.",
+   "scene": "channelMap",
+   "params": {
+    "scene": "channelMap",
+    "flags": true,
+    "wall": 0,
+    "marks": [
+     {
+      "p": "calais",
+      "label": "ESPERANDO…",
+      "at": 0.3,
+      "big": true
+     },
+     {
+      "p": "kent",
+      "label": "GOMA Y CARTÓN",
+      "at": 2.113,
+      "col": "#f2a01a"
+     }
+    ],
+    "arrows": [
+     {
+      "from": "kent",
+      "to": "calais",
+      "at": 2.313,
+      "d": 1.0,
+      "col": "#f2a01a"
+     }
+    ],
+    "cam": {
+     "z0": 1.2,
+     "z1": 1.35,
+     "fx": 1150,
+     "fy": 480
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s065",
+   "start": 617.366,
+   "end": 626.34,
+   "line": "Mientras tanto, en Normandía, los aliados consiguen lo que necesitaban: tiempo. Tiempo para desembarcar más hombres, más tanques, más suministros.",
+   "scene": "invasion",
+   "params": {
+    "scene": "invasion",
+    "lbl": "NORMANDÍA: TIEMPO PARA DESEMBARCAR",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s066",
+   "start": 626.34,
+   "end": 630.23,
+   "line": "Cuando los alemanes se dieron cuenta del engaño, ya era demasiado tarde.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "german",
+    "bg": "office",
+    "expr": "shocked",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s067",
+   "start": 630.23,
+   "end": 650.507,
+   "line": "Y aquí viene el detalle más increíble de toda esta historia. Los alemanes estaban tan agradecidos con Garbo que le concedieron la Cruz de Hierro, una de sus condecoraciones militares. Y unos meses después, los británicos le concedieron una medalla del Imperio Británico. Juan Pujol García es una de las pocas personas de la historia condecoradas por los dos bandos de la misma guerra.",
+   "scene": "medals",
+   "params": {
+    "scene": "medals",
+    "a": 3.968,
+    "b": 10.3,
+    "both": 14.873,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.968,
+     "name": "ding",
+     "gain": -8
+    },
+    {
+     "at": 10.3,
+     "name": "ding",
+     "gain": -8
+    },
+    {
+     "at": 14.873,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s068",
+   "start": 650.507,
+   "end": 655.312,
+   "line": "¿Y qué fue de él? Cuando terminó la guerra, sabía que muchos nazis no le perdonarían.",
+   "scene": "face",
+   "params": {
+    "scene": "face",
+    "who": "garbo",
+    "bg": "dark",
+    "expr": "worried",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -33
+   }
+  },
+  {
+   "id": "s069",
+   "start": 655.312,
+   "end": 676.873,
+   "line": "Así que hizo su último truco. Se fue a Angola y, poco después, se hizo correr la noticia de que había muerto de malaria. Desapareció. Durante décadas, todo el mundo lo dio por muerto. Hasta que en los años ochenta, un escritor británico se empeñó en encontrarlo. Y lo encontró… vivo, en Venezuela. Llevaba una vida tranquila, con otro trabajo y otro nombre.",
+   "scene": "vanish",
+   "params": {
+    "scene": "vanish",
+    "dead": 4.064,
+    "ve": 16.253,
+    "rphoto": {
+     "key": "garbo_pasaporte",
+     "at": 18.444,
+     "dur": 3.8,
+     "cap": "Pasaporte venezolano de Juan Pujol",
+     "credit": "Foto: Gobierno de Venezuela · dominio público"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.064,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 16.753,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 18.444,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 18.944,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "waves",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s070",
+   "start": 676.873,
+   "end": 686.693,
+   "line": "En mil novecientos ochenta y cuatro volvió a Normandía para el aniversario del desembarco, y se encontró con veteranos que no sabían que le debían la vida a un catalán que nunca disparó un arma.",
+   "scene": "reunion84",
+   "params": {
+    "scene": "reunion84",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "waves",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s071",
+   "start": 686.693,
+   "end": 704.122,
+   "line": "Así que, si te hubiera tocado a ti estar en esa unidad, inflando tanques de goma en un campo de Kent, quizá nunca habrías sabido que formabas parte del mayor engaño de la historia. Uno que se ganó con pintura, con radios, con cartas… y con una mentira tan bien contada que hasta Hitler se la creyó.",
+   "scene": "closing3",
+   "params": {
+    "scene": "closing3",
+    "lbl": "UNA GUERRA GANADA CON UNA MENTIRA",
+    "lblAt": 10.397,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s072",
+   "start": 704.122,
+   "end": 723.09551,
+   "line": "Y ahora te pregunto: ¿qué escribiste antes, tanque o espía? ¿Y te habrías atrevido a hacer lo que hizo Garbo? Cuéntamelo en los comentarios, que los leo todos. Suscríbete y guarda este vídeo para que te salgan más historias como esta. Cada semana vivimos una vida que nunca imaginaste. Y si te tocará a ti… ¿te habrías atrevido?",
+   "scene": "end3",
+   "params": {
+    "scene": "end3",
+    "q": 0.2,
+    "sub": 9.665,
+    "press": 11.265,
+    "save": 12.065,
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.04
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 11.265,
+     "name": "ding",
+     "gain": -8
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 32.053,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 32.053,
+   "end": 50.3,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 50.3,
+   "end": 136.63,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 136.63,
+   "end": 286.42,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 286.42,
+   "end": 345.396,
+   "mood": "dark",
+   "intensity": 0.5
+  },
+  {
+   "start": 345.396,
+   "end": 506.526,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 506.526,
+   "end": 545.62,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 545.62,
+   "end": 630.35,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 630.35,
+   "end": 686.813,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 686.813,
+   "end": 723.09551,
+   "mood": "hopeful",
+   "intensity": 0.5
+  }
+ ],
+ "sfx": []
+}

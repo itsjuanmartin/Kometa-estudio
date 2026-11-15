@@ -1,0 +1,3122 @@
+{
+ "title": "El hombre más poderoso de la IA… y la mujer de su coche",
+ "duration": 877.505306,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 9.361,
+   "line": "Seguro que te han contado que el jefe de Nvidia cayó por culpa de una espía china, ¿verdad? Pues la verdad es que no. O al menos, nadie ha podido demostrarlo todavía.",
+   "scene": "nvHook",
+   "params": {
+    "scene": "nvHook",
+    "q": 3.2,
+    "no": 4.997
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 3.2,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 4.997,
+     "name": "stamp",
+     "gain": -4
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s002",
+   "start": 9.361,
+   "end": 12.222,
+   "line": "Y lo que de verdad pasó es mucho más extraño.",
+   "scene": "who",
+   "params": {
+    "scene": "who"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s003",
+   "start": 12.222,
+   "end": 29.625,
+   "line": "Jueves, doce de noviembre de dos mil veintiséis. Son las nueve y media de la mañana en Nueva York y la bolsa acaba de abrir. En cuestión de minutos, las acciones de la empresa más importante de la inteligencia artificial caen un trece por ciento. Miles de millones de dólares desaparecen antes de que mucha gente se haya terminado el café.",
+   "scene": "stockOpen",
+   "params": {
+    "scene": "stockOpen",
+    "date": "12 NOV 2026",
+    "lbl": 7.494,
+    "rphoto": {
+     "key": "nyse",
+     "at": 3.063,
+     "dur": 2.4,
+     "cap": "Bolsa de Nueva York",
+     "credit": "Foto: dominio público · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 6.894,
+     "name": "riser",
+     "gain": -12
+    },
+    {
+     "at": 7.494,
+     "name": "impact",
+     "gain": -8
+    },
+    {
+     "at": 3.063,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 3.563,
+     "name": "stamp",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s004",
+   "start": 29.625,
+   "end": 39.906,
+   "line": "Unas horas después, la empresa publica un comunicado de apenas unas líneas. Su fundador, el hombre que la había dirigido durante treinta y tres años, se va. Con efecto inmediato.",
+   "scene": "pressRelease",
+   "params": {
+    "scene": "pressRelease",
+    "years": 3.18,
+    "now": 8.646
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "typewriter",
+     "gain": -14
+    },
+    {
+     "at": 3.18,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 8.646,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s005",
+   "start": 39.906,
+   "end": 48.584,
+   "line": "No hubo un producto defectuoso. No hubo una crisis económica. Hubo una pregunta que llevaba meses circulando en voz baja por los despachos de Washington: ¿quién era la mujer que viajaba en su coche?",
+   "scene": "noCrisis",
+   "params": {
+    "scene": "noCrisis",
+    "a": 0.1,
+    "b": 2.261,
+    "q": 4.498
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 2.561,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 4.498,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s006",
+   "start": 48.584,
+   "end": 57.047,
+   "line": "Ponte cómodo, apaga la luz si te atreves… porque hoy abrimos un expediente que de verdad vale la pena. Soy Javi, y esto es Archivo Oscuro.",
+   "scene": "intro",
+   "params": {
+    "scene": "intro",
+    "dark": 0.4,
+    "title": 5.461
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "buzz",
+     "gain": -16
+    },
+    {
+     "at": 5.461,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 5.961,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s007",
+   "start": 57.047,
+   "end": 66.834,
+   "line": "Y antes de empezar, lo de siempre. Aquí contamos lo que de verdad pasó. Lo confirmado, te lo marco. Lo que es sospecha, te lo digo.",
+   "scene": "rules",
+   "params": {
+    "scene": "rules",
+    "conf": 6.256,
+    "rum": 7.957,
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 6.256,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 7.957,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s008",
+   "start": 66.834,
+   "end": 73.245,
+   "line": "Y en este caso eso es más importante que nunca, porque al final de este vídeo vas a descubrir algo que cambia toda la historia.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "smirk"
+     ]
+    ],
+    "say": [
+     [
+      "AL FINAL…",
+      2.62
+     ],
+     [
+      "CAMBIA TODO",
+      3.32
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.32,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s009",
+   "start": 73.245,
+   "end": 77.369,
+   "line": "Si te gustan las historias reales bien contadas, suscríbete ahora.",
+   "scene": "subscribe",
+   "params": {
+    "scene": "subscribe",
+    "press": 1.92,
+    "rare": 2.72
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 1.92,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s010",
+   "start": 77.369,
+   "end": 79.485,
+   "line": "Vamos con el expediente.",
+   "scene": "folder",
+   "params": {
+    "scene": "folder",
+    "num": "EXPEDIENTE Nº 002",
+    "lines": [
+     "CASO: La caída de Jensen Huang",
+     "EMPRESA: Nvidia",
+     "FECHA: 12 · 11 · 2026",
+     "ESTADO: ABIERTO"
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "typewriter",
+     "gain": -14
+    },
+    {
+     "at": 2.6,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s011",
+   "start": 79.485,
+   "end": 82.8,
+   "line": "Capítulo uno. El chico que lavaba platos.",
+   "scene": "chapter",
+   "params": {
+    "scene": "chapter",
+    "n": 1,
+    "title": "EL CHICO QUE LAVABA PLATOS"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s012",
+   "start": 82.8,
+   "end": 98.271,
+   "line": "Taiwán, mil novecientos sesenta y tres. Nace un niño que se llama Jensen Huang. Con nueve años, sus padres lo mandan a Estados Unidos con su hermano mayor, a un internado en un pueblo pequeño de Kentucky. Un niño que casi no habla inglés, a miles de kilómetros de su familia.",
+   "scene": "journey",
+   "params": {
+    "scene": "journey",
+    "fly": 5.584,
+    "kid": 11.609
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.584,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s013",
+   "start": 98.271,
+   "end": 103.762,
+   "line": "De adolescente trabaja lavando platos y sirviendo mesas en una cadena de restaurantes de carretera.",
+   "scene": "diner",
+   "params": {
+    "scene": "diner"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "roomtone",
+     "gain": -20
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s014",
+   "start": 103.762,
+   "end": 108.131,
+   "line": "Estudia ingeniería eléctrica. Diseña chips para otras empresas.",
+   "scene": "jensenStage",
+   "params": {
+    "scene": "jensenStage",
+    "pose": "explain",
+    "lbl": "INGENIERO ELÉCTRICO",
+    "lblAt": 0.3,
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.0
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s015",
+   "start": 108.131,
+   "end": 119.815,
+   "line": "Y en mil novecientos noventa y tres, con treinta años, se sienta con dos amigos ingenieros en una de esas mismas cafeterías de carretera, en California… y deciden fundar una empresa. La llaman Nvidia.",
+   "scene": "diner",
+   "params": {
+    "scene": "diner",
+    "booth": true,
+    "napkin": 10.478
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 10.478,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s016",
+   "start": 119.815,
+   "end": 123.7,
+   "line": "Durante años estuvo a punto de quebrar varias veces. Pero aguantó.",
+   "scene": "calendarFlip",
+   "params": {
+    "scene": "calendarFlip",
+    "months": [
+     [
+      "1995",
+      "X"
+     ],
+     [
+      "1997",
+      "X"
+     ],
+     [
+      "2000",
+      "✓"
+     ]
+    ],
+    "lbl": "CASI QUIEBRA… Y AGUANTA",
+    "year": ""
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s017",
+   "start": 123.7,
+   "end": 136.044,
+   "line": "Y treinta años después, aquel chico que lavaba platos se había convertido en una de las personas más ricas e influyentes del planeta. El hombre de la chaqueta de cuero negra. Presidentes y primeros ministros pedían reunirse con él.",
+   "scene": "jensenStage",
+   "params": {
+    "scene": "jensenStage",
+    "pose": "wave",
+    "lbl": "EL HOMBRE DE LA CHAQUETA DE CUERO",
+    "lblAt": 7.35,
+    "rphoto": {
+     "key": "jensen",
+     "at": 7.85,
+     "dur": 3.2,
+     "cap": "Jensen Huang en un evento público (2023)",
+     "credit": "Foto: Oficina de la Presidencia de Taiwán, CC BY 2.0 · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "applause",
+     "gain": -18
+    },
+    {
+     "at": 7.85,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 8.35,
+     "name": "stamp",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s018",
+   "start": 136.044,
+   "end": 143.829,
+   "line": "Pero para entender por qué su caída ha hecho temblar al mundo entero, primero tienes que entender qué tiene Nvidia que no tiene nadie más.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ],
+    "say": [
+     [
+      "¿QUÉ TIENE",
+      4.12
+     ],
+     [
+      "NVIDIA?",
+      4.62
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s019",
+   "start": 143.829,
+   "end": 150.991,
+   "line": "Capítulo dos. La empresa que vale más que países.",
+   "scene": "chapter",
+   "params": {
+    "scene": "chapter",
+    "n": 2,
+    "title": "LA EMPRESA QUE VALE MÁS QUE PAÍSES"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s020",
+   "start": 150.991,
+   "end": 157.878,
+   "line": "Al principio, Nvidia fabricaba chips para que los videojuegos se vieran mejor. Esos chips tenían algo especial: no eran buenos haciendo una cosa muy rápido, sino haciendo miles de cosas pequeñas a la vez.",
+   "scene": "jensenStage",
+   "params": {
+    "scene": "jensenStage",
+    "pose": "point",
+    "lbl": "PRIMERO: VIDEOJUEGOS",
+    "lblAt": 0.2
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -40
+   }
+  },
+  {
+   "id": "s021",
+   "start": 157.878,
+   "end": 177.909,
+   "line": "Y un día alguien descubrió que eso era exactamente lo que necesitaba la inteligencia artificial para aprender. Piénsalo así: enseñar a una inteligencia artificial es como obligarla a leer una biblioteca entera millones de veces. Un procesador normal es una persona leyendo libro por libro. Un chip de Nvidia es un ejército de miles de lectores leyendo a la vez.",
+   "scene": "readers",
+   "params": {
+    "scene": "readers",
+    "army": 15.931
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 15.931,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -42
+   }
+  },
+  {
+   "id": "s022",
+   "start": 177.909,
+   "end": 198.764,
+   "line": "Cuando llegó la fiebre de la inteligencia artificial, todas las grandes tecnológicas del mundo necesitaron lo mismo: montañas de chips de Nvidia. Y la empresa de los videojuegos se convirtió en la más valiosa del planeta. El seis de octubre de dos mil veintiséis llegó a su récord: casi cinco billones ochocientos mil millones de dólares. Más que la economía de casi cualquier país.",
+   "scene": "valuation",
+   "params": {
+    "scene": "valuation",
+    "date": "6 OCT 2026"
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "riser",
+     "gain": -12
+    },
+    {
+     "at": 1.8,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -44
+   }
+  },
+  {
+   "id": "s023",
+   "start": 198.764,
+   "end": 202.702,
+   "line": "¿Y por qué te debería importar a ti? Por una razón muy sencilla.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "neutral"
+     ]
+    ],
+    "say": [
+     [
+      "¿Y A TI",
+      0.2
+     ],
+     [
+      "QUÉ?",
+      0.6
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -46
+   }
+  },
+  {
+   "id": "s024",
+   "start": 202.702,
+   "end": 227.11,
+   "line": "Hay un índice que se llama S&P 500: una especie de cesta con las quinientas empresas más grandes de Estados Unidos. Es donde están invertidos millones de planes de pensiones y fondos de todo el mundo. Y en octubre, Nvidia sola llegó a pesar alrededor del ocho por ciento de esa cesta. Si tienes un plan de pensiones o un fondo de inversión, aunque sea a través de tu banco, es muy probable que una parte de tu dinero esté en Nvidia sin que lo sepas.",
+   "scene": "basket",
+   "params": {
+    "scene": "basket",
+    "nv": 11.503,
+    "pig": 16.143
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 11.503,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 16.143,
+     "name": "ding",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -48
+   }
+  },
+  {
+   "id": "s025",
+   "start": 227.11,
+   "end": 243.629,
+   "line": "Pero hay algo todavía más delicado. Estos chips se han convertido en un arma estratégica. Estados Unidos y China están en una carrera por dominar la inteligencia artificial. Y en octubre de dos mil veintidós, el gobierno estadounidense puso límites muy duros a qué chips se le pueden vender a China.",
+   "scene": "chipWar",
+   "params": {
+    "scene": "chipWar",
+    "limit": 10.734
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 10.734,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -50
+   }
+  },
+  {
+   "id": "s026",
+   "start": 243.629,
+   "end": 249.337,
+   "line": "Quédate con esa fecha. Porque justo después, una pequeña empresa empezó a crecer muy rápido.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "smirk"
+     ]
+    ],
+    "say": [
+     [
+      "QUÉDATE",
+      0.2
+     ],
+     [
+      "CON ESA FECHA",
+      0.6
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.986,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -52
+   }
+  },
+  {
+   "id": "s027",
+   "start": 249.337,
+   "end": 256.467,
+   "line": "Capítulo tres. La empresa que cambió de nombre.",
+   "scene": "chapter",
+   "params": {
+    "scene": "chapter",
+    "n": 3,
+    "title": "LA EMPRESA QUE CAMBIÓ DE NOMBRE"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -54
+   }
+  },
+  {
+   "id": "s028",
+   "start": 256.467,
+   "end": 280.143,
+   "line": "En dos mil quince se crea en Singapur una empresa llamada Seven Road Internacional, propiedad de un grupo chino del mundo de los videojuegos. Durante años, nadie se fija en ella. Pero cuando llegan las restricciones de chips, empieza a crecer de golpe. En marzo de dos mil veintitrés cambia de nombre. A partir de ahora se llamará Megaspeed.",
+   "scene": "rename",
+   "params": {
+    "scene": "rename",
+    "year": "2015",
+    "grow": 13.735,
+    "swap": 19.709
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 19.709,
+     "name": "glitch",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -56
+   }
+  },
+  {
+   "id": "s029",
+   "start": 280.143,
+   "end": 291.072,
+   "line": "Megaspeed es lo que en el sector llaman una nube de computación: compra chips, en este caso chips de Nvidia, los instala en enormes centros de datos y alquila esa potencia a otras empresas. Según el New York Times, entre sus clientes había grandes tecnológicas chinas.",
+   "scene": "cloud",
+   "params": {
+    "scene": "cloud",
+    "clients": 8.279,
+    "rphoto": {
+     "key": "datacenter",
+     "at": 0.5,
+     "dur": 2.6,
+     "cap": "Un centro de datos (imagen de referencia)",
+     "credit": "Foto: Carl Lender, CC BY 2.0 · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 8.279,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.5,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "stamp",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -58
+   }
+  },
+  {
+   "id": "s030",
+   "start": 291.072,
+   "end": 299.695,
+   "line": "Y aquí hay un detalle que a los investigadores les llamó mucho la atención. En otoño de dos mil veintitrés la empresa cambia de dueño… y cuatro días después se convierte en socio oficial de la nube de Nvidia.",
+   "scene": "fourDays",
+   "params": {
+    "scene": "fourDays",
+    "badge": 6.202
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 6.202,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -60
+   }
+  },
+  {
+   "id": "s031",
+   "start": 299.695,
+   "end": 312.042,
+   "line": "¿Por qué es esto importante? Porque en los últimos años muchas empresas con raíces en China se han trasladado a Singapur. Hay quien lo llama el lavado de Singapur: la empresa sigue siendo la misma, pero desde fuera parece de otro país. Y si un chip no se puede vender a China… ¿qué pasa si se alquila su potencia desde Singapur?",
+   "scene": "washing",
+   "params": {
+    "scene": "washing",
+    "q": 7.796
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -62
+   }
+  },
+  {
+   "id": "s032",
+   "start": 312.042,
+   "end": 316.702,
+   "line": "Eso es exactamente lo que empezó a preguntarse el gobierno de Estados Unidos.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ],
+    "say": [
+     [
+      "WASHINGTON",
+      0.3
+     ],
+     [
+      "EMPIEZA A MIRAR",
+      0.8
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -64
+   }
+  },
+  {
+   "id": "s033",
+   "start": 316.702,
+   "end": 319.519,
+   "line": "Capítulo cuatro. La mujer del coche.",
+   "scene": "chapter",
+   "params": {
+    "scene": "chapter",
+    "n": 4,
+    "title": "LA MUJER DEL COCHE"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -66
+   }
+  },
+  {
+   "id": "s034",
+   "start": 319.519,
+   "end": 334.302,
+   "line": "En septiembre de dos mil veinticuatro, la oficina del Departamento de Comercio que vigila las exportaciones de tecnología abre una investigación sobre Megaspeed. Y sobre una de sus ejecutivas. Se llama Alice Huang. No es familia de Jensen, aunque compartan apellido.",
+   "scene": "probe",
+   "params": {
+    "scene": "probe",
+    "date": "SEP 2024",
+    "lines": [
+     [
+      "Investigación: Megaspeed",
+      0.6
+     ],
+     [
+      "…y una de sus ejecutivas",
+      8.576,
+      "#c0392b"
+     ]
+    ],
+    "ah": 10.333,
+    "notf": 12.245
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "typewriter",
+     "gain": -14
+    },
+    {
+     "at": 10.333,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -68
+   }
+  },
+  {
+   "id": "s035",
+   "start": 334.302,
+   "end": 350.304,
+   "line": "Según el Wall Street Journal, se la presentó a Jensen un empresario chino al que él conocía desde hacía más de una década. Y no fue un encuentro de un día. En junio de dos mil veinticuatro los vieron juntos. En mayo de dos mil veinticinco, otra vez. Viajando en el mismo coche.",
+   "scene": "car",
+   "params": {
+    "scene": "car",
+    "dates": [
+     [
+      "JUNIO 2024",
+      9.035
+     ],
+     [
+      "MAYO 2025",
+      11.846
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "carpass",
+     "gain": -16
+    },
+    {
+     "at": 9.035,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 11.846,
+     "name": "camflash",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s036",
+   "start": 350.304,
+   "end": 373.767,
+   "line": "Y entonces pasa algo que, visto ahora, parece sacado de una novela. En agosto de dos mil veinticinco, el abogado principal de Nvidia contacta con los funcionarios que investigaban a Megaspeed y les pide una reunión. Los funcionarios se niegan. Y para evitar que la investigación pudiera verse comprometida, el caso sale del Departamento de Comercio… y pasa al Departamento de Justicia, que abre una investigación penal contra Megaspeed.",
+   "scene": "lawyer",
+   "params": {
+    "scene": "lawyer",
+    "date": "AGO 2025",
+    "no": 11.944,
+    "move": 14.338
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "phonering",
+     "gain": -14
+    },
+    {
+     "at": 11.944,
+     "name": "stamp",
+     "gain": -4
+    },
+    {
+     "at": 14.338,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s037",
+   "start": 373.767,
+   "end": 394.847,
+   "line": "Y hay más. Según el New York Times, en la primavera de dos mil veintiséis el secretario de Estado, Marco Rubio, redactó un informe clasificado advirtiendo sobre esa relación. Ese documento circuló entre funcionarios con acceso a secretos de alto nivel justo antes de un viaje oficial del presidente Trump a China, en mayo. Un viaje en el que Jensen Huang formaba parte de la delegación.",
+   "scene": "memo",
+   "params": {
+    "scene": "memo",
+    "trip": 11.853
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 11.853,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -34
+   }
+  },
+  {
+   "id": "s038",
+   "start": 394.847,
+   "end": 407.933,
+   "line": "Es decir: en las altas esferas de Washington, algunos ya estaban preocupados. Pero nadie hizo nada en público. Nvidia era demasiado importante. Sus ventas estaban tirando de la economía, y nadie quería ser el que la hiciera tropezar.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "worried"
+     ]
+    ],
+    "say": [
+     [
+      "NADIE",
+      4.427
+     ],
+     [
+      "HIZO NADA",
+      4.827
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s039",
+   "start": 407.933,
+   "end": 418.023,
+   "line": "Hasta aquí, todo esto ocurría en silencio. Ningún periódico lo sabía. Jensen seguía subiendo a los escenarios, Nvidia seguía batiendo récords, y la bolsa seguía subiendo.",
+   "scene": "jensenStage",
+   "params": {
+    "scene": "jensenStage",
+    "pose": "cheer",
+    "lbl": "TODO SEGUÍA EN SILENCIO",
+    "lblAt": 0.3,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s040",
+   "start": 418.023,
+   "end": 425.561,
+   "line": "Hasta el veintinueve de octubre de dos mil veintiséis. El día en que el New York Times publicó una historia que lo cambiaría todo.",
+   "scene": "who",
+   "params": {
+    "scene": "who"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -40
+   }
+  },
+  {
+   "id": "s041",
+   "start": 425.561,
+   "end": 428.33,
+   "line": "Capítulo cinco. La noticia.",
+   "scene": "chapter",
+   "params": {
+    "scene": "chapter",
+    "n": 5,
+    "title": "LA NOTICIA"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -42
+   }
+  },
+  {
+   "id": "s042",
+   "start": 428.33,
+   "end": 440.859,
+   "line": "El veintinueve de octubre, el New York Times publica que Jensen Huang tiene una relación cercana con Alice Huang. Y que, según fuentes de la inteligencia estadounidense, ella podría estar pasando información sobre él al gobierno chino.",
+   "scene": "papers",
+   "params": {
+    "scene": "papers",
+    "date": "29 OCT 2026",
+    "items": [
+     [
+      "NEW YORK TIMES",
+      "JENSEN HUANG|Y UNA EJECUTIVA|DE MEGASPEED",
+      0.3
+     ]
+    ],
+    "unc": 6.804
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 6.804,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -44
+   }
+  },
+  {
+   "id": "s043",
+   "start": 440.859,
+   "end": 457.581,
+   "line": "Una semana después, el mismo periódico va más allá. Asegura que entre los altos cargos de Washington circulaba un informe que la señalaba como espía del Ministerio de Seguridad del Estado chino. Y al día siguiente, el Financial Times publica que la inteligencia estadounidense cree que ese ministerio la había reclutado.",
+   "scene": "papers",
+   "params": {
+    "scene": "papers",
+    "items": [
+     [
+      "NEW YORK TIMES",
+      "UN INFORME|LA SEÑALA|COMO ESPÍA",
+      0.2
+     ],
+     [
+      "FINANCIAL TIMES",
+      "«RECLUTADA»|SEGÚN LA|INTELIGENCIA",
+      10.344
+     ]
+    ],
+    "unc": 11.644
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 10.344,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 11.644,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -46
+   }
+  },
+  {
+   "id": "s044",
+   "start": 457.581,
+   "end": 468.244,
+   "line": "Para que entiendas lo que eso significa: el Ministerio de Seguridad del Estado es el gran servicio de inteligencia de China. Algunos expertos lo consideran una de las agencias de espionaje más grandes del mundo.",
+   "scene": "mss",
+   "params": {
+    "scene": "mss"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -48
+   }
+  },
+  {
+   "id": "s045",
+   "start": 468.244,
+   "end": 499.624,
+   "line": "Y quizá te estés preguntando: ¿para qué querría un país espiar al jefe de una empresa de chips? ¿No es más fácil robar los planos? Según los expertos en inteligencia, muchas veces lo más valioso no es un documento. Es saber qué piensa alguien. Qué va a decidir. A quién va a escuchar. Y si además consigues que vea las cosas un poco más a tu manera… el premio es enorme. En el mundo del espionaje esto tiene un nombre informal: la trampa de miel. Usar una relación personal para acercarse a alguien poderoso. Es una técnica tan antigua como el propio espionaje.",
+   "scene": "whySpy",
+   "params": {
+    "scene": "whySpy",
+    "thoughts": [
+     [
+      "¿QUÉ PIENSA?",
+      11.715
+     ],
+     [
+      "¿QUÉ DECIDE?",
+      13.503
+     ],
+     [
+      "¿A QUIÉN ESCUCHA?",
+      14.584
+     ]
+    ],
+    "honey": 21.185
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 11.715,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 13.503,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 14.584,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 21.185,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -50
+   }
+  },
+  {
+   "id": "s046",
+   "start": 499.624,
+   "end": 511.2,
+   "line": "Pero aquí tengo que parar, porque esto es importante. Todo lo que te acabo de contar son informaciones de prensa basadas en fuentes anónimas. Ninguna acusación formal.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ],
+    "say": [
+     [
+      "FUENTES",
+      4.091
+     ],
+     [
+      "ANÓNIMAS",
+      4.491
+     ]
+    ],
+    "unc_": 1
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -52
+   }
+  },
+  {
+   "id": "s047",
+   "start": 511.2,
+   "end": 516.172,
+   "line": "Y el gobierno chino lo niega rotundamente: lo ha llamado pura invención.",
+   "scene": "twoCapitals",
+   "params": {
+    "scene": "twoCapitals"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -54
+   }
+  },
+  {
+   "id": "s048",
+   "start": 516.172,
+   "end": 519.842,
+   "line": "Así que, de momento, esto lleva un sello bien grande: sin confirmar.",
+   "scene": "rules",
+   "params": {
+    "scene": "rules",
+    "conf": -9,
+    "rum": 0.3,
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stamp",
+     "gain": -4
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -56
+   }
+  },
+  {
+   "id": "s049",
+   "start": 519.842,
+   "end": 535.776,
+   "line": "Y antes de seguir, quiero saber qué piensas tú. Escribe ahora mismo en los comentarios: espía, si crees que esto fue una operación de espionaje. O escándalo, si crees que es un escándalo personal que se ha hecho enorme. Solo una palabra. Porque al final del vídeo te voy a contar algo que quizá te haga cambiar de opinión.",
+   "scene": "vote",
+   "params": {
+    "scene": "vote",
+    "a": 3.117,
+    "b": 7.099,
+    "one": 9.959,
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.117,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 7.099,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 9.959,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -58
+   }
+  },
+  {
+   "id": "s050",
+   "start": 535.776,
+   "end": 538.19,
+   "line": "Capítulo seis. Siete días.",
+   "scene": "chapter",
+   "params": {
+    "scene": "chapter",
+    "n": 6,
+    "title": "SIETE DÍAS"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -60
+   }
+  },
+  {
+   "id": "s051",
+   "start": 538.19,
+   "end": 547.783,
+   "line": "Domingo, ocho de noviembre. Jensen Huang envía un mensaje a todos los empleados de Nvidia. Y en él reconoce algo muy personal: que había sido infiel a su esposa.",
+   "scene": "day",
+   "params": {
+    "scene": "day",
+    "dayN": 8,
+    "dayName": "DOMINGO",
+    "kind": "email",
+    "adm": 6.613
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 6.613,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -62
+   }
+  },
+  {
+   "id": "s052",
+   "start": 547.783,
+   "end": 565.761,
+   "line": "Ese mismo día, la junta directiva anuncia una investigación independiente, con un bufete de abogados externo, para saber si Jensen fue el objetivo de una operación de inteligencia extranjera. La junta dice que, por ahora, no tiene motivos para creer que se haya comprometido la seguridad nacional ni ningún secreto de la empresa.",
+   "scene": "day",
+   "params": {
+    "scene": "day",
+    "dayN": 8,
+    "dayName": "DOMINGO",
+    "kind": "board"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -64
+   }
+  },
+  {
+   "id": "s053",
+   "start": 565.761,
+   "end": 581.014,
+   "line": "Lunes, nueve de noviembre. Los directores de la CIA y de la inteligencia nacional informan en secreto a los líderes del Congreso. El presidente Trump dice públicamente que el FBI está investigando. Y, según el New York Times, llama a Jensen y le pide que pelee por su puesto.",
+   "scene": "day",
+   "params": {
+    "scene": "day",
+    "dayN": 9,
+    "dayName": "LUNES",
+    "kind": "call",
+    "rphoto": {
+     "key": "fbi_hq",
+     "at": 7.356,
+     "dur": 2.6,
+     "cap": "Sede del FBI · Washington D. C.",
+     "credit": "Foto: Tony Webster, CC BY 2.0 · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "phonering",
+     "gain": -14
+    },
+    {
+     "at": 7.356,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 7.856,
+     "name": "stamp",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -66
+   }
+  },
+  {
+   "id": "s054",
+   "start": 581.014,
+   "end": 599.485,
+   "line": "Miércoles, once de noviembre. Llega el golpe definitivo. El New York Times publica que Jensen tuvo otra relación, esta vez con una directiva de la propia Nvidia que dependía de él. En cualquier gran empresa, eso es una línea roja. Esa misma noche, el Wall Street Journal informa de que la junta se prepara para apartarlo.",
+   "scene": "day",
+   "params": {
+    "scene": "day",
+    "dayN": 11,
+    "dayName": "MIÉRCOLES",
+    "kind": "paper",
+    "mast": "NEW YORK TIMES",
+    "head": "OTRA RELACIÓN|DENTRO DE|NVIDIA"
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 10.48,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -68
+   }
+  },
+  {
+   "id": "s055",
+   "start": 599.485,
+   "end": 614.363,
+   "line": "Jueves, doce de noviembre. El comunicado. Jensen Huang renuncia como director ejecutivo, como presidente y como consejero. Después de treinta y tres años. El hombre que fundó la empresa en una cafetería de carretera… se va por la puerta de atrás.",
+   "scene": "pressRelease",
+   "params": {
+    "scene": "pressRelease",
+    "date": "12 NOV 2026",
+    "years": 7.609,
+    "now": 4.866
+   },
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "typewriter",
+     "gain": -14
+    },
+    {
+     "at": 7.609,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 4.866,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 0.15,
+     "name": "typewriter",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -70
+   }
+  },
+  {
+   "id": "s056",
+   "start": 614.363,
+   "end": 628.33,
+   "line": "La directora financiera, Colette Kress, pasa a dirigir la compañía de forma interina. Ese mismo día, un grupo de inversores presenta una demanda colectiva contra Nvidia y contra Jensen: lo acusan de haber ocultado su relación con una presunta espía.",
+   "scene": "aftermath",
+   "params": {
+    "scene": "aftermath",
+    "suit": 5.462
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.462,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -72
+   }
+  },
+  {
+   "id": "s057",
+   "start": 628.33,
+   "end": 648.765,
+   "line": "¿Y la bolsa? Las acciones llegan a caer más del trece por ciento al abrir. Al final del día recuperan parte y cierran con una caída de alrededor del cuatro. Pero desde su récord de octubre, Nvidia ya ha perdido entre un billón y medio y un billón setecientos mil millones de dólares de valor. Casi lo que produce un país como España en un año.",
+   "scene": "closeBell",
+   "params": {
+    "scene": "closeBell",
+    "close": 4.557,
+    "total": 9.487
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "riser",
+     "gain": -12
+    },
+    {
+     "at": 9.487,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -74
+   }
+  },
+  {
+   "id": "s058",
+   "start": 648.765,
+   "end": 650.951,
+   "line": "Capítulo siete. Washington.",
+   "scene": "chapter",
+   "params": {
+    "scene": "chapter",
+    "n": 7,
+    "title": "WASHINGTON"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -76
+   }
+  },
+  {
+   "id": "s059",
+   "start": 650.951,
+   "end": 668.869,
+   "line": "La historia ya no es solo de una empresa. Es de seguridad nacional. Varios presidentes de comisiones del Congreso piden que Jensen comparezca a puerta cerrada. En el Senado le advierten que, si no acude por voluntad propia, podrían obligarle. Y se abre un debate enorme sobre si hay que cerrar todavía más la venta de chips a China.",
+   "scene": "memo",
+   "params": {
+    "scene": "memo",
+    "trip": -9,
+    "rphoto": {
+     "key": "capitol",
+     "at": 4.056,
+     "dur": 3.2,
+     "cap": "Capitolio de los Estados Unidos",
+     "credit": "Foto: dominio público · Wikimedia Commons"
+    }
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.056,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 4.056,
+     "name": "camflash",
+     "gain": -10
+    },
+    {
+     "at": 4.556,
+     "name": "stamp",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -78
+   }
+  },
+  {
+   "id": "s060",
+   "start": 668.869,
+   "end": 688.516,
+   "line": "Y las reacciones llegan desde todas partes. El presidente Trump, que días antes le había pedido que peleara por su puesto, publica que solo hay un hombre capaz de sustituirlo: Tim Cook, el jefe de Apple. Elon Musk, en cambio, se ofrece a contratar a Jensen. Y otros empresarios de Silicon Valley dicen públicamente que apartarlo ha sido un error.",
+   "scene": "reactions",
+   "params": {
+    "scene": "reactions",
+    "a": 3.096,
+    "b": 12.021,
+    "c": 15.276
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.096,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 12.021,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 15.276,
+     "name": "blip",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -80
+   }
+  },
+  {
+   "id": "s061",
+   "start": 688.516,
+   "end": 695.952,
+   "line": "En cuestión de horas, el caso se convierte en una batalla entre quienes ven a un genio caído y quienes ven un riesgo para la seguridad del país.",
+   "scene": "scale2",
+   "params": {
+    "scene": "scale2"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -82
+   }
+  },
+  {
+   "id": "s062",
+   "start": 695.952,
+   "end": 708.677,
+   "line": "Mientras tanto, desde Pekín, la respuesta es tajante: el gobierno chino dice que todo es una invención. Y en Singapur, donde tiene su sede Megaspeed, el gobierno anuncia que Alice Huang no podrá volver a entrar en el país.",
+   "scene": "twoCapitals",
+   "params": {
+    "scene": "twoCapitals",
+    "sg": 6.733
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "stamp",
+     "gain": -6
+    },
+    {
+     "at": 7.033,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -84
+   }
+  },
+  {
+   "id": "s063",
+   "start": 708.677,
+   "end": 716.771,
+   "line": "Meses antes, la policía de Singapur le había retirado el pasaporte mientras investigaba a la empresa. Finalmente la dejaron marchar por falta de pruebas.",
+   "scene": "twoCapitals",
+   "params": {
+    "scene": "twoCapitals",
+    "sg": -9,
+    "passport": 0.3,
+    "free": 5.655
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 5.655,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -86
+   }
+  },
+  {
+   "id": "s064",
+   "start": 716.771,
+   "end": 723.392,
+   "line": "Y ese detalle, falta de pruebas, nos lleva a la parte de esta historia que casi nadie te ha contado.",
+   "scene": "javi",
+   "params": {
+    "scene": "javi",
+    "ex": [
+     [
+      0,
+      "smirk"
+     ]
+    ],
+    "say": [
+     [
+      "FALTA",
+      1.32
+     ],
+     [
+      "DE PRUEBAS",
+      1.72
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.72,
+     "name": "stinger",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -88
+   }
+  },
+  {
+   "id": "s065",
+   "start": 723.392,
+   "end": 726.085,
+   "line": "Capítulo ocho. El giro.",
+   "scene": "chapter",
+   "params": {
+    "scene": "chapter",
+    "n": 8,
+    "title": "EL GIRO"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "stamp",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -90
+   }
+  },
+  {
+   "id": "s066",
+   "start": 726.085,
+   "end": 757.258,
+   "line": "El mismo día de la renuncia, el fiscal general de Estados Unidos hace una declaración que pasa casi desapercibida. Dice que el Departamento de Justicia no ha llegado a ninguna conclusión sobre quién es o no es Alice Huang. Y que él nunca ha dicho que sea una espía. Al día siguiente, la CNN va más allá. Según sus fuentes, la inteligencia estadounidense no está segura de que Alice Huang sea una espía. Lo recopilado hasta ahora, incluidas comunicaciones interceptadas, no lo demuestra. Y algunos funcionarios creen que esa acusación se ha exagerado.",
+   "scene": "twist",
+   "params": {
+    "scene": "twist",
+    "a": 0.4,
+    "b": 15.063,
+    "unc": 28.099
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 15.063,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 28.099,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -92
+   }
+  },
+  {
+   "id": "s067",
+   "start": 757.258,
+   "end": 774.813,
+   "line": "Piénsalo un momento. El hombre más poderoso de la inteligencia artificial ha perdido su empresa. Nvidia ha perdido una fortuna. Washington ha abierto investigaciones. Dos superpotencias se acusan mutuamente. Y a día de hoy… nadie ha podido demostrar que la presunta espía fuera realmente una espía.",
+   "scene": "who",
+   "params": {
+    "scene": "who"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -94
+   }
+  },
+  {
+   "id": "s068",
+   "start": 774.813,
+   "end": 785.452,
+   "line": "Entonces, ¿qué hizo caer de verdad a Jensen Huang? ¿Una operación de espionaje? ¿O sus propias decisiones personales, que en el peor momento posible se convirtieron en un asunto de seguridad nacional?",
+   "scene": "scale2",
+   "params": {
+    "scene": "scale2"
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -96
+   }
+  },
+  {
+   "id": "s069",
+   "start": 785.452,
+   "end": 790.002,
+   "line": "Vamos con lo que de verdad importa. Lo que sabemos hoy, y lo que sigue abierto. Lo que está confirmado.",
+   "scene": "board",
+   "params": {
+    "scene": "board",
+    "title": "LO QUE SABEMOS HOY",
+    "cards": [
+     [
+      "CONFIRMADO",
+      3.289,
+      520,
+      330,
+      "#c9f0c0"
+     ],
+     [
+      "ABIERTO",
+      49.721,
+      1400,
+      330,
+      "#ffd0a8"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 3.289,
+     "name": "stamp",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -98
+   }
+  },
+  {
+   "id": "s070",
+   "start": 790.002,
+   "end": 811.282,
+   "line": "Jensen Huang reconoció ante sus empleados que había sido infiel. Renunció el doce de noviembre después de treinta y tres años. Megaspeed está siendo investigada por las autoridades de Estados Unidos. Nvidia abrió una investigación interna y perdió alrededor de un treinta por ciento de su valor desde su récord. Y Singapur ha prohibido la entrada a Alice Huang.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "javi": false,
+    "title": "CONFIRMADO",
+    "gap": 120,
+    "size": 44,
+    "items": [
+     [
+      "Reconoció que fue infiel",
+      0.1
+     ],
+     [
+      "Renunció tras 33 años",
+      2.366
+     ],
+     [
+      "Megaspeed, investigada en EE. UU.",
+      5.961
+     ],
+     [
+      "Nvidia: investigación y −30 %",
+      12.997
+     ],
+     [
+      "Singapur le prohíbe la entrada",
+      18.775
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 2.566,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 6.161,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 13.197,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 18.975,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -100
+   }
+  },
+  {
+   "id": "s071",
+   "start": 811.282,
+   "end": 835.053,
+   "line": "¿Y por qué todo esto te importa aunque nunca vayas a comprar un chip? Por tres razones. Porque una parte de los ahorros de millones de personas está invertida, directa o indirectamente, en esta empresa. Porque de sus chips depende buena parte de la inteligencia artificial que ya usamos cada día. Y porque lo que decida Estados Unidos sobre vender estos chips a China puede cambiar la tecnología, los precios y la economía de los próximos años.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "title": "¿POR QUÉ TE IMPORTA?",
+    "gap": 150,
+    "size": 48,
+    "items": [
+     [
+      "Tus ahorros (pensiones y fondos)",
+      4.902
+     ],
+     [
+      "La IA que usas cada día",
+      11.444
+     ],
+     [
+      "La guerra de chips EE. UU.–China",
+      16.337
+     ]
+    ],
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 4.902,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 11.444,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 16.337,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -102
+   }
+  },
+  {
+   "id": "s072",
+   "start": 835.053,
+   "end": 851.468,
+   "line": "Lo que sigue abierto. Si Alice Huang trabajaba de verdad para la inteligencia china. Si llegó a obtener alguna información, y cuál. Si Megaspeed ayudó a saltarse las restricciones de exportación. Qué dirá Jensen ante el Congreso. Y quién dirigirá Nvidia a partir de ahora.",
+   "scene": "checklist",
+   "params": {
+    "scene": "checklist",
+    "javi": false,
+    "title": "SIGUE ABIERTO",
+    "gap": 125,
+    "size": 46,
+    "items": [
+     [
+      "¿Trabajaba para China?",
+      2.441,
+      "!"
+     ],
+     [
+      "¿Obtuvo información?",
+      5.752,
+      "!"
+     ],
+     [
+      "¿Megaspeed se saltó las normas?",
+      8.889,
+      "!"
+     ],
+     [
+      "¿Qué dirá ante el Congreso?",
+      12.312,
+      "!"
+     ],
+     [
+      "¿Quién dirigirá Nvidia?",
+      14.127,
+      "!"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 2.441,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 5.752,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 8.889,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 12.312,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 14.127,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -104
+   }
+  },
+  {
+   "id": "s073",
+   "start": 851.468,
+   "end": 860.108,
+   "line": "Y ahora, dime la verdad. Al principio del vídeo escribiste espía o escándalo. ¿Sigues pensando lo mismo? Cuéntamelo en los comentarios, porque leo todos.",
+   "scene": "outro",
+   "params": {
+    "scene": "outro",
+    "q": 1.5,
+    "qText": "¿ESPÍA O ESCÁNDALO?",
+    "opts": [
+     "ESPÍA",
+     "ESCÁNDALO"
+    ],
+    "ex": [
+     [
+      0,
+      "smile"
+     ],
+     [
+      4.735,
+      "smirk"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 1.9,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 2.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -106
+   }
+  },
+  {
+   "id": "s074",
+   "start": 860.108,
+   "end": 866.955,
+   "line": "Este expediente sigue abierto. Cuando Jensen hable ante el Congreso, o cuando la justicia diga algo, te lo cuento aquí.",
+   "scene": "outro",
+   "params": {
+    "scene": "outro",
+    "open": 0.2,
+    "ex": [
+     [
+      0,
+      "determined"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stamp",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -108
+   }
+  },
+  {
+   "id": "s075",
+   "start": 866.955,
+   "end": 874.929,
+   "line": "Suscríbete y guarda este vídeo para que te salgan más historias como esta. Cada semana abrimos un expediente nuevo de lo que todo el mundo está comentando.",
+   "scene": "outro",
+   "params": {
+    "scene": "outro",
+    "sub": 0.3,
+    "press": 1.72,
+    "ex": [
+     [
+      0,
+      "smile"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 1.72,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -110
+   }
+  },
+  {
+   "id": "s076",
+   "start": 874.929,
+   "end": 877.505306,
+   "line": "Soy Javi. Y esto fue Archivo Oscuro.",
+   "scene": "outro",
+   "params": {
+    "scene": "outro",
+    "logo": 0.1,
+    "ex": [
+     [
+      0,
+      "happy"
+     ]
+    ]
+   },
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -112
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 48.704,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 48.704,
+   "end": 79.605,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 79.605,
+   "end": 143.949,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 143.949,
+   "end": 249.457,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 249.457,
+   "end": 316.822,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 316.822,
+   "end": 425.681,
+   "mood": "dark",
+   "intensity": 0.55
+  },
+  {
+   "start": 425.681,
+   "end": 519.962,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 519.962,
+   "end": 535.896,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 535.896,
+   "end": 648.885,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 648.885,
+   "end": 723.512,
+   "mood": "dark",
+   "intensity": 0.55
+  },
+  {
+   "start": 723.512,
+   "end": 785.572,
+   "mood": "mystery",
+   "intensity": 0.6
+  },
+  {
+   "start": 785.572,
+   "end": 851.588,
+   "mood": "calm",
+   "intensity": 0.35
+  },
+  {
+   "start": 851.588,
+   "end": 877.505306,
+   "mood": "mystery",
+   "intensity": 0.5
+  }
+ ],
+ "sfx": []
+}

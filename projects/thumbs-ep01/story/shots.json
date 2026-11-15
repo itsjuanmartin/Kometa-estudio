@@ -1,0 +1,4 @@
+{ "title": "thumbs", "duration": 9, "shots": [
+ {"id":"A","start":0,"end":3,"line":"","bars":"none","vignette":false},
+ {"id":"B","start":3,"end":6,"line":"","bars":"none","vignette":false},
+ {"id":"C","start":6,"end":9,"line":"","bars":"none","vignette":false}], "music": [], "sfx": [] }

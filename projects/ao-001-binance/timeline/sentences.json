@@ -1,0 +1,1544 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 1.006,
+  "text": "Veinte minutos."
+ },
+ {
+  "i": 1,
+  "start": 1.292,
+  "end": 3.406,
+  "text": "Es lo que tardas en darte una ducha larga."
+ },
+ {
+  "i": 2,
+  "start": 3.767,
+  "end": 5.691,
+  "text": "En ver un capítulo corto de una serie."
+ },
+ {
+  "i": 3,
+  "start": 6.072,
+  "end": 7.599,
+  "text": "En pedir comida a domicilio."
+ },
+ {
+  "i": 4,
+  "start": 8.034,
+  "end": 15.137,
+  "text": "El veintinueve de octubre de dos mil veintiséis, en veinte minutos, salieron de una sola empresa seis mil trescientos millones de dólares."
+ },
+ {
+  "i": 5,
+  "start": 15.437,
+  "end": 16.246,
+  "text": "Sin pistolas."
+ },
+ {
+  "i": 6,
+  "start": 16.413,
+  "end": 17.102,
+  "text": "Sin túneles."
+ },
+ {
+  "i": 7,
+  "start": 17.314,
+  "end": 19.257,
+  "text": "Sin que nadie rompiera una sola puerta."
+ },
+ {
+  "i": 8,
+  "start": 19.98,
+  "end": 22.164,
+  "text": "Y lo más increíble de todo es cómo empezó."
+ },
+ {
+  "i": 9,
+  "start": 22.677,
+  "end": 23.499,
+  "text": "Semanas antes."
+ },
+ {
+  "i": 10,
+  "start": 24.374,
+  "end": 27.657,
+  "text": "Con algo tan inocente… como una entrevista de trabajo."
+ },
+ {
+  "i": 11,
+  "start": 28.475,
+  "end": 34.391,
+  "text": "Ponte cómodo, apaga la luz si te atreves… porque hoy abrimos un expediente que de verdad vale la pena."
+ },
+ {
+  "i": 12,
+  "start": 34.773,
+  "end": 36.629,
+  "text": "Soy Javi, y esto es Archivo Oscuro."
+ },
+ {
+  "i": 13,
+  "start": 36.938,
+  "end": 38.696,
+  "text": "Antes de empezar, una cosa rápida."
+ },
+ {
+  "i": 14,
+  "start": 38.987,
+  "end": 40.809,
+  "text": "Aquí contamos lo que de verdad pasó."
+ },
+ {
+  "i": 15,
+  "start": 41.101,
+  "end": 42.757,
+  "text": "Lo que está confirmado, te lo marco."
+ },
+ {
+  "i": 16,
+  "start": 43.078,
+  "end": 44.605,
+  "text": "Lo que es rumor, te lo digo."
+ },
+ {
+  "i": 17,
+  "start": 45.217,
+  "end": 50.917,
+  "text": "Y si te gustan las historias reales bien contadas, suscríbete ahora, porque esta se pone muy, muy rara."
+ },
+ {
+  "i": 18,
+  "start": 51.779,
+  "end": 52.899,
+  "text": "Vamos con el expediente."
+ },
+ {
+  "i": 19,
+  "start": 53.672,
+  "end": 55.624,
+  "text": "Primero, tienes que entender dónde estamos."
+ },
+ {
+  "i": 20,
+  "start": 56.013,
+  "end": 59.588,
+  "text": "Binance es la casa de cambio de criptomonedas más grande del mundo."
+ },
+ {
+  "i": 21,
+  "start": 59.807,
+  "end": 66.525,
+  "text": "Piensa en un banco gigante, pero en vez de euros o dólares, guarda bitcoins, ethereum y cientos de monedas digitales más."
+ },
+ {
+  "i": 22,
+  "start": 66.816,
+  "end": 69.052,
+  "text": "Millones de personas, en todos los países, tienen ahí sus ahorros."
+ },
+ {
+  "i": 23,
+  "start": 69.345,
+  "end": 72.227,
+  "text": "Algunos, unos pocos dólares."
+ },
+ {
+  "i": 24,
+  "start": 72.51,
+  "end": 73.894,
+  "text": "Otros, fortunas enteras."
+ },
+ {
+  "i": 25,
+  "start": 74.175,
+  "end": 79.696,
+  "text": "Y como cualquier banco, Binance guarda el dinero en dos sitios."
+ },
+ {
+  "i": 26,
+  "start": 79.9,
+  "end": 85.919,
+  "text": "Una parte está en lo que llaman la billetera fría: una caja fuerte desconectada de internet, casi imposible de tocar."
+ },
+ {
+  "i": 27,
+  "start": 86.113,
+  "end": 89.887,
+  "text": "Y otra parte está en la billetera caliente: el dinero que está conectado, listo para que la gente lo saque cuando quiera."
+ },
+ {
+  "i": 28,
+  "start": 90.225,
+  "end": 92.31,
+  "text": "Es como la caja registradora de una tienda."
+ },
+ {
+  "i": 29,
+  "start": 92.606,
+  "end": 96.362,
+  "text": "Tiene que estar a mano, porque cada segundo hay alguien retirando su dinero."
+ },
+ {
+  "i": 30,
+  "start": 96.788,
+  "end": 99.983,
+  "text": "Ahora bien, esa caja registradora no se abre con una llave normal."
+ },
+ {
+  "i": 31,
+  "start": 100.304,
+  "end": 103.715,
+  "text": "Binance usa un sistema que se llama computación multipartita."
+ },
+ {
+  "i": 32,
+  "start": 104.043,
+  "end": 110.111,
+  "text": "Suena complicado, pero la idea es sencilla: la llave está partida en trozos, repartidos entre varias máquinas."
+ },
+ {
+  "i": 33,
+  "start": 110.463,
+  "end": 112.05,
+  "text": "Nadie tiene la llave completa."
+ },
+ {
+  "i": 34,
+  "start": 112.354,
+  "end": 116.803,
+  "text": "Para mover dinero, varias partes del sistema tienen que ponerse de acuerdo y firmar juntas."
+ },
+ {
+  "i": 35,
+  "start": 117.097,
+  "end": 121.22,
+  "text": "Es como una caja fuerte que necesita a cinco personas girando su llave a la vez."
+ },
+ {
+  "i": 36,
+  "start": 121.55,
+  "end": 123.181,
+  "text": "Parece imposible de robar, ¿verdad?"
+ },
+ {
+  "i": 37,
+  "start": 124.44,
+  "end": 128.036,
+  "text": "Pues guarda esa idea, porque los ladrones no intentaron robar la llave."
+ },
+ {
+  "i": 38,
+  "start": 128.303,
+  "end": 130.197,
+  "text": "Hicieron algo mucho más inteligente."
+ },
+ {
+  "i": 39,
+  "start": 130.586,
+  "end": 132.971,
+  "text": "Retrocedamos a septiembre de dos mil veintiséis."
+ },
+ {
+  "i": 40,
+  "start": 133.299,
+  "end": 135.829,
+  "text": "Hay un ingeniero de software que trabaja en Binance."
+ },
+ {
+  "i": 41,
+  "start": 136.197,
+  "end": 139.37,
+  "text": "En el informe oficial que publicó la empresa no aparece su nombre."
+ },
+ {
+  "i": 42,
+  "start": 139.622,
+  "end": 141.526,
+  "text": "Lo llaman, simplemente, el Ingeniero B."
+ },
+ {
+  "i": 43,
+  "start": 141.817,
+  "end": 144.044,
+  "text": "Así que nosotros también le vamos a llamar así."
+ },
+ {
+  "i": 44,
+  "start": 144.347,
+  "end": 147.743,
+  "text": "Un día, el Ingeniero B recibe un mensaje en una plataforma de empleo."
+ },
+ {
+  "i": 45,
+  "start": 148.07,
+  "end": 152.837,
+  "text": "Alguien que se presenta como director de proyectos de otra empresa le dice que su perfil les encanta."
+ },
+ {
+  "i": 46,
+  "start": 153.011,
+  "end": 154.264,
+  "text": "Que tienen un puesto para él."
+ },
+ {
+  "i": 47,
+  "start": 154.622,
+  "end": 156.724,
+  "text": "Mejor sueldo, buen proyecto, lo típico."
+ },
+ {
+  "i": 48,
+  "start": 157.037,
+  "end": 158.747,
+  "text": "Y aquí quiero que te pongas en su lugar."
+ },
+ {
+  "i": 49,
+  "start": 159.084,
+  "end": 161.915,
+  "text": "Porque esto le pasa a mucha gente que trabaja en tecnología."
+ },
+ {
+  "i": 50,
+  "start": 162.238,
+  "end": 164.998,
+  "text": "Te escriben, te halagan, te ofrecen algo mejor."
+ },
+ {
+  "i": 51,
+  "start": 165.347,
+  "end": 168.026,
+  "text": "Y piensas: bueno, por escuchar no pierdo nada."
+ },
+ {
+  "i": 52,
+  "start": 168.412,
+  "end": 169.696,
+  "text": "Hay una primera conversación."
+ },
+ {
+  "i": 53,
+  "start": 170.084,
+  "end": 170.679,
+  "text": "Todo normal."
+ },
+ {
+  "i": 54,
+  "start": 171.03,
+  "end": 177.794,
+  "text": "Luego, una segunda entrevista, esta vez por una aplicación de mensajería, con alguien que dice ser el director general de esa empresa."
+ },
+ {
+  "i": 55,
+  "start": 178.171,
+  "end": 183.73,
+  "text": "Y al final, le piden lo que piden en casi todos los procesos de selección de programadores: una prueba técnica."
+ },
+ {
+  "i": 56,
+  "start": 184.006,
+  "end": 186.235,
+  "text": "Un pequeño proyecto para ver cómo trabaja."
+ },
+ {
+  "i": 57,
+  "start": 186.623,
+  "end": 189.843,
+  "text": "Descárgate este código, ponlo en marcha y dinos qué te parece."
+ },
+ {
+  "i": 58,
+  "start": 190.019,
+  "end": 191.38,
+  "text": "El Ingeniero B lo descarga."
+ },
+ {
+  "i": 59,
+  "start": 191.707,
+  "end": 192.695,
+  "text": "Y lo pone en marcha."
+ },
+ {
+  "i": 60,
+  "start": 192.895,
+  "end": 196.485,
+  "text": "Y antes de que pienses que fue un descuido tonto, piénsalo dos veces."
+ },
+ {
+  "i": 61,
+  "start": 196.782,
+  "end": 199.662,
+  "text": "Esto no fue un correo mal escrito pidiendo tu contraseña."
+ },
+ {
+  "i": 62,
+  "start": 199.932,
+  "end": 201.679,
+  "text": "Era un proceso de selección completo."
+ },
+ {
+  "i": 63,
+  "start": 201.988,
+  "end": 205.774,
+  "text": "Con perfiles creíbles, con conversaciones normales, con varias fases."
+ },
+ {
+  "i": 64,
+  "start": 206.022,
+  "end": 208.057,
+  "text": "Lo que se hace en cualquier empresa de verdad."
+ },
+ {
+  "i": 65,
+  "start": 208.794,
+  "end": 215.825,
+  "text": "Para alguien que trabaja programando, recibir una prueba técnica es tan normal como para un cocinero que le pidan preparar un plato en la entrevista."
+ },
+ {
+  "i": 66,
+  "start": 216.202,
+  "end": 217.533,
+  "text": "Nadie desconfía de eso."
+ },
+ {
+  "i": 67,
+  "start": 218.024,
+  "end": 219.455,
+  "text": "En su ordenador del trabajo."
+ },
+ {
+  "i": 68,
+  "start": 219.719,
+  "end": 224.262,
+  "text": "Según el propio informe de Binance, ese código traía escondido un programa malicioso."
+ },
+ {
+  "i": 69,
+  "start": 224.578,
+  "end": 226.301,
+  "text": "Y no uno cualquiera: era nuevo."
+ },
+ {
+  "i": 70,
+  "start": 226.59,
+  "end": 230.663,
+  "text": "Tan nuevo que los sistemas de seguridad de la empresa no lo detectaron en ese momento."
+ },
+ {
+  "i": 71,
+  "start": 230.841,
+  "end": 233.241,
+  "text": "En la pantalla del ingeniero no pasó nada raro."
+ },
+ {
+  "i": 72,
+  "start": 233.528,
+  "end": 234.454,
+  "text": "Ninguna alarma."
+ },
+ {
+  "i": 73,
+  "start": 234.697,
+  "end": 235.604,
+  "text": "Ningún aviso."
+ },
+ {
+  "i": 74,
+  "start": 235.965,
+  "end": 239.06,
+  "text": "La prueba técnica funcionaba como una prueba técnica normal."
+ },
+ {
+  "i": 75,
+  "start": 239.332,
+  "end": 243.431,
+  "text": "Pero alguien, en algún lugar del mundo, acababa de abrir una puerta dentro de Binance."
+ },
+ {
+  "i": 76,
+  "start": 243.833,
+  "end": 247.475,
+  "text": "Y aquí viene lo que más me impresiona de todo este caso: la paciencia."
+ },
+ {
+  "i": 77,
+  "start": 247.831,
+  "end": 249.544,
+  "text": "Porque los atacantes no corrieron."
+ },
+ {
+  "i": 78,
+  "start": 249.96,
+  "end": 252.786,
+  "text": "No intentaron llevarse nada esa noche, ni esa semana."
+ },
+ {
+  "i": 79,
+  "start": 253.11,
+  "end": 254.143,
+  "text": "Se quedaron quietos."
+ },
+ {
+  "i": 80,
+  "start": 254.318,
+  "end": 254.792,
+  "text": "Mirando."
+ },
+ {
+  "i": 81,
+  "start": 255.048,
+  "end": 257.446,
+  "text": "Aprendiendo cómo funcionaba todo por dentro."
+ },
+ {
+  "i": 82,
+  "start": 257.77,
+  "end": 264.689,
+  "text": "Como alguien que entra en una casa y, en vez de robar, se esconde en el ático durante semanas para saber a qué hora se levanta cada uno."
+ },
+ {
+  "i": 83,
+  "start": 265.027,
+  "end": 266.09,
+  "text": "Pasa todo septiembre."
+ },
+ {
+  "i": 84,
+  "start": 266.366,
+  "end": 267.111,
+  "text": "Llega octubre."
+ },
+ {
+  "i": 85,
+  "start": 267.536,
+  "end": 271.994,
+  "text": "El veinte de octubre, según la cronología de Binance, el intruso da el siguiente paso."
+ },
+ {
+  "i": 86,
+  "start": 272.326,
+  "end": 277.936,
+  "text": "Desde el ordenador del Ingeniero B, y usando una herramienta interna de inteligencia artificial de la propia empresa, consigue llegar a los ordenadores de otros dos compañeros."
+ },
+ {
+  "i": 87,
+  "start": 278.194,
+  "end": 280.905,
+  "text": "Dos ingenieros que trabajan precisamente con las billeteras."
+ },
+ {
+  "i": 88,
+  "start": 281.162,
+  "end": 284.167,
+  "text": "En el informe se les llama el Ingeniero A y el Ingeniero C."
+ },
+ {
+  "i": 89,
+  "start": 284.466,
+  "end": 294.146,
+  "text": "Binance no ha explicado con detalle cómo usaron esa herramienta de inteligencia artificial para saltar de un ordenador a otro."
+ },
+ {
+  "i": 90,
+  "start": 294.459,
+  "end": 298.225,
+  "text": "Eso, a día de hoy, es una de las piezas que faltan en este expediente."
+ },
+ {
+  "i": 91,
+  "start": 298.386,
+  "end": 300.292,
+  "text": "Lo que sí sabemos es lo que encontraron."
+ },
+ {
+  "i": 92,
+  "start": 300.627,
+  "end": 303.756,
+  "text": "En el ordenador del Ingeniero A había un permiso muy especial."
+ },
+ {
+  "i": 93,
+  "start": 304.049,
+  "end": 309.112,
+  "text": "Un token, que es como una tarjeta de acceso digital, que servía para desplegar contenedores."
+ },
+ {
+  "i": 94,
+  "start": 309.426,
+  "end": 317.084,
+  "text": "Y un contenedor, para que lo entiendas, es como un pequeño programa empaquetado que se instala dentro de los sistemas de la empresa para hacer una tarea concreta."
+ },
+ {
+  "i": 95,
+  "start": 317.514,
+  "end": 322.203,
+  "text": "Dicho de otra forma: el intruso acababa de encontrar la tarjeta del personal de mantenimiento."
+ },
+ {
+  "i": 96,
+  "start": 322.404,
+  "end": 325.386,
+  "text": "La que abre las puertas de las salas donde el público nunca entra."
+ },
+ {
+  "i": 97,
+  "start": 325.83,
+  "end": 327.285,
+  "text": "Y otra vez… esperó."
+ },
+ {
+  "i": 98,
+  "start": 327.907,
+  "end": 328.647,
+  "text": "Nueve días."
+ },
+ {
+  "i": 99,
+  "start": 329.132,
+  "end": 331.345,
+  "text": "Veintinueve de octubre de dos mil veintiséis."
+ },
+ {
+  "i": 100,
+  "start": 331.671,
+  "end": 333.789,
+  "text": "Ocho y cinco de la tarde en hora universal."
+ },
+ {
+  "i": 101,
+  "start": 334.129,
+  "end": 336.134,
+  "text": "En España, las nueve y cinco de la noche."
+ },
+ {
+  "i": 102,
+  "start": 336.4,
+  "end": 338.487,
+  "text": "En Buenos Aires, las cinco y cinco de la tarde."
+ },
+ {
+  "i": 103,
+  "start": 338.774,
+  "end": 340.309,
+  "text": "En Bogotá, las tres y cinco."
+ },
+ {
+  "i": 104,
+  "start": 340.709,
+  "end": 348.458,
+  "text": "Desde el ordenador del Ingeniero C, y usando la tarjeta de acceso robada al Ingeniero A, el atacante instala un contenedor dentro de los sistemas de Binance."
+ },
+ {
+  "i": 105,
+  "start": 348.819,
+  "end": 355.165,
+  "text": "Y ese contenedor ejecuta un programa que llega hasta el corazón de todo: el servicio que firma los movimientos de las billeteras."
+ },
+ {
+  "i": 106,
+  "start": 355.471,
+  "end": 359.755,
+  "text": "¿Te acuerdas de la caja fuerte que necesitaba a cinco personas girando la llave a la vez?"
+ },
+ {
+  "i": 107,
+  "start": 360.39,
+  "end": 362.494,
+  "text": "Pues los ladrones no robaron ninguna llave."
+ },
+ {
+  "i": 108,
+  "start": 362.72,
+  "end": 365.754,
+  "text": "Binance insiste en que no se filtró ninguna clave privada."
+ },
+ {
+  "i": 109,
+  "start": 366.007,
+  "end": 369.49,
+  "text": "Lo que hicieron fue meterse dentro del propio sistema que gira las llaves."
+ },
+ {
+  "i": 110,
+  "start": 369.712,
+  "end": 371.372,
+  "text": "Y convencerlo de que firmara."
+ },
+ {
+  "i": 111,
+  "start": 371.697,
+  "end": 372.932,
+  "text": "No forzaron la cerradura."
+ },
+ {
+  "i": 112,
+  "start": 373.268,
+  "end": 375.608,
+  "text": "Convencieron a la cerradura de que se abriera sola."
+ },
+ {
+  "i": 113,
+  "start": 375.901,
+  "end": 377.704,
+  "text": "Y entonces el dinero empieza a salir."
+ },
+ {
+  "i": 114,
+  "start": 378.162,
+  "end": 379.49,
+  "text": "Primero, bitcoins."
+ },
+ {
+  "i": 115,
+  "start": 379.832,
+  "end": 388.013,
+  "text": "En un solo movimiento, una billetera caliente de Binance envía dieciocho mil doscientos setenta bitcoins a una dirección controlada por los atacantes."
+ },
+ {
+  "i": 116,
+  "start": 388.274,
+  "end": 389.106,
+  "text": "Dieciocho mil."
+ },
+ {
+  "i": 117,
+  "start": 389.42,
+  "end": 393.334,
+  "text": "A los precios de ese día, eso solo ya eran cientos de millones de dólares."
+ },
+ {
+  "i": 118,
+  "start": 393.605,
+  "end": 394.494,
+  "text": "Y no se quedan ahí."
+ },
+ {
+  "i": 119,
+  "start": 394.767,
+  "end": 395.298,
+  "text": "Ethereum."
+ },
+ {
+  "i": 120,
+  "start": 395.461,
+  "end": 396.396,
+  "text": "Monedas estables."
+ },
+ {
+  "i": 121,
+  "start": 396.639,
+  "end": 397.676,
+  "text": "Tokens de todo tipo."
+ },
+ {
+  "i": 122,
+  "start": 397.983,
+  "end": 403.795,
+  "text": "Según la empresa de rastreo TRM Labs, el dinero salió por diez cadenas de bloques distintas al mismo tiempo."
+ },
+ {
+  "i": 123,
+  "start": 404.102,
+  "end": 409.092,
+  "text": "Como si los ladrones vaciaran diez cajas registradoras en diez tiendas diferentes, en el mismo minuto."
+ },
+ {
+  "i": 124,
+  "start": 409.375,
+  "end": 411.32,
+  "text": "Y casi todo, en unos veinte minutos."
+ },
+ {
+  "i": 125,
+  "start": 411.618,
+  "end": 414.008,
+  "text": "Para que te hagas una idea de lo que significa eso."
+ },
+ {
+  "i": 126,
+  "start": 414.397,
+  "end": 420.086,
+  "text": "Seis mil trescientos millones de dólares en veinte minutos son más de cinco millones de dólares por segundo."
+ },
+ {
+  "i": 127,
+  "start": 420.372,
+  "end": 423.859,
+  "text": "Mientras tú lees esta frase, ya se habrían ido unos cuantos millones."
+ },
+ {
+  "i": 128,
+  "start": 424.139,
+  "end": 426.45,
+  "text": "Y no había ningún camión blindado que perseguir."
+ },
+ {
+  "i": 129,
+  "start": 426.79,
+  "end": 427.751,
+  "text": "Ninguna matrícula."
+ },
+ {
+  "i": 130,
+  "start": 428.139,
+  "end": 430.103,
+  "text": "Ninguna cara en una cámara de seguridad."
+ },
+ {
+  "i": 131,
+  "start": 430.514,
+  "end": 434.332,
+  "text": "Solo números moviéndose de una dirección a otra, a la velocidad de internet."
+ },
+ {
+  "i": 132,
+  "start": 434.638,
+  "end": 437.629,
+  "text": "Imagínate la sala de seguridad de Binance en ese momento."
+ },
+ {
+  "i": 133,
+  "start": 437.807,
+  "end": 438.956,
+  "text": "Las alertas saltando."
+ },
+ {
+  "i": 134,
+  "start": 439.228,
+  "end": 442.17,
+  "text": "Gente mirando pantallas donde los saldos bajan y bajan."
+ },
+ {
+  "i": 135,
+  "start": 442.441,
+  "end": 451.5,
+  "text": "Y aquí está lo más cruel del plan: ese sistema de llave partida en trozos, que hacía la caja casi imposible de robar, también la hacía muy difícil de cerrar de golpe."
+ },
+ {
+  "i": 136,
+  "start": 451.833,
+  "end": 455.532,
+  "text": "Como no existía una única llave, no había una única llave que cancelar."
+ },
+ {
+  "i": 137,
+  "start": 455.837,
+  "end": 457.929,
+  "text": "Quitar los permisos falsos llevó tiempo."
+ },
+ {
+  "i": 138,
+  "start": 458.232,
+  "end": 460.264,
+  "text": "Y cada minuto, salían millones."
+ },
+ {
+  "i": 139,
+  "start": 461.09,
+  "end": 463.864,
+  "text": "Cuando por fin consiguen cortar el grifo, hacen la cuenta."
+ },
+ {
+  "i": 140,
+  "start": 464.126,
+  "end": 466.342,
+  "text": "Y la cifra es tan grande que parece un error."
+ },
+ {
+  "i": 141,
+  "start": 466.674,
+  "end": 468.788,
+  "text": "Seis mil trescientos millones de dólares."
+ },
+ {
+  "i": 142,
+  "start": 469.085,
+  "end": 478.535,
+  "text": "Según los rastreadores, entre seis mil ciento cincuenta y seis mil trescientos sesenta millones, dependiendo de quién haga las cuentas y de en qué momento se calcule el precio de cada moneda."
+ },
+ {
+  "i": 143,
+  "start": 478.877,
+  "end": 483.317,
+  "text": "Pero da igual qué número cojas: es el robo de criptomonedas más grande de la historia."
+ },
+ {
+  "i": 144,
+  "start": 483.669,
+  "end": 489.404,
+  "text": "El récord anterior era el hackeo a Bybit, en febrero de dos mil veinticinco, con unos mil quinientos millones."
+ },
+ {
+  "i": 145,
+  "start": 489.755,
+  "end": 491.366,
+  "text": "Esto es cuatro veces más."
+ },
+ {
+  "i": 146,
+  "start": 492.408,
+  "end": 494.445,
+  "text": "Y ahora ponte en el lugar de los usuarios."
+ },
+ {
+  "i": 147,
+  "start": 494.719,
+  "end": 498.854,
+  "text": "Esa misma noche, Binance suspende todos los depósitos y todas las retiradas."
+ },
+ {
+  "i": 148,
+  "start": 499.285,
+  "end": 502.866,
+  "text": "Millones de personas abren la aplicación y no pueden sacar su dinero."
+ },
+ {
+  "i": 149,
+  "start": 503.411,
+  "end": 505.303,
+  "text": "En redes sociales empieza el pánico."
+ },
+ {
+  "i": 150,
+  "start": 505.777,
+  "end": 510.133,
+  "text": "Rumores, capturas de pantalla, gente preguntando si lo ha perdido todo."
+ },
+ {
+  "i": 151,
+  "start": 510.446,
+  "end": 515.71,
+  "text": "El bitcoin y la moneda de Binance, el BNB, llegan a caer alrededor de un cinco por ciento."
+ },
+ {
+  "i": 152,
+  "start": 516.046,
+  "end": 518.525,
+  "text": "Porque todo el mundo se estaba haciendo la misma pregunta."
+ },
+ {
+  "i": 153,
+  "start": 518.771,
+  "end": 521.742,
+  "text": "Si le pueden robar seis mil millones a la empresa más grande…"
+ },
+ {
+  "i": 154,
+  "start": 522.207,
+  "end": 522.954,
+  "text": "¿qué está a salvo?"
+ },
+ {
+  "i": 155,
+  "start": 523.284,
+  "end": 526.112,
+  "text": "Pero aquí la historia da un giro que muy poca gente esperaba."
+ },
+ {
+  "i": 156,
+  "start": 526.529,
+  "end": 527.977,
+  "text": "Binance empieza a pelear."
+ },
+ {
+  "i": 157,
+  "start": 528.242,
+  "end": 534.919,
+  "text": "Junto a otras empresas del sector, como los emisores de monedas estables, empieza a congelar todo lo que todavía se puede congelar."
+ },
+ {
+  "i": 158,
+  "start": 535.246,
+  "end": 538.344,
+  "text": "En los primeros días se habla de unos tres mil millones bloqueados."
+ },
+ {
+  "i": 159,
+  "start": 538.577,
+  "end": 544.04,
+  "text": "En su informe posterior, la propia Binance ajusta esa cifra a unos dos mil ochocientos cincuenta millones."
+ },
+ {
+  "i": 160,
+  "start": 544.383,
+  "end": 548.243,
+  "text": "Es decir: casi la mitad del botín, los ladrones no lo pudieron tocar."
+ },
+ {
+  "i": 161,
+  "start": 548.571,
+  "end": 550.696,
+  "text": "Y luego hace algo todavía más llamativo."
+ },
+ {
+  "i": 162,
+  "start": 550.96,
+  "end": 554.089,
+  "text": "La empresa anuncia que va a cubrir el agujero con su propio dinero."
+ },
+ {
+  "i": 163,
+  "start": 554.328,
+  "end": 556.76,
+  "text": "Que las pérdidas no van a recaer sobre los usuarios."
+ },
+ {
+  "i": 164,
+  "start": 557.023,
+  "end": 565.063,
+  "text": "Y para eso tira de todo lo que tiene: su fondo de seguridad para clientes, su fondo de seguro, sus reservas de bitcoin y la tesorería de la empresa."
+ },
+ {
+  "i": 165,
+  "start": 565.414,
+  "end": 572.24,
+  "text": "El treinta y uno de octubre, dos días después del robo, Binance dice que ya ha repuesto el noventa y ocho por ciento de los activos afectados."
+ },
+ {
+  "i": 166,
+  "start": 572.524,
+  "end": 574.655,
+  "text": "Y el uno de noviembre, reabre las retiradas."
+ },
+ {
+  "i": 167,
+  "start": 574.93,
+  "end": 575.794,
+  "text": "¿Y sabes qué pasó?"
+ },
+ {
+  "i": 168,
+  "start": 576.081,
+  "end": 578.275,
+  "text": "Que mucha gente, por si acaso, sacó su dinero."
+ },
+ {
+  "i": 169,
+  "start": 578.592,
+  "end": 583.535,
+  "text": "Se habla de más de tres mil seiscientos millones de dólares en retiradas en cuanto se reabrió el grifo."
+ },
+ {
+  "i": 170,
+  "start": 584.03,
+  "end": 585.365,
+  "text": "Pero la plataforma aguantó."
+ },
+ {
+  "i": 171,
+  "start": 585.652,
+  "end": 590.939,
+  "text": "Los analistas, que llevaban días mirando con lupa, concluyeron que Binance podía absorber el golpe."
+ },
+ {
+  "i": 172,
+  "start": 591.248,
+  "end": 592.257,
+  "text": "Que no iba a quebrar."
+ },
+ {
+  "i": 173,
+  "start": 592.483,
+  "end": 594.536,
+  "text": "El dinero de los usuarios estaba a salvo."
+ },
+ {
+  "i": 174,
+  "start": 594.957,
+  "end": 596.62,
+  "text": "Pero la pregunta seguía en el aire."
+ },
+ {
+  "i": 175,
+  "start": 596.938,
+  "end": 598.001,
+  "text": "¿Quién había hecho esto?"
+ },
+ {
+  "i": 176,
+  "start": 598.322,
+  "end": 602.667,
+  "text": "Y lo que se descubrió después… es todavía más inquietante que el propio robo."
+ },
+ {
+  "i": 177,
+  "start": 603.046,
+  "end": 604.518,
+  "text": "La respuesta llegó del FBI."
+ },
+ {
+  "i": 178,
+  "start": 604.686,
+  "end": 609.9,
+  "text": "Según la agencia estadounidense, detrás del ataque está un grupo de hackers al que llaman TraderTraitor."
+ },
+ {
+  "i": 179,
+  "start": 610.253,
+  "end": 614.619,
+  "text": "Un grupo que también se conoce con otros nombres, y el más famoso de todos es Lazarus."
+ },
+ {
+  "i": 180,
+  "start": 614.896,
+  "end": 618.741,
+  "text": "Y según el FBI, ese grupo trabaja para el gobierno de Corea del Norte."
+ },
+ {
+  "i": 181,
+  "start": 618.983,
+  "end": 624.79,
+  "text": "Si te suena raro que un país entero se dedique a robar criptomonedas, no es la primera vez que se le acusa de algo así."
+ },
+ {
+  "i": 182,
+  "start": 625.048,
+  "end": 629.559,
+  "text": "Al grupo Lazarus se le atribuyen algunos de los mayores robos digitales de la última década."
+ },
+ {
+  "i": 183,
+  "start": 629.894,
+  "end": 633.332,
+  "text": "Incluido, precisamente, el hackeo a Bybit de dos mil veinticinco."
+ },
+ {
+  "i": 184,
+  "start": 633.718,
+  "end": 640.205,
+  "text": "Y hay un detalle que se repite una y otra vez en sus ataques, según los investigadores: las ofertas de trabajo falsas."
+ },
+ {
+  "i": 185,
+  "start": 640.551,
+  "end": 642.05,
+  "text": "Reclutadores que no existen."
+ },
+ {
+  "i": 186,
+  "start": 642.31,
+  "end": 643.605,
+  "text": "Empresas que no existen."
+ },
+ {
+  "i": 187,
+  "start": 643.986,
+  "end": 645.883,
+  "text": "Pruebas técnicas que esconden una trampa."
+ },
+ {
+  "i": 188,
+  "start": 646.202,
+  "end": 648.278,
+  "text": "Exactamente lo que le pasó al Ingeniero B."
+ },
+ {
+  "i": 189,
+  "start": 648.729,
+  "end": 652.931,
+  "text": "De hecho, para entender este caso hay que volver un momento a febrero de dos mil veinticinco."
+ },
+ {
+  "i": 190,
+  "start": 653.334,
+  "end": 662.501,
+  "text": "Ese mes, otra casa de cambio de criptomonedas, Bybit, sufrió el que hasta entonces era el mayor robo de la historia del sector: unos mil quinientos millones de dólares en ethereum."
+ },
+ {
+  "i": 191,
+  "start": 662.867,
+  "end": 663.91,
+  "text": "¿Y sabes cómo entraron?"
+ },
+ {
+  "i": 192,
+  "start": 664.202,
+  "end": 666.084,
+  "text": "Tampoco forzaron ninguna caja fuerte."
+ },
+ {
+  "i": 193,
+  "start": 666.341,
+  "end": 675.678,
+  "text": "Comprometieron el ordenador de un desarrollador de una empresa externa que Bybit usaba para gestionar sus billeteras, y desde ahí engañaron al sistema para que los propios responsables firmaran una transferencia que parecía normal."
+ },
+ {
+  "i": 194,
+  "start": 675.862,
+  "end": 678.102,
+  "text": "El FBI también señaló entonces al mismo grupo: TraderTraitor."
+ },
+ {
+  "i": 195,
+  "start": 678.405,
+  "end": 680.787,
+  "text": "Mismo método."
+ },
+ {
+  "i": 196,
+  "start": 681.005,
+  "end": 684.288,
+  "text": "Mismos sospechosos."
+ },
+ {
+  "i": 197,
+  "start": 684.607,
+  "end": 687.691,
+  "text": "Y un año y medio después, el golpe es cuatro veces más grande."
+ },
+ {
+  "i": 198,
+  "start": 688.013,
+  "end": 691.062,
+  "text": "¿Y qué se hace con miles de millones robados en criptomonedas?"
+ },
+ {
+  "i": 199,
+  "start": 691.315,
+  "end": 694.24,
+  "text": "Porque no puedes ir a un banco y depositarlos así como así."
+ },
+ {
+  "i": 200,
+  "start": 694.546,
+  "end": 700.2,
+  "text": "Según lo que los investigadores han visto en casos anteriores atribuidos a este grupo, el patrón suele ser parecido."
+ },
+ {
+  "i": 201,
+  "start": 700.566,
+  "end": 706.268,
+  "text": "Primero, cambiar lo antes posible las monedas que se pueden congelar por otras que no, como el ethereum o el bitcoin."
+ },
+ {
+  "i": 202,
+  "start": 706.626,
+  "end": 712.007,
+  "text": "Después, dividir el botín en miles de pequeñas cantidades, repartidas en miles de billeteras distintas."
+ },
+ {
+  "i": 203,
+  "start": 712.205,
+  "end": 717.337,
+  "text": "Pasarlas de una cadena de bloques a otra, una y otra vez, para que el rastro sea un laberinto."
+ },
+ {
+  "i": 204,
+  "start": 717.672,
+  "end": 725.961,
+  "text": "Y con paciencia, durante meses o incluso años, ir convirtiendo poco a poco ese dinero en efectivo a través de intermediarios que no hacen demasiadas preguntas."
+ },
+ {
+  "i": 205,
+  "start": 726.29,
+  "end": 731.812,
+  "text": "Es como cortar un billete gigante en un millón de pedacitos y esconder cada pedacito en una ciudad distinta."
+ },
+ {
+  "i": 206,
+  "start": 731.981,
+  "end": 735.159,
+  "text": "Las empresas de rastreo pueden seguir muchos de esos pedacitos."
+ },
+ {
+  "i": 207,
+  "start": 735.634,
+  "end": 736.339,
+  "text": "Pero no todos."
+ },
+ {
+  "i": 208,
+  "start": 736.54,
+  "end": 739.422,
+  "text": "Y cada día que pasa, el rastro se enfría un poco más."
+ },
+ {
+  "i": 209,
+  "start": 739.744,
+  "end": 747.766,
+  "text": "Informes de Naciones Unidas de años anteriores ya señalaban que este tipo de robos sirven para financiar al régimen norcoreano, incluidos sus programas de armas."
+ },
+ {
+  "i": 210,
+  "start": 748.506,
+  "end": 751.186,
+  "text": "Por eso, para muchos expertos, esto no es solo un robo."
+ },
+ {
+  "i": 211,
+  "start": 751.446,
+  "end": 752.163,
+  "text": "Es otra cosa."
+ },
+ {
+  "i": 212,
+  "start": 752.537,
+  "end": 753.806,
+  "text": "¿Y qué dice Corea del Norte?"
+ },
+ {
+  "i": 213,
+  "start": 754.097,
+  "end": 761.353,
+  "text": "El tres de noviembre, Kim Yo-jong, la hermana del líder norcoreano y una de las personas más poderosas del país, publica un comunicado."
+ },
+ {
+  "i": 214,
+  "start": 761.596,
+  "end": 762.402,
+  "text": "Y lo niega todo."
+ },
+ {
+  "i": 215,
+  "start": 762.659,
+  "end": 763.99,
+  "text": "Ninguna participación."
+ },
+ {
+  "i": 216,
+  "start": 764.299,
+  "end": 765.685,
+  "text": "Ninguna responsabilidad."
+ },
+ {
+  "i": 217,
+  "start": 766.023,
+  "end": 767.963,
+  "text": "Para Pyongyang, la acusación es falsa."
+ },
+ {
+  "i": 218,
+  "start": 768.238,
+  "end": 777.491,
+  "text": "Así que, oficialmente, estamos así: el FBI señala a Corea del Norte, Binance se apoya en lo que dice el FBI, y Corea del Norte dice que no ha sido."
+ },
+ {
+  "i": 219,
+  "start": 777.849,
+  "end": 784.126,
+  "text": "Esto, de momento, queda marcado en el expediente como lo que es: una atribución del FBI, negada por el país acusado."
+ },
+ {
+  "i": 220,
+  "start": 784.496,
+  "end": 786.598,
+  "text": "Y ahora vamos con lo que de verdad importa."
+ },
+ {
+  "i": 221,
+  "start": 786.877,
+  "end": 789.034,
+  "text": "Lo que sabemos hoy, y lo que sigue abierto."
+ },
+ {
+  "i": 222,
+  "start": 789.243,
+  "end": 790.4,
+  "text": "Lo que está confirmado."
+ },
+ {
+  "i": 223,
+  "start": 790.793,
+  "end": 794.062,
+  "text": "El robo ocurrió el veintinueve de octubre de dos mil veintiséis."
+ },
+ {
+  "i": 224,
+  "start": 794.246,
+  "end": 799.505,
+  "text": "Salieron alrededor de seis mil trescientos millones de dólares, la mayor parte en unos veinte minutos."
+ },
+ {
+  "i": 225,
+  "start": 800.243,
+  "end": 805.724,
+  "text": "Todo empezó con una entrevista de trabajo falsa y una prueba técnica con un programa malicioso escondido."
+ },
+ {
+  "i": 226,
+  "start": 806.069,
+  "end": 808.696,
+  "text": "Los atacantes pasaron semanas dentro antes de actuar."
+ },
+ {
+  "i": 227,
+  "start": 809.125,
+  "end": 813.065,
+  "text": "No robaron las claves privadas: usaron el propio sistema de firmas de Binance."
+ },
+ {
+  "i": 228,
+  "start": 813.342,
+  "end": 820.933,
+  "text": "La empresa congeló cerca de dos mil ochocientos cincuenta millones, repuso los fondos con dinero propio y reabrió las retiradas el uno de noviembre."
+ },
+ {
+  "i": 229,
+  "start": 821.32,
+  "end": 824.859,
+  "text": "Y el FBI atribuye el ataque a hackers vinculados a Corea del Norte."
+ },
+ {
+  "i": 230,
+  "start": 825.144,
+  "end": 826.191,
+  "text": "Lo que sigue abierto."
+ },
+ {
+  "i": 231,
+  "start": 827.043,
+  "end": 832.469,
+  "text": "Cómo usaron exactamente la herramienta de inteligencia artificial de la empresa para saltar de un ordenador a otro."
+ },
+ {
+  "i": 232,
+  "start": 832.81,
+  "end": 840.019,
+  "text": "Dónde está ahora la otra mitad del dinero, porque una parte sigue moviéndose de cartera en cartera mientras las empresas de rastreo la persiguen."
+ },
+ {
+  "i": 233,
+  "start": 840.373,
+  "end": 842.659,
+  "text": "Quiénes eran de verdad los falsos reclutadores."
+ },
+ {
+  "i": 234,
+  "start": 842.926,
+  "end": 845.779,
+  "text": "Y si alguna vez alguien responderá ante un tribunal por esto."
+ },
+ {
+  "i": 235,
+  "start": 846.13,
+  "end": 850.333,
+  "text": "Y hay una última cosa que quiero contarte, porque a lo mejor esta parte te sirve a ti."
+ },
+ {
+  "i": 236,
+  "start": 850.652,
+  "end": 857.501,
+  "text": "Este robo, el más grande de la historia de las criptomonedas, no empezó con un genio tecleando a toda velocidad en una habitación oscura."
+ },
+ {
+  "i": 237,
+  "start": 857.793,
+  "end": 860.552,
+  "text": "Empezó con un mensaje amable en una plataforma de empleo."
+ },
+ {
+  "i": 238,
+  "start": 860.833,
+  "end": 866.228,
+  "text": "Así que, si algún día te escribe un reclutador con una oferta demasiado buena, fíjate en estas señales."
+ },
+ {
+  "i": 239,
+  "start": 866.513,
+  "end": 869.16,
+  "text": "Si la empresa casi no tiene presencia real en internet."
+ },
+ {
+  "i": 240,
+  "start": 869.378,
+  "end": 870.861,
+  "text": "Si todo va con muchas prisas."
+ },
+ {
+  "i": 241,
+  "start": 871.055,
+  "end": 873.804,
+  "text": "Si te cambian de plataforma para hablar por un chat privado."
+ },
+ {
+  "i": 242,
+  "start": 874.096,
+  "end": 878.681,
+  "text": "Y sobre todo, si te piden que descargues y ejecutes un programa en tu ordenador."
+ },
+ {
+  "i": 243,
+  "start": 878.877,
+  "end": 880.772,
+  "text": "Nunca, jamás, en el ordenador del trabajo."
+ },
+ {
+  "i": 244,
+  "start": 881.124,
+  "end": 884.117,
+  "text": "Porque esa noche, a nadie le pusieron una pistola en la cabeza."
+ },
+ {
+  "i": 245,
+  "start": 884.394,
+  "end": 885.833,
+  "text": "A nadie le robaron una llave."
+ },
+ {
+  "i": 246,
+  "start": 886.08,
+  "end": 887.957,
+  "text": "A alguien le ofrecieron un trabajo mejor."
+ },
+ {
+  "i": 247,
+  "start": 888.273,
+  "end": 891.162,
+  "text": "Y ahora te lo pregunto a ti, y quiero leerte en los comentarios."
+ },
+ {
+  "i": 248,
+  "start": 891.405,
+  "end": 895.347,
+  "text": "Si te llega una oferta así, con un sueldo mejor y una prueba técnica sencilla…"
+ },
+ {
+  "i": 249,
+  "start": 895.699,
+  "end": 896.749,
+  "text": "¿tú la habrías descargado?"
+ },
+ {
+  "i": 250,
+  "start": 897.242,
+  "end": 897.906,
+  "text": "Sé sincero."
+ },
+ {
+  "i": 251,
+  "start": 898.154,
+  "end": 899.73,
+  "text": "Este expediente sigue abierto."
+ },
+ {
+  "i": 252,
+  "start": 900.109,
+  "end": 903.958,
+  "text": "Si hay novedades, si aparece el dinero o alguien da la cara, te lo cuento aquí."
+ },
+ {
+  "i": 253,
+  "start": 904.571,
+  "end": 912.214,
+  "text": "Y si te pareció interesante, suscríbete y activa la campanita, porque cada semana abrimos un expediente nuevo de lo que todo el mundo está comentando."
+ },
+ {
+  "i": 254,
+  "start": 912.606,
+  "end": 915.824,
+  "text": "Contado como lo que es: una historia increíble que pasó de verdad."
+ },
+ {
+  "i": 255,
+  "start": 916.193,
+  "end": 916.721,
+  "text": "Soy Javi."
+ },
+ {
+  "i": 256,
+  "start": 916.935,
+  "end": 918.299,
+  "text": "Y esto fue Archivo Oscuro."
+ }
+]
