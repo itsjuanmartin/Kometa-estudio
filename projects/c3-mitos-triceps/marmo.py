@@ -7,7 +7,7 @@ Uso: from marmo import build; body, rig = build()
 """
 import gzip, json, math, os, random
 import bpy, bmesh
-from mathutils import Vector, Matrix
+from mathutils import Vector, Matrix, Quaternion
 
 MPFB = os.environ.get("MPFB_DATA", "/root/mpfb2/src/mpfb/data")
 SCALE = 0.1  # la malla base está en decímetros
@@ -51,8 +51,8 @@ def mat_marmol(name="Marmol"):
     L.new(tc.outputs["Object"], noise.inputs["Vector"])
     L.new(noise.outputs["Color"], wave.inputs["Vector"])
     ramp = N.new("ShaderNodeValToRGB")
-    ramp.color_ramp.elements[0].position = 0.0; ramp.color_ramp.elements[0].color = (0.74, 0.75, 0.78, 1)
-    ramp.color_ramp.elements[1].position = 0.07; ramp.color_ramp.elements[1].color = (0.94, 0.935, 0.92, 1)
+    ramp.color_ramp.elements[0].position = 0.0; ramp.color_ramp.elements[0].color = (0.6, 0.61, 0.64, 1)
+    ramp.color_ramp.elements[1].position = 0.06; ramp.color_ramp.elements[1].color = (0.94, 0.935, 0.92, 1)
     L.new(wave.outputs["Fac"], ramp.inputs["Fac"])
     # Zona de músculo (atributo «musculo» 0..1) mezclada con rojo-naranja fibroso, controlada por «Resalte»
     attr = N.new("ShaderNodeAttribute"); attr.attribute_name = "musculo"
@@ -92,6 +92,16 @@ def build(muscle_zone="triceps"):
               "macrodetails/proportions/male-young-maxmuscle-averageweight-idealproportions.target.gz"):
         _target(verts, t, 1.0)
     _target(verts, "macrodetails/height/male-young-maxmuscle-averageweight-maxheight.target.gz", 0.3)
+    # más volumen, como la estatua del diseño: algo de peso y músculos marcados
+    _target(verts, "macrodetails/universal-male-young-maxmuscle-maxweight.target.gz", 0.25)
+    _target(verts, "macrodetails/universal-male-young-maxmuscle-averageweight.target.gz", -0.25)
+    for t, w in (("torso/torso-muscle-pectoral-incr", 0.9), ("torso/torso-muscle-dorsi-incr", 0.8),
+                 ("torso/torso-scale-horiz-incr", 0.25),
+                 ("arms/l-upperarm-muscle-incr", 1.0), ("arms/r-upperarm-muscle-incr", 1.0),
+                 ("arms/l-upperarm-shoulder-muscle-incr", 0.9), ("arms/r-upperarm-shoulder-muscle-incr", 0.9),
+                 ("arms/l-lowerarm-muscle-incr", 0.6), ("arms/r-lowerarm-muscle-incr", 0.6),
+                 ("legs/l-upperleg-muscle-incr", 0.6), ("legs/r-upperleg-muscle-incr", 0.6)):
+        _target(verts, t + ".target.gz", w)
     groups = json.load(open(os.path.join(MPFB, "mesh_metadata/basemesh_vertex_groups.json")))
     gidx = {k: _ranges(v) for k, v in groups.items()}
     bl = [Vector((x * SCALE, -z * SCALE, y * SCALE)) for x, y, z in verts]
@@ -127,7 +137,7 @@ def build(muscle_zone="triceps"):
 
     # short: copia de la malla de las mallas (tights) por encima de la rodilla
     knee = (heads["lowerleg01.L"].z + off.z) if "lowerleg01.L" in heads else 0.5
-    knee_z = knee + 0.24
+    knee_z = knee + 0.36
     waist_z = heads["pelvis.L"].z + off.z + 0.09
     shorts = body.copy(); shorts.data = me.copy(); shorts.name = "Short"; bpy.context.collection.objects.link(shorts)
     for ob, keep in ((body, body_set), (shorts, body_set)):
@@ -139,7 +149,8 @@ def build(muscle_zone="triceps"):
     for ob in (body, shorts):
         for p in ob.data.polygons: p.use_smooth = True
     # el short es una copia de la piel, inflada hacia fuera
-    for v in shorts.data.vertices: v.co += v.normal * 0.009
+    for v in shorts.data.vertices:
+        v.co += v.normal * (0.009 + (0.005 if v.co.z > waist_z - 0.035 else 0.0))  # cintura elástica
     sol = shorts.modifiers.new("Grosor", "SOLIDIFY"); sol.thickness = 0.005; sol.offset = -1
     ssub = shorts.modifiers.new("Sub", "SUBSURF"); ssub.levels = 1; ssub.render_levels = 1
 
@@ -183,13 +194,64 @@ def build(muscle_zone="triceps"):
             bpy.ops.object.modifier_move_up(modifier="Rig")
 
     # --- ojos dorados que brillan (almendra) ---
-    gold_glow = mat_simple("OjoOro", (1.0, 0.72, 0.18), 0.2, 0.0, (1.0, 0.62, 0.1), 6.0)
+    gold_glow = mat_simple("OjoOro", (1.0, 0.6, 0.08), 0.25, 0.3, (1.0, 0.5, 0.04), 2.2)
     for name, c in (("OjoL", eyeL), ("OjoR", eyeR)):
         bpy.ops.mesh.primitive_uv_sphere_add(radius=0.0118, location=c + off + Vector((0, -0.004, 0)), segments=24, ring_count=12)
         e = bpy.context.object; e.name = name; e.scale = (1.25, 0.8, 0.62)
         e.rotation_euler = (0, math.radians(-12 if name == "OjoL" else 12), 0)
         e.data.materials.append(gold_glow)
         _parent_bone(e, rig, "head")
+
+    # --- pelo rizado de estatua: rizos de mármol sobre el cuero cabelludo ---
+    me.update()
+    ey = (eyeL + eyeR) / 2 + off
+    hc0 = heads["head"] + off
+    scalp = []
+    for vv in me.vertices:
+        c = vv.co
+        if (c - hc0).length > 0.2 or c.z < ey.z - 0.09: continue
+        top = c.z > ey.z + 0.04 and c.y > ey.y - 0.02 + max(0, (ey.z + 0.075 - c.z)) * 0.0
+        front_ok = c.y > ey.y + 0.012 or c.z > ey.z + 0.055   # deja libre la frente
+        back = c.y > ey.y + 0.075 and (c.z > ey.z + 0.0 or abs(c.x - hc0.x) < 0.055)
+        if (top and front_ok) or back:
+            scalp.append((c.copy(), vv.normal.copy()))
+    random.seed(7)
+    curls = []
+    marmol = body.data.materials[0]
+    chosen = []
+    for c, n in random.sample(scalp, len(scalp)):
+        if all((c - q).length > 0.0115 for q in chosen):
+            chosen.append(c)
+            r = random.uniform(0.0105, 0.0145)
+            bpy.ops.mesh.primitive_torus_add(major_radius=r * 0.75, minor_radius=r * 0.5, major_segments=12, minor_segments=6,
+                                             location=c + n * (r * 0.35))
+            cu = bpy.context.object; cu.scale = (1.0, random.uniform(0.8, 1.15), 0.75)
+            cu.rotation_mode = "QUATERNION"
+            cu.rotation_quaternion = Vector((0, 0, 1)).rotation_difference(n) @ Quaternion((0, 0, 1), random.uniform(0, 6.28))
+            curls.append(cu)
+    bpy.ops.object.select_all(action="DESELECT")
+    for cu in curls: cu.select_set(True)
+    # casquete bajo los rizos para que no se vea el cráneo entre ellos
+    cap_me = bpy.data.meshes.new("Casquete")
+    cap_set = set(); bm0 = bmesh.new(); bm0.from_mesh(me); bm0.verts.ensure_lookup_table()
+    sc_set = {tuple(round(x, 5) for x in c) for c, n in scalp}
+    capf = [f for f in bm0.faces if all(tuple(round(x, 5) for x in v.co) in sc_set for v in f.verts)]
+    bmc = bmesh.new(); vm = {}
+    for f in capf:
+        vs = []
+        for v in f.verts:
+            if v.index not in vm: vm[v.index] = bmc.verts.new(v.co + v.normal * 0.006)
+            vs.append(vm[v.index])
+        bmc.faces.new(vs)
+    bmc.to_mesh(cap_me); bmc.free(); bm0.free()
+    cap = bpy.data.objects.new("Casquete", cap_me); bpy.context.collection.objects.link(cap); curls.append(cap)
+    cap.select_set(True)
+    bpy.context.view_layer.objects.active = curls[0]; bpy.ops.object.join()
+    hair = bpy.context.object; hair.name = "Pelo"
+    hair.data.materials.clear(); hair.data.materials.append(marmol)
+    for p in hair.data.polygons: p.use_smooth = True
+    hs = hair.modifiers.new("Sub", "SUBSURF"); hs.levels = 1; hs.render_levels = 1
+    _parent_bone(hair, rig, "head")
 
     # --- corona de laurel ---
     head_top = max(v.co.z for v in me.vertices)
@@ -198,24 +260,22 @@ def build(muscle_zone="triceps"):
     # anillo de la cabeza a la altura de la frente: radio medido en la propia malla
     ring_z = head_top - 0.06
     near = [v.co for v in me.vertices if abs(v.co.z - ring_z) < 0.006 and v.co.y < hc.y + 0.15 and abs(v.co.x - hc.x) < 0.15]
-    rx = max(abs(p.x - hc.x) for p in near) + 0.006
+    rx = max(abs(p.x - hc.x) for p in near) + 0.022
     ymin = min(p.y for p in near); ymax = max(p.y for p in near)
-    cy = (ymin + ymax) / 2; ry = (ymax - ymin) / 2 + 0.006
+    cy = (ymin + ymax) / 2; ry = (ymax - ymin) / 2 + 0.022
     center = Vector((hc.x, cy, ring_z))
     leaves = []
-    bpy.ops.mesh.primitive_torus_add(major_radius=1, minor_radius=0.05, location=center)
-    band = bpy.context.object; band.scale = (rx, ry, rx); band.data.materials.append(gold); leaves.append(band)
     for side in (-1, 1):
         for i in range(11):
-            th = math.radians(28 + i * 14)  # 0 = frente (−Y)
+            th = math.radians(32 + i * 13)  # 0 = frente (−Y); abierto en la frente
             pos = center + Vector((side * rx * math.sin(th), -ry * math.cos(th), 0.004))
             tang = Vector((side * rx * math.cos(th), ry * math.sin(th), 0)).normalized()
             for k, out in ((0, 1), (1, -1)):
-                bpy.ops.mesh.primitive_uv_sphere_add(radius=0.019, location=pos + Vector((0, 0, 0.007 * out)), segments=12, ring_count=6)
-                lf = bpy.context.object; lf.scale = (0.32, 1.0, 0.1)
+                bpy.ops.mesh.primitive_uv_sphere_add(radius=0.026, location=pos + Vector((0, 0, 0.01 * out)), segments=12, ring_count=6)
+                lf = bpy.context.object; lf.scale = (0.36, 1.0, 0.09)
                 # eje largo de la hoja siguiendo el anillo hacia la frente, abierta hacia fuera
                 yaw = math.atan2(-tang.x, tang.y)
-                lf.rotation_euler = (math.radians(out * 30), math.radians(side * 25), yaw)
+                lf.rotation_euler = (math.radians(out * 38 + 12), math.radians(side * 35), yaw)
                 lf.data.materials.append(gold); leaves.append(lf)
     bpy.ops.object.select_all(action="DESELECT")
     for lf in leaves: lf.select_set(True)
