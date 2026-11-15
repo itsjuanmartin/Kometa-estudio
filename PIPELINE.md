@@ -104,6 +104,10 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - En la ficha del Home los copys van separados por red (YouTube / TikTok / Instagram). Si abres la pieza desde una tarea o el calendario, solo salen los de las redes que tocan en ese momento (con un botón para ver todas).
 - En el Home sale como «📸 Copy de Instagram» con botón Copiar; al pasar un proyecto al calendario, el Home pone la apertura que toca.
 
+## Consumo (desde 16 nov 2026)
+- Home → Datos → «Consumo»: tarjetas de ElevenLabs (créditos, ≈ vídeos largos y series de Shorts que dan, ritmo de gasto) y Claude (sesión y semana en %, cuándo se reinicia, aviso).
+- Se actualiza subiendo una captura (perfil de ElevenLabs / Claude → Ajustes → Uso). Se guarda en la colección `usage` (`svc` = eleven | claude, `at`). Si el creador manda la captura por el chat, apuntarla ahí con ArtifactData.
+
 ## Código del Home
 `home/centro-de-canales.html` es la fuente del Home publicado en https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx. Para cambiarlo: editar este archivo y publicarlo con la herramienta Artifact pasando ese `url` (leer antes el artefacto). Las imágenes `img/…` ya están publicadas en el artefacto.
 

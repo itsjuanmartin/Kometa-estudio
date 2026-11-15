@@ -571,6 +571,15 @@ details[open]>.clist,details[open]>.sec,details.cmore[open]>input{animation:.32s
 .lframe{position:relative;border-radius:14px;overflow:hidden;background:#000} .lframe img{width:100%;display:block;max-height:360px;object-fit:contain} .lframe span{position:absolute;left:8px;bottom:8px;font-size:11.5px;font-weight:700;color:#fff;background:rgb(0 0 0 / .6);padding:3px 8px;border-radius:999px}
 .lprog{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;align-items:center} .lprog>b{font-family:var(--f-mono);font-size:18px} .lprog i{height:10px;border-radius:5px;background:var(--sunk);overflow:hidden} .lprog i b{display:block;height:100%;background:linear-gradient(90deg,var(--acc-2),var(--acc));transition:width .6s var(--ease-out)} .lprog small{grid-column:1/-1;color:var(--muted);font-size:12.5px}
 .llog{list-style:none;margin:0;padding:0;display:grid;gap:4px;font-size:13px} .llog li{display:grid;grid-template-columns:48px minmax(0,1fr);gap:8px;color:var(--muted)} .llog li span{font-family:var(--f-mono);font-size:12px} .llog li.cur{color:var(--ink);font-weight:600}
+.ugrid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.ucard{display:grid;gap:12px;align-content:start} .uhead{display:flex;gap:10px;align-items:center} .uhead b{font-size:16px;display:block}
+.uico{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-size:22px;background:var(--acc-soft);flex:none}
+.ubig{font-family:var(--f-display);font-weight:800;font-size:40px;line-height:1;letter-spacing:-.02em} .ubig small{font-family:var(--f-body);font-size:14px;font-weight:600;color:var(--muted);margin-left:6px;letter-spacing:0}
+.ubar{display:grid;gap:5px} .ubar .row{justify-content:space-between;font-size:13.5px} .ubar i{height:10px;border-radius:5px;background:var(--sunk);overflow:hidden;display:block} .ubar i b{display:block;height:100%;border-radius:5px;background:var(--uc,var(--acc))}
+.ubar small{color:var(--muted);font-size:12px} .ubar.ok{--uc:#30d158} .ubar.mid{--uc:#ffb020} .ubar.hi{--uc:#ff453a}
+.ufig{display:grid;grid-template-columns:1fr 1fr;gap:8px} .ufig>div{background:var(--sunk);border-radius:12px;padding:9px 11px;display:grid;gap:2px} .ufig b{font-family:var(--f-mono);font-size:18px} .ufig small{color:var(--muted);font-size:12px;line-height:1.3}
+.unote{margin:0;font-size:13.5px;background:var(--sunk);border-radius:12px;padding:9px 11px} .unote.warn{background:var(--todo-soft)}
+.uempty{display:grid;gap:6px;justify-items:start}
 .cpl{display:grid;gap:10px;border-left:4px solid var(--c);padding-left:12px} .cpl.yt{--c:var(--yt);--pc:var(--yt)} .cpl.tt{--c:var(--tt);--pc:var(--ink)} .cpl.ig{--c:var(--ig);--pc:var(--ig)}
 .cplh{display:flex;align-items:center;gap:8px;margin:0;font-size:15px} .cpls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 </style>
@@ -596,7 +605,7 @@ details[open]>.clist,details[open]>.sec,details.cmore[open]>input{animation:.32s
 
 <script>
 const PL={yt:'YouTube',tt:'TikTok',ig:'Instagram'}, ST={listo:'Por subir',subido:'Subido',produccion:'En producción',revisar:'Por confirmar'};
-const S={channels:[],posts:[],stats:[],notes:[],tips:[],ideas:[],voices:[],drafts:[],goals:[],ready:{goals:false,channels:false,posts:false,stats:false,notes:false,tips:false,ideas:false,voices:false,drafts:false},filter:{st:'pendiente',ch:'all'}};
+const S={usage:[],channels:[],posts:[],stats:[],notes:[],tips:[],ideas:[],voices:[],drafts:[],goals:[],ready:{goals:false,channels:false,posts:false,stats:false,notes:false,tips:false,ideas:false,voices:false,drafts:false},filter:{st:'pendiente',ch:'all'}};
 let db=null, dlCap;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
@@ -1335,6 +1344,65 @@ function spark(rows,color){
   const W=120,H=30,xs=rows.map((_,i)=>2+i*(W-4)/(rows.length-1)),vals=rows.map(r=>r.f??0),mn=Math.min(...vals),mx=Math.max(...vals),rg=mx-mn||1,ys=vals.map(v=>H-3-((v-mn)/rg)*(H-6));
   return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" points="${xs.map((x,i)=>x+','+ys[i]).join(' ')}"/></svg>`;
 }
+/* ---------- CONSUMO: ElevenLabs + Claude (from screenshots) ---------- */
+const usg={stage:'idle',msg:'',imgs:[],rows:[]};
+const fmtN=n=>n==null||n===''?'—':Number(n).toLocaleString('es-ES');
+const ELV_LONG=14000, ELV_SHORTS=Math.round(5*45*CPS); // caracteres: vídeo largo ~14.000 · serie de 5 Shorts de ~45 s
+function agoTxt(at){if(!at)return '';const h=(Date.now()-new Date(at))/36e5;return h<1?'hace un momento':h<24?`hace ${Math.round(h)} h`:`hace ${Math.round(h/24)} días`}
+function ubar(pct,label,sub){const p=Math.max(0,Math.min(100,Math.round(pct)));return `<div class="ubar ${p<50?'ok':p<80?'mid':'hi'}"><div class="row"><span>${label}</span><b class="num">${p} % usado</b></div><i><b style="width:${p}%"></b></i>${sub?`<small>${esc(sub)}</small>`:''}</div>`}
+function usageSec(){
+  const by=svc=>S.usage.filter(u=>u.svc===svc).sort((a,b)=>a.at<b.at?-1:1);
+  const el=by('eleven'), cl=by('claude'), e=el.at(-1), c=cl.at(-1);
+  let eCard;
+  if(e){
+    const prev=el.slice(0,-1).reverse().find(x=>x.credits>e.credits&&(new Date(e.at)-new Date(x.at))>4*36e5);
+    const rate=prev?(prev.credits-e.credits)/((new Date(e.at)-new Date(prev.at))/864e5):null;
+    const days=rate?Math.floor(e.credits/rate):null;
+    eCard=`<div class="panel ucard"><div class="uhead"><span class="uico">🎙️</span><div><b>ElevenLabs</b><span class="lab">${e.plan?'plan '+esc(e.plan)+' · ':''}captura ${agoTxt(e.at)}</span></div></div>
+      <div class="ubig num">${fmtN(e.credits)}<small>créditos</small></div>
+      ${e.total?ubar(100-e.credits/e.total*100,'Del plan',`${fmtN(e.credits)} de ${fmtN(e.total)} libres`):''}
+      <div class="ufig"><div><b>≈ ${Math.floor(e.credits/ELV_LONG)}</b><small>vídeos largos<br>(~14.000 caracteres)</small></div><div><b>≈ ${Math.floor(e.credits/ELV_SHORTS)}</b><small>series de 5 Shorts<br>(~${fmtN(ELV_SHORTS)} caracteres)</small></div></div>
+      ${rate?`<p class="unote ${days<10?'warn':''}">Gastas unos <b>${fmtN(Math.round(rate))}</b> créditos al día: te llegan hasta el <b>${dlong(addDays(today(),days)).toLowerCase()}</b> aprox.</p>`:'<p class="unote">Sube otra captura dentro de unos días y te digo a qué ritmo gastas.</p>'}
+      ${el.length>1?spark(el.map(x=>({f:x.credits})),'var(--acc)'):''}</div>`;
+  } else eCard=`<div class="panel ucard uempty"><div class="uhead"><span class="uico">🎙️</span><b>ElevenLabs</b></div><p class="empty" style="margin:0">Sube una captura de tu perfil de ElevenLabs (donde salen los créditos).</p></div>`;
+  let cCard;
+  if(c){
+    const free=c.week!=null?100-c.week:null;
+    cCard=`<div class="panel ucard"><div class="uhead"><span class="uico">✨</span><div><b>Claude</b><span class="lab">${c.plan?'plan '+esc(c.plan)+' · ':''}captura ${agoTxt(c.at)}</span></div></div>
+      ${c.session!=null?ubar(c.session,'Sesión actual',c.sessionReset?'Se restablece '+c.sessionReset:''):''}
+      ${c.week!=null?ubar(c.week,'Esta semana',c.weekReset?'Se restablece '+c.weekReset:''):''}
+      ${c.warn?`<p class="unote warn">⚠️ ${esc(c.warn)}</p>`:free!=null?`<p class="unote">Te queda <b>${free} %</b> de la semana.${free<30?' Guarda lo que queda para montar los vídeos.':''}</p>`:''}</div>`;
+  } else cCard=`<div class="panel ucard uempty"><div class="uhead"><span class="uico">✨</span><b>Claude</b></div><p class="empty" style="margin:0">Sube una captura de Ajustes → Uso.</p></div>`;
+  return `<section class="sec"><h2>Consumo</h2><p class="sub" style="margin:0">Cómo vas de ElevenLabs y de Claude. Se actualiza con una captura.</p><div class="ugrid2">${eCard}${cCard}</div>${useBox()}</section>`;
+}
+function useBox(){
+  if(usg.stage==='reading') return `<div class="panel capbox" id="usebox"><div class="capimgs">${usg.imgs.map(u=>`<img src="${u}" alt="">`).join('')}</div><div class="row"><span class="spin" aria-hidden="true"></span><b>Leyendo tu consumo…</b></div></div>`;
+  if(usg.stage==='review') return `<div class="panel capbox" id="usebox"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Revisa y guarda</h2><button class="btn sm" data-usex>Descartar</button></div>
+    ${usg.rows.map((r,i)=>r.svc==='eleven'?`<div class="caprow"><b>🎙️ ElevenLabs</b><div class="capnums"><label>Créditos<input type="number" inputmode="numeric" data-ur="${i}" data-k="credits" value="${r.credits??''}"></label><label>Total del plan<input type="number" inputmode="numeric" data-ur="${i}" data-k="total" value="${r.total??''}"></label><label>Plan<input type="text" data-ur="${i}" data-k="plan" value="${esc(r.plan??'')}"></label></div></div>`
+      :`<div class="caprow"><b>✨ Claude</b><div class="capnums"><label>Sesión %<input type="number" inputmode="numeric" data-ur="${i}" data-k="session" value="${r.session??''}"></label><label>Semana %<input type="number" inputmode="numeric" data-ur="${i}" data-k="week" value="${r.week??''}"></label><label>Semana se reinicia<input type="text" data-ur="${i}" data-k="weekReset" value="${esc(r.weekReset??'')}"></label></div></div>`).join('')||'<p class="empty">No encontré datos de consumo en esa captura.</p>'}
+    <div class="row"><button class="btn pri" data-usesave ${usg.rows.length?'':'disabled'}>Guardar</button></div></div>`;
+  return `<label class="panel capbox drop" id="usebox"><input type="file" accept="image/*" multiple id="usefile" hidden><span class="capicon" aria-hidden="true">📊</span><b>Subir captura de consumo</b><span class="empty">ElevenLabs (tu perfil, donde salen los créditos) o Claude (Ajustes → Uso). Puedes subir las dos a la vez.</span>${usg.msg?`<span class="down" style="font-size:13px">${esc(usg.msg)}</span>`:''}</label>`;
+}
+async function readUsage(files){
+  files=[...files].filter(f=>f.type.startsWith('image/')).slice(0,4); if(!files.length) return;
+  usg.imgs.forEach(u=>URL.revokeObjectURL(u)); usg.imgs=files.map(f=>URL.createObjectURL(f)); usg.stage='reading'; usg.msg=''; render();
+  try{
+    await sampler();
+    const out=await sampleFn.json(`Lee estas capturas de consumo. Pueden ser de ElevenLabs (perfil con créditos y plan) o de Claude (pantalla «Uso»: sesión actual, límites semanales, aviso).
+Devuelve SOLO JSON: {"items":[{"svc":"eleven","credits":créditos restantes (entero),"total":créditos totales del plan si aparece o null,"plan":"nombre del plan o null"},{"svc":"claude","session":% usado de la sesión actual (número),"sessionReset":"cuándo se restablece la sesión, tal cual, o null","week":% usado del límite semanal «Todos los modelos» (número),"weekReset":"cuándo se restablece, tal cual, o null","plan":null,"warn":"el aviso que aparezca (ej. «se te acabará el límite el miércoles…») o null"}]}
+Incluye solo los servicios que aparezcan. Convierte "32.908" en 32908. No incluyas emails ni nombres.`,{images:files,modelTier:'default'});
+    const num=v=>v===null||v===''||!Number.isFinite(+v)?null:+v;
+    usg.rows=(out?.items||[]).filter(x=>x.svc==='eleven'||x.svc==='claude').map(x=>x.svc==='eleven'?{svc:'eleven',credits:num(x.credits),total:num(x.total),plan:x.plan||''}:{svc:'claude',session:num(x.session),sessionReset:x.sessionReset||'',week:num(x.week),weekReset:x.weekReset||'',warn:x.warn||'',plan:x.plan||''});
+    usg.stage='review';
+  }catch(e){usg.stage='idle';usg.msg=e?.code==='not_granted'||e?.code==='unavailable'||e?.code==='images_unavailable'?'Aquí no se pueden leer capturas. Mándamela por el chat y la apunto yo.':'No pude leerla. Prueba otra vez o mándamela por el chat.'}
+  render();
+}
+async function saveUsage(){
+  if(!db) return; const at=new Date().toISOString(); let n=0;
+  for(const r of usg.rows){ if(r.svc==='eleven'&&r.credits==null) continue; if(r.svc==='claude'&&r.week==null&&r.session==null) continue;
+    try{await db.collection('usage').doc(r.svc+'_'+at.replace(/\D/g,'').slice(0,14)).set({...r,at});n++}catch(e){} }
+  usg.imgs.forEach(u=>URL.revokeObjectURL(u)); Object.assign(usg,{stage:'idle',imgs:[],rows:[],msg:''}); render(); toast(n?'Consumo guardado':'No se pudo guardar');
+}
 function viewDatos(){
   const act=S.channels.filter(c=>c.status==='activo').sort((a,b)=>a.order-b.order);
   const series=(ch,pl)=>S.stats.filter(s=>s.ch===ch&&s.pl===pl&&s.f!=null).sort((a,b)=>a.date<b.date?-1:1);
@@ -1350,6 +1418,7 @@ function viewDatos(){
   const hist=S.stats.slice().sort((a,b)=>a.date<b.date?1:-1).map(s=>`<tr><td class="num">${esc(s.date)}</td><td><span class="chip ${s.ch}">${esc(chName(s.ch))}</span></td><td>${PL[s.pl]}</td><td class="r num">${fmt(s.f)}</td><td class="r num">${fmt(s.v)}</td><td>${esc(s.vl||'')} ${esc(s.vp||'')}</td><td class="empty" style="font-size:12.5px">${esc(s.note||'')}</td></tr>`).join('');
   const notes=S.notes.slice().sort((a,b)=>(a.done-b.done)||(a.order-b.order)).map(n=>`<label class="note ${n.done?'done':''}"><input type="checkbox" data-note="${n.id}" ${n.done?'checked':''}><span><b>${esc(n.title)}</b><p>${esc(n.text)}</p></span></label>`).join('');
   return `<section class="sec"><div><h1>Datos</h1><p class="sub">Sube tus capturas de YouTube Studio, TikTok o Instagram y los números se apuntan solos.</p></div>${capBox()}</section>
+   ${usageSec()}
    <section class="sec"><h2>Seguidores</h2><div class="kgrid">${chCards}</div></section>
    <section class="sec"><h2>Lo que mejor funciona</h2><div class="topl">${top||'<p class="empty">Sin datos todavía.</p>'}</div>${rest?`<details class="more"><summary>Ver ${all.length-8} más</summary><div class="topl" style="margin-top:8px">${rest}</div></details>`:''}</section>
    <section class="panel sec"><h2>Ajustes que estamos probando</h2><div>${notes||'<span class="empty">Sin ajustes.</span>'}</div></section>
@@ -1477,6 +1546,8 @@ addEventListener('hashchange',()=>{const r=route();const dir=ORDER.indexOf(r)>=O
 document.addEventListener('click',async e=>{
   const t=e.target;
   const card=t.closest('[data-card]'); if(card&&!t.closest('button,a,input,select,label,audio,textarea')){openPost(card.dataset.card,false,card.dataset.pls);return}
+  if(t.closest('[data-usesave]')){saveUsage();return}
+  if(t.closest('[data-usex]')){Object.assign(usg,{stage:'idle',imgs:[],rows:[],msg:''});render();return}
   const ac=t.closest('[data-allcopys]'); if(ac){postPls=null;openPost(ac.dataset.allcopys,true);return}
   const o=t.closest('[data-open]'); if(o){openPost(o.dataset.open,false,o.dataset.pls);return}
   const d=t.closest('[data-dl]'); if(d){download(d.dataset.dl,d);return}
@@ -1540,6 +1611,8 @@ document.addEventListener('change',async e=>{
     try{await db.collection('voices').doc(id).update({status:vs.value});toast('Voz: '+VST[vs.value])}catch(err){toast('No se pudo guardar')}return}
   const hs=e.target.closest('[data-heat]'); if(hs){if(hs.dataset.heat==='view')heatView=hs.value;else heatAud=hs.value;try{localStorage.setItem('heatView',heatView);localStorage.setItem('heatAud',heatAud)}catch(err){}render();return}
   if(e.target.id==='capfile'){readCaps(e.target.files);e.target.value='';return}
+  if(e.target.id==='usefile'){readUsage(e.target.files);e.target.value='';return}
+  const ur=e.target.closest&&e.target.closest('[data-ur]'); if(ur){const r=usg.rows[+ur.dataset.ur];const k=ur.dataset.k;r[k]=ur.type==='number'?(ur.value===''?null:+ur.value):ur.value;return}
   const cv=e.target.closest('[data-cv]'); if(cv){cap.vids[+cv.dataset.cv].pid=cv.value||null;render();return}
   const cr=e.target.closest('[data-cr]'); if(cr){const r=cap.rows[+cr.dataset.cr],k=cr.dataset.k;r[k]=cr.type==='number'?(cr.value===''?null:Number(cr.value)):cr.value;if(k==='ch'||k==='pl')render();return}
   const s=e.target.closest('[data-sel]'); if(s){setSt(s.dataset.sel,s.dataset.pl,s.value);return}
@@ -1584,6 +1657,7 @@ document.addEventListener('contextmenu',e=>{if(e.target.closest('[data-day]'))e.
   const fail=setTimeout(()=>{if(!Object.values(S.ready).every(Boolean))$('#app').innerHTML='<div class="banner">No llegan los datos. Comprueba que tienes la sesión de claude.ai iniciada y recarga.</div>'},10000);
   db=await claude.use('db');
   if(!db){clearTimeout(fail);$('#sync span').textContent='Sin conexión';$('#app').innerHTML='<div class="banner">Abre esta página con tu sesión de claude.ai iniciada para ver tus datos.</div>';return}
+  try{db.collection('usage').onSnapshot(snap=>{S.usage=snap.docs.map(d=>({id:d.id,...d.data()}));const a=document.activeElement;if(!(a&&a.closest&&a.closest('#usebox')))render()})}catch(e){}
   for(const c of ['channels','posts','stats','notes','tips','ideas','voices','drafts','goals']) db.collection(c).onSnapshot(snap=>{
     S[c]=snap.docs.map(d=>({id:d.id,...d.data()})); S.ready[c]=true;
     if(Object.values(S.ready).every(Boolean)){clearTimeout(fail);$('#sync').classList.add('on');$('#sync span').textContent='Guardado'}
