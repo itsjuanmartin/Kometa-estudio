@@ -46,7 +46,7 @@
 
 ## Copy de Shorts/Reels (desde 14 nov 2026)
 - Toda descripción (YouTube, TikTok, IG) empieza con: «VIDEO COMPLETO EN EL LINK | …»
-- Comentario fijado = debate con 2 opciones votables con emoji + adelanto de algo que solo está en el vídeo completo. Nunca un simple «¿qué opinas?».
+- Comentario fijado (desde 16 nov 2026, sustituye a la regla anterior): una frase corta y natural, como si la escribiera el creador desde el móvil. Una sola pregunta concreta sobre la historia + «Te leo 👇». Ej.: «¿Tú te lo habrías creído? Te leo ⬇️», «Esta parte me rompió 💔 ¿Tú crees que los encontró?». Sin opciones en mayúsculas, sin listas, sin adelantos raros.
 
 ## Gancho favorito (desde 14 nov 2026)
 «Te dijeron que X, ¿verdad? Pues la verdad es que no…» → y seguir con la historia. Usarlo al inicio de vídeos largos y como gancho de Shorts cuando el tema lo permita.
