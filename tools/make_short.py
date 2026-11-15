@@ -53,13 +53,14 @@ def overlay_png(path, title, logo, vertical=False):
     while sz > 40 and max(d.textbbox((0, 0), l, font=ImageFont.truetype(FB, sz))[2] for l in title.split('|')) > 760: sz -= 2
     tb = box_text(d, title.split('|'), 540, 270 if vertical else 330, sz, OL, box=BR['title_box'], pad=22, gap=8)   # TikTok/Reels safe zone: top ~230 px is covered by the search bar
     if not vertical: d.rounded_rectangle((34, 544, 1046, 1306), radius=18, outline=OL, width=10)
-    # channel name: small and see-through, just under the title, far from the captions (nov 2026: it used to sit under the subtitles)
-    tag = Image.new('RGBA', im.size, (0, 0, 0, 0)); td = ImageDraw.Draw(tag); f = ImageFont.truetype(FB, 24)
-    tw = td.textbbox((0, 0), BR['name'], font=f)[2]; ls = 30 if logo else 0; x0 = 540 - (tw + ls + (8 if logo else 0)) / 2; ty = tb + 14
+    # channel name: small and see-through. Cropped layout: just under the video frame (the creator's preferred look, nov 2026),
+    # well below the captions. Full-frame vertical: under the title, so it never sits on the subtitles.
+    tag = Image.new('RGBA', im.size, (0, 0, 0, 0)); td = ImageDraw.Draw(tag); f = ImageFont.truetype(FB, 28)
+    tw = td.textbbox((0, 0), BR['name'], font=f)[2]; ls = 40 if logo else 0; x0 = 540 - (tw + ls + (10 if logo else 0)) / 2; ty = tb + 14 if vertical else 1324
     if logo:
-        lg = Image.open(logo).convert('RGBA').resize((ls, ls)); m = Image.new('L', (ls, ls), 0); ImageDraw.Draw(m).ellipse((0, 0, ls - 1, ls - 1), fill=130)
+        lg = Image.open(logo).convert('RGBA').resize((ls, ls)); m = Image.new('L', (ls, ls), 0); ImageDraw.Draw(m).ellipse((0, 0, ls - 1, ls - 1), fill=160)
         tag.paste(lg, (int(x0), ty), m)
-    td.text((x0 + ls + (8 if logo else 0), ty + 1), BR['name'], font=f, fill=(255, 248, 232, 140), stroke_width=2, stroke_fill=(43, 33, 28, 90)); im = Image.alpha_composite(im, tag)
+    td.text((x0 + ls + (10 if logo else 0), ty + 4), BR['name'], font=f, fill=(255, 248, 232, 165), stroke_width=3, stroke_fill=(43, 33, 28, 110)); im = Image.alpha_composite(im, tag)
     im.save(path)
 
 
@@ -127,23 +128,23 @@ def main():
     # 1) cut + join the ranges (16:9)
     parts = []
     for i, (s, e) in enumerate(ranges):
-        f = f'{tmp}/p{i}.mp4'; run(['ffmpeg', '-v', 'error', '-y', '-ss', str(s), '-to', str(e), '-i', video, '-c:v', 'libx264', '-crf', '17', '-preset', 'fast', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-af', 'afade=t=in:d=0.04,afade=t=out:st=%f:d=0.08' % max(0, e - s - 0.08), f]); parts.append(f)
+        f = f'{tmp}/p{i}.mov'; run(['ffmpeg', '-v', 'error', '-y', '-ss', str(s), '-to', str(e), '-i', video, '-c:v', 'libx264', '-crf', '17', '-preset', 'fast', '-c:a', 'pcm_s16le', '-ar', '48000', '-af', 'afade=t=in:d=0.04,afade=t=out:st=%f:d=0.08' % max(0, e - s - 0.08), f]); parts.append(f)
     open(f'{tmp}/list.txt', 'w').write(''.join(f"file '{os.path.basename(x)}'\n" for x in parts))
-    run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list.txt', '-c', 'copy', f'{tmp}/body169.mp4'])
+    run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list.txt', '-c', 'copy', f'{tmp}/body169.mov'])
     # 2) vertical body with blurred bg, crop, overlay, captions
     fc = (f"[0:v]scale=1080:1920,setsar=1[b0];[b0][1:v]overlay=0:0[v2];[v2]subtitles={tmp}/cap.ass:fontsdir={ROOT}/assets/fonts[v]") if a.vertical else ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.12[bg];"
           "[b]crop=1440:1080:240:0,scale=1000:750[fg];[bg][fg]overlay=40:550[v1];[v1][1:v]overlay=0:0[v2];"
           f"[v2]subtitles={tmp}/cap.ass:fontsdir={ROOT}/assets/fonts[v]")
-    run(['ffmpeg', '-v', 'error', '-y', '-i', f'{tmp}/body169.mp4', '-i', f'{tmp}/overlay.png', '-filter_complex', fc, '-map', '[v]', '-map', '0:a',
-         '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', f'{tmp}/body916.mp4'])
+    run(['ffmpeg', '-v', 'error', '-y', '-i', f'{tmp}/body169.mov', '-i', f'{tmp}/overlay.png', '-filter_complex', fc, '-map', '[v]', '-map', '0:a',
+         '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'pcm_s16le', '-ar', '48000', f'{tmp}/body916.mov'])
     # 3) closing card: logo + call to action, with the narrator's sign-off line
     es, ee = map(float, a.endvoice.split(':')); ed = ee - es + 0.8
     if a.endaudio: ed = float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',a.endaudio]).decode()) + 0.7
-    eg = match_gain(lufs(f'{tmp}/body916.mp4'), a.endaudio) if a.endaudio else 'anull'
+    eg = match_gain(lufs(f'{tmp}/body916.mov'), a.endaudio) if a.endaudio else 'anull'
     run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-t', str(ed), '-i', f'{tmp}/end.png', *(['-t', str(ed), '-i', a.endaudio] if a.endaudio else ['-ss', str(es), '-t', str(ed), '-i', video]),
          '-filter_complex', f"[0:v]scale=1080:1920,zoompan=z='min(zoom+0.0012,1.08)':d=1:s=1080x1920:fps=30,fade=t=in:d=0.25[v];[1:a]{eg},afade=t=out:st={ed - 0.4}:d=0.4[a]",
-         '-map', '[v]', '-map', '[a]', '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-shortest', f'{tmp}/end.mp4'])
-    open(f'{tmp}/list2.txt', 'w').write("file 'body916.mp4'\nfile 'end.mp4'\n")
+         '-map', '[v]', '-map', '[a]', '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'pcm_s16le', '-ar', '48000', '-shortest', f'{tmp}/end.mov'])
+    open(f'{tmp}/list2.txt', 'w').write("file 'body916.mov'\nfile 'end.mov'\n")
     out = os.path.join(P, 'out', 'shorts', f'short_{a.name}.mp4')
     run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list2.txt', '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', out])
     print('SHORT:', out, f'({body + ed:.1f}s)')
