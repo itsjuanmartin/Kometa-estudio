@@ -91,3 +91,11 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - **Horario de subida fijo: 13:00 y 20:00 (hora de España)**, 2 piezas al día por canal y red; el vídeo largo a las 20:00. El Home (UPLOAD_H) ya planifica así los proyectos nuevos. Recordatorio automático a las 12:55 y 19:55 (tarea programada con aviso al móvil).
 - **Logos y banners de canales nuevos:** alternar entre el motor propio (gratis) e Higgsfield. A los clientes del kit se les pide instalar Higgsfield. El asistente «Añadir canal» del Home guarda la preferencia en channels/<id>.brief.art.
 - **Montaje:** el creador quiere trabajar solo desde el Home. Cuando un proyecto tenga montaje == "pedido", producirlo siguiendo la sección «Home — producción en directo».
+
+## Canal 3: Esculpe (fitness) con Marmo (desde 15 nov 2026)
+- En el Home es el canal `c3` (estado «nuevo», en preparación): nombre, bios, 10 temas, estilo y logo.
+- **Marmo**: estatua griega de mármol con pelo rizado, laurel dorado, ojos dorados, muy musculado y short negro corto. Referencia: `projects/canal3-fitness/conceptos/web/marmol_gym.jpg`.
+- Modelo 3D gratis: `projects/c3-mitos-triceps/marmo.py` (Blender `bpy` + datos CC0 de MPFB en /root/mpfb2, sin registrar la extensión). Poses por direcciones en `poses.py`; escena y render en `produccion.py`; anotaciones y montaje en `montaje.py`.
+- Estilo: Shorts en estudio gris con cuadrícula; vídeos largos en gimnasio oscuro. Músculo en rojo, contorno verde discontinuo, flecha roja, círculos rojos en articulaciones, títulos en cursiva negra/roja.
+- Cierre de Shorts: «Tienes la explicación completa en mi canal de YouTube, no te lo pierdas» + tarjeta del canal con avance del vídeo.
+- Render sin GPU: un solo proceso Eevee (dos a la vez se estorban), ~5 s/fotograma a 540x960.
