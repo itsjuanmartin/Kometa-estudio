@@ -86,3 +86,8 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 
 ## Código del Home
 `home/centro-de-canales.html` es la fuente del Home publicado en https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx. Para cambiarlo: editar este archivo y publicarlo con la herramienta Artifact pasando ese `url` (leer antes el artefacto). Las imágenes `img/…` ya están publicadas en el artefacto.
+
+## Decisiones del creador (15 nov 2026)
+- **Horario de subida fijo: 13:00 y 20:00 (hora de España)**, 2 piezas al día por canal y red; el vídeo largo a las 20:00. El Home (UPLOAD_H) ya planifica así los proyectos nuevos. Recordatorio automático a las 12:55 y 19:55 (tarea programada con aviso al móvil).
+- **Logos y banners de canales nuevos:** alternar entre el motor propio (gratis) e Higgsfield. A los clientes del kit se les pide instalar Higgsfield. El asistente «Añadir canal» del Home guarda la preferencia en channels/<id>.brief.art.
+- **Montaje:** el creador quiere trabajar solo desde el Home. Cuando un proyecto tenga montaje == "pedido", producirlo siguiendo la sección «Home — producción en directo».

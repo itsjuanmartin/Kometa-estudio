@@ -1087,7 +1087,9 @@ function createForm(){
 function epPrefix(ch){const e=S.posts.filter(p=>p.ch===ch).map(p=>p.ep).find(Boolean);if(e)return e.replace(/\d+$/,'');const c=S.channels.find(x=>x.id===ch);return (c?.short||ch).toUpperCase().replace(/[^A-Z]/g,'').slice(0,4)||'EP'}
 function nextEp(ch){const pre=epPrefix(ch);let mx=0,w=2;for(const p of S.posts)if(p.ch===ch&&p.ep?.startsWith(pre)){const m=p.ep.slice(pre.length);w=Math.max(w,m.length);mx=Math.max(mx,+m||0)}return {pre,code:(n)=>pre+String(n).padStart(w,'0'),n:mx}}
 function placeholderFor(ch){return S.posts.find(p=>p.ch===ch&&p.kind==='largo'&&!p.projectId&&p.st?.yt==='produccion'&&!p.dl)}
-function slotHours(we){const {g}=heatData('es');const t={};g.filter(c=>(c.wd>=5)===we&&c.h>=9).forEach(c=>t[c.h]=(t[c.h]||0)+c.sc);const two=[];for(const [h] of Object.entries(t).sort((a,b)=>b[1]-a[1])){if(two.every(x=>Math.abs(x-h)>=3))two.push(+h);if(two.length===2)break}return two.sort((a,b)=>a-b)}
+const UPLOAD_H=[13,20]; /* horario fijo de subida elegido por el creador */
+function slotHours(we){return UPLOAD_H.slice()}
+function slotHoursHeat(we){const {g}=heatData('es');const t={};g.filter(c=>(c.wd>=5)===we&&c.h>=9).forEach(c=>t[c.h]=(t[c.h]||0)+c.sc);const two=[];for(const [h] of Object.entries(t).sort((a,b)=>b[1]-a[1])){if(two.every(x=>Math.abs(x-h)>=3))two.push(+h);if(two.length===2)break}return two.sort((a,b)=>a-b)}
 function lastPlanned(ch){let mx=today();for(const p of S.posts)if(p.ch===ch)for(const w of Object.values(p.plan||{}))if(w&&w.slice(0,10)>mx)mx=w.slice(0,10);return mx}
 const wdOf=d=>(new Date(d+'T12:00:00Z').getUTCDay()+6)%7;
 async function planProject(id){
@@ -1098,7 +1100,7 @@ async function planProject(id){
     const ep=ph?.ep||E.code(E.n+1), base=ep.toLowerCase();
     /* dates: the long video on the placeholder's date or the day after the channel's last planned piece; shorts 2/day after it */
     let longD=ph?.plan?.yt?.slice(0,10)||addDays(lastPlanned(d.ch),1); if(longD<today())longD=addDays(today(),1);
-    const longH=(()=>{const L=bestList(wdOf(longD)>=5);return (L.find(x=>x.h>=19)||L[0]).h})();
+    const longH=UPLOAD_H.at(-1);
     const titles=(d.kind==='short'?(d.shorts||[]).map(s=>s.title):(d.review?.shorts||[]).map(s=>s.titulo)).slice(0,5);
     while(titles.length<5)titles.push(`${d.title} · parte ${titles.length+1}`);
     const sd=[];let day=d.kind==='largo'?addDays(longD,1):longD;while(sd.length<5){const hs=slotHours(wdOf(day)>=5);for(const h of hs){if(sd.length<5)sd.push(day+' '+String(h).padStart(2,'0')+':00')}day=addDays(day,1)}
@@ -1160,7 +1162,8 @@ function viewCanal(){
     <div class="cstep"><span class="cn">6</span><b>Formato y ritmo</b></div>${chipSet('ch-fmt',['Vídeo largo + 5 Shorts','Solo Shorts'],false)}${chipSet('ch-freq',['2 Shorts al día','1 Short al día','3 por semana'],false)}
     <div class="cstep"><span class="cn">7</span><b>Voz del narrador</b></div><input id="ch-voice" class="bigin" maxlength="100" placeholder="Ej.: hombre, 30 años, voz grave, acento neutro">
     <div class="cstep"><span class="cn">8</span><b>Canales que te inspiran (opcional)</b></div><input id="ch-refs" class="bigin" maxlength="200" placeholder="Ej.: @RicksClips, Misterios de la Historia…">
-    <div class="cstep"><span class="cn">9</span><b>Color del canal</b></div><input id="ch-color" type="color" value="#e0569b" class="colpick">
+    <div class="cstep"><span class="cn">9</span><b>Logo y banner: ¿con qué los hago?</b></div>${chipSet('ch-art',['Mi motor (gratis)','Higgsfield (si lo tienes instalado)','Lo que salga mejor'],false)}
+    <div class="cstep"><span class="cn">10</span><b>Color del canal</b></div><input id="ch-color" type="color" value="#e0569b" class="colpick">
     <details class="cmore"><summary>➕ Usuarios en redes (opcional)</summary><input id="ch-yt" placeholder="YouTube"><input id="ch-ig" placeholder="Instagram @"><input id="ch-tt" placeholder="TikTok @"></details>
     <button class="gobtn" type="submit" ${chanGen.busy?'disabled':''}><span>${chanGen.busy?'⏳ '+esc(chanGen.busy):'✨ Crear la propuesta del canal'}</span><small>Nombre, bios, 10 temas, estilo y prompts de logo y banner</small></button>
     ${chanGen.msg?`<p class="down" style="margin:0">${esc(chanGen.msg)}</p>`:''}
@@ -1168,7 +1171,7 @@ function viewCanal(){
 }
 async function createChannel(f){
   const v=id=>(f.querySelector('#'+id)?.value||'').trim(), many=n=>[...f.querySelectorAll(`input[name=${n}]:checked`)].map(x=>x.value);
-  const brief={name:v('ch-name'),theme:v('ch-theme'),audience:v('ch-aud'),countries:many('ch-ctry'),style:many('ch-style')[0]||'',tone:many('ch-tone'),format:many('ch-fmt')[0]||'Vídeo largo + 5 Shorts',freq:many('ch-freq')[0]||'2 Shorts al día',voice:v('ch-voice'),refs:v('ch-refs'),color:v('ch-color')};
+  const brief={name:v('ch-name'),theme:v('ch-theme'),audience:v('ch-aud'),countries:many('ch-ctry'),style:many('ch-style')[0]||'',tone:many('ch-tone'),format:many('ch-fmt')[0]||'Vídeo largo + 5 Shorts',freq:many('ch-freq')[0]||'2 Shorts al día',voice:v('ch-voice'),refs:v('ch-refs'),color:v('ch-color'),art:many('ch-art')[0]||'Lo que salga mejor'};
   if(!brief.theme) return; chanGen.busy='Creando la propuesta… (1 min)'; chanGen.msg=''; render();
   try{
     const sf=await sampler();
