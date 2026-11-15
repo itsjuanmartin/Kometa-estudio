@@ -84,6 +84,10 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - Usa la voz subida en `drafts/<id>.audio[]` (asset; mp3 aunque se sirva como mp4).
 - Abrir una sesión nueva por vídeo para gastar menos contexto.
 
+## Etiquetas de YouTube (desde 15 nov 2026)
+- Toda pieza que sale en YouTube (vídeo largo y Shorts) lleva `copy.tags`: etiquetas separadas por comas, listas para copiar y pegar. Largo: 12–18 (≤ 450 caracteres). Short: 8–12, con tema, personajes, nombre del canal y «shorts».
+- En el Home salen en la ficha de la pieza, bajo la descripción, con botón Copiar. Si una pieza no tiene, el Home sugiere unas a partir de los hashtags del título y las del vídeo largo del episodio.
+
 ## Código del Home
 `home/centro-de-canales.html` es la fuente del Home publicado en https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx. Para cambiarlo: editar este archivo y publicarlo con la herramienta Artifact pasando ese `url` (leer antes el artefacto). Las imágenes `img/…` ya están publicadas en el artefacto.
 

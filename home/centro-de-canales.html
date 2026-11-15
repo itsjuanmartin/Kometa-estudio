@@ -1108,7 +1108,7 @@ async function planProject(id){
     /* copys with the house rules */
     let copy={};try{const sf=await sampler();copy=await sf.json(`${chCtx(d.ch)}\nEpisodio: ${d.title}\nTítulos posibles: ${(d.review?.titulos||[]).join(' | ')}\nShorts (en orden, son Partes 1–5): ${titles.join(' | ')}\n${d.kind==='largo'?'Guion (resumen): '+String(d.script||'').slice(0,2500):''}
 Escribe los textos para subir. Reglas: público 18–45 en español; título ganador que se reafirma en los primeros segundos; las descripciones de Shorts empiezan EXACTAMENTE con «VIDEO COMPLETO EN EL LINK |» y no pasan de 100 caracteres; texto de Instagram con 5 hashtags; comentario fijado = votación con 2 opciones con emoji + adelanto de algo que solo está en el vídeo completo (nunca «¿qué opinas?»); hechos no probados con «presunto».
-Responde SOLO JSON: {${d.kind==='largo'?'"largo":{"title":"…","alts":["…","…"],"desc":"descripción de YouTube con 3 párrafos cortos y CTA","tags":"etiquetas separadas por comas","pin":"…"},':''}"shorts":[{"title":"título ≤100 con 1 emoji y 2 hashtags","desc":"VIDEO COMPLETO EN EL LINK | …","ig":"…","tt":"…","pin":"…"}],"miniaturas":[{"idea":"escena y emoción","texto":"texto grande de 2–4 palabras","prompt":"prompt para ChatGPT, estilo cartoon 2D/3D del canal, 16:9"}]}`,{modelTier:'default',cache:false})}catch(e){copy={}}
+Responde SOLO JSON: {${d.kind==='largo'?'"largo":{"title":"…","alts":["…","…"],"desc":"descripción de YouTube con 3 párrafos cortos y CTA","tags":"12–18 etiquetas de YouTube separadas por comas (tema, personajes, búsquedas reales, nombre del canal), ≤ 450 caracteres","pin":"…"},':''}"shorts":[{"title":"título ≤100 con 1 emoji y 2 hashtags","desc":"VIDEO COMPLETO EN EL LINK | …","tags":"8–12 etiquetas de YouTube separadas por comas (tema, personajes, canal, shorts), ≤ 400 caracteres","ig":"…","tt":"…","pin":"…"}],"miniaturas":[{"idea":"escena y emoción","texto":"texto grande de 2–4 palabras","prompt":"prompt para ChatGPT, estilo cartoon 2D/3D del canal, 16:9"}]}`,{modelTier:'default',cache:false})}catch(e){copy={}}
     const writes=[];
     const order0=Math.max(0,...S.posts.filter(p=>p.ch===d.ch).map(p=>p.order||0));
     const img=logoUrl(d.ch)||'';
@@ -1117,7 +1117,7 @@ Responde SOLO JSON: {${d.kind==='largo'?'"largo":{"title":"…","alts":["…","�
         plan:{yt:longD+' '+String(longH).padStart(2,'0')+':00'},st:{yt:'produccion'},copy:{title:lc.title||d.review?.titulos?.[0]||d.title,alts:lc.alts||d.review?.titulos?.slice(1)||[],desc:lc.desc||'',tags:lc.tags||'',pin:lc.pin||''}}]);}
     for(let i=0;i<5;i++){const sc=(copy.shorts||[])[i]||{};
       writes.push([base+'-s'+(i+1),{ch:d.ch,ep,epTitle:d.title,kind:'short',n:i+1,name:titles[i],order:order0+2+i,img,thumbs:[],cover:null,m:{},projectId:id,
-        plan:{yt:sd[i],tt:sd[i],ig:sd[i]},st:{yt:'produccion',tt:'produccion',ig:'produccion'},copy:{title:sc.title||titles[i],desc:sc.desc||'VIDEO COMPLETO EN EL LINK | '+titles[i],ig:sc.ig||'',tt:sc.tt||'',pin:sc.pin||'',cierre:'siguiente parte'}}]);}
+        plan:{yt:sd[i],tt:sd[i],ig:sd[i]},st:{yt:'produccion',tt:'produccion',ig:'produccion'},copy:{title:sc.title||titles[i],desc:sc.desc||'VIDEO COMPLETO EN EL LINK | '+titles[i],ig:sc.ig||'',tt:sc.tt||'',pin:sc.pin||'',tags:sc.tags||'',cierre:'siguiente parte'}}]);}
     for(const [pid,data] of writes){const ex=S.posts.find(p=>p.id===pid);try{if(ex)await db.collection('posts').doc(pid).update(data);else await db.collection('posts').doc(pid).set(data)}catch(e){}}
     await saveDraft(id,{ep,posts:writes.map(w=>w[0]),thumbIdeas:(copy.miniaturas||[]).slice(0,3),plannedAt:new Date().toISOString()});
     gen[id]={busy:null}; toast('📅 En el calendario: '+writes.length+' piezas'); render();
@@ -1268,6 +1268,13 @@ Responde SOLO JSON: {"ideas":[{"ch":"id del canal","title":"título del episodio
   }catch(e){ideasState.msg=e?.code==='not_granted'?'Sin permiso para usar Claude aquí. Pídemelas por el chat.':e?.code==='rate_limited'?'Demasiadas seguidas, prueba en un minuto.':e?.code==='unavailable'?'Aquí no se pueden generar. Pídemelas por el chat.':'No salió bien, prueba otra vez.'}
   ideasState.busy=false; render();
 }
+/* YouTube tags: saved ones, or built from the title hashtags + the episode's long video + the channel */
+function ytTags(p){const c=p.copy||{};if(c.tags&&c.tags.trim())return c.tags.trim();
+  const out=[],add=t=>{t=String(t||'').toLowerCase().replace(/^#/,'').trim();if(t&&!out.includes(t))out.push(t)};
+  (String(c.title||'').match(/#[\p{L}\p{N}_]+/gu)||[]).filter(h=>h.toLowerCase()!=='#shorts').forEach(add);
+  add(p.epTitle&&!/^pr[oó]ximo/i.test(p.epTitle)?p.epTitle:'');
+  const lp=S.posts.find(x=>x.ch===p.ch&&x.ep===p.ep&&x.kind==='largo'&&x.copy?.tags);(lp?String(lp.copy.tags).split(','):[]).slice(0,8).forEach(add);
+  add(chName(p.ch));if(p.kind==='short')add('shorts');return out.length>2?out.join(', '):''}
 function field(l,t){return t?`<div class="field"><div class="fl"><span class="lab">${l}</span><button class="btn sm" data-copy>Copiar</button></div><pre>${esc(t)}</pre></div>`:''}
 function openPost(id,keep){
   const p=S.posts.find(x=>x.id===id); if(!p) return; const c=p.copy||{};
@@ -1295,11 +1302,11 @@ function openPost(id,keep){
     <div class="sec" style="gap:8px"><h3 class="shsec">Dónde y cuándo se publica</h3><div class="pcards">${rows}</div></div>
     ${field(p.kind==='largo'?'Título':'Título (YouTube y TikTok)',c.title)}
     ${field('Descripción (YouTube)',c.desc)}
+    ${pfs(p).includes('yt')?field('🏷️ Etiquetas de YouTube'+(c.tags?'':' (sugeridas)'),ytTags(p)):''}
     ${field('Texto de TikTok',c.tt)}
     ${field('Texto de Instagram',c.ig)}
     ${field('Comentario fijado',c.pin)}
     ${field('Títulos alternativos (prueba A/B)',(c.alts||[]).join('\n'))}
-    ${field('Etiquetas',c.tags)}
     ${imgs.length?`<div class="sec"><span class="lab">${p.kind==='largo'?'Miniaturas de YouTube':'Portada'}</span><div class="thumbs">${imgs.map(m=>`<figure><img src="${esc(m.src)}" alt="${esc(m.cap)}"><figcaption>${esc(m.cap)}<button class="btn sm" data-img="${esc(m.src)}">⬇</button></figcaption></figure>`).join('')}</div></div>`:''}
     ${!c.desc&&!c.ig&&!c.pin&&!c.tt?'<p class="empty">Esta pieza ya está publicada y no guardé su copy.</p>':''}
    </div>`;
