@@ -91,6 +91,7 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 ## Copy de Instagram (desde 15 nov 2026)
 - Distinto al de YouTube y TikTok. Empieza siempre por una de estas tres aperturas, rotando entre Shorts (nunca dos seguidas iguales): «HISTORIA COMPLETA EN EL LINK |», «LINK EN BIO |», «HISTORIA COMPLETA EN MI PERFIL |».
 - Después: 2–3 frases que enganchen + «🔖 Síguenos y guarda este vídeo para que te salgan más historias como esta.» + 5 hashtags.
+- **Hashtags (Instagram y TikTok), 5 siempre:** 2 del tema concreto (personaje, caso o hecho más buscado) + **#historiareal** siempre + 1 amplio de descubrimiento que encaje (#curiosidades, #sabiasque, #casosreales, #misterio, #segundaguerramundial) + el del canal (#ysitetocara / #archivooscuro). Nada de #fyp ni hashtags genéricos vacíos.
 - En el Home sale como «📸 Copy de Instagram» con botón Copiar; al pasar un proyecto al calendario, el Home pone la apertura que toca.
 
 ## Código del Home
