@@ -13,3 +13,4 @@ projects/c3-mitos-triceps/voz/
 projects/c3-mitos-triceps/audio/*.wav
 projects/c3-mitos-triceps/audio/*.mp3
 projects/c3-mitos-triceps/*.log
+__pycache__/
