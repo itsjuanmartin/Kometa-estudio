@@ -605,7 +605,7 @@ details[open]>.clist,details[open]>.sec,details.cmore[open]>input{animation:.32s
 
 <script>
 const PL={yt:'YouTube',tt:'TikTok',ig:'Instagram'}, ST={listo:'Por subir',subido:'Subido',produccion:'En producción',revisar:'Por confirmar'};
-const S={usage:[],channels:[],posts:[],stats:[],notes:[],tips:[],ideas:[],voices:[],drafts:[],goals:[],ready:{goals:false,channels:false,posts:false,stats:false,notes:false,tips:false,ideas:false,voices:false,drafts:false},filter:{st:'pendiente',ch:'all'}};
+const S={live:[],usage:[],channels:[],posts:[],stats:[],notes:[],tips:[],ideas:[],voices:[],drafts:[],goals:[],ready:{goals:false,channels:false,posts:false,stats:false,notes:false,tips:false,ideas:false,voices:false,drafts:false},filter:{st:'pendiente',ch:'all'}};
 let db=null, dlCap;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
@@ -703,7 +703,8 @@ function viewHoy(){
     <nav class="qtiles" aria-label="Accesos rápidos"><a href="#proyectos" class="qt q1"><span class="qi">⭐️</span><b>Proyectos</b><small>${projN?projN+' en marcha':'Crea el siguiente'}</small></a><a href="#voces" class="qt q2"><span class="qi">🎙️</span><b>Voces</b><small>${vPend?vPend+' pendientes':'Al día'}</small></a><a href="#calendario" class="qt q3"><span class="qi">📅</span><b>Calendario</b><small>Mañana: ${tomN} piezas</small></a><a href="#datos" class="qt q4"><span class="qi">📊</span><b>Datos</b><small>${fmt(fol)} seguidores</small></a></nav>`;
   const si=seriesIssues();
   const alert2=si.length?`<button class="ialert warn" data-open="${si[0].b.id}"><span class="iic" aria-hidden="true">🔀</span><span class="itx"><span class="iapp">ORDEN DE LA SERIE</span><b>${si.length===1?'Una parte sale antes que la anterior':si.length+' partes salen antes que la anterior'}</b><span>${esc(si[0].ep)} · ${PL[si[0].pl]}: Parte ${si[0].b.n} antes que la Parte ${si[0].a.n}. Toca para cambiar la fecha.</span></span></button>`:'';
-  return alert+alert2+hero+`${totN?`<section class="sec"><h2 style="margin:0">Hoy toca</h2><span class="sub" style="margin:0">Descarga el vídeo, copia los textos y marca cada red al subirla.</span></section>`:''}
+  const lv=S.live.find(x=>x.id==='now'); const lvShow=lv&&lv.updated&&(Date.now()-Date.parse(lv.updated)<(lv.pct>=100?6:12)*36e5);
+  return alert+alert2+(lvShow?`<section class="sec">${liveProd({prod:lv},lv.title||'Claude está trabajando')}</section>`:'')+hero+`${totN?`<section class="sec"><h2 style="margin:0">Hoy toca</h2><span class="sub" style="margin:0">Descarga el vídeo, copia los textos y marca cada red al subirla.</span></section>`:''}
     ${late.length?`<section class="sec" id="late"><h2 class="down">Atrasado (${late.length})</h2><div class="tasks">${late.map(taskCard).join('')}</div></section>`:''}
     ${totN?`<section class="sec">${dayBlock(td,true)}</section>`:''}
     ${nextDay?`<section class="sec"><details class="more" ${totN?'':'open'}><summary>${dlong(nextDay)} · ${grouped(ev.filter(e=>e.d===nextDay)).length} piezas</summary><div class="sec" style="margin-top:10px">${dayBlock(nextDay)}</div></details></section>`:''}
@@ -1248,8 +1249,9 @@ function viewMeta(){
     ${bar(st.subs,1000,'Suscriptores',e1000.txt)}${bar(hYear,4000,'Horas de visualización (12 meses)',`Ritmo actual ≈ ${fmt(Math.round(hYear))} h al año`)}${bar(sh90,10e6,'O vistas de Shorts (90 días)',`Ritmo actual ≈ ${fmt(Math.round(sh90))} en 90 días`)}</section>
    <p class="empty" style="font-size:11.5px;margin:0">Requisitos de YouTube a nov 2026; compruébalos en YouTube Studio → Ganar dinero. Las fechas son estimaciones con tus capturas.</p>`;
 }
-function liveProd(d){const p=d.prod;if(!p)return '';const pct=Math.max(0,Math.min(100,p.pct||0));const ago=p.updated?Math.round((Date.now()-Date.parse(p.updated))/6e4):null;
-  return `<div class="panel sec livec"><div class="row" style="justify-content:space-between"><h2 style="margin:0">${pct>=100?'✅ Montaje terminado':'<span class="rec"></span> Producción en directo'}</h2><span class="lab">${ago!=null?(ago<1?'ahora':'hace '+ago+' min'):''}</span></div>
+function liveProd(d,ttl){const p=d.prod;if(!p)return '';const pct=Math.max(0,Math.min(100,p.pct||0));const ago=p.updated?Math.round((Date.now()-Date.parse(p.updated))/6e4):null;
+  return `<div class="panel sec livec"><div class="row" style="justify-content:space-between"><h2 style="margin:0">${pct>=100?'✅ '+(ttl?'Terminado':'Montaje terminado'):'<span class="rec"></span> '+(ttl?'Trabajando ahora':'Producción en directo')}</h2><span class="lab">${ago!=null?(ago<1?'ahora':'hace '+ago+' min'):''}</span></div>
+   ${ttl?`<b style="font-size:16px">${esc(ttl)}</b>${p.sub?`<span class="empty" style="font-size:13px;margin-top:-6px">${esc(p.sub)}</span>`:''}`:''}
    ${p.frame?`<div class="lframe"><img src="${esc(p.frame)}" alt="Último fotograma renderizado"><span>${esc(p.frameLabel||'Último fotograma')}</span></div>`:''}
    <div class="lprog"><b>${pct}%</b><i><b style="width:${pct}%"></b></i>${p.eta&&pct<100?`<small>Termina hacia las ${esc(p.eta)}</small>`:''}</div>
    <ol class="llog">${(p.log||[]).slice(-6).reverse().map((x,i)=>`<li class="${i===0&&pct<100?'cur':''}"><span>${esc(x.t||'')}</span>${esc(x.m||'')}</li>`).join('')}</ol></div>`}
@@ -1657,6 +1659,7 @@ document.addEventListener('contextmenu',e=>{if(e.target.closest('[data-day]'))e.
   const fail=setTimeout(()=>{if(!Object.values(S.ready).every(Boolean))$('#app').innerHTML='<div class="banner">No llegan los datos. Comprueba que tienes la sesión de claude.ai iniciada y recarga.</div>'},10000);
   db=await claude.use('db');
   if(!db){clearTimeout(fail);$('#sync span').textContent='Sin conexión';$('#app').innerHTML='<div class="banner">Abre esta página con tu sesión de claude.ai iniciada para ver tus datos.</div>';return}
+  try{db.collection('live').onSnapshot(snap=>{S.live=snap.docs.map(d=>({id:d.id,...d.data()}));render()})}catch(e){}
   try{db.collection('usage').onSnapshot(snap=>{S.usage=snap.docs.map(d=>({id:d.id,...d.data()}));const a=document.activeElement;if(!(a&&a.closest&&a.closest('#usebox')))render()})}catch(e){}
   for(const c of ['channels','posts','stats','notes','tips','ideas','voices','drafts','goals']) db.collection(c).onSnapshot(snap=>{
     S[c]=snap.docs.map(d=>({id:d.id,...d.data()})); S.ready[c]=true;
