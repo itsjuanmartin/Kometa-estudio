@@ -1,0 +1,173 @@
+<title>Tercer Canal Fitness</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,800;1,900&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: una columna de lectura; cada personaje es un bloque con su canal de YouTube simulado, entornos y Reels */
+:root{
+  --bg:#f3f4f6; --surface:#ffffff; --fg:#14161a; --muted:#5d636e; --line:#dfe2e7;
+  --yt:#0f0f0f; --yt-fg:#f1f1f1; --yt-muted:#aaaaaa;
+  --lima:#7fc23a; --violeta:#6d4ff0; --marmol:#b08d2e; --red:#e11d2a;
+  --display:"Archivo","Arial Narrow",Arial,sans-serif; --body:"Inter",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121317;--surface:#1b1d22;--fg:#eceef2;--muted:#9aa1ad;--line:#2c2f37;--lima:#9bdc55;--violeta:#9c86ff;--marmol:#e0bd5c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121317;--surface:#1b1d22;--fg:#eceef2;--muted:#9aa1ad;--line:#2c2f37;--lima:#9bdc55;--violeta:#9c86ff;--marmol:#e0bd5c;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:48px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.05}
+h1{font-size:clamp(32px,6vw,54px);font-weight:900;font-style:italic;text-transform:uppercase;letter-spacing:-.01em}
+h1 em{color:var(--red);font-style:italic}
+h2{font-size:clamp(26px,4.4vw,38px);font-weight:900;font-style:italic;text-transform:uppercase}
+h3{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-family:var(--body)}
+p{margin:0;max-width:68ch}
+.intro{display:grid;gap:14px}
+.note{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;color:var(--muted);font-size:14px}
+.note b{color:var(--fg)}
+.opt{display:grid;gap:22px;border-top:3px solid var(--c);padding-top:22px}
+.opt-head{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:baseline;justify-content:space-between}
+.opt-head .tag{font-size:13px;font-weight:600;color:var(--c)}
+.names{display:flex;flex-wrap:wrap;gap:8px}
+.names span{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:13.5px}
+.names span.main{border-color:var(--c);color:var(--fg);font-weight:600}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.facts div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;min-width:0}
+.facts b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:2px;font-weight:600}
+/* YouTube simulado */
+.yt{background:var(--yt);color:var(--yt-fg);border-radius:14px;overflow:hidden;font-family:Roboto,var(--body)}
+.banner{position:relative;aspect-ratio:6.2/1;max-width:100%;background:#000 center/cover no-repeat;display:flex;align-items:center;padding:0 5%}
+.banner::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.85) 0%,rgba(0,0,0,.35) 55%,rgba(0,0,0,0) 80%)}
+.banner strong{position:relative;z-index:1;font-family:var(--display);font-weight:900;font-style:italic;text-transform:uppercase;font-size:clamp(20px,4.6vw,46px);line-height:.95;color:#fff}
+.banner strong i{color:var(--bc);font-style:italic;display:block}
+.yt-body{padding:16px max(16px,3%) 20px;display:grid;gap:16px}
+.chan{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.chan img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:none}
+.chan .meta{min-width:0;display:grid;gap:2px}
+.chan .meta b{font-size:22px;font-weight:700}
+.chan .meta small{color:var(--yt-muted);font-size:13px}
+.sub{margin-left:auto;background:#f1f1f1;color:#0f0f0f;border-radius:999px;padding:8px 18px;font-weight:600;font-size:14px}
+.tabs{display:flex;gap:22px;border-bottom:1px solid #3a3a3a;font-size:14px;color:var(--yt-muted);overflow-x:auto}
+.tabs span{padding-bottom:8px;white-space:nowrap}.tabs span:first-child{color:#fff;border-bottom:2px solid #fff}
+.vids{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.vid{display:grid;gap:8px;min-width:0}
+.thumb{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:10px;overflow:hidden;background:#222 center/cover no-repeat}
+.thumb .t{position:absolute;left:6%;top:8%;right:40%;font-family:var(--display);font-weight:900;font-style:italic;text-transform:uppercase;font-size:clamp(15px,2.2vw,22px);line-height:.98;color:#111;text-shadow:0 1px 0 rgba(255,255,255,.4)}
+.thumb.dark .t{color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.6)}
+.thumb .t i{color:var(--red);font-style:italic;display:block}
+.thumb .d{position:absolute;right:6px;bottom:6px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;padding:1px 5px;border-radius:4px}
+.vid b{font-size:14px;font-weight:600;line-height:1.3}
+.vid small{color:var(--yt-muted);font-size:12.5px}
+/* Entornos y Reels */
+.envs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;align-items:start}
+.env{display:grid;gap:6px;min-width:0}
+.env img{width:100%;border-radius:10px;display:block;border:1px solid var(--line)}
+.env figcaption{font-size:13px;color:var(--muted)}
+.env figcaption b{color:var(--fg);font-weight:600}
+.reel{position:relative;aspect-ratio:9/16;max-width:100%;border-radius:12px;overflow:hidden;background:#ccd center/cover no-repeat;border:1px solid var(--line)}
+.reel .t{position:absolute;left:0;right:0;top:7%;text-align:center;font-family:var(--display);font-weight:900;font-style:italic;text-transform:uppercase;font-size:clamp(18px,2.6vw,26px);line-height:1;color:#111}
+.reel .t i{display:block;color:var(--red);font-style:italic}
+.reel .s{position:absolute;left:8%;right:8%;bottom:16%;text-align:center;color:#fff;font-size:12px;font-weight:600;text-shadow:0 1px 3px #000}
+figure{margin:0}
+.verdict{display:grid;gap:12px}
+.verdict ul{margin:0;padding-left:20px;display:grid;gap:6px;max-width:72ch}
+</style>
+
+<div class="wrap">
+  <header class="intro">
+    <h3>Kometa Estudio · propuesta del tercer canal</h3>
+    <h1>Fitness explicado <em>como un colega</em></h1>
+    <p>Tres personajes posibles, cada uno con su nombre de canal, su página de YouTube simulada y el mismo personaje en los tres entornos del formato: gimnasio oscuro para hablar a cámara, estudio gris con cuadrícula para explicar ejercicios y fondo azul claro para los Reels.</p>
+    <p class="note"><b>Son bocetos de idea, no el render final.</b> Se hicieron con el modelo básico de Higgsfield (plan gratis), así que el personaje cambia un poco entre imágenes y las proporciones salen a veces de juguete. En producción usaríamos un único modelo 3D en Blender, siempre igual, con los músculos coloreados por zonas. Los títulos de miniaturas y Reels están puestos encima con texto real.</p>
+  </header>
+
+  <!-- OPCIÓN 1 -->
+  <section class="opt" style="--c:var(--lima)">
+    <div class="opt-head"><h2>1 · Repe</h2><span class="tag">Verde lima · toalla al cuello</span></div>
+    <div class="names"><span class="main">Repe Gym</span><span>Soy Repe</span><span>Una Repe Más</span></div>
+    <div class="facts">
+      <div><b>Personaje</b>«Repe», el colega del gimnasio que siempre te pide una repetición más. Toalla blanca y muñequeras negras.</div>
+      <div><b>Tono</b>Cercano y con humor. El que te corrige la técnica sin hacerte sentir mal.</div>
+      <div><b>A favor</b>El nombre es corto, se entiende en España y en Latinoamérica y sirve de grito de guerra en los Shorts: «¡una repe más!».</div>
+    </div>
+    <div class="yt" style="--bc:#9bdc55">
+      <div class="banner" style="background-image:url(web/lima_gym.jpg);background-position:right 30% center"><strong>Repe <i>Gym</i></strong></div>
+      <div class="yt-body">
+        <div class="chan"><img src="web/lima_logo.jpg" alt="Logo de Repe Gym"><div class="meta"><b>Repe Gym</b><small>@RepeGym · El gym explicado por tu colega</small></div><span class="sub">Suscribirse</span></div>
+        <div class="tabs"><span>Vídeos</span><span>Shorts</span><span>Playlists</span><span>Publicaciones</span></div>
+        <div class="vids">
+          <div class="vid"><div class="thumb" style="background-image:url(web/lima_sentadilla.jpg)"><span class="t">Sentadilla <i>mal hecha</i></span><span class="d">8:42</span></div><b>Llevas años haciendo mal la sentadilla (y no lo sabes)</b><small>Ejemplo de vídeo largo</small></div>
+          <div class="vid"><div class="thumb dark" style="background-image:url(web/lima_gym.jpg);background-position:right center"><span class="t">Sudar <i>no quema grasa</i></span><span class="d">6:15</span></div><b>Te dijeron que sudar quema grasa, ¿verdad?</b><small>Ejemplo de vídeo largo</small></div>
+        </div>
+      </div>
+    </div>
+    <div class="envs">
+      <figure class="env"><img src="web/lima_gym.jpg" alt="Repe hablando en el gimnasio oscuro"><figcaption><b>Gym oscuro</b> · habla a cámara</figcaption></figure>
+      <figure class="env"><img src="web/lima_sentadilla.jpg" alt="Repe haciendo sentadilla con cuádriceps marcados"><figcaption><b>Estudio gris</b> · músculos que trabajan en rojo</figcaption></figure>
+      <figure class="env"><div class="reel" style="background-image:url(web/lima_reel.jpg)"><span class="t">Colgar <i>60 segundos</i></span><span class="s">tu espalda te lo va a agradecer</span></div><figcaption><b>Reel</b> · fondo azul claro</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- OPCIÓN 2 -->
+  <section class="opt" style="--c:var(--violeta)">
+    <div class="opt-head"><h2>2 · Kome</h2><span class="tag">Violeta · cinta amarilla con cometa</span></div>
+    <div class="names"><span class="main">Kometa Fit</span><span>Kome Gym</span><span>Fit Kometa</span></div>
+    <div class="facts">
+      <div><b>Personaje</b>«Kome», con una cinta amarilla en la frente con una estela de cometa. Rápido y directo.</div>
+      <div><b>Tono</b>Enérgico, al grano: «en 60 segundos te lo explico».</div>
+      <div><b>A favor</b>Va con la marca del estudio (Kometa), así que más adelante todo puede crecer bajo un mismo nombre. El violeta casi no se usa en fitness.</div>
+    </div>
+    <div class="yt" style="--bc:#ffd23f">
+      <div class="banner" style="background-image:url(web/violeta_gym.jpg);background-position:right 20% center"><strong>Kometa <i>Fit</i></strong></div>
+      <div class="yt-body">
+        <div class="chan"><img src="web/violeta_logo.jpg" alt="Logo de Kometa Fit"><div class="meta"><b>Kometa Fit</b><small>@KometaFit · Entrena con cabeza, sin mitos</small></div><span class="sub">Suscribirse</span></div>
+        <div class="tabs"><span>Vídeos</span><span>Shorts</span><span>Playlists</span><span>Publicaciones</span></div>
+        <div class="vids">
+          <div class="vid"><div class="thumb" style="background-image:url(web/violeta_press.jpg)"><span class="t">Press banca <i>+20 kg</i></span><span class="d">9:10</span></div><b>3 errores por los que no te crece el pecho</b><small>Ejemplo de vídeo largo</small></div>
+          <div class="vid"><div class="thumb dark" style="background-image:url(web/violeta_gym.jpg);background-position:right center"><span class="t">Creatina <i>sin mitos</i></span><span class="d">7:48</span></div><b>Creatina: lo que nadie te explica</b><small>Ejemplo de vídeo largo</small></div>
+        </div>
+      </div>
+    </div>
+    <div class="envs">
+      <figure class="env"><img src="web/violeta_gym.jpg" alt="Kome haciendo el gesto de pulgar arriba en el gimnasio oscuro"><figcaption><b>Gym oscuro</b> · habla a cámara</figcaption></figure>
+      <figure class="env"><img src="web/violeta_press.jpg" alt="Kome en press banca con el pecho marcado"><figcaption><b>Estudio gris</b> · músculos que trabajan en rojo</figcaption></figure>
+      <figure class="env"><div class="reel" style="background-image:url(web/violeta_reel.jpg)"><span class="t">Si trabajas <i>sentado</i></span><span class="s">haz esto 2 minutos al día</span></div><figcaption><b>Reel</b> · fondo gris claro</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- OPCIÓN 3 -->
+  <section class="opt" style="--c:var(--marmol)">
+    <div class="opt-head"><h2>3 · Marmo</h2><span class="tag">Estatua de mármol · laurel dorado</span></div>
+    <div class="names"><span class="main">Esculpe</span><span>Mármol Gym</span><span>A Cincel</span></div>
+    <div class="facts">
+      <div><b>Personaje</b>«Marmo», una estatua griega que cobra vida. Ojos dorados y corona de laurel.</div>
+      <div><b>Tono</b>Seguro y un poco épico, pero cercano: «tu cuerpo se esculpe, no se compra».</div>
+      <div><b>A favor</b>Es lo que más se aleja de BlueGym. El rojo de los músculos resalta muchísimo sobre el blanco y la idea «esculpir el cuerpo» le da al canal un mensaje claro.</div>
+    </div>
+    <div class="yt" style="--bc:#e0bd5c">
+      <div class="banner" style="background-image:url(web/marmol_gym.jpg);background-position:right 25% center"><strong>Escul<i>pe</i></strong></div>
+      <div class="yt-body">
+        <div class="chan"><img src="web/marmol_logo.jpg" alt="Logo de Esculpe"><div class="meta"><b>Esculpe</b><small>@EsculpeGym · Tu cuerpo se esculpe, no se compra</small></div><span class="sub">Suscribirse</span></div>
+        <div class="tabs"><span>Vídeos</span><span>Shorts</span><span>Playlists</span><span>Publicaciones</span></div>
+        <div class="vids">
+          <div class="vid"><div class="thumb" style="background-image:url(web/marmol_pesomuerto.jpg)"><span class="t">Peso muerto <i>sin lesión</i></span><span class="d">10:05</span></div><b>El peso muerto que no te destroza la espalda</b><small>Ejemplo de vídeo largo</small></div>
+          <div class="vid"><div class="thumb dark" style="background-image:url(web/marmol_gym.jpg);background-position:right center"><span class="t">Abdominales <i>en 30 días</i></span><span class="d">5:32</span></div><b>«Abdominales en 30 días»: la gran mentira</b><small>Ejemplo de vídeo largo</small></div>
+        </div>
+      </div>
+    </div>
+    <div class="envs">
+      <figure class="env"><img src="web/marmol_gym.jpg" alt="Marmo con los brazos cruzados en el gimnasio oscuro"><figcaption><b>Gym oscuro</b> · habla a cámara</figcaption></figure>
+      <figure class="env"><img src="web/marmol_pesomuerto.jpg" alt="Marmo haciendo peso muerto con las piernas marcadas"><figcaption><b>Estudio gris</b> · músculos que trabajan en rojo</figcaption></figure>
+      <figure class="env"><div class="reel" style="background-image:url(web/marmol_reel.jpg)"><span class="t">¿Huevo <i>cada día?</i></span><span class="s">esto dice la ciencia</span></div><figcaption><b>Reel</b> · fondo azul claro (este salió como móvil; en producción iría a pantalla completa)</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="verdict">
+    <h2>La boca «sin boca»</h2>
+    <p>Como en tu referencia: el personaje no tiene boca dibujada. Cuando habla, se le mueve un poco la mandíbula y la cara se estira, y en los silencios se queda quieta. Ya tenemos la pieza: <code>mouth.json</code> (de <code>tools/mouth_env.py</code>) da la apertura cada 10 ms según la voz real. En vez de abrir una boca, moverá la mandíbula del modelo 3D.</p>
+    <h2>Mi recomendación</h2>
+    <ul>
+      <li><b>Esculpe (mármol)</b> si quieres lo más diferente y lo más reconocible en una miniatura. Es el que menos riesgo tiene de parecer una copia.</li>
+      <li><b>Kometa Fit (violeta)</b> si prefieres que el canal lleve la marca del estudio.</li>
+      <li>Repe es el más simpático, pero un muñeco liso de un color es lo que más se parece al formato de BlueGym.</li>
+    </ul>
+  </section>
+</div>
