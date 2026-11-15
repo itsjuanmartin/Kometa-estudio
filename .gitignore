@@ -8,3 +8,8 @@ node_modules/
 .cache/
 assets/music/*/
 projects/canal3-fitness/conceptos/*.png
+projects/c3-mitos-triceps/fotos/
+projects/c3-mitos-triceps/voz/
+projects/c3-mitos-triceps/audio/*.wav
+projects/c3-mitos-triceps/audio/*.mp3
+projects/c3-mitos-triceps/*.log
