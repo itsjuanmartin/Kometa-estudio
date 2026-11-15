@@ -703,8 +703,11 @@ function viewHoy(){
     <nav class="qtiles" aria-label="Accesos rápidos"><a href="#proyectos" class="qt q1"><span class="qi">⭐️</span><b>Proyectos</b><small>${projN?projN+' en marcha':'Crea el siguiente'}</small></a><a href="#voces" class="qt q2"><span class="qi">🎙️</span><b>Voces</b><small>${vPend?vPend+' pendientes':'Al día'}</small></a><a href="#calendario" class="qt q3"><span class="qi">📅</span><b>Calendario</b><small>Mañana: ${tomN} piezas</small></a><a href="#datos" class="qt q4"><span class="qi">📊</span><b>Datos</b><small>${fmt(fol)} seguidores</small></a></nav>`;
   const si=seriesIssues();
   const alert2=si.length?`<button class="ialert warn" data-open="${si[0].b.id}"><span class="iic" aria-hidden="true">🔀</span><span class="itx"><span class="iapp">ORDEN DE LA SERIE</span><b>${si.length===1?'Una parte sale antes que la anterior':si.length+' partes salen antes que la anterior'}</b><span>${esc(si[0].ep)} · ${PL[si[0].pl]}: Parte ${si[0].b.n} antes que la Parte ${si[0].a.n}. Toca para cambiar la fecha.</span></span></button>`:'';
-  const lv=S.live.find(x=>x.id==='now'); const lvShow=lv&&lv.updated&&(Date.now()-Date.parse(lv.updated)<(lv.pct>=100?6:12)*36e5);
-  return alert+alert2+(lvShow?`<section class="sec">${liveProd({prod:lv},lv.title||'Claude está trabajando')}</section>`:'')+hero+`${totN?`<section class="sec"><h2 style="margin:0">Hoy toca</h2><span class="sub" style="margin:0">Descarga el vídeo, copia los textos y marca cada red al subirla.</span></section>`:''}
+  const lv=S.live.find(x=>x.id==='now'); let lvShow=lv&&lv.updated&&(Date.now()-Date.parse(lv.updated)<(lv.pct>=100?48:12)*36e5);
+  /* finished: show it once, then it disappears (1 min after you first see it, or when you tap OK) */
+  if(lvShow&&lv.pct>=100){const k='liveSeen:'+lv.updated;let seen=null;try{seen=+localStorage.getItem(k)||null;if(!seen){seen=Date.now();localStorage.setItem(k,String(seen))}}catch(e){}
+    if(seen&&Date.now()-seen>60e3) lvShow=false; else if(!viewHoy._t) viewHoy._t=setTimeout(()=>{viewHoy._t=null;if(route()==='hoy')render()},61e3)}
+  return alert+alert2+(lvShow?`<section class="sec">${liveProd({prod:lv},lv.title||'Claude está trabajando')}${lv.pct>=100?`<button class="btn" data-liveok="${esc(lv.updated)}">OK, visto</button>`:''}</section>`:'')+hero+`${totN?`<section class="sec"><h2 style="margin:0">Hoy toca</h2><span class="sub" style="margin:0">Descarga el vídeo, copia los textos y marca cada red al subirla.</span></section>`:''}
     ${late.length?`<section class="sec" id="late"><h2 class="down">Atrasado (${late.length})</h2><div class="tasks">${late.map(taskCard).join('')}</div></section>`:''}
     ${totN?`<section class="sec">${dayBlock(td,true)}</section>`:''}
     ${nextDay?`<section class="sec"><details class="more" ${totN?'':'open'}><summary>${dlong(nextDay)} · ${grouped(ev.filter(e=>e.d===nextDay)).length} piezas</summary><div class="sec" style="margin-top:10px">${dayBlock(nextDay)}</div></details></section>`:''}
@@ -1250,7 +1253,7 @@ function viewMeta(){
    <p class="empty" style="font-size:11.5px;margin:0">Requisitos de YouTube a nov 2026; compruébalos en YouTube Studio → Ganar dinero. Las fechas son estimaciones con tus capturas.</p>`;
 }
 function liveProd(d,ttl){const p=d.prod;if(!p)return '';const pct=Math.max(0,Math.min(100,p.pct||0));const ago=p.updated?Math.round((Date.now()-Date.parse(p.updated))/6e4):null;
-  return `<div class="panel sec livec"><div class="row" style="justify-content:space-between"><h2 style="margin:0">${pct>=100?'✅ '+(ttl?'Terminado':'Montaje terminado'):'<span class="rec"></span> '+(ttl?'Trabajando ahora':'Producción en directo')}</h2><span class="lab">${ago!=null?(ago<1?'ahora':'hace '+ago+' min'):''}</span></div>
+  return `<div class="panel sec livec"><div class="row" style="justify-content:space-between"><h2 style="margin:0">${pct>=100?'✅ '+(ttl?'Tarea terminada':'Montaje terminado'):'<span class="rec"></span> '+(ttl?'Trabajando ahora':'Producción en directo')}</h2><span class="lab">${ago!=null?(ago<1?'ahora':'hace '+ago+' min'):''}</span></div>
    ${ttl?`<b style="font-size:16px">${esc(ttl)}</b>${p.sub?`<span class="empty" style="font-size:13px;margin-top:-6px">${esc(p.sub)}</span>`:''}`:''}
    ${p.frame?`<div class="lframe"><img src="${esc(p.frame)}" alt="Último fotograma renderizado"><span>${esc(p.frameLabel||'Último fotograma')}</span></div>`:''}
    <div class="lprog"><b>${pct}%</b><i><b style="width:${pct}%"></b></i>${p.eta&&pct<100?`<small>Termina hacia las ${esc(p.eta)}</small>`:''}</div>
@@ -1548,6 +1551,7 @@ addEventListener('hashchange',()=>{const r=route();const dir=ORDER.indexOf(r)>=O
 document.addEventListener('click',async e=>{
   const t=e.target;
   const card=t.closest('[data-card]'); if(card&&!t.closest('button,a,input,select,label,audio,textarea')){openPost(card.dataset.card,false,card.dataset.pls);return}
+  const lok=t.closest('[data-liveok]'); if(lok){try{localStorage.setItem('liveSeen:'+lok.dataset.liveok,'1')}catch(e){}render();return}
   if(t.closest('[data-usesave]')){saveUsage();return}
   if(t.closest('[data-usex]')){Object.assign(usg,{stage:'idle',imgs:[],rows:[],msg:''});render();return}
   const ac=t.closest('[data-allcopys]'); if(ac){postPls=null;openPost(ac.dataset.allcopys,true);return}

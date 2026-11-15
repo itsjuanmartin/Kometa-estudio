@@ -109,7 +109,7 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - Se actualiza subiendo una captura (perfil de ElevenLabs / Claude → Ajustes → Uso). Se guarda en la colección `usage` (`svc` = eleven | claude, `at`). Si el creador manda la captura por el chat, apuntarla ahí con ArtifactData.
 
 ## «Trabajando ahora» en Hoy (desde 16 nov 2026)
-- Cuando Claude trabaje en algo largo (renders, re-montajes), actualizar `live/now` SOLO en cada hito (no más de cada 15–20 min): `{title, sub, pct, eta:"HH:MM", updated: ISO, frame: url de un asset (jpg ~540 px), frameLabel, log:[{t:"HH:MM", m}]}`. Al terminar: pct 100. La tarjeta sale arriba de «Hoy» y se oculta sola 6 h después de terminar.
+- Cuando Claude trabaje en algo largo (renders, re-montajes), actualizar `live/now` SOLO en cada hito (no más de cada 15–20 min): `{title, sub, pct, eta:"HH:MM", updated: ISO, frame: url de un asset (jpg ~540 px), frameLabel, log:[{t:"HH:MM", m}]}`. Al terminar: pct 100 → sale «✅ Tarea terminada» y desaparece 1 min después de que el creador la vea (o al tocar «OK, visto»).
 
 ## Código del Home
 `home/centro-de-canales.html` es la fuente del Home publicado en https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx. Para cambiarlo: editar este archivo y publicarlo con la herramienta Artifact pasando ese `url` (leer antes el artefacto). Las imágenes `img/…` ya están publicadas en el artefacto.
