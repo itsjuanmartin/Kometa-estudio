@@ -88,6 +88,11 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - Toda pieza que sale en YouTube (vídeo largo y Shorts) lleva `copy.tags`: etiquetas separadas por comas, listas para copiar y pegar. Largo: 12–18 (≤ 450 caracteres). Short: 8–12, con tema, personajes, nombre del canal y «shorts».
 - En el Home salen en la ficha de la pieza, bajo la descripción, con botón Copiar. Si una pieza no tiene, el Home sugiere unas a partir de los hashtags del título y las del vídeo largo del episodio.
 
+## Copy de Instagram (desde 15 nov 2026)
+- Distinto al de YouTube y TikTok. Empieza siempre por una de estas tres aperturas, rotando entre Shorts (nunca dos seguidas iguales): «HISTORIA COMPLETA EN EL LINK |», «LINK EN BIO |», «HISTORIA COMPLETA EN MI PERFIL |».
+- Después: 2–3 frases que enganchen + «🔖 Síguenos y guarda este vídeo para que te salgan más historias como esta.» + 5 hashtags.
+- En el Home sale como «📸 Copy de Instagram» con botón Copiar; al pasar un proyecto al calendario, el Home pone la apertura que toca.
+
 ## Código del Home
 `home/centro-de-canales.html` es la fuente del Home publicado en https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx. Para cambiarlo: editar este archivo y publicarlo con la herramienta Artifact pasando ese `url` (leer antes el artefacto). Las imágenes `img/…` ya están publicadas en el artefacto.
 

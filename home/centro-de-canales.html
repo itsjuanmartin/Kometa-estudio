@@ -1087,6 +1087,12 @@ function createForm(){
 /* ---------- PROYECTO → CALENDARIO, COPYS Y MINIATURAS ---------- */
 function epPrefix(ch){const e=S.posts.filter(p=>p.ch===ch).map(p=>p.ep).find(Boolean);if(e)return e.replace(/\d+$/,'');const c=S.channels.find(x=>x.id===ch);return (c?.short||ch).toUpperCase().replace(/[^A-Z]/g,'').slice(0,4)||'EP'}
 function nextEp(ch){const pre=epPrefix(ch);let mx=0,w=2;for(const p of S.posts)if(p.ch===ch&&p.ep?.startsWith(pre)){const m=p.ep.slice(pre.length);w=Math.max(w,m.length);mx=Math.max(mx,+m||0)}return {pre,code:(n)=>pre+String(n).padStart(w,'0'),n:mx}}
+/* Instagram copy: always opens with one of these, rotating between Shorts */
+const IG_OP=['HISTORIA COMPLETA EN EL LINK |','LINK EN BIO |','HISTORIA COMPLETA EN MI PERFIL |'];
+function igCopy(txt,i,fallback){const op=IG_OP[((i%3)+3)%3];let t=String(txt||'').trim();
+  t=t.replace(/^(VIDEO COMPLETO EN EL LINK|HISTORIA COMPLETA EN EL LINK|LINK EN BIO|HISTORIA COMPLETA EN MI PERFIL)\s*\|\s*/i,'');
+  if(!t)t=String(fallback||'').replace(/^VIDEO COMPLETO EN EL LINK\s*\|\s*/i,'').trim()+'\n🔖 Síguenos y guarda este vídeo para que te salgan más historias como esta.';
+  return op+' '+t}
 function placeholderFor(ch){return S.posts.find(p=>p.ch===ch&&p.kind==='largo'&&!p.projectId&&p.st?.yt==='produccion'&&!p.dl)}
 const UPLOAD_H=[13,20]; /* horario fijo de subida elegido por el creador */
 function slotHours(we){return UPLOAD_H.slice()}
@@ -1107,7 +1113,7 @@ async function planProject(id){
     const sd=[];let day=d.kind==='largo'?addDays(longD,1):longD;while(sd.length<5){const hs=slotHours(wdOf(day)>=5);for(const h of hs){if(sd.length<5)sd.push(day+' '+String(h).padStart(2,'0')+':00')}day=addDays(day,1)}
     /* copys with the house rules */
     let copy={};try{const sf=await sampler();copy=await sf.json(`${chCtx(d.ch)}\nEpisodio: ${d.title}\nTítulos posibles: ${(d.review?.titulos||[]).join(' | ')}\nShorts (en orden, son Partes 1–5): ${titles.join(' | ')}\n${d.kind==='largo'?'Guion (resumen): '+String(d.script||'').slice(0,2500):''}
-Escribe los textos para subir. Reglas: público 18–45 en español; título ganador que se reafirma en los primeros segundos; las descripciones de Shorts empiezan EXACTAMENTE con «VIDEO COMPLETO EN EL LINK |» y no pasan de 100 caracteres; texto de Instagram con 5 hashtags; comentario fijado = votación con 2 opciones con emoji + adelanto de algo que solo está en el vídeo completo (nunca «¿qué opinas?»); hechos no probados con «presunto».
+Escribe los textos para subir. Reglas: público 18–45 en español; título ganador que se reafirma en los primeros segundos; las descripciones de Shorts empiezan EXACTAMENTE con «VIDEO COMPLETO EN EL LINK |» y no pasan de 100 caracteres; texto de Instagram distinto al de YouTube y TikTok, que empieza (rotando entre Shorts, nunca dos seguidos iguales) por «HISTORIA COMPLETA EN EL LINK |», «LINK EN BIO |» o «HISTORIA COMPLETA EN MI PERFIL |», 2–3 frases que enganchen, la frase «🔖 Síguenos y guarda este vídeo para que te salgan más historias como esta.» y 5 hashtags; comentario fijado = votación con 2 opciones con emoji + adelanto de algo que solo está en el vídeo completo (nunca «¿qué opinas?»); hechos no probados con «presunto».
 Responde SOLO JSON: {${d.kind==='largo'?'"largo":{"title":"…","alts":["…","…"],"desc":"descripción de YouTube con 3 párrafos cortos y CTA","tags":"12–18 etiquetas de YouTube separadas por comas (tema, personajes, búsquedas reales, nombre del canal), ≤ 450 caracteres","pin":"…"},':''}"shorts":[{"title":"título ≤100 con 1 emoji y 2 hashtags","desc":"VIDEO COMPLETO EN EL LINK | …","tags":"8–12 etiquetas de YouTube separadas por comas (tema, personajes, canal, shorts), ≤ 400 caracteres","ig":"…","tt":"…","pin":"…"}],"miniaturas":[{"idea":"escena y emoción","texto":"texto grande de 2–4 palabras","prompt":"prompt para ChatGPT, estilo cartoon 2D/3D del canal, 16:9"}]}`,{modelTier:'default',cache:false})}catch(e){copy={}}
     const writes=[];
     const order0=Math.max(0,...S.posts.filter(p=>p.ch===d.ch).map(p=>p.order||0));
@@ -1117,7 +1123,7 @@ Responde SOLO JSON: {${d.kind==='largo'?'"largo":{"title":"…","alts":["…","�
         plan:{yt:longD+' '+String(longH).padStart(2,'0')+':00'},st:{yt:'produccion'},copy:{title:lc.title||d.review?.titulos?.[0]||d.title,alts:lc.alts||d.review?.titulos?.slice(1)||[],desc:lc.desc||'',tags:lc.tags||'',pin:lc.pin||''}}]);}
     for(let i=0;i<5;i++){const sc=(copy.shorts||[])[i]||{};
       writes.push([base+'-s'+(i+1),{ch:d.ch,ep,epTitle:d.title,kind:'short',n:i+1,name:titles[i],order:order0+2+i,img,thumbs:[],cover:null,m:{},projectId:id,
-        plan:{yt:sd[i],tt:sd[i],ig:sd[i]},st:{yt:'produccion',tt:'produccion',ig:'produccion'},copy:{title:sc.title||titles[i],desc:sc.desc||'VIDEO COMPLETO EN EL LINK | '+titles[i],ig:sc.ig||'',tt:sc.tt||'',pin:sc.pin||'',tags:sc.tags||'',cierre:'siguiente parte'}}]);}
+        plan:{yt:sd[i],tt:sd[i],ig:sd[i]},st:{yt:'produccion',tt:'produccion',ig:'produccion'},copy:{title:sc.title||titles[i],desc:sc.desc||'VIDEO COMPLETO EN EL LINK | '+titles[i],ig:igCopy(sc.ig,i+(+ep.replace(/\D/g,'')||0),sc.desc||titles[i]),tt:sc.tt||'',pin:sc.pin||'',tags:sc.tags||'',cierre:'siguiente parte'}}]);}
     for(const [pid,data] of writes){const ex=S.posts.find(p=>p.id===pid);try{if(ex)await db.collection('posts').doc(pid).update(data);else await db.collection('posts').doc(pid).set(data)}catch(e){}}
     await saveDraft(id,{ep,posts:writes.map(w=>w[0]),thumbIdeas:(copy.miniaturas||[]).slice(0,3),plannedAt:new Date().toISOString()});
     gen[id]={busy:null}; toast('📅 En el calendario: '+writes.length+' piezas'); render();
@@ -1304,7 +1310,7 @@ function openPost(id,keep){
     ${field('Descripción (YouTube)',c.desc)}
     ${pfs(p).includes('yt')?field('🏷️ Etiquetas de YouTube'+(c.tags?'':' (sugeridas)'),ytTags(p)):''}
     ${field('Texto de TikTok',c.tt)}
-    ${field('Texto de Instagram',c.ig)}
+    ${field('📸 Copy de Instagram',c.ig)}
     ${field('Comentario fijado',c.pin)}
     ${field('Títulos alternativos (prueba A/B)',(c.alts||[]).join('\n'))}
     ${imgs.length?`<div class="sec"><span class="lab">${p.kind==='largo'?'Miniaturas de YouTube':'Portada'}</span><div class="thumbs">${imgs.map(m=>`<figure><img src="${esc(m.src)}" alt="${esc(m.cap)}"><figcaption>${esc(m.cap)}<button class="btn sm" data-img="${esc(m.src)}">⬇</button></figcaption></figure>`).join('')}</div></div>`:''}
