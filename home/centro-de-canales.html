@@ -728,6 +728,7 @@ function pendientes(ch){
     const ws=pls.map(pl=>p.plan?.[pl]).filter(Boolean).sort(); out.push({p,pls,w:ws[0]||''}); }
   return out.sort((a,b)=>(a.w||'9').localeCompare(b.w||'9')||a.p.order-b.p.order);
 }
+let faltaOpen=false; /* empieza plegado en cada visita; se queda abierto mientras lo usas */
 function faltaBox(){
   const ls=pendientes(); if(!ls.length) return '';
   const td=today(), nRed=ls.reduce((n,x)=>n+x.pls.length,0);
@@ -736,7 +737,7 @@ function faltaBox(){
      <div class="fb"><span class="ak">${logo(p.ch,'clogo xs')}<span>${esc(chName(p.ch))} · ${p.kind==='largo'?'Vídeo largo':esc(p.ep)+' · Parte '+p.n}</span>${x.w?`<span class="${late?'late':''}">${late?'⚠️ tocaba el ':'📅 '}${dshort(d)} · ${x.w.slice(11,16)}</span>`:'<span>sin fecha</span>'}</span>
       <b>${esc(ptitle(p))}</b>
       <div class="fpl">${p.dl?`<button class="btn sm pri" data-dl="${p.id}">⬇ Vídeo</button>`:''}${x.pls.map(pl=>`<button class="btn sm" data-st="${p.id}" data-pl="${pl}" data-v="subido" aria-label="Marcar subido en ${PL[pl]}">Falta ${PL[pl]} · ✓</button>`).join('')}</div></div></div>`};
-  return `<details class="falta sec" data-sec="falta" ${openSecs.has('falta-closed')?'':'open'}><summary><h2>🔴 Faltan por subir</h2><span class="cnt">${ls.length}</span></summary>
+  return `<details class="falta sec" id="falta" ${faltaOpen?'open':''}><summary><h2>🔴 Faltan por subir</h2><span class="cnt">${ls.length}</span></summary>
    <p class="fsub">${ls.length} ${ls.length===1?'pieza lista':'piezas listas'} sin publicar (${nRed} ${nRed===1?'subida':'subidas'} entre redes). Toca la red al subirla y desaparece de aquí.</p>
    ${ls.map(row).join('')}</details>`;
 }
@@ -1747,7 +1748,7 @@ document.addEventListener('submit',async e=>{
   try{await db.collection('stats').doc(`${row.date}_${row.ch}_${row.pl}`).set(row);toast('Captura guardada')}catch(err){toast('No se pudo guardar')}
 });
 $('#dlg').addEventListener('click',e=>{if(e.target.id==='dlg')e.target.close()});
-document.addEventListener('toggle',e=>{const d=e.target;if(!d.matches?.('details[data-sec]'))return;d.open?openSecs.add(d.dataset.sec):openSecs.delete(d.dataset.sec);if(d.dataset.sec==='howto'&&!d.open)openSecs.add('howto-seen');if(d.dataset.sec==='falta')d.open?openSecs.delete('falta-closed'):openSecs.add('falta-closed');try{localStorage.setItem('contOpen',JSON.stringify([...openSecs]))}catch(err){}},true);
+document.addEventListener('toggle',e=>{const d=e.target;if(d.id==='falta'){faltaOpen=d.open;return}if(!d.matches?.('details[data-sec]'))return;d.open?openSecs.add(d.dataset.sec):openSecs.delete(d.dataset.sec);if(d.dataset.sec==='howto'&&!d.open)openSecs.add('howto-seen');try{localStorage.setItem('contOpen',JSON.stringify([...openSecs]))}catch(err){}},true);
 /* day summary popup: double click or long press on a calendar day */
 function dayPop(d){
   const gs=grouped(events().filter(e=>e.d===d)); const ev=events().filter(e=>e.d===d);
