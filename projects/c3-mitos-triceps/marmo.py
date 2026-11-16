@@ -112,9 +112,9 @@ def build(muscle_zone="triceps"):
     _target(verts, "macrodetails/universal-male-young-maxmuscle-averageweight.target.gz", -0.25)
     for t, w in (("torso/torso-muscle-pectoral-incr", 0.9), ("torso/torso-muscle-dorsi-incr", 0.8),
                  ("torso/torso-scale-horiz-incr", 0.25),
-                 ("arms/l-upperarm-muscle-incr", 1.0), ("arms/r-upperarm-muscle-incr", 1.0),
-                 ("arms/l-upperarm-shoulder-muscle-incr", 0.9), ("arms/r-upperarm-shoulder-muscle-incr", 0.9),
-                 ("arms/l-lowerarm-muscle-incr", 0.6), ("arms/r-lowerarm-muscle-incr", 0.6),
+                 ("arms/l-upperarm-muscle-incr", 2.1), ("arms/r-upperarm-muscle-incr", 2.1),
+                 ("arms/l-upperarm-shoulder-muscle-incr", 1.5), ("arms/r-upperarm-shoulder-muscle-incr", 1.5),
+                 ("arms/l-lowerarm-muscle-incr", 1.4), ("arms/r-lowerarm-muscle-incr", 1.4),
                  ("legs/l-upperleg-muscle-incr", 0.6), ("legs/r-upperleg-muscle-incr", 0.6)):
         _target(verts, t + ".target.gz", w)
     groups = json.load(open(os.path.join(MPFB, "mesh_metadata/basemesh_vertex_groups.json")))

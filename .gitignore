@@ -15,3 +15,5 @@ projects/c3-mitos-triceps/audio/*.mp3
 projects/c3-mitos-triceps/*.log
 __pycache__/
 projects/c3-mitos-triceps/clip_polea/
+projects/c3-mitos-triceps/clip_anatomia/
+projects/c3-mitos-triceps/*.log
