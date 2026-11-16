@@ -10,4 +10,4 @@ Música: "Motivator" Kevin MacLeod (incompetech.com) · CC BY 4.0
 **Comentario fijado:**
 ¿Cuál hacías tú? 🅰️ Solo polea · 🅱️ Muchas reps «para definir». En el vídeo completo te enseño el ejercicio que más estira la cabeza larga 👀
 
-**Cierre del Short:** «Y si tú también quieres aprender la guía completa, ve nuestro vídeo en YouTube.» + tarjeta del canal Mármol Gym en pantalla.
+**Cierre del Short:** «Tienes la explicación completa en mi canal de YouTube, no te lo pierdas.» + tarjeta del canal Mármol Gym con avance del vídeo.
