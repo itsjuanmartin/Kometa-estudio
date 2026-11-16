@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 860" preserveAspectRatio="xMidYMid slice">
+ <defs>
+  <radialGradient id="g" cx="50%" cy="20%" r="85%"><stop offset="0" stop-color="#2a1f0e"/><stop offset=".6" stop-color="#170f06"/><stop offset="1" stop-color="#0c0803"/></radialGradient>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 .95  0 0 0 0 .8  0 0 0 0 .5  0 0 0 .07 0"/></filter>
+  <filter id="soft"><feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="3" seed="8"/><feColorMatrix values="0 0 0 0 .96  0 0 0 0 .77  0 0 0 0 .2  0 0 0 .09 0"/></filter>
+ </defs>
+ <rect width="400" height="860" fill="url(#g)"/>
+ <rect width="400" height="860" filter="url(#soft)"/>
+ <g fill="none" stroke="#f6c531" stroke-opacity=".09" stroke-width="1">
+  <path d="M-20 120 Q200 90 420 120M-20 230 Q200 205 420 230M-20 340 Q200 320 420 340M-20 450 Q200 435 420 450M-20 560 Q200 550 420 560M-20 670 Q200 665 420 670M-20 780 Q200 780 420 780"/>
+  <path d="M40 -10 Q10 430 40 870M120 -10 Q105 430 120 870M200 -10 V870M280 -10 Q295 430 280 870M360 -10 Q390 430 360 870"/>
+ </g>
+ <!-- continentes -->
+ <g fill="#f6c531" fill-opacity=".045" stroke="#f6c531" stroke-opacity=".16" stroke-width="1.2">
+  <path d="M28 300c22-18 60-22 80-8s16 40 34 48 18 34-6 50-52 8-70 26-40 6-44-20 6-30-6-46-10-38 12-50z"/>
+  <path d="M230 250c26-10 58-4 80 12s40 10 56 30-4 40-30 44-34 26-60 22-30-26-52-30-18-38 6-78z"/>
+  <path d="M250 430c22 2 36 22 34 48s14 44 0 70-38 30-50 12-4-44-18-66 12-66 34-64z"/>
+  <path d="M60 560c18-6 40 6 44 28s-6 50 6 74-6 50-26 46-24-34-34-56 2-86 10-92z"/>
+ </g>
+ <!-- ruta punteada -->
+ <path d="M70 360 C140 300 190 420 270 300 S330 480 260 520" fill="none" stroke="#ff4a3d" stroke-opacity=".45" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
+ <g stroke="#ff4a3d" stroke-opacity=".6" stroke-width="3" stroke-linecap="round"><path d="M253 513l14 14M267 513l-14 14"/></g>
+ <circle cx="70" cy="360" r="4" fill="#ff4a3d" fill-opacity=".55"/>
+ <!-- rosa de los vientos -->
+ <g transform="translate(330 110)" stroke="#f6c531" stroke-opacity=".28" fill="none">
+  <circle r="46"/><circle r="38" stroke-dasharray="2 4"/>
+  <path d="M0-58L8 0 0 58-8 0z" fill="#f6c531" fill-opacity=".12"/><path d="M-58 0L0-8 58 0 0 8z" fill="#f6c531" fill-opacity=".08"/>
+  <text y="-64" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#f6c531" fill-opacity=".4" stroke="none">N</text>
+ </g>
+ <!-- sello de archivo -->
+ <g transform="translate(70 760) rotate(-14)" fill="none" stroke="#f6c531" stroke-opacity=".18">
+  <circle r="40" stroke-width="2"/><circle r="32"/>
+  <text text-anchor="middle" y="6" font-family="Georgia,serif" font-size="16" fill="#f6c531" fill-opacity=".22" stroke="none" letter-spacing="2">1944</text>
+ </g>
+ <rect width="400" height="860" filter="url(#paper)"/>
+</svg>
