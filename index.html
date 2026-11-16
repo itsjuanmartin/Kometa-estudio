@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Y si te tocará · Videos</title>
+<meta name="description" content="Las historias completas de Y si te tocará en YouTube.">
+<meta name="theme-color" content="#120d05">
+<meta property="og:title" content="Y si te tocará · Historias completas">
+<meta property="og:description" content="Toca un video y míralo completo en YouTube.">
+<meta property="og:image" content="img/presidente.jpg">
+<link rel="icon" href="img/logo.jpg">
+<style>
+@font-face{font-family:"Fredoka";src:url("Fredoka-Bold.ttf") format("truetype");font-weight:700;font-display:swap}
+:root{
+  --bg:#120d05; --bg2:#1d1508; --card:#211809; --line:#3a2b10;
+  --text:#fff8e6; --muted:#c9b98f; --sun:#f6c531; --sun2:#ffdd55; --yt:#ff0033;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  min-height:100dvh;background:var(--bg);color:var(--text);
+  font:500 16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  background-image:
+    radial-gradient(120% 60% at 50% -10%, rgba(246,197,49,.28), transparent 60%),
+    repeating-conic-gradient(from 0deg at 50% -6%, rgba(246,197,49,.06) 0deg 6deg, transparent 6deg 18deg);
+  background-attachment:fixed;
+}
+main{max-width:520px;margin:0 auto;padding:36px 16px 48px}
+
+header{text-align:center;margin-bottom:28px}
+.avatar{
+  width:104px;height:104px;border-radius:50%;display:block;margin:0 auto 14px;
+  border:4px solid var(--sun);box-shadow:0 0 0 6px rgba(246,197,49,.18),0 10px 30px rgba(0,0,0,.5);
+  animation:bob 4s ease-in-out infinite;
+}
+@keyframes bob{50%{transform:translateY(-5px) rotate(-2deg)}}
+h1{font-family:"Fredoka",system-ui,sans-serif;font-size:32px;line-height:1.05;letter-spacing:.3px}
+h1 span{color:var(--sun2)}
+.tag{color:var(--muted);margin-top:8px;font-size:15px}
+.pill{
+  display:inline-flex;align-items:center;gap:8px;margin-top:14px;
+  background:rgba(255,0,51,.12);border:1px solid rgba(255,0,51,.35);color:#ffd6dd;
+  padding:6px 12px;border-radius:999px;font-size:13px;font-weight:600
+}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--yt);box-shadow:0 0 0 0 rgba(255,0,51,.6);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(255,0,51,0)}100%{box-shadow:0 0 0 0 rgba(255,0,51,0)}}
+
+.section{font-family:"Fredoka",system-ui,sans-serif;font-size:14px;letter-spacing:2px;color:var(--sun);
+  text-transform:uppercase;margin:0 4px 12px;display:flex;align-items:center;gap:10px}
+.section::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,var(--line),transparent)}
+
+.list{display:grid;gap:18px}
+.video{
+  display:block;text-decoration:none;color:inherit;background:var(--card);
+  border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  box-shadow:0 8px 24px rgba(0,0,0,.35);
+  transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+  -webkit-tap-highlight-color:transparent;
+}
+.video:hover,.video:focus-visible{transform:translateY(-3px);border-color:var(--sun);box-shadow:0 14px 34px rgba(0,0,0,.5)}
+.video:active{transform:scale(.98)}
+.video:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.thumb{position:relative;aspect-ratio:16/9;background:#000}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.play{
+  position:absolute;right:12px;bottom:12px;width:56px;height:40px;border-radius:12px;
+  background:var(--yt);display:grid;place-items:center;
+  box-shadow:0 6px 18px rgba(0,0,0,.45);transition:transform .15s ease;
+}
+.play::before{content:"";border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:3px}
+.video:hover .play{transform:scale(1.1)}
+.badge{
+  position:absolute;top:10px;left:10px;background:var(--sun);color:#1a1200;
+  font-family:"Fredoka",system-ui,sans-serif;font-size:12px;letter-spacing:1px;
+  padding:4px 10px;border-radius:8px;text-transform:uppercase
+}
+.meta{display:flex;gap:12px;align-items:center;padding:14px 14px 16px}
+.meta img{width:38px;height:38px;border-radius:50%;flex:none;border:2px solid var(--sun)}
+.meta div{flex:1;min-width:0}
+.meta h2{font-family:"Fredoka",system-ui,sans-serif;font-size:19px;line-height:1.15}
+.meta p{color:var(--muted);font-size:14px;margin-top:3px}
+.go{
+  flex:none;display:flex;align-items:center;gap:6px;background:var(--yt);color:#fff;
+  font-weight:700;font-size:13px;padding:9px 12px;border-radius:999px;white-space:nowrap
+}
+.go svg{width:14px;height:14px}
+
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:32px;opacity:.8}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media (max-width:360px){.go span{display:none}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="avatar" src="img/logo.jpg" alt="Y si te tocará" width="104" height="104">
+    <h1>¿Y si te <span>tocará</span> a ti?</h1>
+    <p class="tag">Las historias completas, aquí. Toca un video y se abre en YouTube.</p>
+    <div class="pill"><i></i>Videos largos en YouTube</div>
+  </header>
+
+  <p class="section">Historias completas</p>
+
+  <!-- Para agregar un video: copia un bloque <a class="video">, cambia href, imagen y textos.
+       Los más nuevos van arriba. -->
+  <div class="list">
+
+    <a class="video" href="https://linktw.in/bthxei">
+      <div class="thumb">
+        <img src="img/engano.jpg" alt="Portada: ¿De goma? 30 toneladas… falsas" width="960" height="540">
+        <span class="badge">Nuevo</span>
+        <span class="play" aria-hidden="true"></span>
+      </div>
+      <div class="meta">
+        <img src="img/logo.jpg" alt="" width="38" height="38">
+        <div>
+          <h2>El día del engaño</h2>
+          <p>¿De goma? 30 toneladas… falsas</p>
+        </div>
+        <span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Ver</span></span>
+      </div>
+    </a>
+
+    <a class="video" href="https://linktw.in/bwvhld">
+      <div class="thumb">
+        <img src="img/presidente.jpg" alt="Portada: Proteger al presidente, nivel imposible" width="960" height="540" loading="lazy">
+        <span class="play" aria-hidden="true"></span>
+      </div>
+      <div class="meta">
+        <img src="img/logo.jpg" alt="" width="38" height="38">
+        <div>
+          <h2>Proteger al presidente</h2>
+          <p>Nivel: imposible</p>
+        </div>
+        <span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Ver</span></span>
+      </div>
+    </a>
+
+    <a class="video" href="https://linktw.in/zjobpm">
+      <div class="thumb">
+        <img src="img/bastardos.jpg" alt="Portada: Te mandan solo… para que te disparen" width="960" height="540" loading="lazy">
+        <span class="play" aria-hidden="true"></span>
+      </div>
+      <div class="meta">
+        <img src="img/logo.jpg" alt="" width="38" height="38">
+        <div>
+          <h2>Bastardos sin gloria</h2>
+          <p>Te mandan solo… para que te disparen</p>
+        </div>
+        <span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Ver</span></span>
+      </div>
+    </a>
+
+  </div>
+
+  <footer>¿Tú qué habrías hecho? Cuéntamelo en los comentarios.</footer>
+</main>
+</body>
+</html>
