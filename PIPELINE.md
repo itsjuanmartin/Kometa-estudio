@@ -96,5 +96,5 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - Publicadas con GitHub Pages desde la rama `gh-pages` (solo esa rama sirve la web).
 - Y Si Te Tocará: https://itsjuanmartin.github.io/Kometa-estudio/ (raíz; `/ytt/` redirige ahí).
 - Archivo Oscuro: https://itsjuanmartin.github.io/Kometa-estudio/ao/
-- Copia de las fuentes en `ytt/` y `ao/` de la rama de trabajo. Para añadir un vídeo largo: portada 960×540 en `img/`, nuevo bloque arriba con la etiqueta «Nuevo» (quitarla del anterior) y push a `gh-pages`.
+- Copia de las fuentes en `ytt/` y `ao/` de la rama de trabajo. Para añadir un vídeo largo: portada 960×540 en `img/`, nuevo bloque arriba con el sticker NUEVO y la clase `hot` (quitar ambos del anterior: solo el más reciente lleva sticker) y push a `gh-pages`.
 - El Home muestra estos links en «Hoy → Links de la bio» (constante LINKPAGE o campo `linkPage` del canal).
