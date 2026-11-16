@@ -99,3 +99,8 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - Estilo: Shorts en estudio gris con cuadrícula; vídeos largos en gimnasio oscuro. Músculo en rojo, contorno verde discontinuo, flecha roja, círculos rojos en articulaciones, títulos en cursiva negra/roja.
 - Cierre de Shorts: «Tienes la explicación completa en mi canal de YouTube, no te lo pierdas» + tarjeta del canal con avance del vídeo.
 - Render sin GPU: un solo proceso Eevee (dos a la vez se estorban), ~5 s/fotograma a 540x960.
+- **Ganchos de Esculpe (elegidos por el creador, 16 nov 2026):**
+  1. *Error que frena:* «Si entrenas tu X de esta forma, nunca va a crecer» / «El 96 % de la gente no sabe hacer bien este ejercicio» → y empezar a explicar. Usar solo cifras con fuente; si no la hay, decir «casi todo el mundo».
+  2. *Lista tapada:* «Si quieres hacer crecer tu espalda, tienes que hacer estos 5 ejercicios» con los 5 tapados (círculos pixelados numerados) que se destapan uno a uno durante el vídeo. Vale para Shorts y largos; retiene hasta el último.
+  3. *Mito de nutrición con estudio + bucle abierto:* «Si quieres músculo, no comas carbohidratos… eso no es del todo cierto. Un estudio de [autor, año] encontró que [dato]. Pero al final te digo la forma correcta para que sí funcione.» Cerrar siempre el bucle al final.
+  - Recursos visuales de esos vídeos: comparativa de cuerpo antes/después (grande vs. normal), mapa de zonas de un músculo en colores con etiquetas y líneas discontinuas (ANCHURA / GROSOR / PARTE ALTA).
