@@ -108,3 +108,6 @@ Alternar con «Te dijeron que X…»: **«¿Qué preferirías: X o Y? Bueno… a
 
 ## Cierres contundentes (desde 16 nov 2026)
 Sustituyen a los cierres suaves. Ver `assets/cierres_shorts/CIERRES_CONTUNDENTES.txt` (líneas para ElevenLabs). Shorts 1–4 rotan los de «Parte 2»; el Short 5 usa el de YouTube.
+
+## Pausa de producción (16–19 nov 2026)
+- Sin crear contenido hasta el jueves 19 (memoria). Para no dejar Instagram vacío, los 5 Shorts de EP02 «Bastardos sin gloria» (antes sin IG) van a Instagram: mié 18 13:00 y 20:00, jue 19 13:00 y 20:00, vie 20 13:00.
