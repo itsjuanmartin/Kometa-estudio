@@ -689,6 +689,8 @@ function monet(ch){const r=S.stats.filter(s=>s.ch===ch&&s.pl==='yt'&&s.f!=null).
   return `<a class="monet" href="#meta" data-metach="${ch}" style="text-decoration:none;color:inherit"><div class="row" style="justify-content:space-between"><span class="lab">💰 Monetización YouTube ›</span><b>${fmt(f)} / 1.000</b></div><i><b style="width:${Math.max(1.5,p)}%"></b></i><small>Toca para ver tu línea de tiempo y ponerte un objetivo.</small></a>`}
 function seriesIssues(){const out=[];const by={};for(const p of S.posts)if(p.kind==='short'&&p.ep)(by[p.ep]||=[]).push(p);
   for(const [ep,ps] of Object.entries(by)){ps.sort((a,b)=>a.n-b.n);for(const pl of ['yt','tt','ig'])for(let i=1;i<ps.length;i++){const a=ps[i-1],b=ps[i];const wa=a.plan?.[pl],wb=b.plan?.[pl];if(!wa||!wb)continue;if(a.st?.[pl]==='subido'&&b.st?.[pl]==='subido')continue;if(wb<wa)out.push({ep,pl,a,b})}}return out}
+const liveHidden=new Set();
+async function dismissLive(u){if(!u)return;liveHidden.add(u);if(route()==='hoy')render();try{await db?.collection('live').doc('now').update({seenFor:u})}catch(e){}}
 /* páginas tipo Linktree con las portadas de los vídeos largos (GitHub Pages, rama gh-pages) */
 const LINKPAGE={ytt:'https://itsjuanmartin.github.io/Kometa-estudio/',ao:'https://itsjuanmartin.github.io/Kometa-estudio/ao/'};
 function linksBox(){
@@ -716,10 +718,9 @@ function viewHoy(){
     <nav class="qtiles" aria-label="Accesos rápidos"><a href="#proyectos" class="qt q1"><span class="qi">⭐️</span><b>Proyectos</b><small>${projN?projN+' en marcha':'Crea el siguiente'}</small></a><a href="#voces" class="qt q2"><span class="qi">🎙️</span><b>Voces</b><small>${vPend?vPend+' pendientes':'Al día'}</small></a><a href="#calendario" class="qt q3"><span class="qi">📅</span><b>Calendario</b><small>Mañana: ${tomN} piezas</small></a><a href="#datos" class="qt q4"><span class="qi">📊</span><b>Datos</b><small>${fmt(fol)} seguidores</small></a></nav>${linksBox()}`;
   const si=seriesIssues();
   const alert2=si.length?`<button class="ialert warn" data-open="${si[0].b.id}"><span class="iic" aria-hidden="true">🔀</span><span class="itx"><span class="iapp">ORDEN DE LA SERIE</span><b>${si.length===1?'Una parte sale antes que la anterior':si.length+' partes salen antes que la anterior'}</b><span>${esc(si[0].ep)} · ${PL[si[0].pl]}: Parte ${si[0].b.n} antes que la Parte ${si[0].a.n}. Toca para cambiar la fecha.</span></span></button>`:'';
-  const lv=S.live.find(x=>x.id==='now'); let lvShow=lv&&lv.updated&&(Date.now()-Date.parse(lv.updated)<(lv.pct>=100?48:12)*36e5);
-  /* finished: show it once, then it disappears (1 min after you first see it, or when you tap OK) */
-  if(lvShow&&lv.pct>=100){const k='liveSeen:'+lv.updated;let seen=null;try{seen=+localStorage.getItem(k)||null;if(!seen){seen=Date.now();localStorage.setItem(k,String(seen))}}catch(e){}
-    if(seen&&Date.now()-seen>60e3) lvShow=false; else if(!viewHoy._t) viewHoy._t=setTimeout(()=>{viewHoy._t=null;if(route()==='hoy')render()},61e3)}
+  const lv=S.live.find(x=>x.id==='now'); const lvShow=lv&&lv.updated&&lv.seenFor!==lv.updated&&!liveHidden.has(lv.updated)&&(Date.now()-Date.parse(lv.updated)<(lv.pct>=100?24:12)*36e5);
+  /* finished: shown until you tap OK, or 1 min after you first see it. The dismissal is saved in the database (seenFor), not in the browser, so it doesn't come back in the phone app */
+  if(lvShow&&lv.pct>=100&&!viewHoy._t){const u=lv.updated;viewHoy._t=setTimeout(()=>{viewHoy._t=null;dismissLive(u)},60e3)}
   return alert+alert2+(lvShow?`<section class="sec">${liveProd({prod:lv},lv.title||'Claude está trabajando')}${lv.pct>=100?`<button class="btn" data-liveok="${esc(lv.updated)}">OK, visto</button>`:''}</section>`:'')+hero+`${totN?`<section class="sec"><h2 style="margin:0">Hoy toca</h2><span class="sub" style="margin:0">Descarga el vídeo, copia los textos y marca cada red al subirla.</span></section>`:''}
     ${late.length?`<section class="sec" id="late"><h2 class="down">Atrasado (${late.length})</h2><div class="tasks">${late.map(taskCard).join('')}</div></section>`:''}
     ${totN?`<section class="sec">${dayBlock(td,true)}</section>`:''}
@@ -1564,7 +1565,7 @@ addEventListener('hashchange',()=>{const r=route();const dir=ORDER.indexOf(r)>=O
 document.addEventListener('click',async e=>{
   const t=e.target;
   const card=t.closest('[data-card]'); if(card&&!t.closest('button,a,input,select,label,audio,textarea')){openPost(card.dataset.card,false,card.dataset.pls);return}
-  const lok=t.closest('[data-liveok]'); if(lok){try{localStorage.setItem('liveSeen:'+lok.dataset.liveok,'1')}catch(e){}render();return}
+  const lok=t.closest('[data-liveok]'); if(lok){dismissLive(lok.dataset.liveok);return}
   if(t.closest('[data-usesave]')){saveUsage();return}
   if(t.closest('[data-usex]')){Object.assign(usg,{stage:'idle',imgs:[],rows:[],msg:''});render();return}
   const ac=t.closest('[data-allcopys]'); if(ac){postPls=null;openPost(ac.dataset.allcopys,true);return}
