@@ -1,0 +1,18 @@
+CIERRES CONTUNDENTES DE SHORTS (16 nov 2026) — generar cada línea suelta en ElevenLabs, una sola vez
+Shorts 1–4 → rotar A, B, C, D (con tarjeta «PARTE 2: …»). Short 5 → E.
+
+Y SI TE TOCARÁ (voz del narrador del canal)
+A) La mayoría se queda sin saber cómo termina. Sígueme… y tú no.
+B) Si no me sigues, esta historia se queda a medias.
+C) La parte dos sale en unas horas. Sígueme o te la pierdes.
+D) Lo peor todavía no ha pasado. Sígueme para la parte dos.
+E) Esto es solo una parte. La historia completa está en YouTube, el link está en mi perfil.
+
+ARCHIVO OSCURO (voz de Javi)
+A) La mayoría nunca llega al final de este expediente. Sígueme… y tú sí.
+B) Si no me sigues, este expediente se queda abierto.
+C) La parte dos sale en unas horas. Sígueme o te la pierdes.
+D) Lo que viene ahora es peor. Sígueme para la parte dos.
+E) El expediente completo está en YouTube. El link está en mi perfil.
+
+Archivos sugeridos: assets/cierres_shorts/audio/fuerte_ystt_A.mp3 … fuerte_ao_E.mp3

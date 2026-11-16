@@ -91,3 +91,20 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - **Horario de subida fijo: 13:00 y 20:00 (hora de España)**, 2 piezas al día por canal y red; el vídeo largo a las 20:00. El Home (UPLOAD_H) ya planifica así los proyectos nuevos. Recordatorio automático a las 12:55 y 19:55 (tarea programada con aviso al móvil).
 - **Logos y banners de canales nuevos:** alternar entre el motor propio (gratis) e Higgsfield. A los clientes del kit se les pide instalar Higgsfield. El asistente «Añadir canal» del Home guarda la preferencia en channels/<id>.brief.art.
 - **Montaje:** el creador quiere trabajar solo desde el Home. Cuando un proyecto tenga montaje == "pedido", producirlo siguiendo la sección «Home — producción en directo».
+
+## Estrategia de crecimiento (desde 16 nov 2026)
+- **Primero Shorts, luego el largo:** cada tema se prueba como serie de 5 Shorts. Solo el tema cuyo Short pase de **1.000 vistas** en alguna red tiene vídeo largo (los dos canales). El Home propone «Primero Shorts» por defecto.
+- **Y Si Te Tocará:** foco en espías y operaciones secretas de la Segunda Guerra Mundial (serie «Operaciones secretas 2ª GM»), lo que mejor funciona.
+- **Archivo Oscuro:** probar casos con personas y misterio (no empresas); TikTok es la red que mejor le va.
+- **Esculpe (c3): EN PAUSA** hasta que YSTT llegue a ~500 seguidores entre las 3 redes. No producir nada de Esculpe mientras tanto.
+- **Métrica principal:** seguidores por cada 1.000 vistas (hoy ≈ 2 en YSTT; objetivo 10). Objetivos en el Home: `goals/plan` (items con `auto`: fol, yt, tt, ig, conv, k1, pend; o manuales con `cur`/`target`).
+- Home: sección roja **«Faltan por subir»** (todo lo `listo` sin subir en alguna red) y **«Objetivos»** en Hoy.
+
+## Gancho del dilema (desde 16 nov 2026)
+Alternar con «Te dijeron que X…»: **«¿Qué preferirías: X o Y? Bueno… a él le tocó esto.»**
+- Dos opciones extremas y concretas, en menos de 3 s. La historia responde cuál le tocó.
+- Encaja con YSTT (segunda persona) y sirve de comentario votable («escribe X o Y»).
+- Ej.: «¿Qué preferirías: saltar en paracaídas sobre la Francia ocupada… o quedarte en una celda de la Gestapo? Bueno, a este espía le tocaron las dos.»
+
+## Cierres contundentes (desde 16 nov 2026)
+Sustituyen a los cierres suaves. Ver `assets/cierres_shorts/CIERRES_CONTUNDENTES.txt` (líneas para ElevenLabs). Shorts 1–4 rotan los de «Parte 2»; el Short 5 usa el de YouTube.
