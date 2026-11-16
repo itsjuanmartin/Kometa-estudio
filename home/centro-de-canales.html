@@ -1433,6 +1433,30 @@ function spark(rows,color){
   const W=120,H=30,xs=rows.map((_,i)=>2+i*(W-4)/(rows.length-1)),vals=rows.map(r=>r.f??0),mn=Math.min(...vals),mx=Math.max(...vals),rg=mx-mn||1,ys=vals.map(v=>H-3-((v-mn)/rg)*(H-6));
   return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" points="${xs.map((x,i)=>x+','+ys[i]).join(' ')}"/></svg>`;
 }
+/* ---------- LEER CAPTURAS (común a Datos y Consumo) ---------- */
+/* Convierte cualquier foto (PNG grande, HEIC del iPhone…) en un JPEG ligero antes de mandarla a Claude */
+async function toJpeg(file){
+  try{
+    const bmp=await createImageBitmap(file).catch(()=>null);
+    let w,h,draw;
+    if(bmp){w=bmp.width;h=bmp.height;draw=c=>c.drawImage(bmp,0,0,cw,ch)}
+    else{const img=await new Promise((r,j)=>{const i=new Image();i.onload=()=>r(i);i.onerror=j;i.src=URL.createObjectURL(file)});w=img.naturalWidth;h=img.naturalHeight;draw=c=>c.drawImage(img,0,0,cw,ch)}
+    var k=Math.min(1,1800/Math.max(w,h)),cw=Math.round(w*k),ch=Math.round(h*k);
+    const cv=document.createElement('canvas');cv.width=cw;cv.height=ch;const ctx=cv.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,cw,ch);draw(ctx);
+    const b=await new Promise(r=>cv.toBlob(r,'image/jpeg',.88));return b||file;
+  }catch(e){return file}
+}
+function looseJSON(t){t=String(t||'');try{return JSON.parse(t)}catch(e){}const f=t.match(/```(?:json)?\s*([\s\S]*?)```/);if(f){try{return JSON.parse(f[1])}catch(e){}}const a=t.indexOf('{'),b=t.lastIndexOf('}');if(a>=0&&b>a){try{return JSON.parse(t.slice(a,b+1))}catch(e){}}throw {code:'invalid_json'}}
+async function readImagesJSON(prompt,files){
+  const sf=await sampler(); const lim=await sf.limits?.().catch(()=>null);
+  if(lim&&!lim.images) throw {code:'images_unavailable'};
+  const imgs=await Promise.all(files.map(toJpeg));
+  const max=lim?.images?.maxCount||imgs.length;
+  try{const r=await sf(prompt+'\nResponde SOLO con el JSON, sin texto antes ni después.',{images:imgs.slice(0,max),modelTier:'default',cache:false});return looseJSON(r.text)}
+  catch(e){if(e?.code==='invalid_json'||e?.text){try{return looseJSON(e.text)}catch(x){}}throw e}
+}
+function capErr(e){const c=e?.code||'';const m={cancelled_user:'Cancelado. No se ha gastado nada.',not_granted:'No tengo permiso para leer capturas aquí: toca «Permitir» cuando te lo pregunte, o escribe los números abajo.',images_unavailable:'Esta vista no puede mandar imágenes a Claude. Escribe los números abajo.',image_rejected:'No pude abrir esa imagen. Haz la captura otra vez (PNG o JPG) o escribe los números abajo.',rate_limited:'Demasiadas seguidas o límite de Claude alcanzado. Escribe los números abajo o prueba más tarde.',invalid_json:'Leí la captura pero no entendí los números. Revísalos y escríbelos abajo.',session_expired:'Tu sesión de claude.ai caducó: vuelve a entrar.'};return (m[c]||'No pude leerla. Escribe los números abajo.')+(c&&!m[c]?` (código: ${c})`:'')}
+
 /* ---------- CONSUMO: ElevenLabs + Claude (from screenshots) ---------- */
 const usg={stage:'idle',msg:'',imgs:[],rows:[]};
 const fmtN=n=>n==null||n===''?'—':Number(n).toLocaleString('es-ES');
@@ -1466,24 +1490,24 @@ function usageSec(){
 }
 function useBox(){
   if(usg.stage==='reading') return `<div class="panel capbox" id="usebox"><div class="capimgs">${usg.imgs.map(u=>`<img src="${u}" alt="">`).join('')}</div><div class="row"><span class="spin" aria-hidden="true"></span><b>Leyendo tu consumo…</b></div></div>`;
-  if(usg.stage==='review') return `<div class="panel capbox" id="usebox"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Revisa y guarda</h2><button class="btn sm" data-usex>Descartar</button></div>
+  if(usg.stage==='review') return `<div class="panel capbox" id="usebox"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Revisa y guarda</h2><button class="btn sm" data-usex>Descartar</button></div>${usg.msg?`<p class="down" style="margin:0;font-size:13px">${esc(usg.msg)}</p>`:''}
     ${usg.rows.map((r,i)=>r.svc==='eleven'?`<div class="caprow"><b>🎙️ ElevenLabs</b><div class="capnums"><label>Créditos<input type="number" inputmode="numeric" data-ur="${i}" data-k="credits" value="${r.credits??''}"></label><label>Total del plan<input type="number" inputmode="numeric" data-ur="${i}" data-k="total" value="${r.total??''}"></label><label>Plan<input type="text" data-ur="${i}" data-k="plan" value="${esc(r.plan??'')}"></label></div></div>`
       :`<div class="caprow"><b>✨ Claude</b><div class="capnums"><label>Sesión %<input type="number" inputmode="numeric" data-ur="${i}" data-k="session" value="${r.session??''}"></label><label>Semana %<input type="number" inputmode="numeric" data-ur="${i}" data-k="week" value="${r.week??''}"></label><label>Semana se reinicia<input type="text" data-ur="${i}" data-k="weekReset" value="${esc(r.weekReset??'')}"></label></div></div>`).join('')||'<p class="empty">No encontré datos de consumo en esa captura.</p>'}
     <div class="row"><button class="btn pri" data-usesave ${usg.rows.length?'':'disabled'}>Guardar</button></div></div>`;
-  return `<label class="panel capbox drop" id="usebox"><input type="file" accept="image/*" multiple id="usefile" hidden><span class="capicon" aria-hidden="true">📊</span><b>Subir captura de consumo</b><span class="empty">ElevenLabs (tu perfil, donde salen los créditos) o Claude (Ajustes → Uso). Puedes subir las dos a la vez.</span>${usg.msg?`<span class="down" style="font-size:13px">${esc(usg.msg)}</span>`:''}</label>`;
+  return `<label class="panel capbox drop" id="usebox"><input type="file" accept="image/*,.heic,.heif" multiple id="usefile" hidden><span class="capicon" aria-hidden="true">📊</span><b>Subir captura de consumo</b><span class="empty">ElevenLabs (tu perfil, donde salen los créditos) o Claude (Ajustes → Uso). Puedes subir las dos a la vez.</span>${usg.msg?`<span class="down" style="font-size:13px">${esc(usg.msg)}</span>`:''}</label>`;
 }
 async function readUsage(files){
-  files=[...files].filter(f=>f.type.startsWith('image/')).slice(0,4); if(!files.length) return;
+  files=[...files].filter(f=>f.type.startsWith('image/')||/\.(heic|heif|png|jpe?g|webp|gif)$/i.test(f.name||'')).slice(0,4); if(!files.length) return;
   usg.imgs.forEach(u=>URL.revokeObjectURL(u)); usg.imgs=files.map(f=>URL.createObjectURL(f)); usg.stage='reading'; usg.msg=''; render();
   try{
-    await sampler();
-    const out=await sampleFn.json(`Lee estas capturas de consumo. Pueden ser de ElevenLabs (perfil con créditos y plan) o de Claude (pantalla «Uso»: sesión actual, límites semanales, aviso).
+    const out=await readImagesJSON(`Lee estas capturas de consumo. Pueden ser de ElevenLabs (perfil con créditos y plan) o de Claude (pantalla «Uso»: sesión actual, límites semanales, aviso).
 Devuelve SOLO JSON: {"items":[{"svc":"eleven","credits":créditos restantes (entero),"total":créditos totales del plan si aparece o null,"plan":"nombre del plan o null"},{"svc":"claude","session":% usado de la sesión actual (número),"sessionReset":"cuándo se restablece la sesión, tal cual, o null","week":% usado del límite semanal «Todos los modelos» (número),"weekReset":"cuándo se restablece, tal cual, o null","plan":null,"warn":"el aviso que aparezca (ej. «se te acabará el límite el miércoles…») o null"}]}
-Incluye solo los servicios que aparezcan. Convierte "32.908" en 32908. No incluyas emails ni nombres.`,{images:files,modelTier:'default'});
+Incluye solo los servicios que aparezcan. Convierte "32.908" en 32908. No incluyas emails ni nombres.`,files);
     const num=v=>v===null||v===''||!Number.isFinite(+v)?null:+v;
     usg.rows=(out?.items||[]).filter(x=>x.svc==='eleven'||x.svc==='claude').map(x=>x.svc==='eleven'?{svc:'eleven',credits:num(x.credits),total:num(x.total),plan:x.plan||''}:{svc:'claude',session:num(x.session),sessionReset:x.sessionReset||'',week:num(x.week),weekReset:x.weekReset||'',warn:x.warn||'',plan:x.plan||''});
     usg.stage='review';
-  }catch(e){usg.stage='idle';usg.msg=e?.code==='not_granted'||e?.code==='unavailable'||e?.code==='images_unavailable'?'Aquí no se pueden leer capturas. Mándamela por el chat y la apunto yo.':'No pude leerla. Prueba otra vez o mándamela por el chat.'}
+    if(!usg.rows.length){usg.rows=[{svc:'claude',session:null,sessionReset:'',week:null,weekReset:'',warn:'',plan:''},{svc:'eleven',credits:null,total:null,plan:''}];usg.msg='No encontré números en la captura: escríbelos aquí.'}
+  }catch(e){usg.stage='review';usg.msg=capErr(e);usg.rows=[{svc:'claude',session:null,sessionReset:'',week:null,weekReset:'',warn:'',plan:''},{svc:'eleven',credits:null,total:null,plan:''}]}
   render();
 }
 async function saveUsage(){
@@ -1562,11 +1586,12 @@ function matchPost(title,ch,pl){const tw=new Set(norm(title));if(!tw.size)return
   for(const p of S.posts){if(ch&&S.channels.some(c=>c.id===ch)&&p.ch!==ch)continue;const cands=[p.name,p.epTitle,p.copy?.title,p.copy?.ig,p.copy?.tt,(p.copy?.alts||[]).join(' ')].filter(Boolean);
     for(const c of cands){const cw=new Set(norm(c).slice(0,18));let inter=0;tw.forEach(w=>{if(cw.has(w))inter++});const sc=inter/Math.min(tw.size,Math.max(cw.size,1));if(sc>bs){bs=sc;best=p.id}}}
   return bs>=0.34?best:null} let sampleFn;
+function blankCapRows(){const a=S.channels.filter(c=>c.status==='activo').sort((x,y)=>x.order-y.order);return a.length?[{ch:a[0].id,pl:'yt',f:null,v:null,vp:'28 días',h:null,note:'A mano'}]:[]}
 function capBox(){
   const act=S.channels.filter(c=>c.status==='activo');
   if(cap.stage==='reading') return `<div class="panel capbox" id="capbox"><div class="capimgs">${cap.imgs.map(u=>`<img src="${u}" alt="">`).join('')}</div><div class="row"><span class="spin" aria-hidden="true"></span><b>Leyendo tus capturas…</b></div><p class="empty" style="margin:0">Tarda unos segundos.</p></div>`;
   if(cap.stage==='review') return `<div class="panel capbox" id="capbox"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Revisa y guarda</h2><button class="btn sm" data-capx>Descartar</button></div>
-    <p class="empty" style="margin:0">Esto es lo que he leído. Corrige lo que haga falta.</p>
+    ${cap.msg?`<p class="down" style="margin:0;font-size:13px">${esc(cap.msg)}</p>`:'<p class="empty" style="margin:0">Esto es lo que he leído. Corrige lo que haga falta.</p>'}
     ${cap.rows.map((r,i)=>`<div class="caprow"><div class="row" style="gap:8px">${logo(r.ch,'clogo sm')}<select data-cr="${i}" data-k="ch" aria-label="Canal">${act.map(c=>`<option value="${c.id}" ${r.ch===c.id?'selected':''}>${esc(c.name)}</option>`).join('')}</select><select data-cr="${i}" data-k="pl" aria-label="Plataforma">${Object.entries(PL).map(([k,v])=>`<option value="${k}" ${r.pl===k?'selected':''}>${v}</option>`).join('')}</select><button class="btn sm" data-capdel="${i}" aria-label="Quitar">✕</button></div>
       <div class="capnums"><label>${r.pl==='yt'?'Suscriptores':'Seguidores'}<input type="number" inputmode="numeric" data-cr="${i}" data-k="f" value="${r.f??''}"></label><label>Vistas<input type="number" inputmode="numeric" data-cr="${i}" data-k="v" value="${r.v??''}"></label><label>Periodo<input type="text" data-cr="${i}" data-k="vp" value="${esc(r.vp??'')}"></label></div></div>`).join('')||'<p class="empty">No encontré números en esas capturas.</p>'}
     ${cap.vids.length?`<h3 class="shsec" style="margin-top:6px">🎬 Vídeos encontrados (${cap.vids.length})</h3><p class="empty" style="margin:0;font-size:12.5px">Comprueba a qué pieza corresponde cada uno. Los que no reconozca, elígelos tú o déjalos en «No guardar».</p>
@@ -1574,27 +1599,27 @@ function capBox(){
       <select data-cv="${i}" aria-label="Pieza"><option value="">— No guardar —</option>${S.posts.filter(p=>!x.ch||p.ch===x.ch).sort((a,b)=>a.ch.localeCompare(b.ch)||a.order-b.order).map(p=>`<option value="${p.id}" ${x.pid===p.id?'selected':''}>${esc(p.ep)} · ${esc(p.kind==='largo'?'Vídeo largo':p.name)}</option>`).join('')}</select>
       <div class="vnums"><span>👁 <b>${fmt(x.v)}</b></span>${x.l!=null?`<span>❤ ${fmt(x.l)}</span>`:''}${x.c!=null?`<span>💬 ${x.c}</span>`:''}</div></div>`).join('')}`:''}
     <div class="row"><button class="btn pri" data-capsave ${cap.rows.length||cap.vids.some(v=>v.pid)?'':'disabled'}>Guardar ${cap.rows.length+cap.vids.filter(v=>v.pid).length} datos</button></div></div>`;
-  return `<label class="panel capbox drop" id="capbox"><input type="file" accept="image/*" multiple id="capfile" hidden><span class="capicon" aria-hidden="true">📷</span><b>Subir capturas</b><span class="empty">Varias a la vez: estadísticas del canal y listas de vídeos (YouTube Studio, TikTok, Instagram). Leo los seguidores y las vistas de cada vídeo.</span>${cap.msg?`<span class="down" style="font-size:13px">${esc(cap.msg)}</span>`:''}</label>`;
+  return `<label class="panel capbox drop" id="capbox"><input type="file" accept="image/*,.heic,.heif" multiple id="capfile" hidden><span class="capicon" aria-hidden="true">📷</span><b>Subir capturas</b><span class="empty">Varias a la vez: estadísticas del canal y listas de vídeos (YouTube Studio, TikTok, Instagram). Leo los seguidores y las vistas de cada vídeo.</span>${cap.msg?`<span class="down" style="font-size:13px">${esc(cap.msg)}</span>`:''}</label>`;
 }
 async function readCaps(files){
-  files=[...files].filter(f=>f.type.startsWith('image/')).slice(0,8); if(!files.length) return;
+  files=[...files].filter(f=>f.type.startsWith('image/')||/\.(heic|heif|png|jpe?g|webp|gif)$/i.test(f.name||'')).slice(0,8); if(!files.length) return;
   cap.imgs.forEach(u=>URL.revokeObjectURL(u)); cap.imgs=files.map(f=>URL.createObjectURL(f)); cap.stage='reading'; cap.msg=''; render();
   try{
-    await sampler();
     const chs=S.channels.filter(c=>c.status==='activo').map(c=>`- id "${c.id}": ${c.name} (YouTube "${c.yt||''}", Instagram "${c.ig||''}", TikTok "${c.tt||''}")`).join('\n');
-    const out=await sampleFn.json(`Lee estas capturas de estadísticas de redes sociales (YouTube Studio, TikTok o Instagram).
+    const out=await readImagesJSON(`Lee estas capturas de estadísticas de redes sociales (YouTube Studio, TikTok o Instagram).
 Canales posibles:
 ${chs}
 Devuelve SOLO este JSON: {"rows":[{"ch":"id del canal","pl":"yt"|"tt"|"ig","f":suscriptores o seguidores (número entero) o null,"v":vistas totales del canal (número entero) o null,"vp":"periodo de las vistas tal como aparece, por ejemplo '28 días', o null","h":horas de reproducción (número) o null,"note":"qué captura es, máximo 6 palabras"}],"videos":[{"ch":"id del canal o null","pl":"yt"|"tt"|"ig","title":"título del vídeo tal como aparece; si no hay título, el texto grande que se lee en la miniatura","v":vistas o reproducciones (entero),"l":me gusta (entero) o null,"c":comentarios (entero) o null}]}
-"rows": una fila por cada canal y plataforma con datos del canal (seguidores, vistas totales); si dos capturas son del mismo canal y plataforma, júntalas. "videos": cada vídeo, Short o reel que aparezca con sus números (listas de contenido, cuadrículas de perfil, «contenido principal»…). Convierte "4.8 K" en 4800, "1,2 mil" en 1200 y "2.563" en 2563. Identifica el canal por su nombre, usuario o avatar.`,{images:files,modelTier:'default'});
+"rows": una fila por cada canal y plataforma con datos del canal (seguidores, vistas totales); si dos capturas son del mismo canal y plataforma, júntalas. "videos": cada vídeo, Short o reel que aparezca con sus números (listas de contenido, cuadrículas de perfil, «contenido principal»…). Convierte "4.8 K" en 4800, "1,2 mil" en 1200 y "2.563" en 2563. Identifica el canal por su nombre, usuario o avatar.`,files);
     const ok=new Set(S.channels.map(c=>c.id));
     cap.rows=(out?.rows||[]).filter(r=>ok.has(r.ch)&&PL[r.pl]).map(r=>({ch:r.ch,pl:r.pl,f:Number.isFinite(+r.f)&&r.f!==null?Math.round(+r.f):null,v:Number.isFinite(+r.v)&&r.v!==null?Math.round(+r.v):null,vp:r.vp||'',h:Number.isFinite(+r.h)&&r.h!==null?+r.h:null,note:r.note||''}));
     const n0=v=>Number.isFinite(+v)&&v!==null&&v!==''?Math.round(+v):null;
     cap.vids=(out?.videos||[]).filter(x=>PL[x.pl]&&n0(x.v)!=null).map(x=>{const pid=matchPost(x.title,x.ch,x.pl);return {title:String(x.title||'').slice(0,120),ch:ok.has(x.ch)?x.ch:(S.posts.find(p=>p.id===pid)?.ch||null),pl:x.pl,v:n0(x.v),l:n0(x.l),c:n0(x.c),pid}});
     cap.stage='review';
+    if(!cap.rows.length&&!cap.vids.length){cap.msg='No encontré números en esas capturas: escríbelos aquí.';cap.rows=blankCapRows()}
   }catch(e){
-    cap.stage='idle';
-    cap.msg=e?.code==='not_granted'?'Sin permiso para leer capturas. Mándamelas por el chat y las apunto yo.':e?.code==='rate_limited'?'Demasiadas seguidas. Prueba en un minuto.':e?.code==='unavailable'||e?.code==='images_unavailable'?'Aquí no se pueden leer capturas. Mándamelas por el chat y las apunto yo.':'No pude leerlas. Prueba otra vez o mándamelas por el chat.';
+    if(e?.code==='cancelled_user'){cap.stage='idle';cap.msg='';render();return}
+    cap.stage='review';cap.msg=capErr(e);cap.rows=blankCapRows();cap.vids=[];
   }
   render();
 }
@@ -1605,7 +1630,7 @@ async function saveCaps(){
   const per=new Map();for(const x of cap.vids){if(!x.pid)continue;const p=S.posts.find(q=>q.id===x.pid);if(!p)continue;const cur=per.get(p.id)||{m:JSON.parse(JSON.stringify(p.m||{})),mh:JSON.parse(JSON.stringify(p.mh||{}))};
     cur.m[x.pl]={...(cur.m[x.pl]||{}),v:x.v,...(x.l!=null?{l:x.l}:{}),...(x.c!=null?{c:x.c}:{})};(cur.mh[date]||={})[x.pl]=x.v;per.set(p.id,cur)}
   for(const [id,u] of per){try{await db.collection('posts').doc(id).update({m:u.m,mh:u.mh});n++}catch(err){}}
-  cap.stage='idle'; cap.rows=[]; cap.vids=[]; cap.imgs.forEach(u=>URL.revokeObjectURL(u)); cap.imgs=[]; render(); toast(n?`${n} ${n===1?'dato guardado':'datos guardados'}`:'No se pudo guardar');
+  cap.stage='idle'; cap.msg=''; cap.rows=[]; cap.vids=[]; cap.imgs.forEach(u=>URL.revokeObjectURL(u)); cap.imgs=[]; render(); toast(n?`${n} ${n===1?'dato guardado':'datos guardados'}`:'No se pudo guardar');
 }
 
 /* ---------- router ---------- */
@@ -1643,7 +1668,7 @@ document.addEventListener('click',async e=>{
   const d=t.closest('[data-dl]'); if(d){download(d.dataset.dl,d);return}
   const s=t.closest('[data-st]'); if(s&&!s.disabled){setSt(s.dataset.st,s.dataset.pl,s.dataset.v);return}
   if(t.closest('[data-close]')){$('#dlg').close();return}
-  if(t.closest('[data-capx]')){cap.stage='idle';cap.rows=[];cap.vids=[];render();return}
+  if(t.closest('[data-capx]')){cap.stage='idle';cap.msg='';cap.rows=[];cap.vids=[];render();return}
   if(t.closest('[data-capsave]')){saveCaps();return}
   const cdl=t.closest('[data-capdel]'); if(cdl){cap.rows.splice(+cdl.dataset.capdel,1);render();return}
   const cm=t.closest('[data-cm]'); if(cm){const d=cm.dataset.cm==='lista'?'fwd':'back';transition(()=>{calMode=cm.dataset.cm;try{localStorage.setItem('calMode',calMode)}catch(err){}render()},d);return}
