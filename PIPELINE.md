@@ -91,3 +91,10 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - **Horario de subida fijo: 13:00 y 20:00 (hora de España)**, 2 piezas al día por canal y red; el vídeo largo a las 20:00. El Home (UPLOAD_H) ya planifica así los proyectos nuevos. Recordatorio automático a las 12:55 y 19:55 (tarea programada con aviso al móvil).
 - **Logos y banners de canales nuevos:** alternar entre el motor propio (gratis) e Higgsfield. A los clientes del kit se les pide instalar Higgsfield. El asistente «Añadir canal» del Home guarda la preferencia en channels/<id>.brief.art.
 - **Montaje:** el creador quiere trabajar solo desde el Home. Cuando un proyecto tenga montaje == "pedido", producirlo siguiendo la sección «Home — producción en directo».
+
+## Links de la bio (páginas tipo Linktree)
+- Publicadas con GitHub Pages desde la rama `gh-pages` (solo esa rama sirve la web).
+- Y Si Te Tocará: https://itsjuanmartin.github.io/Kometa-estudio/ (raíz; `/ytt/` redirige ahí).
+- Archivo Oscuro: https://itsjuanmartin.github.io/Kometa-estudio/ao/
+- Copia de las fuentes en `ytt/` y `ao/` de la rama de trabajo. Para añadir un vídeo largo: portada 960×540 en `img/`, nuevo bloque arriba con la etiqueta «Nuevo» (quitarla del anterior) y push a `gh-pages`.
+- El Home muestra estos links en «Hoy → Links de la bio» (constante LINKPAGE o campo `linkPage` del canal).
