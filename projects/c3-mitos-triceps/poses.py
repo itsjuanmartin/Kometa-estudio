@@ -29,15 +29,50 @@ def reset(rig):
 
 
 def _aim(rig, pb, d):
+    """Apunta el hueso en la dirección d, dada en el espacio del PERSONAJE (no de la cámara):
+    −Y es su frente, +X su izquierda, +Z arriba. Así las poses no cambian cuando Marmo gira."""
     bpy.context.view_layer.update()
-    mw = rig.matrix_world
-    cur = mw @ pb.matrix
+    cur = pb.matrix.copy()
     y = (cur.to_3x3() @ Vector((0, 1, 0))).normalized()
     q = y.rotation_difference(d.normalized())
-    rot = q.to_matrix() @ cur.to_3x3()
-    new = rot.to_4x4(); new.translation = cur.translation
-    pb.matrix = mw.inverted() @ new
+    new = (q.to_matrix() @ cur.to_3x3()).to_4x4(); new.translation = cur.translation
+    pb.matrix = new
     pb.location = (0, 0, 0); pb.scale = (1, 1, 1)
+
+
+_PALM_SIGN = {}
+
+
+def palma(rig, s):
+    """Normal de la palma (espacio del personaje)."""
+    pb = rig.pose.bones; w = pb[f"wrist.{s}"].head
+    n = (pb[f"finger2-1.{s}"].head - w).cross(pb[f"finger5-1.{s}"].head - w).normalized()
+    return n * _PALM_SIGN.get(s, 1.0)
+
+
+def _calibra_palma(rig):
+    bpy.context.view_layer.update()
+    for s in ("L", "R"):
+        _PALM_SIGN[s] = 1.0
+        n = palma(rig, s)
+        # en reposo la palma mira hacia el cuerpo: −X en la mano izquierda, +X en la derecha
+        if n.x * (1 if s == "L" else -1) > 0: _PALM_SIGN[s] = -1.0
+
+
+def _gira_palma(rig, s, deseada):
+    """Gira antebrazo (60 %) y muñeca (resto) sobre su eje para que la palma mire hacia `deseada`."""
+    for bone, frac in ((f"lowerarm02.{s}", 0.6), (f"wrist.{s}", 1.0)):
+        bpy.context.view_layer.update()
+        pb = rig.pose.bones[bone]
+        eje = (rig.pose.bones[f"wrist.{s}"].matrix.to_3x3() @ Vector((0, 1, 0))).normalized()
+        n = palma(rig, s); a = (n - eje * n.dot(eje)); b = (deseada - eje * deseada.dot(eje))
+        if a.length < 1e-4 or b.length < 1e-4: return
+        a.normalize(); b.normalize()
+        ang = math.atan2(eje.dot(a.cross(b)), a.dot(b)) * frac
+        m = pb.matrix.copy(); t = m.translation.copy()
+        r = Matrix.Rotation(ang, 3, eje) @ m.to_3x3()
+        new = r.to_4x4(); new.translation = t
+        pb.matrix = new; pb.location = (0, 0, 0); pb.scale = (1, 1, 1)
 
 
 def _rot_local(pb, axis, ang):
@@ -48,6 +83,7 @@ def aplicar(rig, p):
     """p: {'L': {'ua','fa','ha'}, 'R': {...}, 'spine': (x,y,z) grados, 'head': (x,y,z), 'jaw': rad,
            'curl': {'L': 0..1, 'R': 0..1}, 'thumb': {'L': 0..1}, 'index': {'L': 0..1}}"""
     reset(rig)
+    if not _PALM_SIGN: _calibra_palma(rig)
     sp = p.get("spine", (0, 0, 0))
     for b, f in (("spine03", 0.35), ("spine02", 0.35), ("spine01", 0.3)):
         pb = rig.pose.bones[b]
@@ -65,6 +101,11 @@ def aplicar(rig, p):
         for bone, key in BRAZO[s]:
             if key in p[s]:
                 _aim(rig, rig.pose.bones[bone], lado(p[s][key], s))
+        if p[s].get("agarre") == "barra":
+            # agarre prono en barra horizontal: la palma queda perpendicular al antebrazo, hacia abajo/atrás
+            bpy.context.view_layer.update()
+            fa_dir = (rig.pose.bones[f"lowerarm01.{s}"].matrix.to_3x3() @ Vector((0, 1, 0))).normalized()
+            _gira_palma(rig, s, Vector((1, 0, 0)).cross(fa_dir).normalized())
     if "jaw" in p:
         _rot_local(rig.pose.bones["jaw"], Vector((1, 0, 0)), p["jaw"])
     for s, c in p.get("curl", {}).items():
@@ -94,6 +135,8 @@ def mezclar(a, b, t):
         va, vb = a.get(k, b.get(k)), b.get(k, a.get(k))
         if isinstance(va, dict):
             out[k] = mezclar(va, vb, t)
+        elif isinstance(va, str):
+            out[k] = va
         elif isinstance(va, Vector):
             out[k] = va.slerp(vb, t) if va.angle(vb, 0) < 3.1 else va.lerp(vb, t)
         elif isinstance(va, tuple):

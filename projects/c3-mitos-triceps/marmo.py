@@ -56,20 +56,33 @@ def mat_marmol(name="Marmol"):
     L.new(wave.outputs["Fac"], ramp.inputs["Fac"])
     # Zona de músculo (atributo «musculo» 0..1) mezclada con rojo-naranja fibroso, controlada por «Resalte»
     attr = N.new("ShaderNodeAttribute"); attr.attribute_name = "musculo"
+    edge = N.new("ShaderNodeMapRange"); edge.interpolation_type = "SMOOTHSTEP"
+    edge.inputs["From Min"].default_value = 0.42; edge.inputs["From Max"].default_value = 0.58
+    L.new(attr.outputs["Fac"], edge.inputs["Value"])
     val = N.new("ShaderNodeValue"); val.name = "Resalte"; val.outputs[0].default_value = 0.0
     mul = N.new("ShaderNodeMath"); mul.operation = "MULTIPLY"
-    L.new(attr.outputs["Fac"], mul.inputs[0]); L.new(val.outputs[0], mul.inputs[1])
-    fib = N.new("ShaderNodeTexWave"); fib.wave_type = "BANDS"; fib.inputs["Scale"].default_value = 60
-    fib.inputs["Distortion"].default_value = 1.5
-    L.new(tc.outputs["Object"], fib.inputs["Vector"])
+    L.new(edge.outputs[0], mul.inputs[0]); L.new(val.outputs[0], mul.inputs[1])
+    au = N.new("ShaderNodeAttribute"); au.attribute_name = "musc_u"
+    at = N.new("ShaderNodeAttribute"); at.attribute_name = "musc_t"
+    k1 = N.new("ShaderNodeMath"); k1.operation = "MULTIPLY"; k1.inputs[1].default_value = 46.0
+    L.new(au.outputs["Fac"], k1.inputs[0])
+    sn = N.new("ShaderNodeMath"); sn.operation = "SINE"; L.new(k1.outputs[0], sn.inputs[0])
+    sm = N.new("ShaderNodeMapRange"); sm.inputs["From Min"].default_value = -1; sm.inputs["From Max"].default_value = 1
+    L.new(sn.outputs[0], sm.inputs["Value"])
     fr = N.new("ShaderNodeValToRGB")
-    fr.color_ramp.elements[0].color = (0.55, 0.06, 0.02, 1); fr.color_ramp.elements[1].color = (0.95, 0.25, 0.08, 1)
-    L.new(fib.outputs["Fac"], fr.inputs["Fac"])
+    fr.color_ramp.elements[0].color = (0.62, 0.05, 0.02, 1); fr.color_ramp.elements[1].color = (1.0, 0.27, 0.07, 1)
+    L.new(sm.outputs[0], fr.inputs["Fac"])
+    # tendón claro cerca del codo
+    td = N.new("ShaderNodeMapRange"); td.interpolation_type = "SMOOTHSTEP"
+    td.inputs["From Min"].default_value = 0.74; td.inputs["From Max"].default_value = 0.9
+    L.new(at.outputs["Fac"], td.inputs["Value"])
+    mt = N.new("ShaderNodeMix"); mt.data_type = "RGBA"; mt.inputs[7].default_value = (0.93, 0.82, 0.62, 1)
+    L.new(td.outputs[0], mt.inputs["Factor"]); L.new(fr.outputs["Color"], mt.inputs[6])
     mix = N.new("ShaderNodeMix"); mix.data_type = "RGBA"
-    L.new(mul.outputs[0], mix.inputs["Factor"]); L.new(ramp.outputs["Color"], mix.inputs[6]); L.new(fr.outputs["Color"], mix.inputs[7])
+    L.new(mul.outputs[0], mix.inputs["Factor"]); L.new(ramp.outputs["Color"], mix.inputs[6]); L.new(mt.outputs[2], mix.inputs[7])
     L.new(mix.outputs[2], bsdf.inputs["Base Color"])
     bsdf.inputs["Roughness"].default_value = 0.32
-    bsdf.inputs["Subsurface Weight"].default_value = 0.08
+    bsdf.inputs["Subsurface Weight"].default_value = 0.0
     bsdf.inputs["Subsurface Radius"].default_value = (0.4, 0.4, 0.4)
     bsdf.inputs["Coat Weight"].default_value = 0.25
     return m
@@ -92,8 +105,10 @@ def build(muscle_zone="triceps"):
               "macrodetails/proportions/male-young-maxmuscle-averageweight-idealproportions.target.gz"):
         _target(verts, t, 1.0)
     _target(verts, "macrodetails/height/male-young-maxmuscle-averageweight-maxheight.target.gz", 0.3)
-    # más volumen, como la estatua del diseño: algo de peso y músculos marcados
-    _target(verts, "macrodetails/universal-male-young-maxmuscle-maxweight.target.gz", 0.25)
+    # más definición: músculo exagerado y algo más seco (antes quedaba blando)
+    _target(verts, "macrodetails/universal-male-young-maxmuscle-averageweight.target.gz", 0.35)
+    _target(verts, "macrodetails/universal-male-young-averagemuscle-averageweight.target.gz", -0.35)
+    _target(verts, "macrodetails/universal-male-young-maxmuscle-minweight.target.gz", 0.25)
     _target(verts, "macrodetails/universal-male-young-maxmuscle-averageweight.target.gz", -0.25)
     for t, w in (("torso/torso-muscle-pectoral-incr", 0.9), ("torso/torso-muscle-dorsi-incr", 0.8),
                  ("torso/torso-scale-horiz-incr", 0.25),
@@ -144,7 +159,14 @@ def build(muscle_zone="triceps"):
         bm = bmesh.new(); bm.from_mesh(ob.data); bm.verts.ensure_lookup_table()
         kill = [v for v in bm.verts if v.index not in keep or
                 (ob is shorts and (v.co.z < knee_z or v.co.z > waist_z or abs(v.co.x) > 0.3))]
-        bmesh.ops.delete(bm, geom=kill, context="VERTS"); bm.to_mesh(ob.data); bm.free()
+        bmesh.ops.delete(bm, geom=kill, context="VERTS")
+        if ob is shorts:
+            for e in bm.edges:
+                if len(e.link_faces) == 1:
+                    for v in e.verts:
+                        if v.co.z < knee_z + 0.05: v.co.z = knee_z
+                        elif v.co.z > waist_z - 0.05: v.co.z = waist_z
+        bm.to_mesh(ob.data); bm.free()
     # suavizado
     for ob in (body, shorts):
         for p in ob.data.polygons: p.use_smooth = True
@@ -157,18 +179,22 @@ def build(muscle_zone="triceps"):
     # atributo de músculo (tríceps: parte trasera del brazo entre hombro y codo)
     attr = me.color_attributes.new("musculo", "FLOAT_COLOR", "POINT") if False else None
     fa = me.attributes.new("musculo", "FLOAT", "POINT")
+    fu = me.attributes.new("musc_u", "FLOAT", "POINT"); ft = me.attributes.new("musc_t", "FLOAT", "POINT")
     for side in ("L", "R"):
         sh = heads[f"upperarm01.{side}"] + off; el = heads[f"lowerarm01.{side}"] + off
         ax = (el - sh); ln = ax.length; ax.normalize()
+        backv = (Vector((0, 1, 0)) - ax * ax.y).normalized(); latv = ax.cross(backv)
         for v in me.vertices:
-            p = v.co - sh; t = p.dot(ax)
-            if t < 0.12 * ln or t > 1.0 * ln: continue
-            radial = p - ax * t
-            if radial.length > 0.085: continue
-            back = radial.normalized().y  # +Y = espalda (MakeHuman mira a -Y)
-            if back <= 0.05: continue
-            s = min(1.0, (back - 0.05) / 0.45) * min(1.0, min(t / ln - 0.12, 1.0 - t / ln) / 0.18)
-            fa.data[v.index].value = max(fa.data[v.index].value, s)
+            p = v.co - sh; t = p.dot(ax) / ln
+            if t < 0.05 or t > 1.02: continue
+            radial = p - ax * (t * ln)
+            if radial.length > 0.1: continue
+            rn = radial.normalized(); back = rn.dot(backv)
+            u = math.atan2(rn.dot(latv), back)
+            ancho = 1.25 - 0.55 * abs(t - 0.45) / 0.55          # más ancho en el vientre, estrecho en los extremos
+            s_ = min(1.0, max(0.0, (ancho - abs(u)) / 0.25)) * min(1.0, max(0.0, (t - 0.08) / 0.06)) * min(1.0, max(0.0, (1.0 - t) / 0.05))
+            if s_ > fa.data[v.index].value:
+                fa.data[v.index].value = s_; fu.data[v.index].value = u; ft.data[v.index].value = t
 
     body.data.materials.append(mat_marmol())
     shorts.data.materials.clear(); shorts.data.materials.append(mat_simple("ShortNegro", (0.015, 0.015, 0.017), 0.75))

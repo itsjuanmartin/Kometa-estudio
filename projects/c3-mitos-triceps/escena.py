@@ -77,8 +77,8 @@ def luces():
         bpy.ops.object.light_add(type="AREA", location=loc, rotation=[math.radians(r) for r in rot])
         l = bpy.context.object; l.name = name; l.data.energy = energy; l.data.size = size; l.data.color = color
         return l
-    area("Clave", (-2.0, -2.4, 2.9), (55, 0, -40), 260, 1.6, (1.0, 0.97, 0.92))
-    area("Relleno", (2.4, -2.2, 1.6), (75, 0, 48), 90, 2.5, (0.92, 0.95, 1.0))
+    area("Clave", (-2.6, -1.6, 2.6), (62, 0, -58), 330, 1.1, (1.0, 0.97, 0.92))
+    area("Relleno", (2.4, -2.2, 1.6), (75, 0, 48), 35, 2.5, (0.92, 0.95, 1.0))
     area("Contra", (0.9, 1.0, 2.6), (-55, 0, 160), 160, 1.0, (1.0, 1.0, 1.0))
 
 
