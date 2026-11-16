@@ -30,7 +30,7 @@ main{max-width:520px;margin:0 auto;padding:36px 16px 48px}
 
 header{text-align:center;margin-bottom:28px}
 .avatar{
-  width:104px;height:104px;border-radius:50%;display:block;margin:0 auto 14px;
+  width:112px;height:112px;border-radius:50%;display:block;margin:0 auto 14px;
   border:4px solid var(--sun);box-shadow:0 0 0 6px rgba(246,197,49,.18),0 10px 30px rgba(0,0,0,.5);
   animation:bob 4s ease-in-out infinite;
 }
@@ -53,7 +53,7 @@ h1 span{color:var(--sun2)}
 .list{display:grid;gap:18px}
 .video{
   display:block;text-decoration:none;color:inherit;background:var(--card);
-  border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  position:relative;border:1px solid var(--line);border-radius:18px;
   box-shadow:0 8px 24px rgba(0,0,0,.35);
   transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease;
   -webkit-tap-highlight-color:transparent;
@@ -61,7 +61,7 @@ h1 span{color:var(--sun2)}
 .video:hover,.video:focus-visible{transform:translateY(-3px);border-color:var(--sun);box-shadow:0 14px 34px rgba(0,0,0,.5)}
 .video:active{transform:scale(.98)}
 .video:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
-.thumb{position:relative;aspect-ratio:16/9;background:#000}
+.thumb{position:relative;aspect-ratio:16/9;background:#000;border-radius:17px 17px 0 0;overflow:hidden}
 .thumb img{width:100%;height:100%;object-fit:cover;display:block}
 .play{
   position:absolute;right:12px;bottom:12px;width:56px;height:40px;border-radius:12px;
@@ -70,11 +70,16 @@ h1 span{color:var(--sun2)}
 }
 .play::before{content:"";border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:3px}
 .video:hover .play{transform:scale(1.1)}
-.badge{
-  position:absolute;top:10px;left:10px;background:var(--sun);color:#1a1200;
-  font-family:"Fredoka",system-ui,sans-serif;font-size:12px;letter-spacing:1px;
-  padding:4px 10px;border-radius:8px;text-transform:uppercase
-}
+.video.hot{border:2px solid var(--sun);animation:glow 2.2s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:0 0 0 0 rgba(246,197,49,.0),0 8px 24px rgba(0,0,0,.35)}50%{box-shadow:0 0 0 5px rgba(246,197,49,.25),0 0 34px rgba(246,197,49,.45)}}
+/* sticker NUEVO: va solo en el vídeo más reciente */
+.sticker{position:absolute;top:-22px;left:-12px;z-index:3;width:112px;height:112px;filter:drop-shadow(0 6px 10px rgba(0,0,0,.55));animation:wiggle 1.6s ease-in-out infinite;pointer-events:none}
+.sticker::before{content:"";position:absolute;inset:0;background:#fff;clip-path:polygon(50.0% 0.0%,58.4% 7.8%,69.1% 3.8%,73.9% 14.2%,85.4% 14.6%,85.8% 26.1%,96.2% 30.9%,92.2% 41.6%,100.0% 50.0%,92.2% 58.4%,96.2% 69.1%,85.8% 73.9%,85.4% 85.4%,73.9% 85.8%,69.1% 96.2%,58.4% 92.2%,50.0% 100.0%,41.6% 92.2%,30.9% 96.2%,26.1% 85.8%,14.6% 85.4%,14.2% 73.9%,3.8% 69.1%,7.8% 58.4%,0.0% 50.0%,7.8% 41.6%,3.8% 30.9%,14.2% 26.1%,14.6% 14.6%,26.1% 14.2%,30.9% 3.8%,41.6% 7.8%)}
+.sticker::after{content:"";position:absolute;inset:5px;background:radial-gradient(circle at 35% 30%,#ff5a3c,#e0141e 70%);clip-path:polygon(50.0% 0.0%,58.4% 7.8%,69.1% 3.8%,73.9% 14.2%,85.4% 14.6%,85.8% 26.1%,96.2% 30.9%,92.2% 41.6%,100.0% 50.0%,92.2% 58.4%,96.2% 69.1%,85.8% 73.9%,85.4% 85.4%,73.9% 85.8%,69.1% 96.2%,58.4% 92.2%,50.0% 100.0%,41.6% 92.2%,30.9% 96.2%,26.1% 85.8%,14.6% 85.4%,14.2% 73.9%,3.8% 69.1%,7.8% 58.4%,0.0% 50.0%,7.8% 41.6%,3.8% 30.9%,14.2% 26.1%,14.6% 14.6%,26.1% 14.2%,30.9% 3.8%,41.6% 7.8%)}
+.sticker span{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-family:"Fredoka",system-ui,sans-serif;color:var(--sun2);font-size:18px;line-height:1;letter-spacing:.5px;text-shadow:0 2px 0 #7a0008;transform:rotate(-14deg)}
+.sticker small{display:block;font-size:9.5px;color:#fff;letter-spacing:1px;margin-top:3px}
+@keyframes wiggle{0%,100%{transform:rotate(-6deg) scale(1)}25%{transform:rotate(4deg) scale(1.08)}50%{transform:rotate(-3deg) scale(1)}75%{transform:rotate(6deg) scale(1.06)}}
+.list .video:first-child.hot{margin-top:10px}
 .meta{display:flex;gap:12px;align-items:center;padding:14px 14px 16px}
 .meta img{width:38px;height:38px;border-radius:50%;flex:none;border:2px solid var(--sun)}
 .meta div{flex:1;min-width:0}
@@ -104,13 +109,14 @@ footer{text-align:center;color:var(--muted);font-size:13px;margin-top:32px;opaci
   <p class="section">Historias completas</p>
 
   <!-- Para agregar un video: copia un bloque <a class="video">, cambia href, imagen y textos.
-       Los más nuevos van arriba. -->
+       Los más nuevos van arriba. El sticker NUEVO y la clase "hot" van SOLO en el más reciente:
+       quítalos del anterior al añadir uno nuevo. -->
   <div class="list">
 
-    <a class="video" href="https://linktw.in/bthxei">
+    <a class="video hot" href="https://linktw.in/bthxei">
+      <span class="sticker" aria-label="Nuevo"><span>¡NUEVO!<small>MÍRALO YA</small></span></span>
       <div class="thumb">
         <img src="img/engano.jpg" alt="Portada: ¿De goma? 30 toneladas… falsas" width="960" height="540">
-        <span class="badge">Nuevo</span>
         <span class="play" aria-hidden="true"></span>
       </div>
       <div class="meta">
