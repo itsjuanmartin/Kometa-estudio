@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Archivo Oscuro · Casos</title>
+<meta name="description" content="Los casos completos de Archivo Oscuro en YouTube.">
+<meta name="theme-color" content="#0b0a09">
+<meta property="og:title" content="Archivo Oscuro · Casos completos">
+<meta property="og:description" content="Abre un expediente y míralo completo en YouTube.">
+<meta property="og:image" content="img/nvidia.jpg">
+<link rel="icon" href="img/logo.jpg">
+<style>
+@font-face{font-family:"Elite";src:url("SpecialElite-Regular.ttf") format("truetype");font-display:swap}
+@font-face{font-family:"Anton";src:url("Anton-Regular.ttf") format("truetype");font-display:swap}
+:root{
+  --bg:#0b0a09; --card:#15120e; --line:#2b241b; --text:#f2ead9; --muted:#a99c84;
+  --red:#e0322a; --kraft:#c9a46a; --kraft2:#e2c48e; --yt:#ff0033;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  min-height:100dvh;background:var(--bg);color:var(--text);
+  font:500 16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  background-image:
+    radial-gradient(70% 45% at 85% -5%, rgba(255,240,200,.13), transparent 70%),
+    radial-gradient(60% 40% at 10% 105%, rgba(224,50,42,.14), transparent 70%),
+    repeating-linear-gradient(0deg, rgba(255,255,255,.018) 0 1px, transparent 1px 3px);
+  background-attachment:fixed;
+}
+main{max-width:520px;margin:0 auto;padding:36px 16px 48px}
+
+header{text-align:center;margin-bottom:28px}
+.avatar{
+  width:108px;height:108px;border-radius:50%;display:block;margin:0 auto 16px;
+  border:3px solid var(--red);box-shadow:0 0 0 6px rgba(224,50,42,.15),0 0 40px rgba(255,240,200,.12);
+  animation:flicker 6s infinite;
+}
+@keyframes flicker{0%,92%,100%{filter:none}93%{filter:brightness(.6)}95%{filter:brightness(1.1)}97%{filter:brightness(.75)}}
+h1{font-family:"Anton",Impact,sans-serif;font-weight:400;font-size:40px;line-height:1;letter-spacing:1.5px;text-transform:uppercase}
+.stamp{
+  display:inline-block;margin-top:12px;font-family:"Elite",ui-monospace,monospace;color:var(--red);
+  border:2px solid var(--red);padding:4px 12px;border-radius:4px;transform:rotate(-3deg);
+  font-size:14px;letter-spacing:2px;text-transform:uppercase;opacity:.92
+}
+.tag{font-family:"Elite",ui-monospace,monospace;color:var(--muted);margin-top:14px;font-size:15px}
+
+.section{font-family:"Elite",ui-monospace,monospace;font-size:14px;letter-spacing:2px;color:var(--kraft2);
+  text-transform:uppercase;margin:0 2px 12px;display:flex;align-items:center;gap:10px}
+.section::after{content:"";flex:1;border-top:1px dashed var(--line)}
+
+.list{display:grid;gap:22px}
+.case{
+  position:relative;display:block;text-decoration:none;color:inherit;
+  background:var(--card);border:1px solid var(--line);border-radius:6px 14px 14px 14px;
+  box-shadow:0 10px 28px rgba(0,0,0,.55);margin-top:14px;
+  transition:transform .15s ease,border-color .15s ease;-webkit-tap-highlight-color:transparent;
+}
+/* pestaña de carpeta */
+.case::before{
+  content:attr(data-file);position:absolute;top:-22px;left:-1px;height:22px;padding:3px 14px 0;
+  background:var(--kraft);color:#2a1d0c;border-radius:6px 6px 0 0;
+  font-family:"Elite",ui-monospace,monospace;font-size:12px;letter-spacing:1px;
+}
+.case:hover,.case:focus-visible{transform:translateY(-3px);border-color:var(--kraft)}
+.case:active{transform:scale(.98)}
+.case:focus-visible{outline:3px solid var(--kraft);outline-offset:3px}
+.thumb{position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:0 13px 0 0;background:#000}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 60px rgba(0,0,0,.55);pointer-events:none}
+.play{
+  position:absolute;right:12px;bottom:12px;width:56px;height:40px;border-radius:12px;z-index:1;
+  background:var(--yt);display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.5);transition:transform .15s ease
+}
+.play::before{content:"";border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:3px}
+.case:hover .play{transform:scale(1.1)}
+.new{
+  position:absolute;top:12px;right:12px;z-index:1;font-family:"Elite",ui-monospace,monospace;
+  color:#fff;background:var(--red);padding:3px 10px;border-radius:3px;font-size:12px;letter-spacing:2px;
+  transform:rotate(4deg);box-shadow:0 4px 12px rgba(0,0,0,.5)
+}
+.meta{padding:14px 16px 16px;display:flex;gap:12px;align-items:center}
+.meta div{flex:1;min-width:0}
+.meta h2{font-family:"Anton",Impact,sans-serif;font-weight:400;font-size:22px;line-height:1.1;letter-spacing:.5px;text-transform:uppercase}
+.meta p{font-family:"Elite",ui-monospace,monospace;color:var(--muted);font-size:14px;margin-top:4px}
+.go{
+  flex:none;display:flex;align-items:center;gap:6px;background:var(--yt);color:#fff;
+  font-weight:700;font-size:13px;padding:9px 12px;border-radius:999px;white-space:nowrap
+}
+.go svg{width:14px;height:14px}
+
+footer{text-align:center;font-family:"Elite",ui-monospace,monospace;color:var(--muted);font-size:13px;margin-top:34px}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media (max-width:360px){.go span{display:none}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="avatar" src="img/logo.jpg" alt="Archivo Oscuro" width="108" height="108">
+    <h1>Archivo Oscuro</h1>
+    <span class="stamp">Clasificado</span>
+    <p class="tag">Los casos completos están en YouTube. Abre un expediente.</p>
+  </header>
+
+  <p class="section">Expedientes abiertos</p>
+
+  <!-- Para agregar un caso: copia un bloque <a class="case">, cambia href, imagen, número y textos.
+       Los más nuevos van arriba. -->
+  <div class="list">
+
+    <a class="case" data-file="EXP. 002" href="https://linktw.in/maxlxb">
+      <div class="thumb">
+        <img src="img/entrevista.jpg" alt="Portada: 20 minutos, 6.300 millones" width="960" height="540">
+        <span class="new">Nuevo</span>
+        <span class="play" aria-hidden="true"></span>
+      </div>
+      <div class="meta">
+        <div>
+          <h2>Le hicieron una entrevista</h2>
+          <p>20 minutos. 6.300 millones.</p>
+        </div>
+        <span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Ver</span></span>
+      </div>
+    </a>
+
+    <a class="case" data-file="EXP. 001" href="https://youtu.be/SreO8OdPjXA">
+      <div class="thumb">
+        <img src="img/nvidia.jpg" alt="Portada: ¿Un topo en NVIDIA?" width="960" height="540" loading="lazy">
+        <span class="play" aria-hidden="true"></span>
+      </div>
+      <div class="meta">
+        <div>
+          <h2>¿Un topo en NVIDIA?</h2>
+          <p>Caso N · Sin confirmar</p>
+        </div>
+        <span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Ver</span></span>
+      </div>
+    </a>
+
+  </div>
+
+  <footer>Hay casos que nunca se cerraron.</footer>
+</main>
+</body>
+</html>
