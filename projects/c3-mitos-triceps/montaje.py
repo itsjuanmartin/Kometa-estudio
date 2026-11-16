@@ -229,7 +229,7 @@ def tarjeta():
     logo = Image.open(os.path.join(HERE, "../canal3-fitness/conceptos/web/marmol_logo.jpg")).convert("RGB").resize((96, 96), Image.LANCZOS)
     m = Image.new("L", (96, 96), 0); ImageDraw.Draw(m).ellipse((0, 0, 95, 95), fill=255)
     c.paste(logo, (90, 40), m)
-    d.text((206, 52), "Esculpe", font=font(F_UIB, 64), fill="white")
+    d.text((206, 52), "Mármol Gym", font=font(F_UIB, 64), fill="white")
     d.line((cw - 80, 88, cw - 40, 88), fill="white", width=7); d.line((cw - 60, 68, cw - 60, 108), fill="white", width=7)
     # logotipo genérico de YouTube
     lx, ly = 250, 166

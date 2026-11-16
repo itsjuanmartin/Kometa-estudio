@@ -1,4 +1,4 @@
-# Esculpe · Short de ejemplo: 3 mitos del tríceps
+# Mármol Gym · Short de ejemplo: 3 mitos del tríceps
 
 **Título (≤100):** 3 mitos que no dejan crecer tu tríceps 💪 #triceps #gym
 
@@ -10,4 +10,4 @@ Música: "Motivator" Kevin MacLeod (incompetech.com) · CC BY 4.0
 **Comentario fijado:**
 ¿Cuál hacías tú? 🅰️ Solo polea · 🅱️ Muchas reps «para definir». En el vídeo completo te enseño el ejercicio que más estira la cabeza larga 👀
 
-**Cierre del Short:** «Y si tú también quieres aprender la guía completa, ve nuestro vídeo en YouTube.» + tarjeta del canal Esculpe en pantalla.
+**Cierre del Short:** «Y si tú también quieres aprender la guía completa, ve nuestro vídeo en YouTube.» + tarjeta del canal Mármol Gym en pantalla.
