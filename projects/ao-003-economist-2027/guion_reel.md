@@ -13,7 +13,7 @@ Idea: Javi rellena un cartón de bingo con 10 casillas (las 10 tendencias). En e
 Regla del humor: la broma va en el TONO y en las reacciones, nunca en los datos. Los datos siguen siendo exactos y Taiwán lleva su sello SIN CONFIRMAR.
 
 ### Guion para ElevenLabs (pegar tal cual · ~1.000 caracteres · ~50 s)
-¿Te dijeron que la portada de The Economist predice el futuro? Pues agárrate, que internet ya sacó el gorro de papel de aluminio. Estas son las teorías que desató… y las he metido en un bingo.
+Si pudieras ver el futuro una vez al año… ¿mirarías? Pues ya salió el de dos mil veintisiete. Es la portada de The Economist, internet jura que es profética… y yo la he convertido en un bingo.
 Casilla uno: el año más caluroso de la historia. Sorpresa: ninguna. Llevo así desde que me compré el ventilador.
 Casilla dos: la inteligencia artificial, endeudada hasta las cejas. Sí, la IA también vive a crédito. Como tú. Como yo.
 Casilla tres: Taiwán. Dicen que Xi Jinping puso dos mil veintisiete como fecha límite… dicen. Sin confirmar, que luego me escribís.
@@ -24,16 +24,18 @@ Ahora en serio: no es una profecía. Es la lista de lo que preocupa a los que mu
 
 Cierre (audio ya grabado, --endaudio): assets/cierres_shorts/audio/cierre_guarda.mp3
 
-Ganchos alternativos (para el Reel de prueba de IG o una segunda subida):
-- B: «¿Te dijeron que The Economist predice el futuro? Pues internet se lo ha tomado MUY en serio. Mira las teorías que desató.»
-- C: «¿Te dijeron que la portada de The Economist es profética? Pues mi tía ya está haciendo acopio de latas. Estas son las teorías.»
+Ganchos alternativos (probar con Reel de prueba de IG; mismo cuerpo, solo cambia la 1.ª frase):
+- B: «Una revista adivina el futuro una vez al año… y acaba de publicar 2027.» (texto: 2027 YA SALIÓ 👀)
+- C: «No mires esta portada si quieres dormir tranquilo en 2027.» (texto: NO LA MIRES)
+- D: «Cada noviembre, esta revista te dice qué va a pasar. Y este año… da miedo.»
 Regla: las «teorías» son lo que se comenta en redes; lo que dice la revista se presenta como lo que dice la revista. Nunca inventar una teoría concreta atribuida a alguien.
 
 ### Planos (algo nuevo cada 2–4 s)
 | Tiempo | Bloque | En pantalla |
 |---|---|---|
-| 0–2 s | GANCHO | Rótulo «¿PREDICE EL FUTURO?» sobre una revista que brilla; Javi asiente muy serio |
-| 2–5 s | | Javi se pone un gorro de papel de aluminio (sonido «clin»); saca el cartón «BINGO DEL APOCALIPSIS 2027» y bombo de bingo |
+| 0–1 s | GANCHO | Ya en movimiento (nada de logo): una bola de cristal se enciende en rojo; texto gigante «¿VERÍAS EL FUTURO?» |
+| 1–3 s | | La bola se convierte en el círculo rojo/negro; texto cambia a «2027 YA SALIÓ 👀» |
+| 3–6 s | | Javi con gorro de papel de aluminio (sonido «clin») saca el cartón «BINGO DEL APOCALIPSIS 2027» y bombo de bingo |
 | 4–9 s | Casilla 1 | Javi abanicándose con la revista; termómetro que revienta; ¡TACHADO! (sonido «ding») |
 | 9–14 s | Casilla 2 | Robot con tarjeta de crédito echando humo, montaña de facturas; ¡TACHADO! |
 | 14–21 s | Casilla 3 | Mapa del estrecho de Taiwán con barcos; Javi duda con el rotulador; sello 🟨 SIN CONFIRMAR estampado encima en vez de tachar |
