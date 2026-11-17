@@ -10,16 +10,16 @@ Objetivo: medir si el tema "portadas proféticas" pega en el canal antes de inve
 
 ## Versión elegida: JOCOSA · «Bingo del apocalipsis 2027» (17 nov)
 Idea: Javi rellena un cartón de bingo con 10 casillas (las 10 tendencias). En el reel solo tacha 5 → las otras 5 quedan tapadas = gancho natural para el vídeo largo.
-Regla del humor: la broma va en el TONO y en las reacciones, nunca en los datos. Los datos siguen siendo exactos y Taiwán lleva su sello SIN CONFIRMAR.
+Tono (decisión del creador, 17 nov): Javi NO hace de verificador; solo cuenta lo que corre por internet, en broma. Siempre con atribución («en redes dicen», «internet jura», «dicen que»), nunca como hecho propio.
 
 ### Guion para ElevenLabs (pegar tal cual · ~1.000 caracteres · ~50 s)
 Si pudieras ver el futuro una vez al año… ¿mirarías? Pues ya salió el de dos mil veintisiete. Es la portada de The Economist, internet jura que es profética… y yo la he convertido en un bingo.
-Casilla uno: el año más caluroso de la historia. Sorpresa: ninguna. Llevo así desde que me compré el ventilador.
-Casilla dos: la inteligencia artificial, endeudada hasta las cejas. Sí, la IA también vive a crédito. Como tú. Como yo.
-Casilla tres: Taiwán. Dicen que Xi Jinping puso dos mil veintisiete como fecha límite… dicen. Sin confirmar, que luego me escribís.
+Casilla uno: en redes dicen que dos mil veintisiete será el año más caluroso de la historia. Yo lo confirmo desde mi ventilador.
+Casilla dos: que la inteligencia artificial está endeudada hasta las cejas y puede reventar. Sí, la IA también vive a crédito. Como tú. Como yo.
+Casilla tres: Taiwán. Internet dice que Xi Jinping ya tiene fecha marcada: dos mil veintisiete. Y los comentarios están que arden.
 Casilla cuatro: el Ozempic. El mundo en llamas, pero eso sí… delgadísimos.
-Y casilla cinco: una nueva película de Star Wars. Porque si se acaba el mundo, que sea con palomitas.
-Ahora en serio: no es una profecía. Es la lista de lo que preocupa a los que mueven el dinero. Y en ese círculo hay cinco casillas más… que nadie está explicando.
+Casilla cinco: una nueva película de Star Wars. Porque si se acaba el mundo, que sea con palomitas.
+Y aquí viene lo raro: en esa portada hay cinco casillas más… y nadie se pone de acuerdo en qué significan.
 ¿Cuál tachas tú primero? Si llegamos a cien comentarios, abro el expediente completo.
 
 Cierre (audio ya grabado, --endaudio): assets/cierres_shorts/audio/cierre_guarda.mp3
@@ -28,7 +28,7 @@ Ganchos alternativos (probar con Reel de prueba de IG; mismo cuerpo, solo cambia
 - B: «Una revista adivina el futuro una vez al año… y acaba de publicar 2027.» (texto: 2027 YA SALIÓ 👀)
 - C: «No mires esta portada si quieres dormir tranquilo en 2027.» (texto: NO LA MIRES)
 - D: «Cada noviembre, esta revista te dice qué va a pasar. Y este año… da miedo.»
-Regla: las «teorías» son lo que se comenta en redes; lo que dice la revista se presenta como lo que dice la revista. Nunca inventar una teoría concreta atribuida a alguien.
+Regla: contar lo que circula con atribución («dicen», «en redes»); no inventar teorías concretas ni atribuírselas a nadie.
 
 ### Planos (algo nuevo cada 2–4 s)
 | Tiempo | Bloque | En pantalla |
@@ -38,10 +38,10 @@ Regla: las «teorías» son lo que se comenta en redes; lo que dice la revista s
 | 3–6 s | | Javi con gorro de papel de aluminio (sonido «clin») saca el cartón «BINGO DEL APOCALIPSIS 2027» y bombo de bingo |
 | 4–9 s | Casilla 1 | Javi abanicándose con la revista; termómetro que revienta; ¡TACHADO! (sonido «ding») |
 | 9–14 s | Casilla 2 | Robot con tarjeta de crédito echando humo, montaña de facturas; ¡TACHADO! |
-| 14–21 s | Casilla 3 | Mapa del estrecho de Taiwán con barcos; Javi duda con el rotulador; sello 🟨 SIN CONFIRMAR estampado encima en vez de tachar |
+| 14–21 s | Casilla 3 | Mapa del estrecho de Taiwán con barcos; Javi tacha con fuerza; sello «LO DICE INTERNET 🔥» y lluvia de comentarios falsos genéricos (sin nombres reales) |
 | 21–26 s | Casilla 4 | Silueta que adelgaza mientras de fondo todo arde; ¡TACHADO! |
 | 26–31 s | Casilla 5 | Javi con 3D-gafas y palomitas, nave espacial de juguete (genérica, nada de Star Wars real); ¡TACHADO! |
-| 31–41 s | GIRO | Se apaga la luz, música seria; el cartón gira y muestra 5 casillas tapadas con cinta «CLASIFICADO» |
+| 31–41 s | LO RARO | Se apaga la luz, música de misterio; el cartón gira y muestra 5 casillas tapadas con cinta «CLASIFICADO» |
 | 41–45 s | Pregunta | «¿CUÁL TACHAS PRIMERO?» + contador «0/100 COMENTARIOS» |
 | 45–50 s | PEDIDO | Fin de pantalla estándar SÍGUENOS · GUÁRDALO (make_short.py, marca `ao`) |
 
