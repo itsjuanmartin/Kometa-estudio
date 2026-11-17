@@ -15,16 +15,18 @@ def thumb():
     im = Image.blend(im, glow.filter(ImageFilter.GaussianBlur(120)), 0.9); d = ImageDraw.Draw(im)
     # the REAL cover circle (assets/portada_circulo_*.png; swap the screenshot crop for an HD copy when available)
     cx, cy, r = 1430, 540, 430
-    src = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assets', 'portada_circulo_hd.png')
-    if not os.path.exists(src): src = src.replace('_hd', '_captura')
-    cov = Image.open(src).convert('RGB'); sx, sy, sr = 302, 298, 262          # circle centre/radius inside the crop
-    cov = cov.crop((sx - sr, sy - sr, sx + sr, sy + sr)).resize((2 * r, 2 * r), Image.LANCZOS)
+    A = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assets')
+    if os.path.exists(os.path.join(A, 'portada_completa.jpg')):   # official cover (498x615): circle centre/radius + plane position
+        cov = Image.open(os.path.join(A, 'portada_completa.jpg')).convert('RGB'); sx, sy, sr, plane = 247, 380, 209, (304, 232)
+    else:                                                          # fallback: crop from the Facebook screenshot
+        cov = Image.open(os.path.join(A, 'portada_circulo_captura.png')).convert('RGB'); sx, sy, sr, plane = 302, 298, 262, (368, 122)
+    cov = cov.crop((sx - sr, sy - sr, sx + sr, sy + sr)).resize((sr * 4, sr * 4), Image.LANCZOS).resize((2 * r, 2 * r), Image.LANCZOS)
     cov = cov.filter(ImageFilter.UnsharpMask(radius=3, percent=120, threshold=2))
     m = Image.new('L', (2 * r, 2 * r), 0); ImageDraw.Draw(m).ellipse((0, 0, 2 * r - 1, 2 * r - 1), fill=255)
     im.paste(cov, (cx - r, cy - r), m); d = ImageDraw.Draw(im)
     d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=RED, width=14)
     # red hand-drawn ring on the plane (the clue in the reel)
-    k = 2 * r / (2 * sr); px, py = cx + (368 - sx) * k, cy + (122 - sy) * k
+    k = 2 * r / (2 * sr); px, py = cx + (plane[0] - sx) * k, cy + (plane[1] - sy) * k
     for w in range(3): d.ellipse((px - 85 - w * 4, py - 55 - w * 3, px + 85 + w * 4, py + 55 + w * 3), outline=(255, 214, 0), width=6)
     # three "CLASIFICADO" tapes on the lower half (keeps the plane and the crystal ball visible)
     tape = F('BebasNeue-Regular.ttf', 54)
