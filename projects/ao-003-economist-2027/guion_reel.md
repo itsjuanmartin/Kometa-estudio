@@ -54,6 +54,9 @@ Regla: contar lo que circula con atribución («dicen», «en redes»); no inven
 | 50–56 s | PEDIDO | Tarjeta `out/tarjeta_final_reel_base.png`: el vídeo «ya en YouTube» con la miniatura, «Próximamente» y SE DESBLOQUEA CON 1.000 SEGUIDORES; la barra se llena hasta el nº actual de seguidores |
 | 56–58 s | | Mano que pulsa SEGUIR; corte seco (el bucle vuelve a la bola de cristal) |
 
+**Sonido gancho del final** (`out/sfx_final_candado.mp3`, 3,9 s, generado con `make_sfx.py`): subida de tensión que arranca en «si llegamos a mil seguidores» (música de fondo baja a −18 dB), 0,09 s de silencio y GOLPE (candado metálico + bombo grave + campanilla) justo en «YouTube», cuando aparece la tarjeta; el candado tiembla con el golpe y la barra empieza a llenarse con la campanilla. Mismo sonido en todos los reels de AO con meta → se vuelve la «firma» del canal.
+
+Miniatura del largo: usa la portada REAL en círculo (`assets/portada_circulo_captura.png`, recorte de la captura). Para la versión final poner una copia HD como `assets/portada_circulo_hd.png` y volver a ejecutar `make_teaser.py`.
 Portada real: se muestra ~12 s en total (3–13 s y 39–47 s) porque la estamos comentando (cita para comentario/noticia). Siempre con «Fuente: The Economist». Conseguir la imagen en alta del artículo oficial o de un medio que la publique; no usar capturas de Facebook. No usar logos/personajes de Star Wars.
 
 ### Mapa de intriga, recompensa y utilidad (v4)

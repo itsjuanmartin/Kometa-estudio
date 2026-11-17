@@ -13,23 +13,27 @@ def thumb():
     # red glow behind the circle
     glow = Image.new('RGB', im.size, BG); ImageDraw.Draw(glow).ellipse((1000, 80, 1880, 960), fill=(120, 20, 18))
     im = Image.blend(im, glow.filter(ImageFilter.GaussianBlur(120)), 0.9); d = ImageDraw.Draw(im)
-    # stylised "cover" circle: red/black wedges + cream ring
-    cx, cy, r = 1440, 540, 400
-    for i in range(20):
-        a0, a1 = i * math.pi / 10, (i + 1) * math.pi / 10
-        d.pieslice((cx - r, cy - r, cx + r, cy + r), math.degrees(a0), math.degrees(a1), fill=RED if i % 2 else BLACK)
-    d.ellipse((cx - 150, cy - 150, cx + 150, cy + 150), fill=CREAM, outline=BLACK, width=10)   # crystal ball
-    d.ellipse((cx - 95, cy - 110, cx - 35, cy - 50), fill=(255, 255, 255))
-    d.text((cx, cy + 10), '?', font=F('Anton-Regular.ttf', 190), fill=RED, anchor='mm')
-    d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=CREAM, width=14)
-    # five "CLASIFICADO" tapes across the circle
+    # the REAL cover circle (assets/portada_circulo_*.png; swap the screenshot crop for an HD copy when available)
+    cx, cy, r = 1430, 540, 430
+    src = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assets', 'portada_circulo_hd.png')
+    if not os.path.exists(src): src = src.replace('_hd', '_captura')
+    cov = Image.open(src).convert('RGB'); sx, sy, sr = 302, 298, 262          # circle centre/radius inside the crop
+    cov = cov.crop((sx - sr, sy - sr, sx + sr, sy + sr)).resize((2 * r, 2 * r), Image.LANCZOS)
+    cov = cov.filter(ImageFilter.UnsharpMask(radius=3, percent=120, threshold=2))
+    m = Image.new('L', (2 * r, 2 * r), 0); ImageDraw.Draw(m).ellipse((0, 0, 2 * r - 1, 2 * r - 1), fill=255)
+    im.paste(cov, (cx - r, cy - r), m); d = ImageDraw.Draw(im)
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=RED, width=14)
+    # red hand-drawn ring on the plane (the clue in the reel)
+    k = 2 * r / (2 * sr); px, py = cx + (368 - sx) * k, cy + (122 - sy) * k
+    for w in range(3): d.ellipse((px - 85 - w * 4, py - 55 - w * 3, px + 85 + w * 4, py + 55 + w * 3), outline=(255, 214, 0), width=6)
+    # three "CLASIFICADO" tapes on the lower half (keeps the plane and the crystal ball visible)
     tape = F('BebasNeue-Regular.ttf', 54)
-    for k, (ang, dx, dy) in enumerate([(-24, -60, -260), (18, 120, -175), (-10, -170, 205), (22, 90, 290), (70, 250, 40)]):
-        t = Image.new('RGBA', (560, 80), (0, 0, 0, 0)); td = ImageDraw.Draw(t)
-        td.rectangle((0, 0, 560, 80), fill=(28, 26, 24, 240)); td.rectangle((0, 0, 560, 80), outline=(240, 200, 60), width=5)
-        td.text((280, 42), 'CLASIFICADO · CLASIFICADO', font=tape, fill=(240, 200, 60), anchor='mm')
+    for ang, dx, dy in [(-12, -170, 120), (16, 170, 230), (-6, -40, 330)]:
+        t = Image.new('RGBA', (520, 80), (0, 0, 0, 0)); td = ImageDraw.Draw(t)
+        td.rectangle((0, 0, 520, 80), fill=(28, 26, 24, 235)); td.rectangle((0, 0, 520, 80), outline=(240, 200, 60), width=5)
+        td.text((260, 42), 'CLASIFICADO · CLASIFICADO', font=tape, fill=(240, 200, 60), anchor='mm')
         t = t.rotate(ang, expand=True, resample=Image.BICUBIC)
-        im.paste(t, (cx + dx - t.width // 2, cy + dy - t.height // 2), t)
+        im.paste(t, (int(cx + dx - t.width // 2), int(cy + dy - t.height // 2)), t)
     d = ImageDraw.Draw(im)
     # headline
     d.text((70, 60), 'LAS 5', font=F('Anton-Regular.ttf', 230), fill=CREAM)
@@ -41,7 +45,7 @@ def thumb():
     st = st.rotate(-6, expand=True, resample=Image.BICUBIC); im.paste(st, (70, 720), st)
     # Javi (channel logo) bottom-left of the circle
     lg = Image.open(LOGO).convert('RGBA').resize((300, 300)); m = Image.new('L', (300, 300), 0); ImageDraw.Draw(m).ellipse((0, 0, 299, 299), fill=255)
-    im.paste(lg, (880, 740), m); ImageDraw.Draw(im).ellipse((880, 740, 1179, 1039), outline=CREAM, width=8)
+    im.paste(lg, (700, 760), m); ImageDraw.Draw(im).ellipse((700, 760, 999, 1059), outline=CREAM, width=8)
     im.save(os.path.join(OUT, 'miniatura_AO003_largo.jpg'), quality=92); return im
 
 def end_card(th):
