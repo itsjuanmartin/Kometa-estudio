@@ -12,14 +12,16 @@ Objetivo: medir si el tema "portadas proféticas" pega en el canal antes de inve
 Idea: Javi rellena un cartón de bingo con 10 casillas (las 10 tendencias). En el reel solo tacha 5 → las otras 5 quedan tapadas = gancho natural para el vídeo largo.
 Tono (decisión del creador, 17 nov): Javi NO hace de verificador; solo cuenta lo que corre por internet, en broma. Siempre con atribución («en redes dicen», «internet jura», «dicen que»), nunca como hecho propio.
 
-### Guion para ElevenLabs (pegar tal cual · ~1.000 caracteres · ~50 s)
-Si pudieras ver el futuro una vez al año… ¿mirarías? Pues ya salió el de dos mil veintisiete. Es la portada de The Economist, internet jura que es profética… y yo la he convertido en un bingo.
-Casilla uno: en redes dicen que dos mil veintisiete será el año más caluroso de la historia. Yo lo confirmo desde mi ventilador.
-Casilla dos: que la inteligencia artificial está endeudada hasta las cejas y puede reventar. Sí, la IA también vive a crédito. Como tú. Como yo.
-Casilla tres: Taiwán. Internet dice que Xi Jinping ya tiene fecha marcada: dos mil veintisiete. Y los comentarios están que arden.
-Casilla cuatro: el Ozempic. El mundo en llamas, pero eso sí… delgadísimos.
-Casilla cinco: una nueva película de Star Wars. Porque si se acaba el mundo, que sea con palomitas.
-Y aquí viene lo raro: en esa portada hay cinco casillas más… y nadie se pone de acuerdo en qué significan.
+### Guion para ElevenLabs · v3 FINAL (con portada en pantalla · ~1.025 caracteres · 171 palabras ≈ 55 s a velocidad 1.1)
+Si pudieras ver el futuro una vez al año… ¿mirarías? Pues el de dos mil veintisiete ya salió… y viene así.
+Esta es la portada de The Economist. Arriba, una fila de señores de traje muy tranquilos. Abajo, todo ardiendo. Tanques, barcos, un cohete, un cerebro gigante… y una bola de cristal. Sí, una bola de cristal. Ni lo disimulan.
+Internet jura que es profética. Así que… bingo.
+Casilla uno: el año más caluroso de la historia. Confirmado desde mi ventilador.
+Casilla dos: la inteligencia artificial, endeudada hasta las cejas. Vive a crédito… como tú y como yo.
+Casilla tres: Taiwán. Dicen que Xi Jinping ya tiene fecha. Taiwán, de momento, lo ha dejado en visto.
+Casilla cuatro: Ozempic. El mundo en llamas, pero delgadísimos.
+Y la más absurda: una nueva película de Star Wars. Si se acaba el mundo, que sea con palomitas.
+Pero quedan cinco casillas más… y nadie se pone de acuerdo en qué significan.
 ¿Cuál tachas tú primero? Si llegamos a cien comentarios, abro el expediente completo.
 
 Cierre (audio ya grabado, --endaudio): assets/cierres_shorts/audio/cierre_guarda.mp3
@@ -30,22 +32,44 @@ Ganchos alternativos (probar con Reel de prueba de IG; mismo cuerpo, solo cambia
 - D: «Cada noviembre, esta revista te dice qué va a pasar. Y este año… da miedo.»
 Regla: contar lo que circula con atribución («dicen», «en redes»); no inventar teorías concretas ni atribuírselas a nadie.
 
-### Planos (algo nuevo cada 2–4 s)
-| Tiempo | Bloque | En pantalla |
+### Planos v3 (algo nuevo cada 2–3 s)
+| Tiempo | Voz | En pantalla |
 |---|---|---|
-| 0–1 s | GANCHO | Ya en movimiento (nada de logo): una bola de cristal se enciende en rojo; texto gigante «¿VERÍAS EL FUTURO?» |
-| 1–3 s | | La bola se convierte en el círculo rojo/negro; texto cambia a «2027 YA SALIÓ 👀» |
-| 3–6 s | | Javi con gorro de papel de aluminio (sonido «clin») saca el cartón «BINGO DEL APOCALIPSIS 2027» y bombo de bingo |
-| 4–9 s | Casilla 1 | Javi abanicándose con la revista; termómetro que revienta; ¡TACHADO! (sonido «ding») |
-| 9–14 s | Casilla 2 | Robot con tarjeta de crédito echando humo, montaña de facturas; ¡TACHADO! |
-| 14–21 s | Casilla 3 | Mapa del estrecho de Taiwán con barcos; Javi tacha con fuerza; sello «LO DICE INTERNET 🔥» y lluvia de comentarios falsos genéricos (sin nombres reales) |
-| 21–26 s | Casilla 4 | Silueta que adelgaza mientras de fondo todo arde; ¡TACHADO! |
-| 26–31 s | Casilla 5 | Javi con 3D-gafas y palomitas, nave espacial de juguete (genérica, nada de Star Wars real); ¡TACHADO! |
-| 31–41 s | LO RARO | Se apaga la luz, música de misterio; el cartón gira y muestra 5 casillas tapadas con cinta «CLASIFICADO» |
-| 41–45 s | Pregunta | «¿CUÁL TACHAS PRIMERO?» + contador «0/100 COMENTARIOS» |
-| 45–50 s | PEDIDO | Fin de pantalla estándar SÍGUENOS · GUÁRDALO (make_short.py, marca `ao`) |
+| 0–1 s | «Si pudieras ver el futuro…» | Bola de cristal que se enciende en rojo; texto gigante «¿VERÍAS EL FUTURO?» |
+| 1–3 s | «…ya salió… y viene así.» | Golpe de sonido: la bola se convierte en la PORTADA REAL a pantalla completa; texto «2027 👀» |
+| 3–5 s | «Esta es la portada de The Economist.» | Portada entera, zoom lento; rótulo pequeño «Fuente: The Economist · The World Ahead 2027» |
+| 5–7 s | «Arriba… señores de traje muy tranquilos.» | Zoom a la fila de arriba; círculo rojo dibujado a mano alrededor |
+| 7–9 s | «Abajo, todo ardiendo.» | Paneo hacia abajo: llamas, bosque, ciervo |
+| 9–11 s | «Tanques, barcos, un cohete, un cerebro gigante…» | 4 cortes rápidos de zoom, uno por palabra, flechas rojas |
+| 11–13 s | «…y una bola de cristal. Ni lo disimulan.» | Zoom a la bola de cristal + Javi mirando a cámara (cara de «¿en serio?») |
+| 13–15 s | «Internet jura que es profética. Así que… bingo.» | Javi con gorro de aluminio saca el cartón «BINGO DEL APOCALIPSIS 2027»; bombo |
+| 15–19 s | Casilla 1 | Javi abanicándose; termómetro revienta; ¡TACHADO! («ding») |
+| 19–24 s | Casilla 2 | Robot con tarjeta de crédito echando humo; ¡TACHADO! |
+| 24–30 s | Casilla 3 | Mapa del estrecho; pantalla de chat con «2027» y el doble check azul de «visto»; sello «LO DICE INTERNET 🔥» |
+| 30–34 s | Casilla 4 | Silueta que adelgaza mientras de fondo todo arde; ¡TACHADO! |
+| 34–39 s | Casilla 5 | Javi con gafas 3D y palomitas, nave de juguete genérica; ¡TACHADO! |
+| 39–47 s | LO RARO | Vuelve la PORTADA REAL, oscurecida; 5 zonas tapadas con cinta «CLASIFICADO»; música de misterio |
+| 47–51 s | Pregunta | «¿CUÁL TACHAS PRIMERO?» + contador «0/100 💬» |
+| 51–55 s | PEDIDO | Fin de pantalla estándar SÍGUENOS · GUÁRDALO (make_short.py, marca `ao`) + cierre_guarda.mp3 |
 
-Paleta: rojo, negro y crema. No mostrar la portada real ni logos/personajes de Star Wars.
+Portada real: se muestra ~12 s en total (3–13 s y 39–47 s) porque la estamos comentando (cita para comentario/noticia). Siempre con «Fuente: The Economist». Conseguir la imagen en alta del artículo oficial o de un medio que la publique; no usar capturas de Facebook. No usar logos/personajes de Star Wars.
+
+### Revisión y ranking (v1 → v3)
+| Criterio | v1 seria | v2 bingo | v3 final | Por qué |
+|---|---|---|---|---|
+| Gancho (0–3 s) | 5 | 6 | 8 | Pregunta que todos contestan con «sí» + recompensa visual inmediata (la portada sale en el segundo 1) |
+| Retención media | 6 | 7 | 8 | Portada comentada = «mira esto» con zooms; algo nuevo cada 2–3 s; frase de recarga «Y la más absurda» a mitad |
+| Humor | 3 | 7 | 8 | Remate en cada casilla; el de Taiwán («lo ha dejado en visto») ya tiene chiste |
+| Claridad del tema | 7 | 6 | 9 | Ahora se VE la portada: quien no la conoce entiende de qué hablamos |
+| Comentarios | 5 | 8 | 8 | Pregunta cerrada «¿cuál tachas?» + meta de 100 |
+| Compartidos/guardados | 5 | 6 | 7 | Lista de predicciones = contenido que se reenvía (el post de la captura: 2.055 compartidos con 2.848 reacciones) |
+| Puente al vídeo largo | 4 | 8 | 9 | 5 casillas CLASIFICADO sobre la portada real |
+| **Media** | **5,0** | **6,9** | **8,1** | |
+
+Puntos débiles que quedan:
+- Duración ~55 s (+4 s de cierre). Si la retención cae antes del segundo 30, la v4 quita la casilla Ozempic (−4 s).
+- «Confirmado desde mi ventilador» es el chiste más flojo; alternativa: «Yo ya lo noto: mi ventilador ha pedido vacaciones.»
+- Riesgo de derechos de la portada: bajo si se comenta y se cita la fuente; si Instagram o TikTok la marcan, sustituir por la recreación propia.
 
 ## Textos
 **Título en pantalla:** BINGO DEL|APOCALIPSIS 2027 🎱
