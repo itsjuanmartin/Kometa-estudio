@@ -8,38 +8,42 @@ Objetivo: medir si el tema "portadas proféticas" pega en el canal antes de inve
 - 🟨 SIN CONFIRMAR: que Xi Jinping haya fijado 2027 como fecha límite para que su ejército esté listo para tomar Taiwán. La revista lo recoge como rumor/plazo atribuido; no dice que vaya a haber invasión.
 - ❌ FALSO que circula: listas virales de "predicciones" (p. ej. "China invade Taiwán en 2027") presentadas como lo que dice la revista, y portadas falsas hechas con IA que circularon antes de la oficial. No usar capturas de redes.
 
-## Guion para ElevenLabs (pegar tal cual · ~720 caracteres)
-Te dijeron que la portada de The Economist predice el futuro, ¿verdad? Pues la verdad es más inquietante.
-Ayer salió la de dos mil veintisiete. Un círculo rojo y negro: arriba, los poderosos. Abajo, el caos. Y dentro, diez pistas escondidas.
-Bosques en llamas. Robots junto a montañas de deuda. Y una isla rodeada de barcos de guerra: Taiwán. Porque se dice que Xi Jinping habría marcado dos mil veintisiete como fecha límite para que su ejército esté listo para tomarla.
-Pero aquí está el giro: no es una profecía. Es la lista de riesgos que The Economist cree que marcarán el año. Una burbuja de inteligencia artificial que se sostiene con deuda. Marine Le Pen a las puertas del poder. Y el mundo que deja la guerra con Irán.
-No adivinan el futuro… te enseñan dónde están mirando los que mueven el dinero.
-¿Cuál de las diez crees que se cumple primero?
+## Versión elegida: JOCOSA · «Bingo del apocalipsis 2027» (17 nov)
+Idea: Javi rellena un cartón de bingo con 10 casillas (las 10 tendencias). En el reel solo tacha 5 → las otras 5 quedan tapadas = gancho natural para el vídeo largo.
+Regla del humor: la broma va en el TONO y en las reacciones, nunca en los datos. Los datos siguen siendo exactos y Taiwán lleva su sello SIN CONFIRMAR.
+
+### Guion para ElevenLabs (pegar tal cual · ~1.000 caracteres · ~50 s)
+Cada año The Economist saca su portada… y medio internet dice: «ya está, nos avisaron». Así que he hecho lo lógico: el bingo del apocalipsis dos mil veintisiete.
+Casilla uno: el año más caluroso de la historia. Sorpresa: ninguna. Llevo así desde que me compré el ventilador.
+Casilla dos: la inteligencia artificial, endeudada hasta las cejas. Sí, la IA también vive a crédito. Como tú. Como yo.
+Casilla tres: Taiwán. Dicen que Xi Jinping puso dos mil veintisiete como fecha límite… dicen. Sin confirmar, que luego me escribís.
+Casilla cuatro: el Ozempic. El mundo en llamas, pero eso sí… delgadísimos.
+Y casilla cinco: una nueva película de Star Wars. Porque si se acaba el mundo, que sea con palomitas.
+Ahora en serio: no es una profecía. Es la lista de lo que preocupa a los que mueven el dinero. Y en ese círculo hay cinco casillas más… que nadie está explicando.
+¿Cuál tachas tú primero? Si llegamos a cien comentarios, abro el expediente completo.
 
 Cierre (audio ya grabado, --endaudio): assets/cierres_shorts/audio/cierre_guarda.mp3
-(No usar «parte 2» ni «expediente completo en YouTube»: es un reel suelto de prueba.)
 
-## Estructura y planos (algo nuevo cada 2–4 s)
+### Planos (algo nuevo cada 2–4 s)
 | Tiempo | Bloque | En pantalla |
 |---|---|---|
-| 0–3 s | GANCHO | Revista cerrada cae sobre la mesa de Javi, golpe seco; rótulo «¿PROFÉTICA?» |
-| 3–9 s | PROBLEMA | Círculo rojo/negro que gira (ilustración propia, NO la portada real). Sello 🟥 CONFIRMADO · 16 NOV 2026 |
-| 9–13 s | | Zoom a 3 iconos: bosque en llamas → robot sobre monedas → isla con barcos |
-| 13–20 s | | Mapa del estrecho de Taiwán animado, barcos acercándose; sello 🟨 SIN CONFIRMAR sobre «2027: FECHA LÍMITE» |
-| 20–23 s | SOLUCIÓN (giro) | Javi tacha «PROFECÍA» y escribe «LISTA DE RIESGOS» |
-| 23–33 s | | Tres tarjetas rápidas: «IA + DEUDA OPACA» · «LE PEN» (silueta del Elíseo) · «IRÁN» (mapa del golfo) |
-| 33–38 s | | Remate: el círculo se abre y se ven billetes/gráficas: «LOS QUE MUEVEN EL DINERO» |
-| 38–41 s | Pregunta | «¿CUÁL SE CUMPLE PRIMERO?» con 1–10 en miniatura |
-| 41–46 s | PEDIDO | Fin de pantalla estándar SÍGUENOS · GUÁRDALO (make_short.py, marca `ao`) |
+| 0–4 s | GANCHO | Javi saca un cartón de bingo gigante «APOCALIPSIS 2027» y un rotulador rojo; sonido de bombo de bingo |
+| 4–9 s | Casilla 1 | Javi abanicándose con la revista; termómetro que revienta; ¡TACHADO! (sonido «ding») |
+| 9–14 s | Casilla 2 | Robot con tarjeta de crédito echando humo, montaña de facturas; ¡TACHADO! |
+| 14–21 s | Casilla 3 | Mapa del estrecho de Taiwán con barcos; Javi duda con el rotulador; sello 🟨 SIN CONFIRMAR estampado encima en vez de tachar |
+| 21–26 s | Casilla 4 | Silueta que adelgaza mientras de fondo todo arde; ¡TACHADO! |
+| 26–31 s | Casilla 5 | Javi con 3D-gafas y palomitas, nave espacial de juguete (genérica, nada de Star Wars real); ¡TACHADO! |
+| 31–41 s | GIRO | Se apaga la luz, música seria; el cartón gira y muestra 5 casillas tapadas con cinta «CLASIFICADO» |
+| 41–45 s | Pregunta | «¿CUÁL TACHAS PRIMERO?» + contador «0/100 COMENTARIOS» |
+| 45–50 s | PEDIDO | Fin de pantalla estándar SÍGUENOS · GUÁRDALO (make_short.py, marca `ao`) |
 
-Paleta: rojo, negro y crema (encaja con la marca y con el tema) sin copiar el estilo de la ilustración original.
-Derechos: no mostrar la portada real ni las ilustraciones (son de The Economist). Si se quiere enseñar, como mucho 1–2 s de cita con «Fuente: The Economist» → mejor recrear con iconos propios.
+Paleta: rojo, negro y crema. No mostrar la portada real ni logos/personajes de Star Wars.
 
 ## Textos
-**Título en pantalla:** LA PORTADA QUE|«PREDICE» 2027
-**Copy (≤100 caracteres):** La portada de The Economist 2027 esconde 10 pistas. ¿Profecía o aviso? 📂 #theeconomist #2027
+**Título en pantalla:** BINGO DEL|APOCALIPSIS 2027 🎱
+**Copy (≤100 caracteres):** Jugamos al bingo con la portada de The Economist 2027. ¿Cuál tachas tú? 🎱 #theeconomist #2027
 (La regla «VIDEO COMPLETO EN EL LINK |» no aplica: no hay vídeo largo de este tema. Si pega, se hace el largo y se edita la descripción.)
-**Comentario fijado:** ¿Qué crees que pasará antes en 2027? 🔥 Revienta la burbuja de la IA · 🌊 Crisis en Taiwán. Si este gana, el expediente completo de las 10 pistas sale en YouTube.
+**Comentario fijado:** ¿Qué casilla se tacha primero? 🤖 La IA en bancarrota · 🎬 Star Wars antes que el apocalipsis. Con 100 comentarios destapo las 5 casillas CLASIFICADAS en YouTube.
 
 ## Cómo medimos si pega (a las 48 h)
 - Retención media ≥ 70 % y >50 % viendo hasta el giro (≈20 s) → hacer vídeo largo «Las 10 pistas de la portada 2027».
