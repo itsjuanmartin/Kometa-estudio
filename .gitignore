@@ -7,3 +7,6 @@ node_modules/
 **/frames/
 .cache/
 assets/music/*/
+projects/ao-003-economist-2027/out/seg/
+projects/ao-003-economist-2027/out/video_mudo.mp4
+projects/ao-003-economist-2027/out/sfx_track.wav

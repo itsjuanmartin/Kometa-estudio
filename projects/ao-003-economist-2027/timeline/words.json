@@ -1,0 +1,1005 @@
+{
+ "source": "script+whisper-small",
+ "words": [
+  {
+   "word": "Si",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "word": "pudieras",
+   "start": 0.16,
+   "end": 0.58
+  },
+  {
+   "word": "ver",
+   "start": 0.58,
+   "end": 0.72
+  },
+  {
+   "word": "el",
+   "start": 0.72,
+   "end": 0.84
+  },
+  {
+   "word": "futuro",
+   "start": 0.84,
+   "end": 1.18
+  },
+  {
+   "word": "una",
+   "start": 1.18,
+   "end": 1.44
+  },
+  {
+   "word": "vez",
+   "start": 1.44,
+   "end": 1.64
+  },
+  {
+   "word": "al",
+   "start": 1.64,
+   "end": 1.8
+  },
+  {
+   "word": "año…",
+   "start": 1.8,
+   "end": 2.02
+  },
+  {
+   "word": "¿mirarías?",
+   "start": 2.44,
+   "end": 2.92
+  },
+  {
+   "word": "Pues",
+   "start": 3.34,
+   "end": 3.42
+  },
+  {
+   "word": "el",
+   "start": 3.42,
+   "end": 3.58
+  },
+  {
+   "word": "de",
+   "start": 3.58,
+   "end": 3.66
+  },
+  {
+   "word": "dos",
+   "start": 3.66,
+   "end": 3.913
+  },
+  {
+   "word": "mil",
+   "start": 3.933,
+   "end": 4.187
+  },
+  {
+   "word": "veintisiete",
+   "start": 4.207,
+   "end": 4.46
+  },
+  {
+   "word": "ya",
+   "start": 4.48,
+   "end": 4.78
+  },
+  {
+   "word": "salió…",
+   "start": 4.78,
+   "end": 5.1
+  },
+  {
+   "word": "y",
+   "start": 5.6,
+   "end": 5.7
+  },
+  {
+   "word": "viene",
+   "start": 5.7,
+   "end": 5.9
+  },
+  {
+   "word": "así.",
+   "start": 5.9,
+   "end": 6.12
+  },
+  {
+   "word": "Esta",
+   "start": 6.52,
+   "end": 6.74
+  },
+  {
+   "word": "es",
+   "start": 6.74,
+   "end": 6.88
+  },
+  {
+   "word": "la",
+   "start": 6.88,
+   "end": 7.0
+  },
+  {
+   "word": "portada",
+   "start": 7.0,
+   "end": 7.4
+  },
+  {
+   "word": "de",
+   "start": 7.4,
+   "end": 7.56
+  },
+  {
+   "word": "The",
+   "start": 7.56,
+   "end": 7.72
+  },
+  {
+   "word": "Economist.",
+   "start": 7.72,
+   "end": 8.26
+  },
+  {
+   "word": "Arriba,",
+   "start": 8.56,
+   "end": 8.92
+  },
+  {
+   "word": "señores",
+   "start": 8.92,
+   "end": 9.24
+  },
+  {
+   "word": "de",
+   "start": 9.24,
+   "end": 9.4
+  },
+  {
+   "word": "traje",
+   "start": 9.4,
+   "end": 9.72
+  },
+  {
+   "word": "muy",
+   "start": 9.72,
+   "end": 10.0
+  },
+  {
+   "word": "tranquilos.",
+   "start": 10.0,
+   "end": 10.56
+  },
+  {
+   "word": "Abajo,",
+   "start": 10.86,
+   "end": 11.22
+  },
+  {
+   "word": "todo",
+   "start": 11.22,
+   "end": 11.52
+  },
+  {
+   "word": "ardiendo.",
+   "start": 11.52,
+   "end": 11.96
+  },
+  {
+   "word": "Tanques,",
+   "start": 12.34,
+   "end": 12.7
+  },
+  {
+   "word": "un",
+   "start": 12.96,
+   "end": 13.04
+  },
+  {
+   "word": "cohete,",
+   "start": 13.04,
+   "end": 13.48
+  },
+  {
+   "word": "un",
+   "start": 13.76,
+   "end": 13.9
+  },
+  {
+   "word": "cerebro",
+   "start": 13.9,
+   "end": 14.28
+  },
+  {
+   "word": "gigante…",
+   "start": 14.28,
+   "end": 14.8
+  },
+  {
+   "word": "y",
+   "start": 15.2,
+   "end": 15.38
+  },
+  {
+   "word": "una",
+   "start": 15.38,
+   "end": 15.54
+  },
+  {
+   "word": "bola",
+   "start": 15.54,
+   "end": 15.74
+  },
+  {
+   "word": "de",
+   "start": 15.74,
+   "end": 15.92
+  },
+  {
+   "word": "cristal.",
+   "start": 15.92,
+   "end": 16.34
+  },
+  {
+   "word": "Ni",
+   "start": 16.56,
+   "end": 16.74
+  },
+  {
+   "word": "lo",
+   "start": 16.74,
+   "end": 16.88
+  },
+  {
+   "word": "disimulan.",
+   "start": 16.88,
+   "end": 17.3
+  },
+  {
+   "word": "Internet",
+   "start": 17.64,
+   "end": 18.0
+  },
+  {
+   "word": "jura",
+   "start": 18.0,
+   "end": 18.32
+  },
+  {
+   "word": "que",
+   "start": 18.32,
+   "end": 18.46
+  },
+  {
+   "word": "esconde",
+   "start": 18.46,
+   "end": 18.78
+  },
+  {
+   "word": "diez",
+   "start": 18.78,
+   "end": 18.98
+  },
+  {
+   "word": "profecías.",
+   "start": 19.0,
+   "end": 19.56
+  },
+  {
+   "word": "Te",
+   "start": 19.96,
+   "end": 20.04
+  },
+  {
+   "word": "enseño",
+   "start": 20.04,
+   "end": 20.34
+  },
+  {
+   "word": "cinco…",
+   "start": 20.34,
+   "end": 21.08
+  },
+  {
+   "word": "las",
+   "start": 21.1,
+   "end": 21.2
+  },
+  {
+   "word": "otras",
+   "start": 21.2,
+   "end": 21.36
+  },
+  {
+   "word": "cinco",
+   "start": 21.36,
+   "end": 21.66
+  },
+  {
+   "word": "son",
+   "start": 21.68,
+   "end": 21.92
+  },
+  {
+   "word": "las",
+   "start": 21.92,
+   "end": 22.08
+  },
+  {
+   "word": "que",
+   "start": 22.08,
+   "end": 22.22
+  },
+  {
+   "word": "dan",
+   "start": 22.22,
+   "end": 22.42
+  },
+  {
+   "word": "miedo.",
+   "start": 22.42,
+   "end": 22.74
+  },
+  {
+   "word": "Así",
+   "start": 23.14,
+   "end": 23.34
+  },
+  {
+   "word": "que…",
+   "start": 23.34,
+   "end": 23.58
+  },
+  {
+   "word": "bingo.",
+   "start": 23.58,
+   "end": 24.1
+  },
+  {
+   "word": "Uno:",
+   "start": 24.66,
+   "end": 24.86
+  },
+  {
+   "word": "el",
+   "start": 25.26,
+   "end": 25.31
+  },
+  {
+   "word": "año",
+   "start": 25.28,
+   "end": 25.44
+  },
+  {
+   "word": "más",
+   "start": 25.44,
+   "end": 25.64
+  },
+  {
+   "word": "caluroso",
+   "start": 25.64,
+   "end": 26.08
+  },
+  {
+   "word": "de",
+   "start": 26.08,
+   "end": 26.16
+  },
+  {
+   "word": "la",
+   "start": 26.16,
+   "end": 26.24
+  },
+  {
+   "word": "historia.",
+   "start": 26.24,
+   "end": 26.5
+  },
+  {
+   "word": "Mi",
+   "start": 26.96,
+   "end": 27.08
+  },
+  {
+   "word": "ventilador",
+   "start": 27.08,
+   "end": 27.58
+  },
+  {
+   "word": "ya",
+   "start": 27.58,
+   "end": 27.8
+  },
+  {
+   "word": "ha",
+   "start": 27.8,
+   "end": 27.88
+  },
+  {
+   "word": "pedido",
+   "start": 27.88,
+   "end": 28.2
+  },
+  {
+   "word": "vacaciones.",
+   "start": 28.2,
+   "end": 28.7
+  },
+  {
+   "word": "Dos:",
+   "start": 28.7,
+   "end": 29.26
+  },
+  {
+   "word": "la",
+   "start": 29.58,
+   "end": 29.64
+  },
+  {
+   "word": "inteligencia",
+   "start": 29.64,
+   "end": 30.18
+  },
+  {
+   "word": "artificial,",
+   "start": 30.18,
+   "end": 30.66
+  },
+  {
+   "word": "endeudada",
+   "start": 30.66,
+   "end": 31.34
+  },
+  {
+   "word": "hasta",
+   "start": 31.34,
+   "end": 31.58
+  },
+  {
+   "word": "las",
+   "start": 31.58,
+   "end": 31.8
+  },
+  {
+   "word": "cejas.",
+   "start": 31.8,
+   "end": 32.04
+  },
+  {
+   "word": "Vive",
+   "start": 32.42,
+   "end": 32.62
+  },
+  {
+   "word": "a",
+   "start": 32.62,
+   "end": 32.78
+  },
+  {
+   "word": "crédito…",
+   "start": 32.78,
+   "end": 33.16
+  },
+  {
+   "word": "como",
+   "start": 33.74,
+   "end": 33.9
+  },
+  {
+   "word": "tú",
+   "start": 33.9,
+   "end": 34.14
+  },
+  {
+   "word": "y",
+   "start": 34.14,
+   "end": 34.34
+  },
+  {
+   "word": "como",
+   "start": 34.34,
+   "end": 34.48
+  },
+  {
+   "word": "yo.",
+   "start": 34.48,
+   "end": 34.68
+  },
+  {
+   "word": "Tres:",
+   "start": 35.16,
+   "end": 35.46
+  },
+  {
+   "word": "Taiwán.",
+   "start": 35.72,
+   "end": 36.14
+  },
+  {
+   "word": "Dicen",
+   "start": 36.9,
+   "end": 37.28
+  },
+  {
+   "word": "que",
+   "start": 37.28,
+   "end": 37.42
+  },
+  {
+   "word": "Xi",
+   "start": 37.42,
+   "end": 37.6
+  },
+  {
+   "word": "Jinping",
+   "start": 37.6,
+   "end": 37.86
+  },
+  {
+   "word": "ya",
+   "start": 37.86,
+   "end": 38.16
+  },
+  {
+   "word": "tiene",
+   "start": 38.16,
+   "end": 38.34
+  },
+  {
+   "word": "fecha.",
+   "start": 38.34,
+   "end": 38.7
+  },
+  {
+   "word": "Taiwán,",
+   "start": 38.92,
+   "end": 39.34
+  },
+  {
+   "word": "de",
+   "start": 39.48,
+   "end": 39.54
+  },
+  {
+   "word": "momento,",
+   "start": 39.54,
+   "end": 39.82
+  },
+  {
+   "word": "lo",
+   "start": 40.0,
+   "end": 40.08
+  },
+  {
+   "word": "ha",
+   "start": 40.08,
+   "end": 40.16
+  },
+  {
+   "word": "dejado",
+   "start": 40.16,
+   "end": 40.46
+  },
+  {
+   "word": "en",
+   "start": 40.46,
+   "end": 40.58
+  },
+  {
+   "word": "visto.",
+   "start": 40.58,
+   "end": 40.78
+  },
+  {
+   "word": "Cuatro:",
+   "start": 41.26,
+   "end": 41.6
+  },
+  {
+   "word": "Ozempic.",
+   "start": 41.6,
+   "end": 42.56
+  },
+  {
+   "word": "El",
+   "start": 42.58,
+   "end": 42.7
+  },
+  {
+   "word": "mundo",
+   "start": 42.7,
+   "end": 42.88
+  },
+  {
+   "word": "en",
+   "start": 42.88,
+   "end": 43.08
+  },
+  {
+   "word": "llamas,",
+   "start": 43.08,
+   "end": 43.44
+  },
+  {
+   "word": "pero",
+   "start": 43.6,
+   "end": 43.65
+  },
+  {
+   "word": "delgadísimos.",
+   "start": 43.64,
+   "end": 44.26
+  },
+  {
+   "word": "Y",
+   "start": 44.54,
+   "end": 44.66
+  },
+  {
+   "word": "la",
+   "start": 44.66,
+   "end": 44.78
+  },
+  {
+   "word": "cinco,",
+   "start": 44.8,
+   "end": 45.06
+  },
+  {
+   "word": "la",
+   "start": 45.26,
+   "end": 45.32
+  },
+  {
+   "word": "más",
+   "start": 45.32,
+   "end": 45.48
+  },
+  {
+   "word": "absurda:",
+   "start": 45.48,
+   "end": 45.92
+  },
+  {
+   "word": "una",
+   "start": 46.14,
+   "end": 46.3
+  },
+  {
+   "word": "nueva",
+   "start": 46.3,
+   "end": 46.48
+  },
+  {
+   "word": "película",
+   "start": 46.48,
+   "end": 46.88
+  },
+  {
+   "word": "de",
+   "start": 46.88,
+   "end": 47.06
+  },
+  {
+   "word": "Star",
+   "start": 47.06,
+   "end": 47.26
+  },
+  {
+   "word": "Wars.",
+   "start": 47.26,
+   "end": 47.48
+  },
+  {
+   "word": "Si",
+   "start": 48.2,
+   "end": 48.4
+  },
+  {
+   "word": "se",
+   "start": 48.4,
+   "end": 48.52
+  },
+  {
+   "word": "acaba",
+   "start": 48.52,
+   "end": 48.7
+  },
+  {
+   "word": "el",
+   "start": 48.7,
+   "end": 48.9
+  },
+  {
+   "word": "mundo,",
+   "start": 48.9,
+   "end": 49.08
+  },
+  {
+   "word": "que",
+   "start": 49.26,
+   "end": 49.32
+  },
+  {
+   "word": "sea",
+   "start": 49.32,
+   "end": 49.5
+  },
+  {
+   "word": "con",
+   "start": 49.5,
+   "end": 49.7
+  },
+  {
+   "word": "palomitas.",
+   "start": 49.7,
+   "end": 50.12
+  },
+  {
+   "word": "¿Y",
+   "start": 50.52,
+   "end": 50.66
+  },
+  {
+   "word": "las",
+   "start": 50.66,
+   "end": 50.78
+  },
+  {
+   "word": "otras",
+   "start": 50.78,
+   "end": 50.94
+  },
+  {
+   "word": "cinco?",
+   "start": 50.94,
+   "end": 51.38
+  },
+  {
+   "word": "Te",
+   "start": 51.84,
+   "end": 51.94
+  },
+  {
+   "word": "dejo",
+   "start": 51.94,
+   "end": 52.1
+  },
+  {
+   "word": "una",
+   "start": 52.1,
+   "end": 52.26
+  },
+  {
+   "word": "pista:",
+   "start": 52.26,
+   "end": 52.5
+  },
+  {
+   "word": "fíjate",
+   "start": 52.78,
+   "end": 53.02
+  },
+  {
+   "word": "en",
+   "start": 53.02,
+   "end": 53.16
+  },
+  {
+   "word": "el",
+   "start": 53.16,
+   "end": 53.28
+  },
+  {
+   "word": "avión.",
+   "start": 53.28,
+   "end": 53.46
+  },
+  {
+   "word": "Internet",
+   "start": 53.8,
+   "end": 54.14
+  },
+  {
+   "word": "todavía",
+   "start": 54.14,
+   "end": 54.56
+  },
+  {
+   "word": "no",
+   "start": 54.56,
+   "end": 54.78
+  },
+  {
+   "word": "se",
+   "start": 54.78,
+   "end": 54.92
+  },
+  {
+   "word": "pone",
+   "start": 54.92,
+   "end": 55.12
+  },
+  {
+   "word": "de",
+   "start": 55.12,
+   "end": 55.26
+  },
+  {
+   "word": "acuerdo.",
+   "start": 55.26,
+   "end": 55.48
+  },
+  {
+   "word": "Guarda",
+   "start": 56.0,
+   "end": 56.3
+  },
+  {
+   "word": "este",
+   "start": 56.3,
+   "end": 56.48
+  },
+  {
+   "word": "vídeo:",
+   "start": 56.48,
+   "end": 56.76
+  },
+  {
+   "word": "en",
+   "start": 56.76,
+   "end": 57.1
+  },
+  {
+   "word": "diciembre",
+   "start": 57.1,
+   "end": 57.5
+  },
+  {
+   "word": "de",
+   "start": 57.5,
+   "end": 57.64
+  },
+  {
+   "word": "dos",
+   "start": 57.64,
+   "end": 57.88
+  },
+  {
+   "word": "mil",
+   "start": 57.9,
+   "end": 58.14
+  },
+  {
+   "word": "veintisiete",
+   "start": 58.16,
+   "end": 58.4
+  },
+  {
+   "word": "lo",
+   "start": 58.42,
+   "end": 58.66
+  },
+  {
+   "word": "volvemos",
+   "start": 58.66,
+   "end": 59.06
+  },
+  {
+   "word": "a",
+   "start": 59.06,
+   "end": 59.18
+  },
+  {
+   "word": "ver",
+   "start": 59.18,
+   "end": 59.32
+  },
+  {
+   "word": "y",
+   "start": 59.32,
+   "end": 59.4
+  },
+  {
+   "word": "contamos",
+   "start": 59.4,
+   "end": 59.78
+  },
+  {
+   "word": "cuántas",
+   "start": 59.78,
+   "end": 60.22
+  },
+  {
+   "word": "se",
+   "start": 60.22,
+   "end": 60.34
+  },
+  {
+   "word": "cumplieron.",
+   "start": 60.34,
+   "end": 60.74
+  },
+  {
+   "word": "Y",
+   "start": 61.12,
+   "end": 61.22
+  },
+  {
+   "word": "síguenos:",
+   "start": 61.22,
+   "end": 61.6
+  },
+  {
+   "word": "si",
+   "start": 61.92,
+   "end": 61.97
+  },
+  {
+   "word": "llegamos",
+   "start": 61.94,
+   "end": 62.3
+  },
+  {
+   "word": "a",
+   "start": 62.3,
+   "end": 62.38
+  },
+  {
+   "word": "mil",
+   "start": 62.38,
+   "end": 62.54
+  },
+  {
+   "word": "seguidores,",
+   "start": 62.54,
+   "end": 63.02
+  },
+  {
+   "word": "subo",
+   "start": 63.32,
+   "end": 63.6
+  },
+  {
+   "word": "el",
+   "start": 63.6,
+   "end": 63.68
+  },
+  {
+   "word": "expediente",
+   "start": 63.68,
+   "end": 64.08
+  },
+  {
+   "word": "completo",
+   "start": 64.08,
+   "end": 64.42
+  },
+  {
+   "word": "a",
+   "start": 64.42,
+   "end": 64.62
+  },
+  {
+   "word": "nuestro",
+   "start": 64.62,
+   "end": 64.74
+  },
+  {
+   "word": "canal",
+   "start": 64.74,
+   "end": 65.14
+  },
+  {
+   "word": "de",
+   "start": 65.14,
+   "end": 65.3
+  },
+  {
+   "word": "YouTube.",
+   "start": 65.3,
+   "end": 65.56
+  }
+ ]
+}
