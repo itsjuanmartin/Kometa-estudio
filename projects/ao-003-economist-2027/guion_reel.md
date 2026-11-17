@@ -13,7 +13,7 @@ Idea: Javi rellena un cartón de bingo con 10 casillas (las 10 tendencias). En e
 Regla del humor: la broma va en el TONO y en las reacciones, nunca en los datos. Los datos siguen siendo exactos y Taiwán lleva su sello SIN CONFIRMAR.
 
 ### Guion para ElevenLabs (pegar tal cual · ~1.000 caracteres · ~50 s)
-Cada año The Economist saca su portada… y medio internet dice: «ya está, nos avisaron». Así que he hecho lo lógico: el bingo del apocalipsis dos mil veintisiete.
+¿Te dijeron que la portada de The Economist predice el futuro? Pues agárrate, que internet ya sacó el gorro de papel de aluminio. Estas son las teorías que desató… y las he metido en un bingo.
 Casilla uno: el año más caluroso de la historia. Sorpresa: ninguna. Llevo así desde que me compré el ventilador.
 Casilla dos: la inteligencia artificial, endeudada hasta las cejas. Sí, la IA también vive a crédito. Como tú. Como yo.
 Casilla tres: Taiwán. Dicen que Xi Jinping puso dos mil veintisiete como fecha límite… dicen. Sin confirmar, que luego me escribís.
@@ -24,10 +24,16 @@ Ahora en serio: no es una profecía. Es la lista de lo que preocupa a los que mu
 
 Cierre (audio ya grabado, --endaudio): assets/cierres_shorts/audio/cierre_guarda.mp3
 
+Ganchos alternativos (para el Reel de prueba de IG o una segunda subida):
+- B: «¿Te dijeron que The Economist predice el futuro? Pues internet se lo ha tomado MUY en serio. Mira las teorías que desató.»
+- C: «¿Te dijeron que la portada de The Economist es profética? Pues mi tía ya está haciendo acopio de latas. Estas son las teorías.»
+Regla: las «teorías» son lo que se comenta en redes; lo que dice la revista se presenta como lo que dice la revista. Nunca inventar una teoría concreta atribuida a alguien.
+
 ### Planos (algo nuevo cada 2–4 s)
 | Tiempo | Bloque | En pantalla |
 |---|---|---|
-| 0–4 s | GANCHO | Javi saca un cartón de bingo gigante «APOCALIPSIS 2027» y un rotulador rojo; sonido de bombo de bingo |
+| 0–2 s | GANCHO | Rótulo «¿PREDICE EL FUTURO?» sobre una revista que brilla; Javi asiente muy serio |
+| 2–5 s | | Javi se pone un gorro de papel de aluminio (sonido «clin»); saca el cartón «BINGO DEL APOCALIPSIS 2027» y bombo de bingo |
 | 4–9 s | Casilla 1 | Javi abanicándose con la revista; termómetro que revienta; ¡TACHADO! (sonido «ding») |
 | 9–14 s | Casilla 2 | Robot con tarjeta de crédito echando humo, montaña de facturas; ¡TACHADO! |
 | 14–21 s | Casilla 3 | Mapa del estrecho de Taiwán con barcos; Javi duda con el rotulador; sello 🟨 SIN CONFIRMAR estampado encima en vez de tachar |
