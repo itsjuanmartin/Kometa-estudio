@@ -51,6 +51,13 @@
 ## Gancho favorito (desde 14 nov 2026)
 «Te dijeron que X, ¿verdad? Pues la verdad es que no…» → y seguir con la historia. Usarlo al inicio de vídeos largos y como gancho de Shorts cuando el tema lo permita.
 
+**Gancho favorito nº 2 (desde 17 nov 2026, los dos canales):** «Les voy a contar un caso que todavía nadie se explica cómo pasó…» → y arrancar la historia sin pausa. Funciona porque promete un misterio sin resolver y deja un bucle abierto desde el segundo 1. Variantes para rotar y que no suene repetido:
+- «Les voy a contar un caso que, a día de hoy, sigue sin tener explicación.»
+- «Les voy a contar algo que pasó de verdad… y que todavía nadie entiende cómo.»
+- «Esta historia es real, y todavía hoy nadie sabe cómo pudo pasar.»
+- Archivo Oscuro: «Les voy a contar un caso que la policía todavía no se explica.» · Y Si Te Tocará: «Les voy a contar lo que le pasó a alguien como tú… y todavía nadie se explica cómo.»
+Regla: el caso tiene que estar de verdad abierto o tener un giro difícil de creer; si se resuelve fácil, el gancho promete de más y se pierde la confianza. Alternar con el gancho nº 1 según el tema.
+
 ## Cierres hablados de Shorts (reutilizables)
 - `assets/cierres_shorts/*_cierres.txt`: 5 frases por canal, grabadas una sola vez. Audios en `assets/cierres_shorts/<canal>/cierre_N.mp3`.
 - Cada episodio rota los 5 cierres entre sus 5 Shorts (Short 1 → cierre 1 … Short 5 → cierre 5) usando `--endaudio`.
