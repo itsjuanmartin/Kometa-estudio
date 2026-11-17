@@ -12,19 +12,20 @@ Objetivo: medir si el tema "portadas proféticas" pega en el canal antes de inve
 Idea: Javi rellena un cartón de bingo con 10 casillas (las 10 tendencias). En el reel solo tacha 5 → las otras 5 quedan tapadas = gancho natural para el vídeo largo.
 Tono (decisión del creador, 17 nov): Javi NO hace de verificador; solo cuenta lo que corre por internet, en broma. Siempre con atribución («en redes dicen», «internet jura», «dicen que»), nunca como hecho propio.
 
-### Guion para ElevenLabs · v3 FINAL (con portada en pantalla · ~1.025 caracteres · 171 palabras ≈ 55 s a velocidad 1.1)
+### Guion para ElevenLabs · v4 FINAL (~1.170 caracteres · 200 palabras ≈ 60 s a velocidad 1.1, cierre incluido)
 Si pudieras ver el futuro una vez al año… ¿mirarías? Pues el de dos mil veintisiete ya salió… y viene así.
-Esta es la portada de The Economist. Arriba, una fila de señores de traje muy tranquilos. Abajo, todo ardiendo. Tanques, barcos, un cohete, un cerebro gigante… y una bola de cristal. Sí, una bola de cristal. Ni lo disimulan.
-Internet jura que es profética. Así que… bingo.
-Casilla uno: el año más caluroso de la historia. Confirmado desde mi ventilador.
-Casilla dos: la inteligencia artificial, endeudada hasta las cejas. Vive a crédito… como tú y como yo.
-Casilla tres: Taiwán. Dicen que Xi Jinping ya tiene fecha. Taiwán, de momento, lo ha dejado en visto.
-Casilla cuatro: Ozempic. El mundo en llamas, pero delgadísimos.
-Y la más absurda: una nueva película de Star Wars. Si se acaba el mundo, que sea con palomitas.
-Pero quedan cinco casillas más… y nadie se pone de acuerdo en qué significan.
-¿Cuál tachas tú primero? Si llegamos a cien comentarios, abro el expediente completo.
+Esta es la portada de The Economist. Arriba, señores de traje muy tranquilos. Abajo, todo ardiendo. Tanques, un cohete, un cerebro gigante… y una bola de cristal. Ni lo disimulan.
+Internet jura que esconde diez profecías. Te enseño cinco… las otras cinco son las que dan miedo. Así que… bingo.
+Uno: el año más caluroso de la historia. Mi ventilador ya ha pedido vacaciones.
+Dos: la inteligencia artificial, endeudada hasta las cejas. Vive a crédito… como tú y como yo.
+Tres: Taiwán. Dicen que Xi Jinping ya tiene fecha. Taiwán, de momento, lo ha dejado en visto.
+Cuatro: Ozempic. El mundo en llamas, pero delgadísimos.
+Y la cinco, la más absurda: una nueva película de Star Wars. Si se acaba el mundo, que sea con palomitas.
+¿Y las otras cinco? Te dejo una pista: fíjate en el avión. Internet todavía no se pone de acuerdo.
+Guarda este vídeo: en diciembre de dos mil veintisiete lo volvemos a ver y contamos cuántas se cumplieron.
+Y síguenos: si llegamos a mil seguidores, subo el expediente completo a nuestro canal de YouTube.
 
-Cierre (audio ya grabado, --endaudio): assets/cierres_shorts/audio/cierre_guarda.mp3
+Sin --endaudio: el pedido (guárdalo + síguenos) ya va dentro del guion.
 
 Ganchos alternativos (probar con Reel de prueba de IG; mismo cuerpo, solo cambia la 1.ª frase):
 - B: «Una revista adivina el futuro una vez al año… y acaba de publicar 2027.» (texto: 2027 YA SALIÓ 👀)
@@ -48,11 +49,19 @@ Regla: contar lo que circula con atribución («dicen», «en redes»); no inven
 | 24–30 s | Casilla 3 | Mapa del estrecho; pantalla de chat con «2027» y el doble check azul de «visto»; sello «LO DICE INTERNET 🔥» |
 | 30–34 s | Casilla 4 | Silueta que adelgaza mientras de fondo todo arde; ¡TACHADO! |
 | 34–39 s | Casilla 5 | Javi con gafas 3D y palomitas, nave de juguete genérica; ¡TACHADO! |
-| 39–47 s | LO RARO | Vuelve la PORTADA REAL, oscurecida; 5 zonas tapadas con cinta «CLASIFICADO»; música de misterio |
-| 47–51 s | Pregunta | «¿CUÁL TACHAS PRIMERO?» + contador «0/100 💬» |
-| 51–55 s | PEDIDO | Fin de pantalla estándar SÍGUENOS · GUÁRDALO (make_short.py, marca `ao`) + cierre_guarda.mp3 |
+| 39–44 s | ¿Y LAS OTRAS 5? | Vuelve la PORTADA REAL, oscurecida; 5 zonas con cinta «CLASIFICADO»; zoom lento al avión con círculo rojo (pista) |
+| 44–50 s | ALGO QUE SIRVA | Calendario: «DIC 2027» con un sello «REVISIÓN»; botón GUARDAR de Instagram pulsándose |
+| 50–56 s | PEDIDO | Tarjeta `out/tarjeta_final_reel_base.png`: el vídeo «ya en YouTube» con la miniatura, «Próximamente» y SE DESBLOQUEA CON 1.000 SEGUIDORES; la barra se llena hasta el nº actual de seguidores |
+| 56–58 s | | Mano que pulsa SEGUIR; corte seco (el bucle vuelve a la bola de cristal) |
 
 Portada real: se muestra ~12 s en total (3–13 s y 39–47 s) porque la estamos comentando (cita para comentario/noticia). Siempre con «Fuente: The Economist». Conseguir la imagen en alta del artículo oficial o de un medio que la publique; no usar capturas de Facebook. No usar logos/personajes de Star Wars.
+
+### Mapa de intriga, recompensa y utilidad (v4)
+- INTRIGA: «¿mirarías?» (0 s) → «las otras cinco son las que dan miedo» (15 s) → «fíjate en el avión» (40 s) → vídeo bloqueado (50 s).
+- RECOMPENSA: la portada aparece en el segundo 1; un chiste por casilla; la pista del avión premia a quien llega al final.
+- ALGO QUE SIRVA: «guárdalo y en diciembre de 2027 contamos cuántas se cumplieron» → razón real para guardar.
+- PEDIDO: seguir para desbloquear el vídeo largo (meta 1.000). Si ya pasáis de 1.000 en una red, en esa red decir «dos mil».
+- BUCLE: el corte final vuelve a la bola de cristal del inicio → más repeticiones.
 
 ### Revisión y ranking (v1 → v3)
 | Criterio | v1 seria | v2 bingo | v3 final | Por qué |
@@ -66,6 +75,8 @@ Portada real: se muestra ~12 s en total (3–13 s y 39–47 s) porque la estamos
 | Puente al vídeo largo | 4 | 8 | 9 | 5 casillas CLASIFICADO sobre la portada real |
 | **Media** | **5,0** | **6,9** | **8,1** | |
 
+v4 (cierre 1.000 seguidores + miniatura): gancho 8 · retención 8 · humor 8 · claridad 9 · comentarios 7 (ya no pide 100 comentarios) · guardados 9 (razón real para guardar) · seguidores 9 (meta + vídeo «bloqueado») · puente al largo 10 → **media 8,5**.
+
 Puntos débiles que quedan:
 - Duración ~55 s (+4 s de cierre). Si la retención cae antes del segundo 30, la v4 quita la casilla Ozempic (−4 s).
 - «Confirmado desde mi ventilador» es el chiste más flojo; alternativa: «Yo ya lo noto: mi ventilador ha pedido vacaciones.»
@@ -75,7 +86,7 @@ Puntos débiles que quedan:
 **Título en pantalla:** BINGO DEL|APOCALIPSIS 2027 🎱
 **Copy (≤100 caracteres):** Jugamos al bingo con la portada de The Economist 2027. ¿Cuál tachas tú? 🎱 #theeconomist #2027
 (La regla «VIDEO COMPLETO EN EL LINK |» no aplica: no hay vídeo largo de este tema. Si pega, se hace el largo y se edita la descripción.)
-**Comentario fijado:** ¿Qué casilla se tacha primero? 🤖 La IA en bancarrota · 🎬 Star Wars antes que el apocalipsis. Con 100 comentarios destapo las 5 casillas CLASIFICADAS en YouTube.
+**Comentario fijado:** ¿Qué se cumple primero? 🤖 La IA en bancarrota · 🎬 Star Wars antes que el apocalipsis. Y el avión… ¿qué crees que significa? 👀 A los 1.000 seguidores, las 5 CLASIFICADAS en YouTube.
 
 ## Cómo medimos si pega (a las 48 h)
 - Retención media ≥ 70 % y >50 % viendo hasta el giro (≈20 s) → hacer vídeo largo «Las 10 pistas de la portada 2027».
