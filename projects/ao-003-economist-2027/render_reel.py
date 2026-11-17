@@ -151,14 +151,18 @@ def chunks():
 def draw_captions(fr, t, y):
     for t0, t1, c in A['chunks']:
         if not (t0 <= t < t1): continue
-        f = FONT('Nunito-Black.ttf', 76); d = ImageDraw.Draw(fr)
-        words = [WORDS[i]['word'].upper() for i in c]; sp = 22
-        ws = [d.textbbox((0, 0), w, font=f, stroke_width=9)[2] for w in words]; x = W / 2 - (sum(ws) + sp * (len(ws) - 1)) / 2
+        d = ImageDraw.Draw(fr); words = [WORDS[i]['word'].upper() for i in c]; sz = 76
+        while True:
+            f = FONT('Nunito-Black.ttf', sz); sp = int(sz * .29)
+            ws = [d.textbbox((0, 0), w, font=f, stroke_width=9)[2] for w in words]
+            if sum(ws) + sp * (len(ws) - 1) <= 960 or sz <= 50: break
+            sz -= 4
+        x = W / 2 - (sum(ws) + sp * (len(ws) - 1)) / 2
         pop = 1 + .08 * (1 - e_out((t - t0) / .15))
         for i, w, wd in zip(c, words, ws):
             on = WORDS[i]['start'] <= t
             col = GOLD if on and (t < WORDS[i]['end'] + .05 or i == c[-1]) and WORDS[i]['start'] == max(WORDS[j]['start'] for j in c if WORDS[j]['start'] <= t) else (255, 255, 255)
-            im = text_img(w, 'Nunito-Black.ttf', 76, col, stroke=9, pad=4)
+            im = text_img(w, 'Nunito-Black.ttf', sz, col, stroke=9, pad=4)
             put(fr, im, x + wd / 2, y, pop if col == GOLD else 1.)
             x += wd + sp
         return
