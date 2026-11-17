@@ -2,6 +2,7 @@
 import { ease, clamp, lerp, rng, alpha, shade } from '/engine/core.js';
 import { POSES, posesAt, walkPose } from '/engine/rig2d.js';
 import { toonBigFace } from '/engine/toon2d.js';
+import { worldMap } from '/engine/map2d.js';
 import * as K from './lib.js';
 import { S, CAST, BG } from './director.js';
 const { W, H, GY, R, P, C, O, L, T, OL, guy } = K;
@@ -155,7 +156,10 @@ Object.assign(S, {
     T(g, 'SISTEMA DE LA DOBLE CRUZ', W / 2, 90, 64, '#fff8e8'); if (p.lbl != null) stamp(g, t, 'TRABAJAN PARA LONDRES', W / 2, 980, p.lbl, { size: 60, fill: 'rgba(255,248,232,.85)' });
   },
   garboIntro(g, t, d, p) {
-    K.map(g, t, { marks: [{ xy: [1000, 300], label: 'BARCELONA', at: 0.3 }] }); flag(g, 1000, 420, 150, 'es', t);
+    // vuelo Europa -> España (España a la derecha: la cara de Garbo va a la izquierda), España se levanta, chincheta en Barcelona
+    const P = worldMap(g, t, { cam: [{ lon: 6, lat: 47, span: 48 }, { at: 0, d: 1.6, lon: -7, lat: 40.4, span: 25 }, { at: 1.6, d: d - 1.6, ease: x => x, lon: -6.6, lat: 40.4, span: 23.5 }],
+      focus: [{ id: 'ESP', at: 0.9 }], dim: 0.35, labels: ['FRA', 'PRT', 'ITA', 'DZA', 'MAR'], cities: [{ p: 'barcelona', at: 1.4, big: true }] });
+    const kf = S_(t, 1.2); if (kf > 0) { const [fx, fy] = P(-4.2, 42.3); g.save(); g.translate(fx, fy - 20); g.scale(kf, kf); flag(g, 0, 0, 120, 'es', t); g.restore(); }
     const k = S_(t, p.face ?? 0.8, 0.5); if (k > 0) { g.save(); g.translate(560, 620); g.scale(k, k); toonBigFace(g, 0, 0, 220, { outfit: GARBO, expr: K.exprAt(t, p.ex, 'smile'), blink: K.blinkAt(t, 3), t }); g.restore(); }
     if (p.lbl) label(g, t, p.lbl, 560, 140, p.lblAt || 0.4, 72);
     if (p.hates != null) { const k2 = S_(t, p.hates); if (k2 > 0) { g.save(); g.translate(1400, 760); g.scale(k2, k2); R(g, -320, -110, 640, 220, '#fff8e8', 6, 20); T(g, 'ODIABA A LOS NAZIS', 0, -30, 48, '#c0392b', { stroke: 0 }); T(g, 'Y A LOS COMUNISTAS', 0, 40, 48, OL, { stroke: 0 }); g.restore(); } }
@@ -237,9 +241,14 @@ Object.assign(S, {
     if (p.both != null) label(g, t, 'CONDECORADO POR LOS DOS BANDOS', W / 2, 120, p.both, 66);
   },
   vanish(g, t, d, p) {
-    K.map(g, t, { marks: [{ xy: [1060, 760], label: 'ANGOLA', at: 0.3 }].concat(p.ve != null ? [{ xy: [590, 620], label: 'VENEZUELA', at: p.ve, col: '#2a8a4a' }] : []) });
-    flag(g, 1060, 880, 120, 'ao', t); if (p.dead != null) { const k = S_(t, p.dead); if (k > 0) { g.save(); g.translate(1450, 380); g.scale(k, k); R(g, -280, -140, 560, 280, '#f3efe4', 6, 4); T(g, 'MUERE DE MALARIA', 0, -30, 50, OL, { stroke: 0 }); T(g, '(o eso dijeron)', 0, 40, 38, '#c0392b', { stroke: 0 }); g.restore(); } }
-    if (p.ve != null && t > p.ve) { flag(g, 590, 740, 120, 've', t); stamp(g, t, '¡VIVO!', 590, 480, p.ve + 0.5, { size: 90, col: '#2a8a4a' }); }
+    // Angola de cerca -> (al aparecer vivo) la cámara se abre y cruza el Atlántico hasta Venezuela
+    const ve = p.ve ?? 1e9;
+    const P = worldMap(g, t, { cam: [{ lon: 22, lat: -10, span: 46 }, { at: 0, d: d, ease: x => x, lon: 20, lat: -10, span: 42 }, { at: ve - 0.4, d: 2.4, lon: -28, lat: 2, span: 115, hop: 0.35 }],
+      focus: [{ id: 'AGO', at: 0.2 }].concat(t > ve ? [{ id: 'VEN', at: ve + 1.6 }] : []), dim: 0.3, labels: false,
+      cities: [{ p: 'luanda', at: 0.5, big: t < ve }].concat(t > ve ? [{ p: 'caracas', at: ve + 1.8, big: true, col: '#2a8a4a' }] : []),
+      routes: t > ve ? [{ pts: ['luanda', 'caracas'], at: ve + 0.4, d: 1.8, icon: 'plane', col: '#2a8a4a', bend: 0.18 }] : [] });
+    if (t < ve + 0.4) { const [fx, fy] = P(17.5, -18.5); flag(g, fx, fy, 120, 'ao', t); } if (p.dead != null) { const k = S_(t, p.dead); if (k > 0) { g.save(); g.translate(1450, 380); g.scale(k, k); R(g, -280, -140, 560, 280, '#f3efe4', 6, 4); T(g, 'MUERE DE MALARIA', 0, -30, 50, OL, { stroke: 0 }); T(g, '(o eso dijeron)', 0, 40, 38, '#c0392b', { stroke: 0 }); g.restore(); } }
+    if (p.ve != null && t > p.ve + 1.6) { const [vx, vy] = P(-66, 2.5); flag(g, vx, vy + 70, 120, 've', t); stamp(g, t, '¡VIVO!', vx + 40, vy - 210, p.ve + 2.0, { size: 90, col: '#2a8a4a' }); }
   },
   reunion84(g, t, d, p) {
     K.sky(g, 'golden', t); K.ocean(g, t, 640); K.ground(g, '#c9b38a', 860); R(g, 860, 520, 200, 340, '#d8d2c4', 6, 10); flag(g, 1500, 360, 160, 'fr', t); flag(g, 360, 360, 160, 'uk', t);

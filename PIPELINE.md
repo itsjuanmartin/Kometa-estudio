@@ -5,6 +5,14 @@
 - Nombre del canal en todo lo visible (rótulos, Shorts, portadas, descripciones): «Y Si Te Tocará» (con tilde). En guiones para ElevenLabs escribir «tocará».
 - Copys de Shorts y TikTok: máximo 100 caracteres. Etiquetar IG/TikTok: @YSiTeTocaraATi (confirmado).
 
+## Mapas con amor (regla fija desde 17 nov 2026)
+Feedback de la audiencia («más desempeño al mapa, bro»): se acabaron los continentes dibujados a mano.
+- Todo mapa 2D usa `engine/map2d.js` → `worldMap(g, t, {...})`: fronteras reales (Natural Earth 1:50m), **cada país separado con su color** (los vecinos nunca comparten color), costa con trazo de tinta, nombres en español.
+- Siempre: **cámara que vuela** (`cam: [{lon,lat,span}, {at, d, to: 'ESP'}]`), el país protagonista **se levanta** (`focus`), el resto se apaga (`dim`), ciudades con chincheta (`cities`, tabla `CITIES`) y rutas animadas (`routes`, `icon: 'plane'`).
+- `worldMap` devuelve la proyección `P(lon, lat)` → banderas, sellos y rótulos se anclan a coordenadas reales, nunca a píxeles fijos.
+- Ejemplos: `garboIntro` y `vanish` en `projects/ep03-v2/scenes/ep03.js`. Datos: `engine/geo/world.js` (se regenera con `tools/build_geo.mjs`).
+- Prohibido `K.map` (el mapa viejo de manchas) en proyectos nuevos.
+
 ## Calidad extra (nov 2026)
 - **Sincronización palabra a palabra con Whisper** (sustituye a align_silence cuando hay red):
   `HF_HUB_DISABLE_XET=1 python3 tools/align_whisper.py --project P --model medium`
