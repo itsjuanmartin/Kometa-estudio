@@ -1,6 +1,6 @@
 # AO · GTA VI parte 2: «De qué va la historia» (publicar hoy 18 nov, 19:00 hora del usuario)
 - Guion para ElevenLabs: `guion_eleven.txt`.
-- Música: misterio de 0 s hasta «Una cárcel.» (`musica/intro_misterio_A_Inexorable.mp3`, la B es alternativa).
+- Música: misterio de 0 s hasta «Una cárcel.» (`musica/intro_misterio_B_Penumbra.mp3`: la ELIGIÓ el usuario).
   Desde «Bienvenido a Leonida» el usuario pone él la música de GTA.
 - Texto en pantalla desde el segundo 1: «PARTE 2» + «00:00».
 - Comentario fijado: «¿Quién traiciona a quién? 👩 LUCÍA · 👨 JASON. Te leo 👇»
