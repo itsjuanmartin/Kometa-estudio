@@ -11,6 +11,26 @@ Flojos: datos curiosos sin tensión (el perro, el coche de Al Capone).
 
 Modelo: GANCHO (0–3 s) → PRESIÓN (~35 %) → GIRO (~35 %) → PREGUNTA para comentarios (últimos 4–5 s).
 
+
+## ⭐ SERIE «SERVICIO SECRETO» (prioridad: el vídeo que más suscriptores trajo fue «El secreto que el presidente de EE. UU. escondía»)
+Tres partes seguidas. Las partes 1 y 2 cierran con «Sígueme para no perderte la parte dos/tres» + tarjeta en pantalla «PARTE 2: …».
+Publicar en orden (mañana 13:00 · noche 20:00 · día siguiente 13:00).
+
+### S01 · El agente que salvó a Reagan — `S01_el_agente_que_salvo_a_reagan.txt`
+- Título: **El agente que salvó a Reagan se hizo agente… por Reagan 😳 #serviciosecreto #reagan**
+- Comentario fijado: **¿Casa Blanca u hospital? 🏛️ Casa Blanca · 🏥 Hospital. Tenías 3 segundos.** Tarjeta final: «PARTE 2: EL DÍA QUE NACIÓ EL SERVICIO SECRETO».
+- Verificar: 30 mar 1981, seis disparos en menos de 2 s, sangre en la boca → hospital, la película de 1939 «Code of the Secret Service» con Reagan.
+
+### S02 · El día que nació el Servicio Secreto — `S02_el_dia_que_nacio_el_servicio_secreto.txt`
+- Título: **El presidente que creó el Servicio Secreto murió ese mismo día 😳 #lincoln #historia**
+- Comentario fijado: **¿Casualidad o señal? 🎲 Casualidad · 👁️ Algo más.** Tarjeta final: «PARTE 3: LA TARJETA NUCLEAR PERDIDA».
+- Verificar: 14 abr 1865, creado para perseguir billetes falsos, el policía del palco (John Parker) dejó su puesto, protección presidencial desde 1901 (McKinley).
+
+### S03 · La tarjeta nuclear perdida — `S03_la_tarjeta_nuclear_perdida.txt`
+- Título: **El presidente perdió los códigos nucleares… durante meses 😳 #clinton #nuclear**
+- Comentario fijado: **¿Lo cuentas o lo tapas? 📢 Lo cuento · 🤐 Lo tapo.**
+- Verificar: la «galleta» (biscuit), el relato del general Hugh Shelton (memorias, 2010), año 2000. Se cuenta como «según su versión».
+
 ## R01 · Fin del mundo 1983 (Stanislav Petrov) — `R01_fin_del_mundo_1983.txt`
 - Título: **Tienes minutos para decidir si se acaba el mundo 😳 #historia #yositetocara**
 - Comentario fijado: **¿Avisar o arriesgarte? 🚨 Avisar · 🤫 Callar. ¿Qué habrías hecho tú?**
