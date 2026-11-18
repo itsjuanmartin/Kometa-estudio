@@ -1,0 +1,35 @@
+ARCHIVO OSCURO · REEL · GTA VI
+Título: 16 millones de personas no van a dormir esta noche
+Duración objetivo: 50–60 s · Voz: Javi
+
+[0–3 s] HOOK
+Texto en pantalla: 16.000.000
+Esta noche, dieciséis millones de personas no van a dormir.
+
+[3–8 s]
+Y no es por miedo. Ni por una noticia. Es por un videojuego.
+
+[8–20 s] LA ESPERA
+Texto en pantalla: 2013 → 2026
+Septiembre de dos mil trece. Sale GTA Cinco. Y durante trece años, Rockstar no saca otro. Trece años. Hay gente que lo esperaba siendo un niño… y hoy lo va a jugar con sus propios hijos dormidos en la habitación de al lado.
+
+[20–32 s] LOS NÚMEROS
+Texto en pantalla: 11,2 M  vs  16 M
+GTA Cinco vendió once millones de copias en su primer día. Un récord que nadie ha tocado en más de una década. Pues GTA Seis ya lo ha superado… y todavía no ha salido. Solo en reservas, más de mil quinientos millones de dólares.
+
+[32–42 s] LA OBSESIÓN
+Su primer tráiler rompió récords en YouTube en veinticuatro horas. El juego se ha retrasado una y otra vez. Y aun así, nadie se ha ido. Al revés: cuanto más esperaban, más lo querían.
+
+[42–52 s] GIRO
+Texto en pantalla: EXPEDIENTE ABIERTO
+Pero hay algo que casi nadie sabe. Mucho antes de todo esto, un chaval de diecisiete años ya había enseñado GTA Seis al mundo entero. Desde la habitación de un hotel. Con la tele… y un mando a distancia.
+
+[52–58 s] CIERRE (cierre_siguiente_parte.mp3 / línea 1)
+Sígueme para saber cómo sigue esta historia.
+
+---
+NOTAS
+- "16 millones" = estimación de reservas digitales de Sensor Tower (17 nov 2026), no cifra oficial.
+- 11,2 M primer día GTA V: Guinness. 1.500 M$ en reservas: Sensor Tower.
+- Récord del tráiler y datos del hacker (Arion Kurtaj, Lapsus$, 2022, Fire Stick en hotel): verificar antes de grabar.
+- Lanzamiento: 19 de noviembre de 2026 → publicar el 18 por la tarde/noche.
