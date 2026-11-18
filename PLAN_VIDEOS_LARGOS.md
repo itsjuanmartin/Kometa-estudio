@@ -7,7 +7,7 @@ Cada Short se enlaza con su vídeo largo mediante el «vídeo relacionado» de Y
 ## Calendario
 - Del 18 al 22 nov: medir. Reels GTA VI (partes 2 y 3) y serie «Servicio Secreto» de Y Si Te Tocará.
 - Domingo 22 nov: decidir un tema por canal con los datos de la semana (ver criterios).
-- Del 23 al 27 nov: guion → voces → montaje.
+- Del 23 nov en adelante: guion → voces → montaje (el usuario lo produce en un par de horas, así que puede publicarse antes).
 - Sábado 28 o domingo 29 nov: publicar los dos vídeos largos.
   Los reels de esa semana sirven de tráiler y enlazan al largo.
 
