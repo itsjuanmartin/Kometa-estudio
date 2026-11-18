@@ -54,7 +54,7 @@ def info(titles, width=1280):   # 1280 is a standard Wikimedia thumbnail step (n
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('cmd', choices=['search', 'get']); ap.add_argument('q')
-    ap.add_argument('--out'); ap.add_argument('--name'); ap.add_argument('--n', type=int, default=12)
+    ap.add_argument('--out'); ap.add_argument('--name'); ap.add_argument('--n', type=int, default=12); ap.add_argument('--width', type=int, default=1280)
     a = ap.parse_args()
     if a.cmd == 'search':
         hits = call(action='query', list='search', srsearch=a.q, srnamespace=6, srlimit=a.n)['query']['search']
@@ -63,7 +63,7 @@ def main():
             print(('⚠️' if x['free'] and CAUTION.search(x['author']) else '✅' if x['free'] else '⛔'), x['title'], '|', x['license'], '|', x['author'][:40], '|', x['size'], '|', x['date'][:20])
         return
     if not (a.out and a.name): sys.exit('get needs --out and --name')
-    x = info([a.q])
+    x = info([a.q], a.width)
     if not x: sys.exit('not found')
     x = x[0]
     if not x['free']: sys.exit(f"licence not free: {x['license']} — not downloaded")

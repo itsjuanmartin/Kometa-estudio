@@ -1,0 +1,940 @@
+{
+ "source": "script+whisper-medium",
+ "words": [
+  {
+   "word": "Esta",
+   "start": 0.0,
+   "end": 0.36
+  },
+  {
+   "word": "noche,",
+   "start": 0.36,
+   "end": 0.7
+  },
+  {
+   "word": "dieciséis",
+   "start": 0.7,
+   "end": 1.28
+  },
+  {
+   "word": "millones",
+   "start": 1.3,
+   "end": 1.64
+  },
+  {
+   "word": "de",
+   "start": 1.64,
+   "end": 2.02
+  },
+  {
+   "word": "personas",
+   "start": 2.02,
+   "end": 2.24
+  },
+  {
+   "word": "no",
+   "start": 2.24,
+   "end": 2.46
+  },
+  {
+   "word": "van",
+   "start": 2.46,
+   "end": 2.66
+  },
+  {
+   "word": "a",
+   "start": 2.66,
+   "end": 2.8
+  },
+  {
+   "word": "dormir.",
+   "start": 2.8,
+   "end": 3.08
+  },
+  {
+   "word": "Y",
+   "start": 3.34,
+   "end": 3.48
+  },
+  {
+   "word": "no",
+   "start": 3.48,
+   "end": 3.6
+  },
+  {
+   "word": "es",
+   "start": 3.6,
+   "end": 3.78
+  },
+  {
+   "word": "por",
+   "start": 3.78,
+   "end": 3.92
+  },
+  {
+   "word": "miedo.",
+   "start": 3.92,
+   "end": 4.22
+  },
+  {
+   "word": "Ni",
+   "start": 4.4,
+   "end": 4.58
+  },
+  {
+   "word": "por",
+   "start": 4.58,
+   "end": 4.72
+  },
+  {
+   "word": "una",
+   "start": 4.72,
+   "end": 4.96
+  },
+  {
+   "word": "noticia.",
+   "start": 4.96,
+   "end": 5.4
+  },
+  {
+   "word": "Es",
+   "start": 5.62,
+   "end": 5.78
+  },
+  {
+   "word": "por",
+   "start": 5.78,
+   "end": 5.94
+  },
+  {
+   "word": "un",
+   "start": 5.94,
+   "end": 6.14
+  },
+  {
+   "word": "videojuego.",
+   "start": 6.14,
+   "end": 7.52
+  },
+  {
+   "word": "Septiembre",
+   "start": 7.94,
+   "end": 8.3
+  },
+  {
+   "word": "de",
+   "start": 8.3,
+   "end": 8.54
+  },
+  {
+   "word": "dos",
+   "start": 8.54,
+   "end": 8.74
+  },
+  {
+   "word": "mil",
+   "start": 8.76,
+   "end": 8.96
+  },
+  {
+   "word": "trece.",
+   "start": 8.98,
+   "end": 9.18
+  },
+  {
+   "word": "Sale",
+   "start": 9.2,
+   "end": 9.8
+  },
+  {
+   "word": "GTA",
+   "start": 9.8,
+   "end": 10.34
+  },
+  {
+   "word": "Cinco.",
+   "start": 10.34,
+   "end": 10.84
+  },
+  {
+   "word": "Y",
+   "start": 10.86,
+   "end": 11.08
+  },
+  {
+   "word": "durante",
+   "start": 11.08,
+   "end": 11.48
+  },
+  {
+   "word": "trece",
+   "start": 11.48,
+   "end": 11.74
+  },
+  {
+   "word": "años,",
+   "start": 11.76,
+   "end": 12.12
+  },
+  {
+   "word": "no",
+   "start": 12.12,
+   "end": 12.34
+  },
+  {
+   "word": "sale",
+   "start": 12.34,
+   "end": 12.58
+  },
+  {
+   "word": "otro",
+   "start": 12.58,
+   "end": 12.86
+  },
+  {
+   "word": "GTA.",
+   "start": 12.86,
+   "end": 13.36
+  },
+  {
+   "word": "Trece",
+   "start": 13.36,
+   "end": 14.1
+  },
+  {
+   "word": "años.",
+   "start": 14.12,
+   "end": 14.5
+  },
+  {
+   "word": "Hay",
+   "start": 14.7,
+   "end": 14.88
+  },
+  {
+   "word": "gente",
+   "start": 14.88,
+   "end": 15.1
+  },
+  {
+   "word": "que",
+   "start": 15.1,
+   "end": 15.24
+  },
+  {
+   "word": "lo",
+   "start": 15.24,
+   "end": 15.5
+  },
+  {
+   "word": "esperaba",
+   "start": 15.5,
+   "end": 15.78
+  },
+  {
+   "word": "siendo",
+   "start": 15.78,
+   "end": 16.06
+  },
+  {
+   "word": "un",
+   "start": 16.06,
+   "end": 16.34
+  },
+  {
+   "word": "niño…",
+   "start": 16.34,
+   "end": 16.58
+  },
+  {
+   "word": "y",
+   "start": 17.16,
+   "end": 17.26
+  },
+  {
+   "word": "hoy",
+   "start": 17.26,
+   "end": 17.36
+  },
+  {
+   "word": "lo",
+   "start": 17.36,
+   "end": 17.54
+  },
+  {
+   "word": "va",
+   "start": 17.54,
+   "end": 17.68
+  },
+  {
+   "word": "a",
+   "start": 17.68,
+   "end": 17.73
+  },
+  {
+   "word": "jugar",
+   "start": 17.68,
+   "end": 17.9
+  },
+  {
+   "word": "con",
+   "start": 17.9,
+   "end": 18.12
+  },
+  {
+   "word": "sus",
+   "start": 18.12,
+   "end": 18.34
+  },
+  {
+   "word": "propios",
+   "start": 18.34,
+   "end": 18.68
+  },
+  {
+   "word": "hijos",
+   "start": 18.68,
+   "end": 18.92
+  },
+  {
+   "word": "dormidos",
+   "start": 18.92,
+   "end": 19.4
+  },
+  {
+   "word": "en",
+   "start": 19.4,
+   "end": 19.54
+  },
+  {
+   "word": "la",
+   "start": 19.54,
+   "end": 19.74
+  },
+  {
+   "word": "habitación",
+   "start": 19.74,
+   "end": 20.1
+  },
+  {
+   "word": "de",
+   "start": 20.1,
+   "end": 20.28
+  },
+  {
+   "word": "al",
+   "start": 20.28,
+   "end": 20.4
+  },
+  {
+   "word": "lado.",
+   "start": 20.4,
+   "end": 20.6
+  },
+  {
+   "word": "GTA",
+   "start": 21.34,
+   "end": 21.6
+  },
+  {
+   "word": "Cinco",
+   "start": 21.6,
+   "end": 21.98
+  },
+  {
+   "word": "vendió",
+   "start": 22.0,
+   "end": 22.36
+  },
+  {
+   "word": "once",
+   "start": 22.36,
+   "end": 22.62
+  },
+  {
+   "word": "millones",
+   "start": 22.64,
+   "end": 23.02
+  },
+  {
+   "word": "de",
+   "start": 23.02,
+   "end": 23.3
+  },
+  {
+   "word": "copias",
+   "start": 23.3,
+   "end": 23.54
+  },
+  {
+   "word": "en",
+   "start": 23.54,
+   "end": 23.72
+  },
+  {
+   "word": "su",
+   "start": 23.72,
+   "end": 23.9
+  },
+  {
+   "word": "primer",
+   "start": 23.9,
+   "end": 24.1
+  },
+  {
+   "word": "día.",
+   "start": 24.1,
+   "end": 24.38
+  },
+  {
+   "word": "Un",
+   "start": 24.7,
+   "end": 24.88
+  },
+  {
+   "word": "récord",
+   "start": 24.88,
+   "end": 25.18
+  },
+  {
+   "word": "que",
+   "start": 25.18,
+   "end": 25.42
+  },
+  {
+   "word": "nadie",
+   "start": 25.42,
+   "end": 25.68
+  },
+  {
+   "word": "ha",
+   "start": 25.68,
+   "end": 25.9
+  },
+  {
+   "word": "tocado",
+   "start": 25.9,
+   "end": 26.18
+  },
+  {
+   "word": "en",
+   "start": 26.18,
+   "end": 26.38
+  },
+  {
+   "word": "más",
+   "start": 26.38,
+   "end": 26.52
+  },
+  {
+   "word": "de",
+   "start": 26.52,
+   "end": 26.7
+  },
+  {
+   "word": "una",
+   "start": 26.7,
+   "end": 26.84
+  },
+  {
+   "word": "década.",
+   "start": 26.84,
+   "end": 27.42
+  },
+  {
+   "word": "Pues",
+   "start": 27.42,
+   "end": 27.82
+  },
+  {
+   "word": "GTA",
+   "start": 27.82,
+   "end": 28.22
+  },
+  {
+   "word": "Seis",
+   "start": 28.22,
+   "end": 28.56
+  },
+  {
+   "word": "ya",
+   "start": 28.58,
+   "end": 28.78
+  },
+  {
+   "word": "lo",
+   "start": 28.78,
+   "end": 28.92
+  },
+  {
+   "word": "ha",
+   "start": 28.92,
+   "end": 29.08
+  },
+  {
+   "word": "superado…",
+   "start": 29.08,
+   "end": 29.9
+  },
+  {
+   "word": "y",
+   "start": 30.12,
+   "end": 30.26
+  },
+  {
+   "word": "todavía",
+   "start": 30.26,
+   "end": 30.6
+  },
+  {
+   "word": "no",
+   "start": 30.6,
+   "end": 30.78
+  },
+  {
+   "word": "ha",
+   "start": 30.78,
+   "end": 31.0
+  },
+  {
+   "word": "salido.",
+   "start": 31.0,
+   "end": 31.56
+  },
+  {
+   "word": "Solo",
+   "start": 31.74,
+   "end": 31.96
+  },
+  {
+   "word": "en",
+   "start": 31.96,
+   "end": 32.2
+  },
+  {
+   "word": "reservas,",
+   "start": 32.2,
+   "end": 32.62
+  },
+  {
+   "word": "más",
+   "start": 32.64,
+   "end": 32.88
+  },
+  {
+   "word": "de",
+   "start": 32.88,
+   "end": 33.06
+  },
+  {
+   "word": "mil",
+   "start": 33.06,
+   "end": 33.25
+  },
+  {
+   "word": "quinientos",
+   "start": 33.27,
+   "end": 33.46
+  },
+  {
+   "word": "millones",
+   "start": 33.48,
+   "end": 34.08
+  },
+  {
+   "word": "de",
+   "start": 34.08,
+   "end": 34.32
+  },
+  {
+   "word": "dólares.",
+   "start": 34.32,
+   "end": 34.58
+  },
+  {
+   "word": "Su",
+   "start": 34.88,
+   "end": 35.06
+  },
+  {
+   "word": "primer",
+   "start": 35.06,
+   "end": 35.28
+  },
+  {
+   "word": "tráiler",
+   "start": 35.28,
+   "end": 35.66
+  },
+  {
+   "word": "rompió",
+   "start": 35.66,
+   "end": 36.04
+  },
+  {
+   "word": "récords",
+   "start": 36.04,
+   "end": 36.44
+  },
+  {
+   "word": "en",
+   "start": 36.44,
+   "end": 36.58
+  },
+  {
+   "word": "YouTube",
+   "start": 36.58,
+   "end": 36.88
+  },
+  {
+   "word": "en",
+   "start": 36.88,
+   "end": 37.12
+  },
+  {
+   "word": "veinticuatro",
+   "start": 37.12,
+   "end": 37.64
+  },
+  {
+   "word": "horas.",
+   "start": 37.66,
+   "end": 38.04
+  },
+  {
+   "word": "El",
+   "start": 38.3,
+   "end": 38.46
+  },
+  {
+   "word": "juego",
+   "start": 38.46,
+   "end": 38.66
+  },
+  {
+   "word": "se",
+   "start": 38.66,
+   "end": 38.84
+  },
+  {
+   "word": "ha",
+   "start": 38.84,
+   "end": 38.98
+  },
+  {
+   "word": "retrasado",
+   "start": 38.98,
+   "end": 39.54
+  },
+  {
+   "word": "una",
+   "start": 39.54,
+   "end": 39.9
+  },
+  {
+   "word": "y",
+   "start": 39.9,
+   "end": 40.12
+  },
+  {
+   "word": "otra",
+   "start": 40.12,
+   "end": 40.34
+  },
+  {
+   "word": "vez.",
+   "start": 40.34,
+   "end": 40.6
+  },
+  {
+   "word": "Y",
+   "start": 40.9,
+   "end": 41.04
+  },
+  {
+   "word": "aun",
+   "start": 41.04,
+   "end": 41.2
+  },
+  {
+   "word": "así,",
+   "start": 41.2,
+   "end": 41.42
+  },
+  {
+   "word": "nadie",
+   "start": 41.42,
+   "end": 41.7
+  },
+  {
+   "word": "se",
+   "start": 41.7,
+   "end": 41.88
+  },
+  {
+   "word": "ha",
+   "start": 41.88,
+   "end": 42.0
+  },
+  {
+   "word": "ido.",
+   "start": 42.0,
+   "end": 42.2
+  },
+  {
+   "word": "Al",
+   "start": 42.5,
+   "end": 42.7
+  },
+  {
+   "word": "revés:",
+   "start": 42.7,
+   "end": 43.14
+  },
+  {
+   "word": "cuanto",
+   "start": 43.28,
+   "end": 43.54
+  },
+  {
+   "word": "más",
+   "start": 43.54,
+   "end": 43.76
+  },
+  {
+   "word": "esperaban,",
+   "start": 43.76,
+   "end": 44.34
+  },
+  {
+   "word": "más",
+   "start": 44.5,
+   "end": 44.72
+  },
+  {
+   "word": "lo",
+   "start": 44.72,
+   "end": 44.96
+  },
+  {
+   "word": "querían.",
+   "start": 44.96,
+   "end": 45.32
+  },
+  {
+   "word": "Y",
+   "start": 45.66,
+   "end": 45.92
+  },
+  {
+   "word": "esta",
+   "start": 45.92,
+   "end": 46.06
+  },
+  {
+   "word": "noche,",
+   "start": 46.06,
+   "end": 46.4
+  },
+  {
+   "word": "por",
+   "start": 46.48,
+   "end": 46.64
+  },
+  {
+   "word": "fin,",
+   "start": 46.64,
+   "end": 46.86
+  },
+  {
+   "word": "se",
+   "start": 47.3,
+   "end": 47.44
+  },
+  {
+   "word": "acaba",
+   "start": 47.44,
+   "end": 47.68
+  },
+  {
+   "word": "la",
+   "start": 47.68,
+   "end": 47.98
+  },
+  {
+   "word": "espera.",
+   "start": 47.98,
+   "end": 48.16
+  },
+  {
+   "word": "A",
+   "start": 48.54,
+   "end": 48.74
+  },
+  {
+   "word": "medianoche,",
+   "start": 48.74,
+   "end": 49.2
+  },
+  {
+   "word": "millones",
+   "start": 49.2,
+   "end": 49.52
+  },
+  {
+   "word": "de",
+   "start": 49.52,
+   "end": 49.78
+  },
+  {
+   "word": "consolas",
+   "start": 49.78,
+   "end": 50.1
+  },
+  {
+   "word": "se",
+   "start": 50.1,
+   "end": 50.3
+  },
+  {
+   "word": "van",
+   "start": 50.3,
+   "end": 50.44
+  },
+  {
+   "word": "a",
+   "start": 50.44,
+   "end": 50.56
+  },
+  {
+   "word": "encender",
+   "start": 50.56,
+   "end": 50.86
+  },
+  {
+   "word": "a",
+   "start": 50.86,
+   "end": 51.04
+  },
+  {
+   "word": "la",
+   "start": 51.04,
+   "end": 51.14
+  },
+  {
+   "word": "vez.",
+   "start": 51.14,
+   "end": 51.28
+  },
+  {
+   "word": "Y",
+   "start": 51.6,
+   "end": 51.78
+  },
+  {
+   "word": "nadie",
+   "start": 51.78,
+   "end": 51.98
+  },
+  {
+   "word": "va",
+   "start": 51.98,
+   "end": 52.2
+  },
+  {
+   "word": "a",
+   "start": 52.2,
+   "end": 52.34
+  },
+  {
+   "word": "querer",
+   "start": 52.34,
+   "end": 52.46
+  },
+  {
+   "word": "apagarlas.",
+   "start": 52.46,
+   "end": 53.16
+  },
+  {
+   "word": "Sígueme,",
+   "start": 53.36,
+   "end": 53.72
+  },
+  {
+   "word": "y",
+   "start": 53.72,
+   "end": 53.86
+  },
+  {
+   "word": "en",
+   "start": 53.86,
+   "end": 54.0
+  },
+  {
+   "word": "el",
+   "start": 54.0,
+   "end": 54.12
+  },
+  {
+   "word": "próximo",
+   "start": 54.12,
+   "end": 54.42
+  },
+  {
+   "word": "vídeo",
+   "start": 54.42,
+   "end": 54.7
+  },
+  {
+   "word": "te",
+   "start": 54.7,
+   "end": 54.92
+  },
+  {
+   "word": "cuento",
+   "start": 54.92,
+   "end": 55.18
+  },
+  {
+   "word": "de",
+   "start": 55.18,
+   "end": 55.34
+  },
+  {
+   "word": "qué",
+   "start": 55.34,
+   "end": 55.4
+  },
+  {
+   "word": "va",
+   "start": 55.4,
+   "end": 55.54
+  },
+  {
+   "word": "la",
+   "start": 55.54,
+   "end": 55.8
+  },
+  {
+   "word": "historia",
+   "start": 55.8,
+   "end": 55.96
+  },
+  {
+   "word": "de",
+   "start": 55.96,
+   "end": 56.18
+  },
+  {
+   "word": "GTA",
+   "start": 56.18,
+   "end": 56.6
+  },
+  {
+   "word": "Seis.",
+   "start": 56.6,
+   "end": 56.94
+  }
+ ]
+}

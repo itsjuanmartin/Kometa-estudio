@@ -7,3 +7,5 @@ node_modules/
 **/frames/
 .cache/
 assets/music/*/
+__pycache__/
+projects/ao-003-gta6/assets/music/
