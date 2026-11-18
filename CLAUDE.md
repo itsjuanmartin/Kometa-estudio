@@ -23,3 +23,9 @@ Lo que más suscriptores trae son los temas presidenciales / Servicio Secreto.
 ## Si un tema no encaja
 Dilo claramente ANTES de producir nada: explica por qué no encaja y propone cómo darle un ángulo que sí encaje,
 o a qué canal le iría mejor. No crear un canal nuevo de gaming (decidido el 18 nov 2026).
+
+## Lecciones de reels (ver projects/*/RESULTADOS.md)
+- El GTA VI parte 1 funcionó (cifra gigante en el gancho, ritmo rápido, tema del día) y la parte 2 no
+  (12 s de misterio a oscuras, pantalla negra, «PARTE 2» al principio, tema saturado).
+- Primer fotograma: imagen reconocible + frase gancho que explique el reel. Nunca pantalla negra.
+- Cada reel se tiene que entender solo. No poner «PARTE N» al principio.
