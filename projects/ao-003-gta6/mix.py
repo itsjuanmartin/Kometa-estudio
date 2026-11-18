@@ -74,6 +74,8 @@ def main():
     g *= np.where((t > 44.9) & (t < 45.62), db(-10), 1)        # hueco antes de "esta noche"
     g *= np.clip((DUR - t) / 1.2, 0, 1)                         # salida
     g = np.convolve(g, np.ones(600) / 600, 'same')
+    import sys
+    if '--no-music' in sys.argv: g[:] = 0
     mix = voice * db(0) + music * g[:, None]
     sfx = np.zeros((N, 2), np.float32)
     # whoosh en cada corte
@@ -87,7 +89,7 @@ def main():
     for tt in (45.66, 46.4, 47.0): place(sfx, tick(), tt, -14)
     place(sfx, riser(1.3), 44.65, -19)
     mix += sfx
-    out = f'{HERE}/build/mix.wav'
+    out = f'{HERE}/build/' + ('mix_sin_musica.wav' if '--no-music' in sys.argv else 'mix.wav')
     pcm = np.clip(mix, -1, 1).astype(np.float32).tobytes()
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 'f32le', '-ar', str(SR), '-ac', '2', '-i', '-', '-af', 'loudnorm=I=-14:TP=-1.0:LRA=11', '-ar', str(SR), out], input=pcm, check=True)
     print('ok', out)
