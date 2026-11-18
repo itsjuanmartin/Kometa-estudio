@@ -32,7 +32,7 @@ Publicar en orden (mañana 13:00 · noche 20:00 · día siguiente 13:00).
 - Verificar: la «galleta» (biscuit), el relato del general Hugh Shelton (memorias, 2010), año 2000. Se cuenta como «según su versión».
 
 ## R01 · Fin del mundo 1983 (Stanislav Petrov) — `R01_fin_del_mundo_1983.txt`
-- Título: **Tienes minutos para decidir si se acaba el mundo 😳 #historia #yositetocara**
+- Título: **Tienes minutos para decidir si se acaba el mundo 😳 #historia #ysitetocara**
 - Comentario fijado: **¿Avisar o arriesgarte? 🚨 Avisar · 🤫 Callar. ¿Qué habrías hecho tú?**
 - Portada: «¿AVISAS O NO?» sobre pantalla de radar roja.
 - Verificar antes de publicar: fecha (26 sept 1983), «cinco misiles», reflejo del sol en las nubes, se supo en 1998.
