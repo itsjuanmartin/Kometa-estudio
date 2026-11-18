@@ -1,0 +1,995 @@
+{
+ "source": "script+whisper-medium",
+ "words": [
+  {
+   "word": "Esta",
+   "start": 0.0,
+   "end": 0.34
+  },
+  {
+   "word": "noche,",
+   "start": 0.34,
+   "end": 0.7
+  },
+  {
+   "word": "a",
+   "start": 0.86,
+   "end": 0.96
+  },
+  {
+   "word": "las",
+   "start": 0.96,
+   "end": 1.1
+  },
+  {
+   "word": "doce",
+   "start": 1.1,
+   "end": 1.28
+  },
+  {
+   "word": "en",
+   "start": 1.3,
+   "end": 1.52
+  },
+  {
+   "word": "punto,",
+   "start": 1.52,
+   "end": 1.8
+  },
+  {
+   "word": "millones",
+   "start": 1.96,
+   "end": 2.2
+  },
+  {
+   "word": "de",
+   "start": 2.2,
+   "end": 2.54
+  },
+  {
+   "word": "personas",
+   "start": 2.54,
+   "end": 2.74
+  },
+  {
+   "word": "van",
+   "start": 2.74,
+   "end": 2.98
+  },
+  {
+   "word": "a",
+   "start": 2.98,
+   "end": 3.12
+  },
+  {
+   "word": "encender",
+   "start": 3.12,
+   "end": 3.44
+  },
+  {
+   "word": "su",
+   "start": 3.44,
+   "end": 3.66
+  },
+  {
+   "word": "consola.",
+   "start": 3.66,
+   "end": 4.0
+  },
+  {
+   "word": "La",
+   "start": 4.16,
+   "end": 4.32
+  },
+  {
+   "word": "pantalla",
+   "start": 4.32,
+   "end": 4.66
+  },
+  {
+   "word": "se",
+   "start": 4.66,
+   "end": 4.86
+  },
+  {
+   "word": "va",
+   "start": 4.86,
+   "end": 5.04
+  },
+  {
+   "word": "a",
+   "start": 5.04,
+   "end": 5.12
+  },
+  {
+   "word": "quedar",
+   "start": 5.12,
+   "end": 5.28
+  },
+  {
+   "word": "en",
+   "start": 5.28,
+   "end": 5.54
+  },
+  {
+   "word": "negro",
+   "start": 5.54,
+   "end": 5.74
+  },
+  {
+   "word": "unos",
+   "start": 5.74,
+   "end": 6.16
+  },
+  {
+   "word": "segundos.",
+   "start": 6.16,
+   "end": 6.56
+  },
+  {
+   "word": "Y",
+   "start": 6.92,
+   "end": 7.0
+  },
+  {
+   "word": "la",
+   "start": 7.0,
+   "end": 7.16
+  },
+  {
+   "word": "historia",
+   "start": 7.16,
+   "end": 7.44
+  },
+  {
+   "word": "que",
+   "start": 7.44,
+   "end": 7.6
+  },
+  {
+   "word": "les",
+   "start": 7.6,
+   "end": 7.86
+  },
+  {
+   "word": "espera…",
+   "start": 7.86,
+   "end": 8.14
+  },
+  {
+   "word": "empieza",
+   "start": 8.14,
+   "end": 8.7
+  },
+  {
+   "word": "en",
+   "start": 8.7,
+   "end": 8.9
+  },
+  {
+   "word": "un",
+   "start": 8.9,
+   "end": 9.08
+  },
+  {
+   "word": "sitio",
+   "start": 9.08,
+   "end": 9.32
+  },
+  {
+   "word": "del",
+   "start": 9.32,
+   "end": 9.52
+  },
+  {
+   "word": "que",
+   "start": 9.52,
+   "end": 9.62
+  },
+  {
+   "word": "es",
+   "start": 9.62,
+   "end": 9.82
+  },
+  {
+   "word": "muy",
+   "start": 9.82,
+   "end": 10.0
+  },
+  {
+   "word": "difícil",
+   "start": 10.0,
+   "end": 10.52
+  },
+  {
+   "word": "salir.",
+   "start": 10.52,
+   "end": 10.9
+  },
+  {
+   "word": "Una",
+   "start": 11.24,
+   "end": 11.46
+  },
+  {
+   "word": "cárcel.",
+   "start": 11.46,
+   "end": 12.02
+  },
+  {
+   "word": "Bienvenido",
+   "start": 12.26,
+   "end": 12.7
+  },
+  {
+   "word": "a",
+   "start": 12.7,
+   "end": 12.8
+  },
+  {
+   "word": "Leonida.",
+   "start": 12.8,
+   "end": 13.24
+  },
+  {
+   "word": "Es",
+   "start": 13.48,
+   "end": 13.62
+  },
+  {
+   "word": "la",
+   "start": 13.62,
+   "end": 13.8
+  },
+  {
+   "word": "Florida",
+   "start": 13.8,
+   "end": 14.08
+  },
+  {
+   "word": "de",
+   "start": 14.08,
+   "end": 14.36
+  },
+  {
+   "word": "GTA",
+   "start": 14.36,
+   "end": 14.66
+  },
+  {
+   "word": "Seis.",
+   "start": 14.66,
+   "end": 15.08
+  },
+  {
+   "word": "Y",
+   "start": 15.1,
+   "end": 15.2
+  },
+  {
+   "word": "su",
+   "start": 15.2,
+   "end": 15.34
+  },
+  {
+   "word": "ciudad",
+   "start": 15.34,
+   "end": 15.64
+  },
+  {
+   "word": "más",
+   "start": 15.64,
+   "end": 15.92
+  },
+  {
+   "word": "famosa",
+   "start": 15.92,
+   "end": 16.18
+  },
+  {
+   "word": "vuelve",
+   "start": 16.18,
+   "end": 16.5
+  },
+  {
+   "word": "más",
+   "start": 16.5,
+   "end": 16.72
+  },
+  {
+   "word": "de",
+   "start": 16.72,
+   "end": 16.9
+  },
+  {
+   "word": "veinte",
+   "start": 16.9,
+   "end": 17.1
+  },
+  {
+   "word": "años",
+   "start": 17.12,
+   "end": 17.42
+  },
+  {
+   "word": "después:",
+   "start": 17.42,
+   "end": 17.82
+  },
+  {
+   "word": "Vice",
+   "start": 18.28,
+   "end": 18.5
+  },
+  {
+   "word": "City.",
+   "start": 18.5,
+   "end": 18.88
+  },
+  {
+   "word": "Ella",
+   "start": 19.12,
+   "end": 19.26
+  },
+  {
+   "word": "se",
+   "start": 19.26,
+   "end": 19.46
+  },
+  {
+   "word": "llama",
+   "start": 19.46,
+   "end": 19.62
+  },
+  {
+   "word": "Lucía.",
+   "start": 19.62,
+   "end": 20.12
+  },
+  {
+   "word": "Su",
+   "start": 20.44,
+   "end": 20.58
+  },
+  {
+   "word": "padre",
+   "start": 20.58,
+   "end": 20.82
+  },
+  {
+   "word": "le",
+   "start": 20.82,
+   "end": 21.08
+  },
+  {
+   "word": "enseñó",
+   "start": 21.08,
+   "end": 21.26
+  },
+  {
+   "word": "a",
+   "start": 21.26,
+   "end": 21.4
+  },
+  {
+   "word": "pelear",
+   "start": 21.4,
+   "end": 21.66
+  },
+  {
+   "word": "casi",
+   "start": 21.66,
+   "end": 21.92
+  },
+  {
+   "word": "antes",
+   "start": 21.92,
+   "end": 22.2
+  },
+  {
+   "word": "de",
+   "start": 22.2,
+   "end": 22.42
+  },
+  {
+   "word": "aprender",
+   "start": 22.42,
+   "end": 22.7
+  },
+  {
+   "word": "a",
+   "start": 22.7,
+   "end": 22.86
+  },
+  {
+   "word": "andar.",
+   "start": 22.86,
+   "end": 23.38
+  },
+  {
+   "word": "Y",
+   "start": 23.4,
+   "end": 23.56
+  },
+  {
+   "word": "pelear",
+   "start": 23.56,
+   "end": 23.84
+  },
+  {
+   "word": "por",
+   "start": 23.84,
+   "end": 24.0
+  },
+  {
+   "word": "su",
+   "start": 24.0,
+   "end": 24.2
+  },
+  {
+   "word": "familia",
+   "start": 24.2,
+   "end": 24.46
+  },
+  {
+   "word": "la",
+   "start": 24.46,
+   "end": 24.68
+  },
+  {
+   "word": "llevó",
+   "start": 24.68,
+   "end": 24.86
+  },
+  {
+   "word": "a",
+   "start": 24.86,
+   "end": 24.96
+  },
+  {
+   "word": "la",
+   "start": 24.96,
+   "end": 25.08
+  },
+  {
+   "word": "cárcel.",
+   "start": 25.08,
+   "end": 25.58
+  },
+  {
+   "word": "Salió…",
+   "start": 25.88,
+   "end": 26.32
+  },
+  {
+   "word": "por",
+   "start": 26.4,
+   "end": 26.6
+  },
+  {
+   "word": "pura",
+   "start": 26.6,
+   "end": 26.84
+  },
+  {
+   "word": "suerte.",
+   "start": 26.84,
+   "end": 27.3
+  },
+  {
+   "word": "Él",
+   "start": 27.46,
+   "end": 27.6
+  },
+  {
+   "word": "se",
+   "start": 27.6,
+   "end": 27.78
+  },
+  {
+   "word": "llama",
+   "start": 27.78,
+   "end": 27.94
+  },
+  {
+   "word": "Jason.",
+   "start": 27.94,
+   "end": 28.38
+  },
+  {
+   "word": "Creció",
+   "start": 28.38,
+   "end": 29.0
+  },
+  {
+   "word": "entre",
+   "start": 29.0,
+   "end": 29.3
+  },
+  {
+   "word": "estafadores,",
+   "start": 29.3,
+   "end": 30.0
+  },
+  {
+   "word": "pasó",
+   "start": 30.24,
+   "end": 30.34
+  },
+  {
+   "word": "por",
+   "start": 30.34,
+   "end": 30.54
+  },
+  {
+   "word": "el",
+   "start": 30.54,
+   "end": 30.7
+  },
+  {
+   "word": "ejército…",
+   "start": 30.7,
+   "end": 31.08
+  },
+  {
+   "word": "y",
+   "start": 31.34,
+   "end": 31.52
+  },
+  {
+   "word": "acabó",
+   "start": 31.52,
+   "end": 31.68
+  },
+  {
+   "word": "en",
+   "start": 31.68,
+   "end": 31.73
+  },
+  {
+   "word": "los",
+   "start": 31.72,
+   "end": 31.96
+  },
+  {
+   "word": "Cayos,",
+   "start": 31.96,
+   "end": 32.58
+  },
+  {
+   "word": "trabajando",
+   "start": 32.78,
+   "end": 33.2
+  },
+  {
+   "word": "para",
+   "start": 33.2,
+   "end": 33.46
+  },
+  {
+   "word": "traficantes",
+   "start": 33.46,
+   "end": 34.02
+  },
+  {
+   "word": "de",
+   "start": 34.02,
+   "end": 34.18
+  },
+  {
+   "word": "la",
+   "start": 34.18,
+   "end": 34.34
+  },
+  {
+   "word": "zona.",
+   "start": 34.34,
+   "end": 34.54
+  },
+  {
+   "word": "Juntos",
+   "start": 34.88,
+   "end": 35.34
+  },
+  {
+   "word": "son",
+   "start": 35.34,
+   "end": 35.52
+  },
+  {
+   "word": "una",
+   "start": 35.52,
+   "end": 35.7
+  },
+  {
+   "word": "pareja",
+   "start": 35.7,
+   "end": 36.0
+  },
+  {
+   "word": "al",
+   "start": 36.0,
+   "end": 36.18
+  },
+  {
+   "word": "estilo",
+   "start": 36.18,
+   "end": 36.38
+  },
+  {
+   "word": "Bonnie",
+   "start": 36.38,
+   "end": 36.72
+  },
+  {
+   "word": "y",
+   "start": 36.72,
+   "end": 36.94
+  },
+  {
+   "word": "Clyde.",
+   "start": 36.94,
+   "end": 37.34
+  },
+  {
+   "word": "Hasta",
+   "start": 37.54,
+   "end": 37.68
+  },
+  {
+   "word": "que",
+   "start": 37.68,
+   "end": 37.8
+  },
+  {
+   "word": "un",
+   "start": 37.8,
+   "end": 37.92
+  },
+  {
+   "word": "golpe",
+   "start": 37.92,
+   "end": 38.18
+  },
+  {
+   "word": "que",
+   "start": 38.18,
+   "end": 38.44
+  },
+  {
+   "word": "parecía",
+   "start": 38.44,
+   "end": 38.8
+  },
+  {
+   "word": "fácil…",
+   "start": 38.8,
+   "end": 39.28
+  },
+  {
+   "word": "sale",
+   "start": 39.28,
+   "end": 39.7
+  },
+  {
+   "word": "mal.",
+   "start": 39.7,
+   "end": 40.04
+  },
+  {
+   "word": "Y",
+   "start": 40.28,
+   "end": 40.44
+  },
+  {
+   "word": "acaban",
+   "start": 40.44,
+   "end": 40.7
+  },
+  {
+   "word": "metidos",
+   "start": 40.7,
+   "end": 41.06
+  },
+  {
+   "word": "en",
+   "start": 41.06,
+   "end": 41.2
+  },
+  {
+   "word": "una",
+   "start": 41.2,
+   "end": 41.42
+  },
+  {
+   "word": "conspiración",
+   "start": 41.42,
+   "end": 41.92
+  },
+  {
+   "word": "criminal",
+   "start": 41.92,
+   "end": 42.32
+  },
+  {
+   "word": "que",
+   "start": 42.32,
+   "end": 42.58
+  },
+  {
+   "word": "atraviesa",
+   "start": 42.58,
+   "end": 43.08
+  },
+  {
+   "word": "todo",
+   "start": 43.08,
+   "end": 43.32
+  },
+  {
+   "word": "el",
+   "start": 43.32,
+   "end": 43.58
+  },
+  {
+   "word": "estado.",
+   "start": 43.58,
+   "end": 43.82
+  },
+  {
+   "word": "Solo",
+   "start": 44.3,
+   "end": 44.5
+  },
+  {
+   "word": "se",
+   "start": 44.5,
+   "end": 44.7
+  },
+  {
+   "word": "tienen",
+   "start": 44.7,
+   "end": 44.88
+  },
+  {
+   "word": "el",
+   "start": 44.88,
+   "end": 45.06
+  },
+  {
+   "word": "uno",
+   "start": 45.06,
+   "end": 45.18
+  },
+  {
+   "word": "al",
+   "start": 45.18,
+   "end": 45.36
+  },
+  {
+   "word": "otro.",
+   "start": 45.36,
+   "end": 45.58
+  },
+  {
+   "word": "Pero",
+   "start": 46.1,
+   "end": 46.15
+  },
+  {
+   "word": "en",
+   "start": 46.14,
+   "end": 46.38
+  },
+  {
+   "word": "GTA…",
+   "start": 46.38,
+   "end": 46.68
+  },
+  {
+   "word": "nadie",
+   "start": 47.2,
+   "end": 47.48
+  },
+  {
+   "word": "es",
+   "start": 47.48,
+   "end": 47.68
+  },
+  {
+   "word": "de",
+   "start": 47.68,
+   "end": 47.84
+  },
+  {
+   "word": "fiar.",
+   "start": 47.84,
+   "end": 48.06
+  },
+  {
+   "word": "Así",
+   "start": 48.46,
+   "end": 48.6
+  },
+  {
+   "word": "que",
+   "start": 48.6,
+   "end": 48.8
+  },
+  {
+   "word": "dime:",
+   "start": 48.8,
+   "end": 49.0
+  },
+  {
+   "word": "¿quién",
+   "start": 49.4,
+   "end": 49.64
+  },
+  {
+   "word": "traiciona",
+   "start": 49.64,
+   "end": 50.16
+  },
+  {
+   "word": "a",
+   "start": 50.16,
+   "end": 50.34
+  },
+  {
+   "word": "quién?",
+   "start": 50.34,
+   "end": 50.52
+  },
+  {
+   "word": "Escribe",
+   "start": 51.0,
+   "end": 51.32
+  },
+  {
+   "word": "LUCÍA",
+   "start": 51.32,
+   "end": 51.84
+  },
+  {
+   "word": "o",
+   "start": 51.84,
+   "end": 52.02
+  },
+  {
+   "word": "JASON",
+   "start": 52.02,
+   "end": 52.38
+  },
+  {
+   "word": "en",
+   "start": 52.38,
+   "end": 52.58
+  },
+  {
+   "word": "los",
+   "start": 52.58,
+   "end": 52.82
+  },
+  {
+   "word": "comentarios.",
+   "start": 52.82,
+   "end": 53.22
+  },
+  {
+   "word": "Y",
+   "start": 53.54,
+   "end": 53.76
+  },
+  {
+   "word": "sígueme,",
+   "start": 53.76,
+   "end": 54.04
+  },
+  {
+   "word": "porque",
+   "start": 54.04,
+   "end": 54.32
+  },
+  {
+   "word": "en",
+   "start": 54.32,
+   "end": 54.5
+  },
+  {
+   "word": "la",
+   "start": 54.5,
+   "end": 54.68
+  },
+  {
+   "word": "parte",
+   "start": 54.68,
+   "end": 54.88
+  },
+  {
+   "word": "tres",
+   "start": 54.88,
+   "end": 55.1
+  },
+  {
+   "word": "te",
+   "start": 55.12,
+   "end": 55.32
+  },
+  {
+   "word": "cuento",
+   "start": 55.32,
+   "end": 55.48
+  },
+  {
+   "word": "los",
+   "start": 55.48,
+   "end": 55.72
+  },
+  {
+   "word": "crímenes",
+   "start": 55.72,
+   "end": 56.16
+  },
+  {
+   "word": "reales",
+   "start": 56.16,
+   "end": 56.6
+  },
+  {
+   "word": "que",
+   "start": 56.6,
+   "end": 56.8
+  },
+  {
+   "word": "inspiraron",
+   "start": 56.8,
+   "end": 57.18
+  },
+  {
+   "word": "GTA",
+   "start": 57.18,
+   "end": 57.68
+  },
+  {
+   "word": "Seis.",
+   "start": 57.68,
+   "end": 58.1
+  },
+  {
+   "word": "Y",
+   "start": 58.12,
+   "end": 58.56
+  },
+  {
+   "word": "algunos…",
+   "start": 58.56,
+   "end": 58.86
+  },
+  {
+   "word": "son",
+   "start": 58.86,
+   "end": 59.3
+  },
+  {
+   "word": "peores",
+   "start": 59.3,
+   "end": 59.64
+  },
+  {
+   "word": "que",
+   "start": 59.64,
+   "end": 59.82
+  },
+  {
+   "word": "el",
+   "start": 59.82,
+   "end": 59.98
+  },
+  {
+   "word": "juego.",
+   "start": 59.98,
+   "end": 60.16
+  }
+ ]
+}
