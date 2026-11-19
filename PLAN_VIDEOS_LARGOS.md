@@ -35,3 +35,12 @@ Fórmula para los próximos vídeos largos: «¿Existió de verdad [algo famoso]
 - Y Si Te Tocará: Servicio Secreto colgado de algo famoso. Por ejemplo, «¿Existió de verdad el agente que salvó a Reagan?»
   o la película «En la línea de fuego».
 - Archivo Oscuro: «¿Existieron de verdad los crímenes de GTA VI?».
+
+### Confirmado con YouTube Studio (19 nov)
+Fuentes de tráfico de «¿Existieron los Bastardos sin gloria?» (261 vistas, 2,3 horas, retención 2:57 = 31,6 % de 9:22):
+recomendaciones de YouTube 253 · Shorts relacionados 5 · búsqueda 1 · canal 1 · playlists 1.
+- El motor es la RECOMENDACIÓN (portada + título = clics), no la búsqueda ni los Shorts.
+  YouTube lo empezó a mover solo al 3.º–4.º día.
+- Prioridad n.º 1 en cada vídeo largo: miniatura con riesgo en segunda persona + título-pregunta sobre algo famoso.
+- Los Shorts casi no llevaron gente (5): hay que poner el «vídeo relacionado» en TODOS los Shorts.
+- Retención del 31,6 %: hay que mejorar los 30 primeros segundos (gancho más fuerte).
