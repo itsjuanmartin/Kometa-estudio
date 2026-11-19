@@ -23,3 +23,15 @@ Elige la serie que ganó y conviértela en un vídeo largo de 10–12 min que am
 - Y Si Te Tocará: «Servicio Secreto: los fallos que casi cuestan la vida a un presidente».
   Junta Reagan/Parr, Lincoln, Roosevelt, Cleveland y la tarjeta nuclear. El tema presidencial es el que más suscriptores trae.
   Guiones de los reels en guiones/reels-ystt/.
+
+## Dato clave (19 nov): el único vídeo largo que ha tenido vistas
+«¿Existieron los Bastardos sin gloria?» (Y Si Te Tocará): 260 vistas. Los demás vídeos largos: 7, 1…
+Por qué, probablemente:
+- El título engancha con algo famoso (la película de Tarantino) en forma de pregunta: «¿Existieron…?».
+  Eso lo busca gente que no conoce el canal.
+- Miniatura con riesgo claro y personal: «TE MANDAN SOLO… PARA QUE TE DISPAREN», rojo y con mucho contraste.
+- Sus Shorts en YouTube rondaron las 1.200 vistas cada uno y empujaron al vídeo largo.
+Fórmula para los próximos vídeos largos: «¿Existió de verdad [algo famoso]?» + miniatura con riesgo en segunda persona.
+- Y Si Te Tocará: Servicio Secreto colgado de algo famoso. Por ejemplo, «¿Existió de verdad el agente que salvó a Reagan?»
+  o la película «En la línea de fuego».
+- Archivo Oscuro: «¿Existieron de verdad los crímenes de GTA VI?».
