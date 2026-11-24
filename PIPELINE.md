@@ -57,7 +57,7 @@
 - (15 nov) Se usan 3 cierres compartidos por los dos canales en `assets/cierres_shorts/audio/`: `cierre_guarda.mp3`, `cierre_comenta.mp3` y `cierre_youtube.mp3` (pendiente). Rotación en 5 Shorts: guarda → comenta → youtube → guarda → comenta.
 - (15 nov) `cierre_youtube.mp3` («…el expediente completo está en YouTube») = SOLO Archivo Oscuro. Y Si Te Tocará tendrá su propia versión `cierre_youtube_ystt.mp3` («…la historia completa está en YouTube», pendiente de grabar). `cierre_guarda` y `cierre_comenta` sirven para los dos canales.
 
-- (15 nov) **Cierre «Parte 2» (prioridad, para convertir vistas en seguidores):** los Shorts 1–4 de cada episodio cierran con «Sígueme para no perderte la parte 2» + tarjeta en pantalla «PARTE 2: <título del siguiente Short>». El Short 5 (último) cierra con «la historia completa está en YouTube, link en mi perfil». Audios: `assets/cierres_shorts/audio/cierre_parte2.mp3`, `cierre_parte2_b.mp3` (variante para rotar) y `cierre_youtube_ystt.mp3`.
+- (15 nov) **Cierre «Parte 2» (prioridad, para convertir vistas en seguidores):** los Shorts 1–4 de cada episodio cierran con «Sígueme para no perderte la parte 2» + tarjeta en pantalla «PARTE 2: <título del siguiente Short>». El Short 5 (último) cierra con «la historia completa está en YouTube, link en mi perfil». Audios: `assets/cierres_shorts/audio/cierre_parte2.mp3`, `cierre_parte2_b.mp3` (variante para rotar) y `cierre_youtube_ystt.mp3` (grabado el 24 nov: «La historia completa está en YouTube. Link en mi perfil.», voz Martin Alvarez).
 - Guiones de Shorts: el último segundo antes del cierre deja una pregunta abierta que la Parte 2 responde (cliffhanger), y el Short siguiente arranca con «Parte 2:» en el título superior.
 
 ## Guiones: retención ante todo (regla fija desde 15 nov 2026)
@@ -91,3 +91,8 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - **Horario de subida fijo: 13:00 y 20:00 (hora de España)**, 2 piezas al día por canal y red; el vídeo largo a las 20:00. El Home (UPLOAD_H) ya planifica así los proyectos nuevos. Recordatorio automático a las 12:55 y 19:55 (tarea programada con aviso al móvil).
 - **Logos y banners de canales nuevos:** alternar entre el motor propio (gratis) e Higgsfield. A los clientes del kit se les pide instalar Higgsfield. El asistente «Añadir canal» del Home guarda la preferencia en channels/<id>.brief.art.
 - **Montaje:** el creador quiere trabajar solo desde el Home. Cuando un proyecto tenga montaje == "pedido", producirlo siguiendo la sección «Home — producción en directo».
+
+## Reels con frase en medio (prueba desde EP04 Bolívar, 24 nov 2026)
+- Los 5 reels se cortan del vídeo largo. Entre el segundo 15 y el 25, justo después de un momento de suspenso, va la frase `projects/ep04-bolivar/input/voz_cta_reels.mp3` («Si te gustan este tipo de historias, síguenos…»), con «SÍGUENOS 👆» en pantalla y sin detener la imagen.
+- Los reels terminan en la «regla» del bloque, más `cierre_youtube_ystt.mp3` y la tarjeta «Historia completa en YouTube ▶». No llevan «Parte 2».
+- Medir en la retención de cada reel si hay un escalón de bajada justo donde va la frase.
