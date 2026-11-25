@@ -1,5 +1,5 @@
 {
- "duration": 602.488,
+ "duration": 612.488,
  "shots": [
   {
    "start": 0.0,
@@ -773,9 +773,15 @@
   },
   {
    "start": 518.66,
-   "end": 602.488,
+   "end": 586.46,
    "mood": "sad",
    "intensity": 0.4
+  },
+  {
+   "start": 586.46,
+   "end": 612.488,
+   "mood": "mystery",
+   "intensity": 0.5
   }
  ],
  "sfx": [
@@ -873,6 +879,26 @@
    "t": 532.82,
    "name": "waves",
    "gain": -18
+  },
+  {
+   "t": 602.538,
+   "name": "whoosh",
+   "gain": -8
+  },
+  {
+   "t": 604.088,
+   "name": "pop",
+   "gain": -4
+  },
+  {
+   "t": 604.988,
+   "name": "pop",
+   "gain": -6
+  },
+  {
+   "t": 605.038,
+   "name": "ding",
+   "gain": -12
   }
  ],
  "overlays": [

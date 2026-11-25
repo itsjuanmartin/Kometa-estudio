@@ -144,7 +144,7 @@ def draw_overlay(kind, text):
     if kind == 'regla':      # rótulo inferior con la regla del guardaespaldas
         tag, body = text.split('|'); f1 = font(FB, 40); f2 = font(FN, 50)
         b1 = d.textbbox((0, 0), tag, font=f1); b2 = d.textbbox((0, 0), body, font=f2)
-        wtot = b1[2] + b2[2] + 120; x = W / 2 - wtot / 2; y = 900
+        wtot = b1[2] + b2[2] + 120; x = W / 2 - wtot / 2; y = 60
         d.rounded_rectangle((x, y, x + wtot, y + 96), 48, fill=(25, 18, 15, 225), outline=YEL + (255,), width=5)
         d.rounded_rectangle((x + 10, y + 10, x + b1[2] + 60, y + 86), 38, fill=YEL + (255,))
         d.text((x + 35, y + 22), tag, font=f1, fill=OL + (255,)); d.text((x + b1[2] + 85, y + 16), body, font=f2, fill=WHITE + (255,))

@@ -85,7 +85,7 @@ def build(name, spans, cta_after, title, endq):
     for s, e in pieces[0]:
         files.append(cut(s, e, i)); i += 1
         words += [dict(w, start=w['start'] - s + off, end=w['end'] - s + off) for w in WORDS if s - 0.02 <= w['start'] < e - 0.05]; off += e - s
-    ref = E.lufs(files[0]) or -14.0; gv = ref - (E.lufs(CTA) or ref) - 0.3   # la llamada suena igual de fuerte que el cuerpo
+    ref = E.lufs(files[0]) or -14.0; gv = ref - (E.lufs(CTA) or ref) - 1.3   # la llamada suena igual de fuerte que el cuerpo
     # 2) la llamada: el último fotograma sigue con un zoom lento + SÍGUENOS; voz de la llamada + la música de fondo de ese momento
     follow_png(f'{tmp}/follow.png')
     run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{c - 0.4:.3f}', '-i', VIDEO, '-frames:v', '1', f'{tmp}/still.png'])
