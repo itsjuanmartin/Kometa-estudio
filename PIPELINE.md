@@ -106,3 +106,4 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - **Montaje con imágenes fijas (Gemini):** `render.py` + `plan.py` (cada imagen anclada a una frase del guion mediante Whisper). `reels.py` corta los 5 reels del largo y `build_all.sh` lo hace todo.
 - **Zoom máximo ~1,9×** en imágenes de 1376 px. Por encima se nota la falta de nitidez.
 - **Revisar piel azul:** Gemini a veces pinta al guardaespaldas con la piel azul. En escenas de frío se acepta; en las demás se corrige el color de la cara.
+- **Audio mono = velocidad x2 (fallo corregido el 25 nov):** las voces sueltas de ElevenLabs vienen en mono. Si un trozo mono se une con `concat -c copy` a trozos estéreo en PCM, suena al doble de velocidad y desfasa el resto del reel. Hay que forzar siempre `-ac 2` / `aformat=channel_layouts=stereo` en todos los trozos. `reels.py` comprueba al final que audio y vídeo duren lo mismo.
