@@ -79,13 +79,13 @@ def build(name, spans, cta_after, title, endq):
     def cut(s, e, i):
         f = f'{tmp}/p{i}.mov'
         run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{s:.3f}', '-to', f'{e:.3f}', '-i', VIDEO, '-c:v', 'libx264', '-crf', '16', '-preset', 'fast', '-r', '24',
-             '-c:a', 'pcm_s16le', '-ar', '48000', '-af', f'afade=t=in:d=0.04,afade=t=out:st={max(0, e - s - 0.08):.3f}:d=0.08', f])
+             '-c:a', 'pcm_s16le', '-ar', '48000', '-ac', '2', '-af', f'afade=t=in:d=0.04,afade=t=out:st={max(0, e - s - 0.08):.3f}:d=0.08', f])
         return f
     i = 0
     for s, e in pieces[0]:
         files.append(cut(s, e, i)); i += 1
         words += [dict(w, start=w['start'] - s + off, end=w['end'] - s + off) for w in WORDS if s - 0.02 <= w['start'] < e - 0.05]; off += e - s
-    ref = E.lufs(files[0]) or -14.0; gv = ref - (E.lufs(CTA) or ref) - 1.3   # la llamada suena igual de fuerte que el cuerpo
+    ref = E.lufs(files[0]) or -14.0; gv = ref - (E.lufs(CTA) or ref) + 0.9   # la llamada suena igual de fuerte que el cuerpo
     # 2) la llamada: el último fotograma sigue con un zoom lento + SÍGUENOS; voz de la llamada + la música de fondo de ese momento
     follow_png(f'{tmp}/follow.png')
     run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{c - 0.4:.3f}', '-i', VIDEO, '-frames:v', '1', f'{tmp}/still.png'])
@@ -94,8 +94,8 @@ def build(name, spans, cta_after, title, endq):
          '-i', CTA, *mus, '-filter_complex',
          f"[0:v]scale=1920:1080,zoompan=z='1+0.0016*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg];"
          f"[1:v]format=rgba,fade=t=in:st=0:d=0.2:alpha=1[fo];[bg][fo]overlay=0:0[v];"
-         f"[2:a]aresample=48000,volume={gv:.2f}dB,apad[va];[3:a]aresample=48000,volume=0.30[ma];[va][ma]amix=inputs=2:duration=shortest:normalize=0,afade=t=in:d=0.05[a]",
-         '-map', '[v]', '-map', '[a]', '-t', f'{cd:.3f}', '-c:v', 'libx264', '-crf', '16', '-pix_fmt', 'yuv420p', '-r', '24', '-c:a', 'pcm_s16le', '-ar', '48000', f'{tmp}/cta.mov'])
+         f"[2:a]aresample=48000,aformat=channel_layouts=stereo,volume={gv:.2f}dB,apad[va];[3:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.30[ma];[va][ma]amix=inputs=2:duration=shortest:normalize=0,afade=t=in:d=0.05[a]",
+         '-map', '[v]', '-map', '[a]', '-t', f'{cd:.3f}', '-c:v', 'libx264', '-crf', '16', '-pix_fmt', 'yuv420p', '-r', '24', '-c:a', 'pcm_s16le', '-ar', '48000', '-ac', '2', f'{tmp}/cta.mov'])
     files.append(f'{tmp}/cta.mov')
     ct = CTA_TEXT.split(); step = (cd - 0.45) / len(ct)
     words += [dict(word=w, start=off + 0.1 + j * step, end=off + 0.1 + (j + 1) * step) for j, w in enumerate(ct)]; off += cd
@@ -112,7 +112,7 @@ def build(name, spans, cta_after, title, endq):
           "[b]crop=1440:1080:240:0,scale=1000:750[fg];[bg][fg]overlay=40:550[v1];[v1][1:v]overlay=0:0[v2];"
           f"[v2]subtitles={tmp}/cap.ass:fontsdir={ROOT}/assets/fonts[v]")
     run(['ffmpeg', '-v', 'error', '-y', '-i', f'{tmp}/src169.mov', '-i', f'{tmp}/overlay.png', '-filter_complex', fc, '-map', '[v]', '-map', '0:a',
-         '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'pcm_s16le', '-ar', '48000', f'{tmp}/body916.mov'])
+         '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'pcm_s16le', '-ar', '48000', '-ac', '2', f'{tmp}/body916.mov'])
     # 4) final animado: el perfil del canal como grabación de pantalla (Seguir -> Siguiendo, toque al enlace de YouTube)
     run(['ffmpeg', '-v', 'error', '-y', '-sseof', '-0.1', '-i', f'{tmp}/body916.mov', '-frames:v', '1', f'{tmp}/last.png'])
     ed = E.reel_end(f'{tmp}/last.png', endq, f'{tmp}/end.mov', ENDAUDIO, MUSIC, music_ss=ranges[-1][1], ref_lufs=E.lufs(f'{tmp}/body916.mov'))
@@ -120,6 +120,8 @@ def build(name, spans, cta_after, title, endq):
     out = f'{HERE}/out/shorts/YSTT_Bolivar_{name}.mp4'
     run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list2.txt', '-c:v', 'libx264', '-crf', '21', '-preset', 'slow', '-tune', 'animation',
          '-pix_fmt', 'yuv420p', '-af', 'alimiter=limit=0.84:level=disabled', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', out])
+    va = [float(x) for x in subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'stream=duration', '-of', 'csv=p=0', out]).split()]
+    assert abs(va[0] - va[1]) < 0.15, f'audio y vídeo desfasados en {name}: {va}'
     print(f'REEL {name}: {off + ed:.1f}s, llamada en {sum(e - s for s, e in pieces[0]):.1f}s -> {out}')
     return out
 

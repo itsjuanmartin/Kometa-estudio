@@ -169,14 +169,14 @@ def reel_end(bg_png, question, out, voice, music=None, music_ss=0.0, ref_lufs=-1
     for tt, nm, g in [(0.0, 'whoosh', .35), (1.25, 'pop', .55), (2.55, 'pop', .45), (1.3, 'shimmer', .12)]:
         s = SFX.make(nm); s = s if s.ndim == 2 else np.stack([s, s], 1); i0 = int(tt * SR); n = min(len(s), len(taps) - i0); taps[i0:i0 + n] += s[:n] * g
     write_wav(out.replace('.mov', '_fx.wav'), taps)
-    gv = (ref_lufs - (lufs(voice) or ref_lufs) - 3.0) if ref_lufs is not None else 0   # -3 dB: los toques y la música se suman a la voz
+    gv = (ref_lufs - (lufs(voice) or ref_lufs) - 0.3) if ref_lufs is not None else 0   # -3 dB: los toques y la música se suman a la voz
     ins = ['-i', tmpv, '-i', voice, '-i', out.replace('.mov', '_fx.wav')]
     if music and os.path.exists(music): ins += ['-ss', f'{music_ss:.3f}', '-t', f'{dur:.3f}', '-i', music]
     else: ins += ['-f', 'lavfi', '-t', f'{dur:.3f}', '-i', 'anullsrc=r=48000:cl=stereo']
-    fc = (f"[1:a]aresample=48000,volume={gv:.2f}dB,adelay={int(lead * 1000)}|{int(lead * 1000)},apad[v];[2:a]aresample=48000[x];"
-          f"[3:a]aresample=48000,volume=0.30,afade=t=out:st={dur - .8:.2f}:d=0.8[m];[v][x][m]amix=inputs=3:duration=first:normalize=0,alimiter=limit=0.89:level=disabled[a]")
+    fc = (f"[1:a]aresample=48000,aformat=channel_layouts=stereo,volume={gv:.2f}dB,adelay={int(lead * 1000)}|{int(lead * 1000)},apad[v];[2:a]aresample=48000,aformat=channel_layouts=stereo[x];"
+          f"[3:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.30,afade=t=out:st={dur - .8:.2f}:d=0.8[m];[v][x][m]amix=inputs=3:duration=first:normalize=0,alimiter=limit=0.89:level=disabled[a]")
     subprocess.run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', fc, '-map', '0:v', '-map', '[a]', '-t', f'{dur:.3f}',
-                    '-c:v', 'copy', '-c:a', 'pcm_s16le', '-ar', '48000', out], check=True)
+                    '-c:v', 'copy', '-c:a', 'pcm_s16le', '-ar', '48000', '-ac', '2', out], check=True)
     return dur
 
 
