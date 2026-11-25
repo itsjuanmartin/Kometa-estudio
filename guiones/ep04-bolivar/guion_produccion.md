@@ -188,8 +188,12 @@ Los tiempos son aproximados; se ajustan con Whisper. Cada imagen se usa 1–2 ve
 **Miniatura**
 M1. TÚ protegiendo a Bolívar con el brazo extendido, con la cara intensa mirando a cámara. Detrás, una hamaca atravesada por un cuchillo. Fondo oscuro con luz roja y mucho contraste. Dejar espacio arriba a la derecha para el texto «5 VECES».
 
-## Estado de las imágenes (24 nov 2026)
-- **Hechas (31 escenas + F1):** 01–26, 35, 52, 57, 58, 59. Están en `projects/ep04-bolivar/assets/img/`. La 18 sale del reel del sombrero (sepia). A la 17 se le corrigió la fecha de la lápida (1803).
-- **Faltan, en este orden:** 60, M1, 30–34, 36, 37 → 27–29 → 38–44 → 45–48 → 49–51, 53–56 → 61–65.
-- **Corregir al final (si sobran generaciones):** 02 y 10 (el guardaespaldas adulto no se parece a F1: debe ser moreno y de pelo rizado; pedir «el mismo personaje de la ficha, a los 32 años, con barba corta»). Opcional: 22 (Pío se parece al guardaespaldas; se puede resolver en el montaje con penumbra).
+## Estado de las imágenes (25 nov 2026)
+- **Hechas (50 escenas + F1 + M1):** 01–26, 30–44, 49, 50, 52, 53, 57–60. Están en `projects/ep04-bolivar/assets/img/`. La 18 sale del reel del sombrero (sepia). A la 17 se le corrigió la fecha de la lápida (1803).
+- **Faltan (15):** 51, 54 (reel 4) → 55, 56 (reel 5) → 27–29 (Haití) → 45–48 (Quito) → 61–65 (final).
+- **Corregir al final (si sobran generaciones):**
+  - 36: Bolívar sale herido por una bala en el hombro, pero escapó ileso. Repetir: «huye ileso, las balas pasan rozándolo sin tocarlo».
+  - 44 y 49: el guardaespaldas tiene la piel azul (en 49 es la figura de la puerta). Si no se repiten, se corrige el color en el montaje.
+  - 02 y 10: el guardaespaldas adulto no se parece a F1 (debe ser moreno y de pelo rizado).
+  - Opcional: 22 (Pío se parece al guardaespaldas; se puede resolver en el montaje con penumbra).
 - **Para cada cuenta nueva de Gemini:** adjuntar F1, 14 y 06 como referencia en el primer mensaje.
