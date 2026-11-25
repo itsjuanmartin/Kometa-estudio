@@ -96,3 +96,13 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - Los 5 reels se cortan del vídeo largo. Entre el segundo 15 y el 25, justo después de un momento de suspenso, va la frase `projects/ep04-bolivar/input/voz_cta_reels.mp3` («Si te gustan este tipo de historias, síguenos…»), con «SÍGUENOS 👆» en pantalla y sin detener la imagen.
 - Los reels terminan en la «regla» del bloque, más `cierre_youtube_ystt.mp3` y la tarjeta «Historia completa en YouTube ▶». No llevan «Parte 2».
 - Medir en la retención de cada reel si hay un escalón de bajada justo donde va la frase.
+
+## Finales nuevos (desde EP04 Bolívar, 25 nov 2026)
+- **Adiós a la tarjeta amarilla del final.** Al creador no le inspira el «sígueme». Se sustituye por una **«captura de pantalla» animada** (`projects/ep04-bolivar/endscreen.py`):
+  - **Reels:** el perfil del canal sube como un móvil (avatar, @YSiTeTocaraATi, bio, «Seguir» y miniaturas reales del episodio). Un dedo pulsa «Seguir», que pasa a «Siguiendo ✓», y luego toca el enlace «Historia completa en YouTube» mientras suena `cierre_youtube_ystt.mp3`. Arriba aparece la pregunta para comentar. Fondo: el último fotograma desenfocado y la música continúa. Dura unos 4,5 s.
+  - **Vídeo largo:** 10 s extra al final. La tarjeta del canal entra, el dedo pulsa «Suscribirse», que pasa a «Suscrito», y luego la campana. Después queda el hueco para la **pantalla final de YouTube**: vídeo recomendado a la izquierda y botón de suscripción a la derecha. Esos elementos se añaden en YouTube Studio.
+  - Diseño neutro de app: no imita la interfaz ni el logo de ninguna red.
+- **Volúmenes:** la frase de en medio y el cierre se igualan al volumen del cuerpo del reel (LUFS medidos). Limitador a −1,5 dBTP en la entrega. Vídeo largo a −14 LUFS.
+- **Montaje con imágenes fijas (Gemini):** `render.py` + `plan.py` (cada imagen anclada a una frase del guion mediante Whisper). `reels.py` corta los 5 reels del largo y `build_all.sh` lo hace todo.
+- **Zoom máximo ~1,9×** en imágenes de 1376 px. Por encima se nota la falta de nitidez.
+- **Revisar piel azul:** Gemini a veces pinta al guardaespaldas con la piel azul. En escenas de frío se acepta; en las demás se corrige el color de la cara.

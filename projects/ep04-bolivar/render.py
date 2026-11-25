@@ -20,6 +20,7 @@ XF = 0.25                                   # fundido entre planos (s)
 FB = f'{ROOT}/assets/fonts/Fredoka-Bold.ttf'; FN = f'{ROOT}/assets/fonts/Nunito-Black.ttf'; FA = f'{ROOT}/assets/fonts/Anton-Regular.ttf'
 OL, YEL, CREAM, RED, WHITE = (43, 33, 28), (242, 233, 74), (255, 248, 232), (200, 40, 32), (255, 255, 255)
 CFG = json.load(open(f'{HERE}/config.json')); DUR = CFG['duration']
+OUTRO = 10.0; TOT = DUR + OUTRO      # final animado (tarjeta del canal + hueco para la pantalla final de YouTube)
 
 
 # ------------------------------------------------------------------ anclas: frase del guion -> segundo
@@ -204,10 +205,24 @@ def frame_at(t, shots, ovs):
     if s['o'].get('flash') and t - s['start'] < .3:
         a = 1 - (t - s['start']) / .3; fr = cv2.addWeighted(fr, 1 - a * .85, np.full_like(fr, 255), a * .85, 0)
     if t < CFG['fadeIn']: fr = (fr * (t / CFG['fadeIn'])).astype(np.uint8)
-    if DUR - t < CFG['fadeOut']: fr = (fr * max(0, (DUR - t) / CFG['fadeOut'])).astype(np.uint8)
     for o in ovs:
         if o['start'] <= t < o['end']: fr = comp(fr, o, t)
+    if t >= DUR:                                   # final animado
+        out = outro(t - DUR)
+        a = ease((t - DUR) / .45); fr = cv2.addWeighted(fr, 1 - a, out, a, 0)
+    if TOT - t < 1.2: fr = (fr * max(0, (TOT - t) / 1.2)).astype(np.uint8)
     return fr
+
+
+_obg = {}
+
+
+def outro(dt):
+    import endscreen as E
+    if 'bg' not in _obg:
+        im = Image.open(f'{HERE}/assets/img/M1.jpg').convert('RGB').resize((W, H)).filter(ImageFilter.GaussianBlur(20))
+        _obg['bg'] = Image.eval(im, lambda v: int(v * .5)).convert('RGBA')
+    return cv2.cvtColor(np.asarray(E.yt_outro_frame(dt, _obg['bg']).convert('RGB')), cv2.COLOR_RGB2BGR)
 
 
 def render_chunk(args):
@@ -232,11 +247,12 @@ def main():
     for ph, mood, inten in PLAN.MUSIC:
         s = 0.0 if not music else find(ph)
         if music: music[-1]['end'] = s
-        music.append(dict(start=s, end=DUR, mood=mood, intensity=inten))
+        music.append(dict(start=s, end=TOT, mood=mood, intensity=inten))
     cues = [dict(t=round(find(ph), 3), name=n, gain=g) for ph, n, g in PLAN.SFX]
-    json.dump(dict(duration=DUR, shots=[dict(start=s['start'], end=s['end'], img=s['img'], anchor=s['anchor']) for s in shots], music=music, sfx=cues,
+    cues += [dict(t=round(DUR + .05, 3), name='whoosh', gain=-8), dict(t=round(DUR + 1.6, 3), name='pop', gain=-4), dict(t=round(DUR + 2.5, 3), name='pop', gain=-6), dict(t=round(DUR + 2.55, 3), name='ding', gain=-12)]
+    json.dump(dict(duration=TOT, shots=[dict(start=s['start'], end=s['end'], img=s['img'], anchor=s['anchor']) for s in shots], music=music, sfx=cues,
                    overlays=ovs), open(f'{HERE}/story/shots.json', 'w'), ensure_ascii=False, indent=1)
-    t0 = a.t0 or 0.0; t1 = a.t1 or DUR; n0, n1 = int(t0 * FPS), int(t1 * FPS)
+    t0 = a.t0 or 0.0; t1 = a.t1 or TOT; n0, n1 = int(t0 * FPS), int(t1 * FPS)
     step = math.ceil((n1 - n0) / a.jobs); chunks = [(n0 + k * step, min(n1, n0 + (k + 1) * step), f'{HERE}/build/chunk{k}.mp4') for k in range(a.jobs) if n0 + k * step < n1]
     with Pool(len(chunks)) as pool: outs = pool.map(render_chunk, chunks)
     open(f'{HERE}/build/chunks.txt', 'w').write(''.join(f"file '{os.path.basename(o)}'\n" for o in outs))

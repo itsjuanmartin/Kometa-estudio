@@ -22,7 +22,7 @@ SHOTS = [
     ("Pero hay alguien más", "06", dict(z=(1.0, 1.1))),
     ("Y no lo mira a él", "06", dict(z=(1.7, 1.9), f=(.56, .36))),
     ("Sácalo por la ventana", "06", dict(z=(1.25, 1.4), f=(.65, .4), flash=True)),
-    ("Ese hombre es Simón Bolívar", "05", dict(z=(2.0, 2.2), f=(.5, .28))),
+    ("Ese hombre es Simón Bolívar", "05", dict(z=(1.75, 1.9), f=(.5, .28))),
     ("Las otras cuatro", "07", dict(z=(1.0, 1.25))),
     # ---------------- gancho
     ("Te dijeron que Bolívar", "08", dict(z=(1.25, 1.0), f=(.5, .4))),
@@ -106,7 +106,7 @@ SHOTS = [
     ("Un viejo amigo, Joaquín Mosquera", "52", dict(z=(1.0, 1.1))),
     ("¿Y qué piensa hacer usted ahora?", "52", dict(z=(1.15, 1.35), f=(.5, .4))),
     ("El general levanta la mirada", "52", dict(z=(1.5, 1.8), f=(.5, .35))),
-    ("¡Triunfar!", "52", dict(z=(2.0, 2.15), f=(.5, .33), flash=True, shake=True)),
+    ("¡Triunfar!", "52", dict(z=(1.8, 1.95), f=(.5, .33), flash=True, shake=True)),
     ("Esto pasó de verdad. Y en menos de un año", "53", dict(z=(1.0, 1.15))),
     ("Un país nuevo decidió", "54", dict(z=(1.0, 1.15))),
     # ---------------- intento 5: la ventana
@@ -190,6 +190,7 @@ MUSIC = [
     ("¡Triunfar!", 'triumph', .6),
     ("Y ahora sí. Volvamos a aquella noche", 'tension', .8),
     ("Pero hay algo de lo que nunca", 'sad', .4),
+    ("Y ahora te pregunto a ti: si te hubiera", 'mystery', .5),
 ]
 
 SFX = [

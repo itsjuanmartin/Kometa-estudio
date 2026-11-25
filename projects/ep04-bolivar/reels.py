@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, f'{ROOT}/tools'); sys.path.insert(0, HERE)
 import make_short as MS
+import endscreen as E
 from render import find, norm, WORDS
 
 VIDEO = sorted(glob.glob(f'{HERE}/out/*.mp4'), key=os.path.getmtime)[-1]
@@ -76,14 +77,15 @@ def build(name, spans, cta_after, title, endq):
     # 1) trozos 16:9 con audio
     files, words, off = [], [], 0.0
     def cut(s, e, i):
-        f = f'{tmp}/p{i}.mp4'
+        f = f'{tmp}/p{i}.mov'
         run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{s:.3f}', '-to', f'{e:.3f}', '-i', VIDEO, '-c:v', 'libx264', '-crf', '16', '-preset', 'fast', '-r', '24',
-             '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-af', f'afade=t=in:d=0.04,afade=t=out:st={max(0, e - s - 0.08):.3f}:d=0.08', f])
+             '-c:a', 'pcm_s16le', '-ar', '48000', '-af', f'afade=t=in:d=0.04,afade=t=out:st={max(0, e - s - 0.08):.3f}:d=0.08', f])
         return f
     i = 0
     for s, e in pieces[0]:
         files.append(cut(s, e, i)); i += 1
         words += [dict(w, start=w['start'] - s + off, end=w['end'] - s + off) for w in WORDS if s - 0.02 <= w['start'] < e - 0.05]; off += e - s
+    ref = E.lufs(files[0]) or -14.0; gv = ref - (E.lufs(CTA) or ref) - 0.3   # la llamada suena igual de fuerte que el cuerpo
     # 2) la llamada: el último fotograma sigue con un zoom lento + SÍGUENOS; voz de la llamada + la música de fondo de ese momento
     follow_png(f'{tmp}/follow.png')
     run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{c - 0.4:.3f}', '-i', VIDEO, '-frames:v', '1', f'{tmp}/still.png'])
@@ -92,33 +94,32 @@ def build(name, spans, cta_after, title, endq):
          '-i', CTA, *mus, '-filter_complex',
          f"[0:v]scale=1920:1080,zoompan=z='1+0.0016*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg];"
          f"[1:v]format=rgba,fade=t=in:st=0:d=0.2:alpha=1[fo];[bg][fo]overlay=0:0[v];"
-         f"[2:a]aresample=48000,apad[va];[3:a]aresample=48000,volume=0.35[ma];[va][ma]amix=inputs=2:duration=shortest:normalize=0,afade=t=in:d=0.05[a]",
-         '-map', '[v]', '-map', '[a]', '-t', f'{cd:.3f}', '-c:v', 'libx264', '-crf', '16', '-pix_fmt', 'yuv420p', '-r', '24', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', f'{tmp}/cta.mp4'])
-    files.append(f'{tmp}/cta.mp4')
+         f"[2:a]aresample=48000,volume={gv:.2f}dB,apad[va];[3:a]aresample=48000,volume=0.30[ma];[va][ma]amix=inputs=2:duration=shortest:normalize=0,afade=t=in:d=0.05[a]",
+         '-map', '[v]', '-map', '[a]', '-t', f'{cd:.3f}', '-c:v', 'libx264', '-crf', '16', '-pix_fmt', 'yuv420p', '-r', '24', '-c:a', 'pcm_s16le', '-ar', '48000', f'{tmp}/cta.mov'])
+    files.append(f'{tmp}/cta.mov')
     ct = CTA_TEXT.split(); step = (cd - 0.45) / len(ct)
     words += [dict(word=w, start=off + 0.1 + j * step, end=off + 0.1 + (j + 1) * step) for j, w in enumerate(ct)]; off += cd
     for s, e in pieces[1]:
         files.append(cut(s, e, i)); i += 1
         words += [dict(w, start=w['start'] - s + off, end=w['end'] - s + off) for w in WORDS if s - 0.02 <= w['start'] < e - 0.05]; off += e - s
     open(f'{tmp}/list.txt', 'w').write(''.join(f"file '{os.path.basename(f)}'\n" for f in files))
-    run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list.txt', '-c', 'copy', f'{tmp}/src169.mp4'])
+    run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list.txt', '-c', 'copy', f'{tmp}/src169.mov'])
     # 3) vertical + cierre con el diseño de make_short
     logo = os.path.join(ROOT, 'home/logo_ytt.jpg')
-    MS.overlay_png(f'{tmp}/overlay.png', title, logo); MS.endcard_png(f'{tmp}/end.png', endq, logo)
+    MS.overlay_png(f'{tmp}/overlay.png', title, logo)
     MS.ass_captions(f'{tmp}/cap.ass', words, [(0, off)], 1200)
     fc = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.12[bg];"
           "[b]crop=1440:1080:240:0,scale=1000:750[fg];[bg][fg]overlay=40:550[v1];[v1][1:v]overlay=0:0[v2];"
           f"[v2]subtitles={tmp}/cap.ass:fontsdir={ROOT}/assets/fonts[v]")
-    run(['ffmpeg', '-v', 'error', '-y', '-i', f'{tmp}/src169.mp4', '-i', f'{tmp}/overlay.png', '-filter_complex', fc, '-map', '[v]', '-map', '0:a',
-         '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', f'{tmp}/body916.mp4'])
-    ed = dur(ENDAUDIO) + 0.7
-    run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-t', str(ed), '-i', f'{tmp}/end.png', '-t', str(ed), '-i', ENDAUDIO,
-         '-filter_complex', f"[0:v]scale=1080:1920,zoompan=z='min(zoom+0.0012,1.08)':d=1:s=1080x1920:fps=30,fade=t=in:d=0.25[v];[1:a]aresample=48000,apad,afade=t=out:st={ed - 0.4}:d=0.4[a]",
-         '-map', '[v]', '-map', '[a]', '-t', str(ed), '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', f'{tmp}/end.mp4'])
-    open(f'{tmp}/list2.txt', 'w').write("file 'body916.mp4'\nfile 'end.mp4'\n")
+    run(['ffmpeg', '-v', 'error', '-y', '-i', f'{tmp}/src169.mov', '-i', f'{tmp}/overlay.png', '-filter_complex', fc, '-map', '[v]', '-map', '0:a',
+         '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'pcm_s16le', '-ar', '48000', f'{tmp}/body916.mov'])
+    # 4) final animado: el perfil del canal como grabación de pantalla (Seguir -> Siguiendo, toque al enlace de YouTube)
+    run(['ffmpeg', '-v', 'error', '-y', '-sseof', '-0.1', '-i', f'{tmp}/body916.mov', '-frames:v', '1', f'{tmp}/last.png'])
+    ed = E.reel_end(f'{tmp}/last.png', endq, f'{tmp}/end.mov', ENDAUDIO, MUSIC, music_ss=ranges[-1][1], ref_lufs=E.lufs(f'{tmp}/body916.mov'))
+    open(f'{tmp}/list2.txt', 'w').write("file 'body916.mov'\nfile 'end.mov'\n")
     out = f'{HERE}/out/shorts/YSTT_Bolivar_{name}.mp4'
-    run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list2.txt', '-c:v', 'libx264', '-crf', '20', '-pix_fmt', 'yuv420p',
-         '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', out])
+    run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list2.txt', '-c:v', 'libx264', '-crf', '21', '-preset', 'slow', '-tune', 'animation',
+         '-pix_fmt', 'yuv420p', '-af', 'alimiter=limit=0.84:level=disabled', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', out])
     print(f'REEL {name}: {off + ed:.1f}s, llamada en {sum(e - s for s, e in pieces[0]):.1f}s -> {out}')
     return out
 
