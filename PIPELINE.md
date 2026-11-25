@@ -111,4 +111,5 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 ## Espacio del Home (25 nov 2026)
 - El Home tiene un límite fijo de **1 GB** de archivos (vídeos, voces e imágenes). No se puede ampliar.
 - Limpieza del 25 nov: se borraron 36 archivos que no usaba ninguna ficha (ediciones antiguas del 14 y 15 nov) y los vídeos ya publicados de la Segunda Guerra (EP01, EP02 y EP03). Sus fichas, textos y estadísticas se conservan. Quedaron unos 600 MB usados.
-- **Regla:** cuando una pieza está marcada como subida en todas sus redes, se puede borrar su vídeo del Home. Antes de borrar, comprobar que ninguna ficha (posts, voices, channels) ni la página usan el archivo.
+- **Automático (desde el 25 nov, versión 47 del Home):** al marcar la última red de una pieza como «subido», el Home borra su vídeo a los 8 s (si se desmarca antes, no lo borra) y deja `dl: null` + `dlBorrado {at, mb}` en la ficha. Nunca borra un archivo que use otra ficha o una voz. Las voces se quedan siempre.
+- Botón «🧹 Liberar espacio» en Hoy (solo si hay algo que liberar o el espacio pasa del 85 %) y en Datos, con medidor de espacio: borra de una vez los vídeos de todo lo ya subido, pidiendo confirmación.
