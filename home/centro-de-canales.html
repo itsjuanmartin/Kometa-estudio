@@ -643,7 +643,7 @@ const logo=(ch,cls='clogo')=>{const u=logoUrl(ch);if(u)return `<img class="${cls
 const chName=id=>(S.channels.find(c=>c.id===id)||{}).name||id;
 const pfs=p=>(p.kind==='largo'?['yt']:['yt','tt','ig']).filter(pl=>!(p.skip||[]).includes(pl));
 const ptitle=p=>p.kind==='largo'?`${p.ep} · Vídeo largo: ${p.epTitle}`:p.name;
-function toast(t){const el=$('#toast');el.textContent=t;el.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>el.hidden=true,2000)}
+function toast(t,ms){const el=$('#toast');const host=$('#dlg')?.open?$('#dlg'):document.body;if(el.parentNode!==host)host.appendChild(el);el.textContent=t;el.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>el.hidden=true,ms||2600)}
 
 /* dates: plan values are "YYYY-MM-DD HH:MM" in Spain time */
 function today(){const p=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(x=>[x.type,x.value]));return `${p.year}-${p.month}-${p.day}`}
@@ -1454,7 +1454,7 @@ function openPost(id,keep,only){
     ${postPls&&postPls.length<pfs(p).length?`<div class="cpls">Ahora toca: <b>${postPls.map(x=>PL[x]).join(' + ')}</b><button class="btn sm" data-allcopys="${p.id}">Ver copys de todas las redes</button></div>`:''}
     ${copys}
     ${field('Comentario fijado',c.pin)}
-    ${imgs.length?`<div class="sec"><span class="lab">${p.kind==='largo'?'Miniaturas de YouTube':'Portada'}</span><div class="thumbs">${imgs.map(m=>`<figure><img src="${esc(m.src)}" alt="${esc(m.cap)}"><figcaption>${esc(m.cap)}<button class="btn sm" data-img="${esc(m.src)}">⬇</button></figcaption></figure>`).join('')}</div></div>`:''}
+    ${imgs.length?`<div class="sec"><span class="lab">${p.kind==='largo'?'Miniaturas de YouTube':'Portada'}</span><div class="thumbs">${imgs.map((m,i)=>`<figure><img src="${esc(m.src)}" alt="${esc(m.cap)}"><figcaption>${esc(m.cap)}<button class="btn sm" data-img="${esc(m.src)}" data-n="${esc(((p.ep||'pieza')+'_'+(p.kind==='largo'?'miniatura_'+'ABC'[i]:'portada')).replace(/[^\w-]+/g,'_'))}" aria-label="Guardar ${esc(m.cap)}">⬇ Guardar</button></figcaption></figure>`).join('')}</div></div>`:''}
     ${!c.desc&&!c.ig&&!c.pin&&!c.tt?'<p class="empty">Esta pieza ya está publicada y no guardé su copy.</p>':''}
    </div>`;
   if(!$('#dlg').open) $('#dlg').showModal(); $('#dlg').scrollTop=scroll;
@@ -1755,7 +1755,9 @@ document.addEventListener('click',async e=>{
   const mn=t.closest('[data-mnav]'); if(mn){const td=today();const v=+mn.dataset.mnav;if(!v){calMonth=null;calSel=null}else{const m=calMonth||td.slice(0,7);const d=new Date(Date.UTC(+m.slice(0,4),+m.slice(5,7)-1+v,1));calMonth=d.toISOString().slice(0,7);calSel=null}render();return}
   const f=t.closest('[data-f]'); if(f){S.filter[f.dataset.f]=f.dataset.v;render();return}
   const cp=t.closest('[data-copy]'); if(cp){const pre=cp.closest('.field').querySelector('pre');const sel=()=>{const r=document.createRange();r.selectNodeContents(pre);const g=getSelection();g.removeAllRanges();g.addRange(r);cp.textContent='Seleccionado'};try{navigator.clipboard.writeText(pre.textContent).then(()=>{cp.textContent='Copiado ✓';setTimeout(()=>cp.textContent='Copiar',1500)},sel)}catch(err){sel()}return}
-  const im=t.closest('[data-img]'); if(im){try{if(dlCap===undefined)dlCap=await claude.use('downloads');const b=await (await fetch(im.dataset.img)).blob();if(dlCap)await dlCap.save({filename:im.dataset.img.split('/').pop(),data:b});else toast('Mantén pulsada la imagen para guardarla')}catch(err){if(err?.code!=='dismissed')toast('No se pudo descargar')}}
+  const im=t.closest('[data-img]'); if(im){const lab=im.textContent;im.textContent='Guardando…';try{if(dlCap===undefined)dlCap=await claude.use('downloads');const r=await fetch(im.dataset.img);if(!r.ok)throw {code:'fetch'};const b=await r.blob();const ext=({'image/png':'png','image/webp':'webp','image/gif':'gif'})[b.type]||'jpg';const name=(im.dataset.n||'imagen')+'.'+ext;
+    if(dlCap){await dlCap.save({filename:name,data:b});toast('Imagen guardada')}else{const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();toast('Imagen guardada')}}
+    catch(err){if(err?.code==='declined'||err?.code==='dismissed'){}else toast(err?.code==='fetch'?'No encuentro esa imagen en el Home':'No se pudo guardar. Mantén pulsada la imagen y elige «Guardar».',3500)}finally{im.textContent=lab}}
 });
 document.addEventListener('change',async e=>{
   if(e.target.matches('[data-ahorro]')){ahorro=e.target.checked;try{localStorage.setItem('ahorro',ahorro?'1':'0')}catch(err){}toast(ahorro?'🌱 Modo ahorro activado':'Modo ahorro desactivado');return}
