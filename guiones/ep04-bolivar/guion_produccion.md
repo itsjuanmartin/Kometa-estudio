@@ -188,9 +188,9 @@ Los tiempos son aproximados; se ajustan con Whisper. Cada imagen se usa 1–2 ve
 **Miniatura**
 M1. TÚ protegiendo a Bolívar con el brazo extendido, con la cara intensa mirando a cámara. Detrás, una hamaca atravesada por un cuchillo. Fondo oscuro con luz roja y mucho contraste. Dejar espacio arriba a la derecha para el texto «5 VECES».
 
-## Estado de las imágenes (25 nov 2026)
-- **Hechas (50 escenas + F1 + M1):** 01–26, 30–44, 49, 50, 52, 53, 57–60. Están en `projects/ep04-bolivar/assets/img/`. La 18 sale del reel del sombrero (sepia). A la 17 se le corrigió la fecha de la lápida (1803).
-- **Faltan (15):** 51, 54 (reel 4) → 55, 56 (reel 5) → 27–29 (Haití) → 45–48 (Quito) → 61–65 (final).
+## Estado de las imágenes (26 nov 2026)
+- **Hechas (57 escenas + F1 + M1):** 01–47, 49, 50, 52–54, 57–60. Están en `projects/ep04-bolivar/assets/img/`. La 18 sale del reel del sombrero (sepia). A la 17 se le corrigió la fecha de la lápida (1803).
+- **Faltan (8):** 51 (reel 4) → 55, 56 (reel 5) → 48 (Quito) → 61–65 (final).
 - **Corregir al final (si sobran generaciones):**
   - 36: Bolívar sale herido por una bala en el hombro, pero escapó ileso. Repetir: «huye ileso, las balas pasan rozándolo sin tocarlo».
   - 44 y 49: el guardaespaldas tiene la piel azul (en 49 es la figura de la puerta). Si no se repiten, se corrige el color en el montaje.
