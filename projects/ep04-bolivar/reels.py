@@ -53,7 +53,7 @@ def dur(p): return float(subprocess.check_output(['ffprobe', '-v', 'error', '-sh
 def follow_png(path):
     """«SÍGUENOS» con flecha, dentro de la zona 4:3 que se ve en el reel."""
     im = Image.new('RGBA', (1920, 1080), (0, 0, 0, 0)); d = ImageDraw.Draw(im); f = ImageFont.truetype(MS.FB, 92)
-    t = 'SÍGUENOS'; bb = d.textbbox((0, 0), t, font=f); w = bb[2] + 220; x = 960 - w / 2; y = 760
+    t = 'SÍGUENOS'; bb = d.textbbox((0, 0), t, font=f); w = bb[2] + 220; x = 960 - w / 2; y = 70
     d.rounded_rectangle((x, y, x + w, y + 160), 80, fill=(224, 40, 36, 255), outline=(43, 33, 28, 255), width=9)
     d.text((x + 70, y + 22), t, font=f, fill=(255, 255, 255, 255))
     ax = x + w - 110; d.polygon([(ax, y + 120), (ax + 50, y + 120), (ax + 25, y + 40)], fill=(255, 255, 255, 255))
@@ -66,7 +66,10 @@ def build(name, spans, cta_after, title, endq):
     ranges = []; t = 0.0
     for a, b in spans:
         s = find(a, t) - 0.12; e = end_of(b, s) + 0.35; ranges.append((s, e)); t = e
-    c = end_of(cta_after, ranges[0][0]) + 0.25          # punto de corte para la llamada
+    c = None                                            # punto de corte para la llamada: primera aparición dentro de un tramo
+    for s, e in ranges:
+        x = end_of(cta_after, s) + 0.25
+        if x < e: c = x; break
     k = next(i for i, (s, e) in enumerate(ranges) if s <= c < e)
     pieces = ranges[:k] + [(ranges[k][0], c)], [(c, ranges[k][1])] + ranges[k + 1:]
     cd = dur(CTA) + 0.35
@@ -83,7 +86,7 @@ def build(name, spans, cta_after, title, endq):
         words += [dict(w, start=w['start'] - s + off, end=w['end'] - s + off) for w in WORDS if s - 0.02 <= w['start'] < e - 0.05]; off += e - s
     # 2) la llamada: el último fotograma sigue con un zoom lento + SÍGUENOS; voz de la llamada + la música de fondo de ese momento
     follow_png(f'{tmp}/follow.png')
-    run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{c - 0.05:.3f}', '-i', VIDEO, '-frames:v', '1', f'{tmp}/still.png'])
+    run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{c - 0.4:.3f}', '-i', VIDEO, '-frames:v', '1', f'{tmp}/still.png'])
     mus = ['-ss', f'{c:.3f}', '-t', f'{cd:.3f}', '-i', MUSIC] if os.path.exists(MUSIC) else ['-f', 'lavfi', '-t', f'{cd:.3f}', '-i', 'anullsrc=r=48000:cl=stereo']
     run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-t', f'{cd:.3f}', '-i', f'{tmp}/still.png', '-loop', '1', '-t', f'{cd:.3f}', '-i', f'{tmp}/follow.png',
          '-i', CTA, *mus, '-filter_complex',
@@ -100,7 +103,7 @@ def build(name, spans, cta_after, title, endq):
     open(f'{tmp}/list.txt', 'w').write(''.join(f"file '{os.path.basename(f)}'\n" for f in files))
     run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', f'{tmp}/list.txt', '-c', 'copy', f'{tmp}/src169.mp4'])
     # 3) vertical + cierre con el diseño de make_short
-    logo = os.path.join(ROOT, MS.BR['logo'])
+    logo = os.path.join(ROOT, 'home/logo_ytt.jpg')
     MS.overlay_png(f'{tmp}/overlay.png', title, logo); MS.endcard_png(f'{tmp}/end.png', endq, logo)
     MS.ass_captions(f'{tmp}/cap.ass', words, [(0, off)], 1200)
     fc = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.12[bg];"

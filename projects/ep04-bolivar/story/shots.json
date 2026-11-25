@@ -1,0 +1,1084 @@
+{
+ "duration": 602.488,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 4.96,
+   "img": "01",
+   "anchor": "Bogotá. 25 de septiembre"
+  },
+  {
+   "start": 4.96,
+   "end": 8.84,
+   "img": "01",
+   "anchor": "Un perro ladra"
+  },
+  {
+   "start": 8.84,
+   "end": 17.22,
+   "img": "02",
+   "anchor": "Tú conoces ese silencio"
+  },
+  {
+   "start": 17.22,
+   "end": 18.68,
+   "img": "03",
+   "anchor": "Un disparo en el patio"
+  },
+  {
+   "start": 18.68,
+   "end": 19.98,
+   "img": "04",
+   "anchor": "Gritos en la escalera"
+  },
+  {
+   "start": 19.98,
+   "end": 21.16,
+   "img": "04",
+   "anchor": "Muera el tirano"
+  },
+  {
+   "start": 21.16,
+   "end": 27.46,
+   "img": "05",
+   "anchor": "Corres a la habitación"
+  },
+  {
+   "start": 27.46,
+   "end": 28.68,
+   "img": "05",
+   "anchor": "Quiere salir a pelear"
+  },
+  {
+   "start": 28.68,
+   "end": 31.46,
+   "img": "06",
+   "anchor": "Pero hay alguien más"
+  },
+  {
+   "start": 31.46,
+   "end": 34.22,
+   "img": "06",
+   "anchor": "Y no lo mira a él"
+  },
+  {
+   "start": 34.22,
+   "end": 36.32,
+   "img": "06",
+   "anchor": "Sácalo por la ventana"
+  },
+  {
+   "start": 36.32,
+   "end": 40.86,
+   "img": "05",
+   "anchor": "Ese hombre es Simón Bolívar"
+  },
+  {
+   "start": 40.86,
+   "end": 43.22,
+   "img": "07",
+   "anchor": "Las otras cuatro"
+  },
+  {
+   "start": 43.22,
+   "end": 49.94,
+   "img": "08",
+   "anchor": "Te dijeron que Bolívar"
+  },
+  {
+   "start": 49.94,
+   "end": 51.56,
+   "img": "08",
+   "anchor": "Pues la verdad es que no"
+  },
+  {
+   "start": 51.56,
+   "end": 60.62,
+   "img": "09",
+   "anchor": "Bolívar se salvó por los pelos"
+  },
+  {
+   "start": 60.62,
+   "end": 63.32,
+   "img": "23",
+   "anchor": "Y no todos los que estaban"
+  },
+  {
+   "start": 63.32,
+   "end": 68.5,
+   "img": "10",
+   "anchor": "Hoy vas a vivirlas"
+  },
+  {
+   "start": 68.5,
+   "end": 83.2,
+   "img": "10",
+   "anchor": "Pero antes de seguir"
+  },
+  {
+   "start": 83.2,
+   "end": 87.54,
+   "img": "M1",
+   "anchor": "Ahora sí. ¿Y si te tocara"
+  },
+  {
+   "start": 87.54,
+   "end": 90.7,
+   "img": "11",
+   "anchor": "Kingston, Jamaica. 1815"
+  },
+  {
+   "start": 90.7,
+   "end": 97.96,
+   "img": "12",
+   "anchor": "Tienes diecinueve años"
+  },
+  {
+   "start": 97.96,
+   "end": 106.7,
+   "img": "13",
+   "anchor": "En el puerto, alguien te señala"
+  },
+  {
+   "start": 106.7,
+   "end": 109.48,
+   "img": "13",
+   "anchor": "Ese es Bolívar. Busca"
+  },
+  {
+   "start": 109.48,
+   "end": 115.6,
+   "img": "14",
+   "anchor": "Te elige ese mismo día"
+  },
+  {
+   "start": 115.6,
+   "end": 121.4,
+   "img": "14",
+   "anchor": "Eso es lo primero que descubres"
+  },
+  {
+   "start": 121.4,
+   "end": 125.66,
+   "img": "15",
+   "anchor": "Su padre murió"
+  },
+  {
+   "start": 125.66,
+   "end": 132.14,
+   "img": "15",
+   "anchor": "Lo crió Hipólita"
+  },
+  {
+   "start": 132.14,
+   "end": 133.32,
+   "img": "16",
+   "anchor": "Se casó a los dieciocho"
+  },
+  {
+   "start": 133.32,
+   "end": 135.64,
+   "img": "17",
+   "anchor": "y a los diecinueve ya era viudo"
+  },
+  {
+   "start": 135.64,
+   "end": 138.36,
+   "img": "17",
+   "anchor": "Juró no volver a casarse"
+  },
+  {
+   "start": 138.36,
+   "end": 149.1,
+   "img": "18",
+   "anchor": "Esto pasó de verdad. Y también esto"
+  },
+  {
+   "start": 149.1,
+   "end": 151.06,
+   "img": "19",
+   "anchor": "Ahora ese rey quiere su cabeza"
+  },
+  {
+   "start": 151.06,
+   "end": 154.46,
+   "img": "19",
+   "anchor": "Y tu trabajo es uno solo"
+  },
+  {
+   "start": 154.46,
+   "end": 157.92,
+   "img": "20",
+   "anchor": "Primer intento. Diciembre de 1815"
+  },
+  {
+   "start": 157.92,
+   "end": 165.22,
+   "img": "20",
+   "anchor": "Una noche, el general decide"
+  },
+  {
+   "start": 165.22,
+   "end": 172.36,
+   "img": "21",
+   "anchor": "Mientras tanto, a su habitación"
+  },
+  {
+   "start": 172.36,
+   "end": 175.76,
+   "img": "21",
+   "anchor": "Y se tumba a dormir"
+  },
+  {
+   "start": 175.76,
+   "end": 182.58,
+   "img": "22",
+   "anchor": "En la oscuridad, alguien entra"
+  },
+  {
+   "start": 182.58,
+   "end": 184.94,
+   "img": "22",
+   "anchor": "Los españoles le han pagado"
+  },
+  {
+   "start": 184.94,
+   "end": 187.64,
+   "img": "23",
+   "anchor": "Pío se acerca a la hamaca"
+  },
+  {
+   "start": 187.64,
+   "end": 190.0,
+   "img": "23",
+   "anchor": "Y apuñala al hombre"
+  },
+  {
+   "start": 190.0,
+   "end": 194.54,
+   "img": "24",
+   "anchor": "Cuando vuelves con el general"
+  },
+  {
+   "start": 194.54,
+   "end": 199.02,
+   "img": "24",
+   "anchor": "Y en la hamaca hay un tajo"
+  },
+  {
+   "start": 199.02,
+   "end": 204.66,
+   "img": "25",
+   "anchor": "Esto pasó de verdad. Pío fue detenido"
+  },
+  {
+   "start": 204.66,
+   "end": 209.38,
+   "img": "26",
+   "anchor": "el peligro no siempre viene de fuera"
+  },
+  {
+   "start": 209.38,
+   "end": 218.18,
+   "img": "27",
+   "anchor": "Sin dinero y sin aliados"
+  },
+  {
+   "start": 218.18,
+   "end": 222.28,
+   "img": "27",
+   "anchor": "Su presidente, Alexandre Pétion"
+  },
+  {
+   "start": 222.28,
+   "end": 226.86,
+   "img": "28",
+   "anchor": "Y a cambio le pide"
+  },
+  {
+   "start": 226.86,
+   "end": 233.84,
+   "img": "29",
+   "anchor": "Esto pasó de verdad. Bolívar lo prometió"
+  },
+  {
+   "start": 233.84,
+   "end": 239.1,
+   "img": "30",
+   "anchor": "Segundo intento. Abril de 1818"
+  },
+  {
+   "start": 239.1,
+   "end": 243.54,
+   "img": "30",
+   "anchor": "La guerra va mal"
+  },
+  {
+   "start": 243.54,
+   "end": 247.04,
+   "img": "31",
+   "anchor": "Es de madrugada, y tú haces guardia"
+  },
+  {
+   "start": 247.04,
+   "end": 249.42,
+   "img": "32",
+   "anchor": "Entre la niebla aparece"
+  },
+  {
+   "start": 249.42,
+   "end": 250.9,
+   "img": "32",
+   "anchor": "Te dicen la contraseña"
+  },
+  {
+   "start": 250.9,
+   "end": 253.26,
+   "img": "33",
+   "anchor": "Es correcta"
+  },
+  {
+   "start": 253.26,
+   "end": 254.38,
+   "img": "33",
+   "anchor": "No son de tu bando"
+  },
+  {
+   "start": 254.38,
+   "end": 262.34,
+   "img": "32",
+   "anchor": "Son realistas"
+  },
+  {
+   "start": 262.34,
+   "end": 263.7,
+   "img": "34",
+   "anchor": "Llegan. Apuntan"
+  },
+  {
+   "start": 263.7,
+   "end": 264.82,
+   "img": "34",
+   "anchor": "Y disparan"
+  },
+  {
+   "start": 264.82,
+   "end": 266.3,
+   "img": "35",
+   "anchor": "La hamaca está vacía"
+  },
+  {
+   "start": 266.3,
+   "end": 272.84,
+   "img": "36",
+   "anchor": "El general se había levantado"
+  },
+  {
+   "start": 272.84,
+   "end": 283.68,
+   "img": "37",
+   "anchor": "Esto pasó de verdad. Y tú pasas"
+  },
+  {
+   "start": 283.68,
+   "end": 296.32,
+   "img": "35",
+   "anchor": "Dos hamacas"
+  },
+  {
+   "start": 296.32,
+   "end": 301.26,
+   "img": "39",
+   "anchor": "Tercer intento. Y esta vez no es un asesino"
+  },
+  {
+   "start": 301.26,
+   "end": 313.3,
+   "img": "38",
+   "anchor": "Junio de 1819. El general reúne"
+  },
+  {
+   "start": 313.3,
+   "end": 316.96,
+   "img": "38",
+   "anchor": "Los oficiales lo miran"
+  },
+  {
+   "start": 316.96,
+   "end": 320.84,
+   "img": "39",
+   "anchor": "Subes con él"
+  },
+  {
+   "start": 320.84,
+   "end": 328.3,
+   "img": "40",
+   "anchor": "Muchos soldados vienen de los llanos"
+  },
+  {
+   "start": 328.3,
+   "end": 332.5,
+   "img": "40",
+   "anchor": "Por la noche, hay hombres"
+  },
+  {
+   "start": 332.5,
+   "end": 334.1,
+   "img": "41",
+   "anchor": "Mueren casi todos los caballos"
+  },
+  {
+   "start": 334.1,
+   "end": 340.6,
+   "img": "42",
+   "anchor": "Y en medio de todo eso"
+  },
+  {
+   "start": 340.6,
+   "end": 352.44,
+   "img": "43",
+   "anchor": "Esto pasó de verdad. Y lo que vino después"
+  },
+  {
+   "start": 352.44,
+   "end": 354.96,
+   "img": "44",
+   "anchor": "Tres días después, entras con él"
+  },
+  {
+   "start": 354.96,
+   "end": 360.72,
+   "img": "38",
+   "anchor": "Tercera regla"
+  },
+  {
+   "start": 360.72,
+   "end": 370.82,
+   "img": "44",
+   "anchor": "Y si a estas alturas sigues aquí"
+  },
+  {
+   "start": 370.82,
+   "end": 375.14,
+   "img": "45",
+   "anchor": "Quito. 1822"
+  },
+  {
+   "start": 375.14,
+   "end": 380.76,
+   "img": "46",
+   "anchor": "Se cuenta que, desde un balcón"
+  },
+  {
+   "start": 380.76,
+   "end": 383.78,
+   "img": "47",
+   "anchor": "Tú llevas la mano a la pistola"
+  },
+  {
+   "start": 383.78,
+   "end": 390.36,
+   "img": "46",
+   "anchor": "Se llama Manuela Sáenz"
+  },
+  {
+   "start": 390.36,
+   "end": 394.96,
+   "img": "47b",
+   "anchor": "Acuérdate de ella"
+  },
+  {
+   "start": 394.96,
+   "end": 397.68,
+   "img": "49",
+   "anchor": "Cuarto intento. Y este casi lo consigue"
+  },
+  {
+   "start": 397.68,
+   "end": 406.1,
+   "img": "49",
+   "anchor": "Enero de 1824"
+  },
+  {
+   "start": 406.1,
+   "end": 414.46,
+   "img": "50",
+   "anchor": "Y las noticias son peores"
+  },
+  {
+   "start": 414.46,
+   "end": 425.46,
+   "img": "52",
+   "anchor": "Un viejo amigo, Joaquín Mosquera"
+  },
+  {
+   "start": 425.46,
+   "end": 427.32,
+   "img": "52",
+   "anchor": "¿Y qué piensa hacer usted ahora?"
+  },
+  {
+   "start": 427.32,
+   "end": 431.66,
+   "img": "52",
+   "anchor": "El general levanta la mirada"
+  },
+  {
+   "start": 431.66,
+   "end": 432.32,
+   "img": "52",
+   "anchor": "¡Triunfar!"
+  },
+  {
+   "start": 432.32,
+   "end": 440.74,
+   "img": "53",
+   "anchor": "Esto pasó de verdad. Y en menos de un año"
+  },
+  {
+   "start": 440.74,
+   "end": 449.48,
+   "img": "54",
+   "anchor": "Un país nuevo decidió"
+  },
+  {
+   "start": 449.48,
+   "end": 452.44,
+   "img": "07",
+   "anchor": "Y ahora sí. Volvamos a aquella noche"
+  },
+  {
+   "start": 452.44,
+   "end": 459.36,
+   "img": "55",
+   "anchor": "Bogotá, 1828. El general ya no es"
+  },
+  {
+   "start": 459.36,
+   "end": 464.52,
+   "img": "55",
+   "anchor": "Ha asumido todo el poder"
+  },
+  {
+   "start": 464.52,
+   "end": 470.86,
+   "img": "04",
+   "anchor": "25 de septiembre. Medianoche. Los conspiradores"
+  },
+  {
+   "start": 470.86,
+   "end": 475.86,
+   "img": "56",
+   "anchor": "Esa noche matan al coronel Fergusson"
+  },
+  {
+   "start": 475.86,
+   "end": 480.12,
+   "img": "06",
+   "anchor": "Bolívar quiere salir a pelear"
+  },
+  {
+   "start": 480.12,
+   "end": 484.74,
+   "img": "57",
+   "anchor": "Abres la ventana"
+  },
+  {
+   "start": 484.74,
+   "end": 490.04,
+   "img": "58",
+   "anchor": "Corren en la oscuridad"
+  },
+  {
+   "start": 490.04,
+   "end": 493.94,
+   "img": "58",
+   "anchor": "Durante horas, oyes pasos"
+  },
+  {
+   "start": 493.94,
+   "end": 498.12,
+   "img": "59",
+   "anchor": "Y el general, a tu lado"
+  },
+  {
+   "start": 498.12,
+   "end": 507.44,
+   "img": "60",
+   "anchor": "Mientras tanto, en la casa, Manuela"
+  },
+  {
+   "start": 507.44,
+   "end": 518.58,
+   "img": "60",
+   "anchor": "Esto pasó de verdad. Esa noche, Manuela"
+  },
+  {
+   "start": 518.58,
+   "end": 521.34,
+   "img": "61",
+   "anchor": "Pero hay algo de lo que nunca"
+  },
+  {
+   "start": 521.34,
+   "end": 532.74,
+   "img": "61",
+   "anchor": "Dos años después, el sueño se rompe"
+  },
+  {
+   "start": 532.74,
+   "end": 538.94,
+   "img": "62",
+   "anchor": "Lo acompañas hasta Santa Marta"
+  },
+  {
+   "start": 538.94,
+   "end": 552.88,
+   "img": "63",
+   "anchor": "El 17 de diciembre de 1830"
+  },
+  {
+   "start": 552.88,
+   "end": 561.2,
+   "img": "61",
+   "anchor": "Esto pasó de verdad. Semanas antes"
+  },
+  {
+   "start": 561.2,
+   "end": 563.16,
+   "img": "35",
+   "anchor": "Cinco veces estuvo a punto de morir"
+  },
+  {
+   "start": 563.16,
+   "end": 564.8,
+   "img": "58",
+   "anchor": "Y ninguna lo consiguió"
+  },
+  {
+   "start": 564.8,
+   "end": 566.76,
+   "img": "23",
+   "anchor": "Al final no lo venció un cuchillo"
+  },
+  {
+   "start": 566.76,
+   "end": 567.66,
+   "img": "34",
+   "anchor": "ni una bala"
+  },
+  {
+   "start": 567.66,
+   "end": 568.82,
+   "img": "39",
+   "anchor": "ni una montaña"
+  },
+  {
+   "start": 568.82,
+   "end": 572.08,
+   "img": "63",
+   "anchor": "Lo venció ver cómo se rompía"
+  },
+  {
+   "start": 572.08,
+   "end": 577.62,
+   "img": "64",
+   "anchor": "Y tú te quedas en la playa"
+  },
+  {
+   "start": 577.62,
+   "end": 586.38,
+   "img": "65",
+   "anchor": "Y ahora entiendes que nunca"
+  },
+  {
+   "start": 586.38,
+   "end": 598.62,
+   "img": "06",
+   "anchor": "Y ahora te pregunto a ti: si te hubiera"
+  },
+  {
+   "start": 598.62,
+   "end": 602.488,
+   "img": "M1",
+   "anchor": "Suscríbete y guarda este vídeo"
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 43.3,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 43.3,
+   "end": 87.62,
+   "mood": "mystery",
+   "intensity": 0.55
+  },
+  {
+   "start": 87.62,
+   "end": 154.54,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 154.54,
+   "end": 209.46,
+   "mood": "tension",
+   "intensity": 0.7
+  },
+  {
+   "start": 209.46,
+   "end": 233.92,
+   "mood": "hopeful",
+   "intensity": 0.4
+  },
+  {
+   "start": 233.92,
+   "end": 296.4,
+   "mood": "tension",
+   "intensity": 0.7
+  },
+  {
+   "start": 296.4,
+   "end": 360.8,
+   "mood": "epic",
+   "intensity": 0.6
+  },
+  {
+   "start": 360.8,
+   "end": 395.04,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 395.04,
+   "end": 431.74,
+   "mood": "sad",
+   "intensity": 0.45
+  },
+  {
+   "start": 431.74,
+   "end": 449.56,
+   "mood": "triumph",
+   "intensity": 0.6
+  },
+  {
+   "start": 449.56,
+   "end": 518.66,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 518.66,
+   "end": 602.488,
+   "mood": "sad",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": [
+  {
+   "t": 5.04,
+   "name": "knock",
+   "gain": -14
+  },
+  {
+   "t": 17.3,
+   "name": "gunshot",
+   "gain": -4
+  },
+  {
+   "t": 18.76,
+   "name": "footsteps",
+   "gain": -10
+  },
+  {
+   "t": 34.3,
+   "name": "hit",
+   "gain": -8
+  },
+  {
+   "t": 83.28,
+   "name": "impact",
+   "gain": -6
+  },
+  {
+   "t": 87.62,
+   "name": "waves",
+   "gain": -16
+  },
+  {
+   "t": 154.54,
+   "name": "whoosh",
+   "gain": -6
+  },
+  {
+   "t": 187.72,
+   "name": "hit",
+   "gain": -5
+  },
+  {
+   "t": 233.92,
+   "name": "whoosh",
+   "gain": -6
+  },
+  {
+   "t": 263.78,
+   "name": "gunshot",
+   "gain": -4
+  },
+  {
+   "t": 296.4,
+   "name": "whoosh",
+   "gain": -6
+  },
+  {
+   "t": 317.04,
+   "name": "wind",
+   "gain": -15
+  },
+  {
+   "t": 370.9,
+   "name": "cheer",
+   "gain": -16
+  },
+  {
+   "t": 395.04,
+   "name": "whoosh",
+   "gain": -6
+  },
+  {
+   "t": 431.74,
+   "name": "impact",
+   "gain": -6
+  },
+  {
+   "t": 449.56,
+   "name": "whoosh",
+   "gain": -6
+  },
+  {
+   "t": 480.2,
+   "name": "swish",
+   "gain": -6
+  },
+  {
+   "t": 484.82,
+   "name": "heartbeat",
+   "gain": -10
+  },
+  {
+   "t": 532.82,
+   "name": "waves",
+   "gain": -18
+  }
+ ],
+ "overlays": [
+  {
+   "start": -0.05,
+   "end": 3.45,
+   "kind": "stamp",
+   "text": "BOGOTÁ · 25 SEP 1828"
+  },
+  {
+   "start": 68.53,
+   "end": 83.2,
+   "kind": "subs",
+   "text": ""
+  },
+  {
+   "start": 83.23,
+   "end": 87.43,
+   "kind": "title",
+   "text": "¿Y SI TE TOCARA…|SER EL GUARDAESPALDAS|DE SIMÓN BOLÍVAR?"
+  },
+  {
+   "start": 87.57000000000001,
+   "end": 91.07000000000001,
+   "kind": "stamp",
+   "text": "KINGSTON, JAMAICA · 1815"
+  },
+  {
+   "start": 138.39,
+   "end": 140.98999999999998,
+   "kind": "real",
+   "text": ""
+  },
+  {
+   "start": 154.48999999999998,
+   "end": 157.08999999999997,
+   "kind": "intento",
+   "text": "1"
+  },
+  {
+   "start": 199.04999999999998,
+   "end": 201.64999999999998,
+   "kind": "real",
+   "text": ""
+  },
+  {
+   "start": 204.69,
+   "end": 210.69,
+   "kind": "regla",
+   "text": "REGLA 1|El peligro a veces… te sirve la cena"
+  },
+  {
+   "start": 209.41,
+   "end": 212.91,
+   "kind": "stamp",
+   "text": "HAITÍ · 1816"
+  },
+  {
+   "start": 226.89,
+   "end": 229.48999999999998,
+   "kind": "real",
+   "text": ""
+  },
+  {
+   "start": 233.86999999999998,
+   "end": 236.46999999999997,
+   "kind": "intento",
+   "text": "2"
+  },
+  {
+   "start": 239.13,
+   "end": 242.63,
+   "kind": "stamp",
+   "text": "RINCÓN DE LOS TOROS · 1818"
+  },
+  {
+   "start": 272.87,
+   "end": 275.47,
+   "kind": "real",
+   "text": ""
+  },
+  {
+   "start": 280.53,
+   "end": 285.03,
+   "kind": "regla",
+   "text": "REGLA 2|Nunca te fíes de una contraseña"
+  },
+  {
+   "start": 283.71,
+   "end": 296.32,
+   "kind": "ask",
+   "text": "SUERTE|INSTINTO"
+  },
+  {
+   "start": 296.34999999999997,
+   "end": 298.95,
+   "kind": "intento",
+   "text": "3"
+  },
+  {
+   "start": 301.28999999999996,
+   "end": 304.78999999999996,
+   "kind": "stamp",
+   "text": "LOS ANDES · 1819"
+  },
+  {
+   "start": 340.63,
+   "end": 343.23,
+   "kind": "real",
+   "text": ""
+  },
+  {
+   "start": 340.63,
+   "end": 344.13,
+   "kind": "stamp",
+   "text": "BOYACÁ · 7 AGO 1819"
+  },
+  {
+   "start": 354.99,
+   "end": 360.72,
+   "kind": "regla",
+   "text": "REGLA 3|Lo más peligroso para tu jefe… son sus ideas"
+  },
+  {
+   "start": 360.75,
+   "end": 370.82,
+   "kind": "subs",
+   "text": ""
+  },
+  {
+   "start": 370.84999999999997,
+   "end": 374.34999999999997,
+   "kind": "stamp",
+   "text": "QUITO · 1822"
+  },
+  {
+   "start": 394.99,
+   "end": 397.59000000000003,
+   "kind": "intento",
+   "text": "4"
+  },
+  {
+   "start": 397.71,
+   "end": 401.21,
+   "kind": "stamp",
+   "text": "PATIVILCA, PERÚ · 1824"
+  },
+  {
+   "start": 432.34999999999997,
+   "end": 434.95,
+   "kind": "real",
+   "text": ""
+  },
+  {
+   "start": 444.17,
+   "end": 449.48,
+   "kind": "regla",
+   "text": "REGLA 4|A algunos no los mata la fiebre"
+  },
+  {
+   "start": 449.51,
+   "end": 452.11,
+   "kind": "intento",
+   "text": "5"
+  },
+  {
+   "start": 452.46999999999997,
+   "end": 455.96999999999997,
+   "kind": "stamp",
+   "text": "BOGOTÁ · 1828"
+  },
+  {
+   "start": 507.46999999999997,
+   "end": 510.07,
+   "kind": "real",
+   "text": ""
+  },
+  {
+   "start": 514.73,
+   "end": 518.58,
+   "kind": "regla",
+   "text": "REGLA 5|A veces quien salva a tu jefe… no eres tú"
+  },
+  {
+   "start": 532.7700000000001,
+   "end": 536.2700000000001,
+   "kind": "stamp",
+   "text": "SANTA MARTA · 1830"
+  },
+  {
+   "start": 552.9100000000001,
+   "end": 555.5100000000001,
+   "kind": "real",
+   "text": ""
+  },
+  {
+   "start": 586.4100000000001,
+   "end": 598.62,
+   "kind": "ask",
+   "text": "VENTANA|PELEAR"
+  },
+  {
+   "start": 598.6500000000001,
+   "end": 602.488,
+   "kind": "subs",
+   "text": ""
+  }
+ ]
+}
