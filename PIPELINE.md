@@ -107,3 +107,8 @@ Home: https://claude.ai/artifact/GGoMm6EWXYMFBZvhTfRnWx (colecciones: channels, 
 - **Zoom máximo ~1,9×** en imágenes de 1376 px. Por encima se nota la falta de nitidez.
 - **Revisar piel azul:** Gemini a veces pinta al guardaespaldas con la piel azul. En escenas de frío se acepta; en las demás se corrige el color de la cara.
 - **Audio mono = velocidad x2 (fallo corregido el 25 nov):** las voces sueltas de ElevenLabs vienen en mono. Si un trozo mono se une con `concat -c copy` a trozos estéreo en PCM, suena al doble de velocidad y desfasa el resto del reel. Hay que forzar siempre `-ac 2` / `aformat=channel_layouts=stereo` en todos los trozos. `reels.py` comprueba al final que audio y vídeo duren lo mismo.
+
+## Espacio del Home (25 nov 2026)
+- El Home tiene un límite fijo de **1 GB** de archivos (vídeos, voces e imágenes). No se puede ampliar.
+- Limpieza del 25 nov: se borraron 36 archivos que no usaba ninguna ficha (ediciones antiguas del 14 y 15 nov) y los vídeos ya publicados de la Segunda Guerra (EP01, EP02 y EP03). Sus fichas, textos y estadísticas se conservan. Quedaron unos 600 MB usados.
+- **Regla:** cuando una pieza está marcada como subida en todas sus redes, se puede borrar su vídeo del Home. Antes de borrar, comprobar que ninguna ficha (posts, voices, channels) ni la página usan el archivo.
