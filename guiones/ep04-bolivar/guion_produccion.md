@@ -189,11 +189,7 @@ Los tiempos son aproximados; se ajustan con Whisper. Cada imagen se usa 1–2 ve
 M1. TÚ protegiendo a Bolívar con el brazo extendido, con la cara intensa mirando a cámara. Detrás, una hamaca atravesada por un cuchillo. Fondo oscuro con luz roja y mucho contraste. Dejar espacio arriba a la derecha para el texto «5 VECES».
 
 ## Estado de las imágenes (26 nov 2026)
-- **Hechas (57 escenas + F1 + M1):** 01–47, 49, 50, 52–54, 57–60. Están en `projects/ep04-bolivar/assets/img/`. La 18 sale del reel del sombrero (sepia). A la 17 se le corrigió la fecha de la lápida (1803).
-- **Faltan (8):** 51 (reel 4) → 55, 56 (reel 5) → 48 (Quito) → 61–65 (final).
-- **Corregir al final (si sobran generaciones):**
-  - 36: Bolívar sale herido por una bala en el hombro, pero escapó ileso. Repetir: «huye ileso, las balas pasan rozándolo sin tocarlo».
-  - 44 y 49: el guardaespaldas tiene la piel azul (en 49 es la figura de la puerta). Si no se repiten, se corrige el color en el montaje.
-  - 02 y 10: el guardaespaldas adulto no se parece a F1 (debe ser moreno y de pelo rizado).
-  - Opcional: 22 (Pío se parece al guardaespaldas; se puede resolver en el montaje con penumbra).
-- **Para cada cuenta nueva de Gemini:** adjuntar F1, 14 y 06 como referencia en el primer mensaje.
+- **Hechas (63 escenas + F1 + M1):** 01–47, 49, 50, 52–65. Están en `projects/ep04-bolivar/assets/img/`. La 18 sale del reel del sombrero (sepia). A la 17 se le corrigió la fecha de la lápida (1803). 47b es una variante de la 47.
+- **Corregidas:** 02, 10, 22 y 36 (las versiones viejas están en `assets/img/descartes/`).
+- **Faltan (2):** 51 (Mosquera visita a Bolívar en la huerta) y 48 (Manuela a caballo). Si no llegan: la 51 se cubre con la 52 en plano abierto y la 48 con la 46 o la 47b.
+- **Arreglar en el montaje:** piel azul del guardaespaldas en la 44 (el jinete) y la 49 (la figura de la puerta).
