@@ -193,3 +193,8 @@ M1. TÚ protegiendo a Bolívar con el brazo extendido, con la cara intensa miran
 - **Corregidas:** 02, 10, 22 y 36 (las versiones viejas están en `assets/img/descartes/`).
 - **Faltan (2):** 51 (Mosquera visita a Bolívar en la huerta) y 48 (Manuela a caballo). Si no llegan: la 51 se cubre con la 52 en plano abierto y la 48 con la 46 o la 47b.
 - **Arreglar en el montaje:** piel azul del guardaespaldas en la 44 (el jinete) y la 49 (la figura de la puerta).
+
+## Entrega (25 nov 2026)
+- Vídeo largo: 10:12 (incluye 10 s de final animado para la pantalla final de YouTube), 1080p, −14 LUFS. Archivo bueno en `projects/ep04-bolivar/entrega/`; en el Home hay una versión ligera de 720p porque el Home está casi lleno.
+- 5 reels con la frase en medio y el final animado tipo captura de pantalla. Volumen igualado: cuerpo, frase y final entre −14,5 y −13,5 LUFS.
+- Todo se rehace con `projects/ep04-bolivar/build_all.sh`.
